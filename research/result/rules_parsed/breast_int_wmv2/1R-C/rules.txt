@@ -1,0 +1,1 @@
+IF Deg-malig = [1.0 , 3.0] THEN 0

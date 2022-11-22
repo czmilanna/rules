@@ -1,0 +1,8 @@
+algorithm = C45Rules
+inputData = "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat"
+outputData = "rules/type1diabetes2/C45Rules-C/result.tra" "rules/type1diabetes2/C45Rules-C/result.tst" "rules/type1diabetes2/C45Rules-C/result.txt"
+
+seed = 1
+confidence = 0.25
+itemsetsPerLeaf = 2
+threshold = 10

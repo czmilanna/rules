@@ -1,0 +1,3 @@
+IF Positive <= 4.0 THEN negative
+IF Positive > 4.0 AND Age <= 42.0 THEN negative
+IF Positive > 4.0 AND Age > 42.0 THEN positive

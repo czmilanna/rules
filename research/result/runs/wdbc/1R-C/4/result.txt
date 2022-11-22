@@ -1,0 +1,16 @@
+
+Rule 1: IF  Concave_points3 in [0.0 , 0.144) THEN Class -> B     [ 0 37]
+Rule 2: IF  Concave_points3 in [0.144 , 0.291] THEN Class -> M     [ 27 6]
+
+####Average results for test data####
+Avg. Rule length: 7
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.14285714285714285
+Avg. Support: 0.8421052631578947
+Avg. Significance: 6.488753870051596
+Avg. Unusualness: 2.7819548872180455
+
+Accuracy Training: 0.92578125
+Accuracy Test: 0.8421052631578947
+
+  Time (seconds); 

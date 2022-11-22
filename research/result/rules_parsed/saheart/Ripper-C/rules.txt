@@ -1,0 +1,20 @@
+IF Age>50.0 AND Famhist=1 THEN 1
+IF Age>38.0 AND Typea>52.0 AND Ldl<=5.47 AND Sbp<=130.0 AND Adiposity<=27.43 THEN 1
+IF Age>50.0 AND Tobacco>7.4 THEN 1
+IF Adiposity>24.86 AND Obesity<=25.62 THEN 1
+IF Age>30.0 AND Typea>60.0 AND Sbp>137.0 THEN 1
+IF Ldl>4.17 AND Alcohol<=3.81 AND Tobacco>0.05 AND Typea<=53.0 AND Adiposity<=34.34 THEN 1
+IF Tobacco>0.46 AND Typea>52.0 AND Obesity<=22.65 AND Sbp<=122.0 AND Alcohol<=13.37 THEN 1
+IF Tobacco>0.46 AND Famhist=1 AND Obesity<=27.55 AND Adiposity>18.44 AND Age<=48.0 THEN 1
+IF Obesity>28.02 AND Adiposity>37.05 AND Ldl<=6.95 THEN 1
+IF Tobacco>0.5 AND Alcohol>14.4 AND Obesity<=19.49 THEN 1
+IF Obesity>28.08 AND Alcohol>72.93 THEN 1
+IF Age>29.0 AND Tobacco<=1.5 AND Typea>59.0 AND Obesity>27.86 AND Ldl>5.63 THEN 1
+IF Tobacco<=2.27 AND Age>29.0 AND Typea>53.0 AND Sbp>134.0 AND Ldl>3.84 AND Adiposity<=30.23 THEN 1
+IF Ldl<=3.73 AND Age>29.0 AND Obesity<=24.7 AND Typea<=44.0 AND Sbp>108.0 THEN 1
+IF Tobacco>8.0 AND Alcohol>55.89 AND Sbp<=134.0 THEN 1
+IF Obesity<=22.18 AND Sbp<=122.0 AND Adiposity>16.02 AND Ldl>1.43 AND Typea>46.0 THEN 1
+IF Sbp>180.0 AND Tobacco>4.18 THEN 1
+IF Obesity>26.99 AND Adiposity<=25.71 AND Ldl>4.3 AND Tobacco<=0.6 THEN 1
+IF Obesity<=18.46 AND Sbp<=118.0 THEN 1
+ELSE 0

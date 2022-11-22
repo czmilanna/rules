@@ -1,0 +1,7 @@
+IF F5S is Low THEN 1 
+IF F20S is Low THEN 1 
+IF F18R is Low THEN 1 
+IF F19S is High AND F12S is Low AND F13S is Low THEN 1 
+IF F14S is High AND F3S is High AND F11S is Low AND F10R is High THEN 1 
+IF F13S is Low AND F12S is Low AND F3R is High AND F3S is High AND F4R is High THEN 1 
+ELSE 0

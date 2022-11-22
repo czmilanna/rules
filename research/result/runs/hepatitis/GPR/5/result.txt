@@ -1,0 +1,7 @@
+IF AlbuMin is High THEN 1 | Support: 0.6431
+IF AlbuMin is High THEN 1 | Support: 0.6431
+IF Spiders is High AND Age is High AND Bilirubin is Low AND Sgot is Low AND Antivirals is High AND AlbuMin is High THEN 1 | Support: 0.0864
+IF Varices is Low AND Age is Medium AND Steroid is Medium THEN 1 | Support: 0.0000
+IF Steroid is Medium AND Spiders is High AND SpleenPalpable is Low AND Ascites is High THEN 1 | Support: 0.0000
+IF Malaise is Low AND Antivirals is Low AND Histology is High AND Fatigue is High AND Ascites is Low THEN 1 | Support: 0.0000
+ELSE 0

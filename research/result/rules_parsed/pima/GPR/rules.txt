@@ -1,0 +1,3 @@
+IF 'mass' is High AND 'plas' is High THEN 1 
+IF 'plas' is very High AND 'preg' is High THEN 1 
+ELSE 0

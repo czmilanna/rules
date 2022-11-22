@@ -1,0 +1,10 @@
+algorithm = Fuzzy Rule Learning, SLAVEv0 Algorithm
+inputData = "C:/Projekty/rules/data/saheart/saheart-10dobscv-3tra.dat" "C:/Projekty/rules/data/saheart/saheart-10dobscv-3tra.dat" "C:/Projekty/rules/data/saheart/saheart-10dobscv-3tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/saheart/SLAVEv0-C/3/result.tra" "C:/Projekty/rules/research/result/runs/saheart/SLAVEv0-C/3/result.tst" "C:/Projekty/rules/research/result/runs/saheart/SLAVEv0-C/3/result.txt"
+
+seed = 1
+Population Size = 20
+Number of Iterations Allowed without Change = 500
+Mutation Probability = 0.5
+Crossover Probability = 0.1
+Lambda = 0.8

@@ -1,0 +1,39 @@
+@Number of Rules: 19
+if(Thal>3.0 && MaxHeartRate<=145.0 && MajorVessels>0.0) (33/34)
+	output=2
+else if(MajorVessels>0.0 && ChestPainType>3.0 && Oldpeak>3.0) (36/36)
+	output=2
+else if(MajorVessels>0.0 && MaxHeartRate>159.0 && Sex>0.0) (15/19)
+	output=2
+else if(SerumCholestoral>271.0 && ResElectrocardiographic>0.0 && ChestPainType>3.0 && Age<=61.0) (18/19)
+	output=2
+else if(MaxHeartRate<=152.0 && MajorVessels>1.0) (24/28)
+	output=2
+else if(Thal>6.0 && RestBloodPressure>150.0) (11/13)
+	output=2
+else if(ExerciseInduced>0.0 && ChestPainType>3.0 && Age>57.0) (25/27)
+	output=2
+else if(Thal>3.0 && MaxHeartRate<=144.0 && Oldpeak>2.0) (39/41)
+	output=2
+else if(MaxHeartRate<=108.0 && Age<=54.0) (2/2)
+	output=2
+else if(SerumCholestoral<=185.0 && Age>51.0 && Sex>0.0) (5/7)
+	output=2
+else if(Oldpeak>26.0) (15/17)
+	output=2
+else if(RestBloodPressure<=120.0 && Sex>0.0 && Age>57.0 && Slope>1.0) (10/13)
+	output=2
+else if(RestBloodPressure<=110.0 && Slope>2.0) (1/1)
+	output=2
+else if(RestBloodPressure<=108.0 && Sex>0.0 && SerumCholestoral>227.0 && ChestPainType>2.0) (3/5)
+	output=2
+else if(Thal>6.0 && ResElectrocardiographic>0.0 && RestBloodPressure<=128.0) (15/18)
+	output=2
+else if(Oldpeak>15.0 && ExerciseInduced>0.0) (30/31)
+	output=2
+else if(SerumCholestoral>321.0 && Sex>0.0) (4/5)
+	output=2
+else if(RestBloodPressure>156.0 && MaxHeartRate<=125.0) (6/6)
+	output=2
+else 
+	output=1

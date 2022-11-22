@@ -1,0 +1,2 @@
+IF Positive = { VeryLow High} THEN negative
+IF Age = { Medium High VeryHigh} AND Year = { VeryLow Low Medium VeryHigh} AND Positive = { Low High} THEN positive

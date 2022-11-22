@@ -1,0 +1,8 @@
+if(OM<=0.0 && Height<=155.0) (7/7)
+	output=yes
+else if(Lymph>1.0 && RUM=2) (7/7)
+	output=yes
+else if(Height>155.0 && Height<=165.0) (45/70)
+	output=no
+else 
+	output=yes

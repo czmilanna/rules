@@ -1,0 +1,128 @@
+@relation    saheart
+@attribute Sbp integer[101,218]
+@attribute Tobacco real[0.0,31.2]
+@attribute Ldl real[0.98,15.33]
+@attribute Adiposity real[6.74,42.49]
+@attribute Famhist{1,0}
+@attribute Typea integer[13,78]
+@attribute Obesity real[14.7,46.58]
+@attribute Alcohol real[0.0,147.19]
+@attribute Age integer[15,64]
+@attribute Chd{0,1}
+@inputs Sbp,Tobacco,Ldl,Adiposity,Famhist,Typea,Obesity,Alcohol,Age
+@outputs Chd
+@data
+
+@decisiontree
+
+if ( Age <= 30.000000 ) then
+{
+	if ( Tobacco <= 1.050000 ) then
+	{
+		Chd = "0"
+	}
+	elseif ( Tobacco > 1.050000 ) then
+	{
+		if ( Alcohol <= 11.100000 ) then
+		{
+			Chd = "0"
+		}
+		elseif ( Alcohol > 11.100000 ) then
+		{
+			if ( Alcohol <= 21.190000 ) then
+			{
+				Chd = "1"
+			}
+			elseif ( Alcohol > 21.190000 ) then
+			{
+				if ( Alcohol <= 42.990000 ) then
+				{
+					Chd = "0"
+				}
+				elseif ( Alcohol > 42.990000 ) then
+				{
+					Chd = "1"
+				}
+			}
+		}
+	}
+}
+elseif ( Age > 30.000000 ) then
+{
+	if ( Typea <= 68.000000 ) then
+	{
+		if ( Age <= 50.000000 ) then
+		{
+			Chd = "0"
+		}
+		elseif ( Age > 50.000000 ) then
+		{
+			if ( Famhist = 1 ) then
+			{
+				Chd = "1"
+			}
+			elseif ( Famhist = 0 ) then
+			{
+				if ( Tobacco <= 7.600000 ) then
+				{
+					if ( Tobacco <= 4.800000 ) then
+					{
+						if ( Tobacco <= 3.600000 ) then
+						{
+							Chd = "0"
+						}
+						elseif ( Tobacco > 3.600000 ) then
+						{
+							Chd = "1"
+						}
+					}
+					elseif ( Tobacco > 4.800000 ) then
+					{
+						Chd = "0"
+					}
+				}
+				elseif ( Tobacco > 7.600000 ) then
+				{
+					if ( Adiposity <= 28.950000 ) then
+					{
+						Chd = "1"
+					}
+					elseif ( Adiposity > 28.950000 ) then
+					{
+						if ( Alcohol <= 7.300000 ) then
+						{
+							Chd = "1"
+						}
+						elseif ( Alcohol > 7.300000 ) then
+						{
+							Chd = "0"
+						}
+					}
+				}
+			}
+		}
+	}
+	elseif ( Typea > 68.000000 ) then
+	{
+		Chd = "1"
+	}
+}
+
+@TotalNumberOfNodes 13
+@NumberOfLeafs 14
+@TotalNumberOfNodes 13
+@NumberOfAntecedentsByRule 4.857142857142857
+
+@NumberOfItemsetsTraining 416
+@NumberOfCorrectlyClassifiedTraining 334
+@PercentageOfCorrectlyClassifiedTraining 80.28846%
+@NumberOfInCorrectlyClassifiedTraining 82
+@PercentageOfInCorrectlyClassifiedTraining 19.711538%
+
+@NumberOfItemsetsTest 46
+@NumberOfCorrectlyClassifiedTest 34
+@PercentageOfCorrectlyClassifiedTest 73.91304%
+@NumberOfInCorrectlyClassifiedTest 12
+@PercentageOfInCorrectlyClassifiedTest 26.086956%
+
+@ElapsedTime 0:0:0

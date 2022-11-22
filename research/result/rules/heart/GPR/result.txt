@@ -1,0 +1,4 @@
+IF MajorVessels is High THEN 1 | Support: 0.3833
+IF ExerciseInduced is High AND MaxHeartRate is Low THEN 1 | Support: 0.2915
+IF Thal is High AND Oldpeak is High THEN 1 | Support: 0.1571
+ELSE 0

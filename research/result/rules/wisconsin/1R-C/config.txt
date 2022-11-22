@@ -1,0 +1,6 @@
+algorithm = UnoR
+inputData = "C:/Projekty/rules/data/wisconsin/wisconsin.dat" "C:/Projekty/rules/data/wisconsin/wisconsin.dat" "C:/Projekty/rules/data/wisconsin/wisconsin.dat"
+outputData = "rules/wisconsin/1R-C/result.tra" "rules/wisconsin/1R-C/result.tst" "rules/wisconsin/1R-C/result.txt"
+
+seed = 1
+SMALL = 6

@@ -1,0 +1,7 @@
+algorithm = Ripper
+inputData = "C:/Projekty/rules/data/complications/complications-10dobscv-6tra.dat" "C:/Projekty/rules/data/complications/complications-10dobscv-6tra.dat" "C:/Projekty/rules/data/complications/complications-10dobscv-6tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/complications/Ripper-C/6/result.tra" "C:/Projekty/rules/research/result/runs/complications/Ripper-C/6/result.tst" "C:/Projekty/rules/research/result/runs/complications/Ripper-C/6/result.txt"
+
+seed = 1
+grow_pct = 0.66
+K = 2

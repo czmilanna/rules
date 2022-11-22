@@ -1,0 +1,10 @@
+IF BI-RADS = { T5 T6} AND Density = { T0 T1 T2} THEN 1
+IF BI-RADS = { T2 T3 T4} AND Margin = { T0 T1 T2} THEN 0
+IF BI-RADS = { T0 T3 T4 T6} AND Age = { Low Medium} AND Margin = { T3} AND Density = { T0 T1 T2} THEN 0
+IF BI-RADS = { T0 T3 T4 T6} AND Age = { VeryLow High VeryHigh} AND Margin = { T3 T4} THEN 1
+IF Shape = { T3} AND Margin = { T3 T4} AND Density = { T0 T3} THEN 1
+IF BI-RADS = { T0 T1 T2 T3 T5 T6} AND Margin = { T0 T1 T2 T3} AND Density = { T3} THEN 0
+IF BI-RADS = { T1 T3 T4 T6} AND Age = { Medium} AND Shape = { T3} AND Margin = { T1 T3} AND Density = { T0 T1} THEN 1
+IF BI-RADS = { T1 T4} AND Age = { Medium} AND Margin = { T4} THEN 0
+IF BI-RADS = { T2} THEN 0
+IF Age = { Medium} THEN 1

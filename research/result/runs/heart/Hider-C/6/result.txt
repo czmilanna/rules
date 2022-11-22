@@ -1,0 +1,86 @@
+Error Training: 0.152
+Error Test: 0.148
+Rules (10):
+--------
+if Age = [40.5, 67.5) and
+   RestBloodPressure = [109.0, 157.0) and
+   SerumCholestoral = [183.5, _) and
+   MaxHeartRate = [136.5, 194.5) and
+   Oldpeak = [_, 22.5) and
+   MajorVessels = [_, 0.5)
+then
+   Class = 1 (69|12)
+
+if Age = [38.5, 67.5) and
+   Sex = [0.5, _) and
+   RestBloodPressure = [109.0, 147.0) and
+   SerumCholestoral = [183.5, 307.5) and
+   MaxHeartRate = [_, 177.5) and
+   Oldpeak = [0.5, _)
+then
+   Class = 2 (41|7)
+
+if Age = [37.5, 70.5) and
+   ChestPainType = [_, 3.5) and
+   RestBloodPressure = [_, 157.0) and
+   SerumCholestoral = [162.0, 318.5) and
+   MaxHeartRate = [120.5, 194.5) and
+   Oldpeak = [_, 23.5)
+then
+   Class = 1 (26|3)
+
+if Age = [40.5, 67.5) and
+   RestBloodPressure = [111.0, 171.0) and
+   SerumCholestoral = [228.5, 413.0) and
+   MaxHeartRate = [_, 166.5)
+then
+   Class = 2 (27|3)
+
+if Age = [38.5, 69.5) and
+   RestBloodPressure = [100.5, _) and
+   SerumCholestoral = [171.0, 353.5) and
+   MaxHeartRate = [120.5, 149.5) and
+   Oldpeak = [0.5, _)
+then
+   Class = 1 (7|1)
+
+if Age = [39.5, 64.5) and
+   ChestPainType = [3.5, _) and
+   RestBloodPressure = [_, 141.0) and
+   SerumCholestoral = [162.0, 400.5)
+then
+   Class = 2 (9|1)
+
+if Age = [_, 76.5) and
+   RestBloodPressure = [113.5, 175.0) and
+   Oldpeak = [_, 34.5) and
+   Thal = [_, 4.5)
+then
+   Class = 1 (14|1)
+
+if Age = [40.5, 76.5) and
+   RestBloodPressure = [111.0, 171.0) and
+   SerumCholestoral = [_, 294.5) and
+   MaxHeartRate = [_, 177.5) and
+   Oldpeak = [_, 23.5)
+then
+   Class = 1 (4|1)
+
+if Age = [45.5, _) and
+   SerumCholestoral = [205.5, 400.5) and
+   MaxHeartRate = [_, 176.0) and
+   Oldpeak = [2.5, _)
+then
+   Class = 2 (4|0)
+
+if Age = [34.5, _) and
+   RestBloodPressure = [117.5, _) and
+   SerumCholestoral = [200.5, 312.0) and
+   MaxHeartRate = [_, 198.5) and
+   Oldpeak = [_, 23.5)
+then
+   Class = 2 (5|0)
+
+if true
+then
+   Class = 1 (4|4)

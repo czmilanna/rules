@@ -1,0 +1,10 @@
+if(Ascites<=1.0 && Anorexia>1.0 && Age<=52.0) (6/6)
+	output=1
+else if(ProTime<=40.0 && Steroid<=1.0) (6/8)
+	output=1
+else if(Anorexia<=1.0) (11/11)
+	output=2
+else if(Ascites>1.0 && ProTime>40.0) (52/54)
+	output=2
+else 
+	output=1

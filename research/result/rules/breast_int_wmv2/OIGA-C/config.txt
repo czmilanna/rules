@@ -1,0 +1,13 @@
+algorithm = OIGA
+inputData = "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2.dat" "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2.dat" "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2.dat"
+outputData = "rules/breast_int_wmv2/OIGA-C/result.tra" "rules/breast_int_wmv2/OIGA-C/result.tst" "rules/breast_int_wmv2/OIGA-C/result.txt"
+
+seed = 1
+ProbMutation = 0.01
+CrossoverRate = 1
+popSize = 200
+ruleNumber = 30
+stagnationLimit = 30
+generationLimit = 200
+SurvivorsPercent = 0.5
+AttributeOrder = descendent

@@ -1,0 +1,8 @@
+algorithm = C45Rules
+inputData = "C:/Projekty/rules/data/spectfheart/spectfheart-10dobscv-10tra.dat" "C:/Projekty/rules/data/spectfheart/spectfheart-10dobscv-10tra.dat" "C:/Projekty/rules/data/spectfheart/spectfheart-10dobscv-10tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/spectfheart/C45Rules-C/10/result.tra" "C:/Projekty/rules/research/result/runs/spectfheart/C45Rules-C/10/result.tst" "C:/Projekty/rules/research/result/runs/spectfheart/C45Rules-C/10/result.txt"
+
+seed = 1
+confidence = 0.25
+itemsetsPerLeaf = 2
+threshold = 10

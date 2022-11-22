@@ -1,0 +1,3 @@
+IF BMI is Low AND Height is very Low THEN 1 | Support: 0.2373
+IF Height is very Low AND BMI is High AND FIGO is Low AND Lymph is High THEN 1 | Support: 0.0473
+ELSE 0

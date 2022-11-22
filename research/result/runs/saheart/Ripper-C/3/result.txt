@@ -1,0 +1,51 @@
+@Number of Rules: 25
+if(Age>49.0 && Famhist=1 && Ldl>5.67) (30/34)
+	output=1
+else if(Age>30.0 && Tobacco>7.5 && Obesity<=23.22) (9/10)
+	output=1
+else if(Age>49.0 && Famhist=1 && Typea<=51.0 && Sbp>124.0) (25/32)
+	output=1
+else if(Tobacco>0.48 && Ldl>3.78 && Sbp>134.0 && Typea>48.0 && Adiposity>26.52) (36/52)
+	output=1
+else if(Age>38.0 && Typea>59.0 && Famhist=1 && Sbp<=138.0) (16/20)
+	output=1
+else if(Age>38.0 && Adiposity<=29.26 && Sbp>154.0 && Obesity<=22.56) (9/9)
+	output=1
+else if(Tobacco>7.5 && Typea<=44.0) (12/14)
+	output=1
+else if(Tobacco>1.04 && Typea>51.0 && Alcohol>18.72 && Age>57.0) (10/15)
+	output=1
+else if(Tobacco>1.6 && Obesity<=26.07 && Alcohol>43.71 && Adiposity<=22.41) (7/7)
+	output=1
+else if(Age>32.0 && Typea>67.0) (16/19)
+	output=1
+else if(Age>50.0 && Famhist=1 && Ldl>4.9 && Tobacco>1.7) (32/35)
+	output=1
+else if(Tobacco>0.48 && Sbp<=130.0 && Adiposity>24.8 && Age<=42.0 && Alcohol<=17.74 && Obesity<=30.25) (5/9)
+	output=1
+else if(Age>38.0 && Famhist=1 && Ldl>6.63) (25/32)
+	output=1
+else if(Famhist=1 && Ldl>4.9 && Typea<=48.0 && Tobacco>0.0) (16/18)
+	output=1
+else if(Obesity<=24.78 && Age>28.0 && Tobacco<=4.5 && Adiposity>25.0 && Sbp>128.0 && Famhist=0) (5/5)
+	output=1
+else if(Sbp<=108.0 && Adiposity<=17.53 && Tobacco<=1.61) (3/5)
+	output=1
+else if(Adiposity<=25.78 && Age>29.0 && Famhist=1 && Ldl>4.87 && Sbp>132.0) (8/9)
+	output=1
+else if(Alcohol<=6.27 && Age>31.0 && Adiposity<=28.61 && Tobacco<=0.08 && Typea>49.0 && Sbp<=130.0) (2/3)
+	output=1
+else if(Alcohol<=0.26 && Obesity<=18.46) (2/3)
+	output=1
+else if(Adiposity<=21.53 && Alcohol>7.71 && Ldl>3.4 && Sbp>128.0 && Obesity<=23.65) (5/7)
+	output=1
+else if(Adiposity<=23.66 && Tobacco>0.87 && Obesity>22.91 && Typea<=44.0) (3/4)
+	output=1
+else if(Age>48.0 && Sbp<=134.0 && Tobacco>15.0) (3/3)
+	output=1
+else if(Typea>52.0 && Age>57.0 && Obesity>28.85 && Tobacco<=1.75) (2/2)
+	output=1
+else if(Famhist=1 && Obesity<=24.54 && Alcohol>22.73 && Sbp>132.0) (9/11)
+	output=1
+else 
+	output=0

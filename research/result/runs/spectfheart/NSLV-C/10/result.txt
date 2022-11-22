@@ -1,0 +1,124 @@
+Experiment: C:/Projekty/rules/data/spectfheart/spectfheart-10dobscv-10tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 241
+Class 0: 50
+Class 1: 191
+Successes: 191.0
+Errors:  50.0
+Not classified: 0.0
+	Rule 0: 191 / 50
+Successes: 191.0
+Errors:  50.0
+Not classified: 0.0
+	Rule 0: 191 / 50
+Accuracy on training: 0.7925311203319502
+Number of examples: 50
+Class 0: 50
+Class 1: 0
+Successes: 192.0
+Errors:  49.0
+Not classified: 0.0
+	Rule 0: 191 / 49
+	Rule 1: 1 / 0
+Successes: 192.0
+Errors:  49.0
+Not classified: 0.0
+	Rule 0: 191 / 49
+	Rule 1: 1 / 0
+Accuracy on training: 0.7966804979253111
+Number of examples: 49
+Class 0: 49
+Class 1: 0
+Successes: 193.0
+Errors:  48.0
+Not classified: 0.0
+	Rule 0: 191 / 48
+	Rule 1: 1 / 0
+	Rule 2: 1 / 0
+Successes: 193.0
+Errors:  48.0
+Not classified: 0.0
+	Rule 0: 191 / 48
+	Rule 1: 1 / 0
+	Rule 2: 1 / 0
+Accuracy on training: 0.8008298755186722
+Number of examples: 48
+Class 0: 48
+Class 1: 0
+Successes: 193.0
+Errors:  48.0
+Not classified: 0.0
+	Rule 0: 191 / 48
+	Rule 1: 1 / 0
+	Rule 2: 1 / 0
+	Rule 3: 0 / 0
+Successes: 193.0
+Errors:  48.0
+Not classified: 0.0
+	Rule 0: 1 / 0
+	Rule 1: 1 / 0
+	Rule 2: 191 / 48
+Successes: 193.0
+Errors:  48.0
+Not classified: 0.0
+	Rule 0: 1 / 0
+	Rule 1: 1 / 0
+	Rule 2: 191 / 48
+Successes: 21.0
+Errors:  5.0
+Not classified: 0.0
+	Rule 0: 0 / 0
+	Rule 1: 0 / 0
+	Rule 2: 21 / 5
+----------------------------------------------------
+Accuracy on training: 0.8008298755186722
+Accuracy on test: 0.8076923076923077
+Number of rules: 3.0
+Variables per rule: 5.333333333333333
+Variables used: 0.3409090909090909
+Time: 2.278
+Iterations: 8568
+Conditions: 16
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	F1S = { VeryHigh}
+	F2R = { High}
+	F7R = { High}
+	F8S = { VeryHigh}
+	F10R = { High VeryHigh}
+	F10S = { Low Medium High}
+	F14R = { VeryHigh}
+	F15R = { VeryHigh}
+	F16S = { VeryHigh}
+	F18R = { VeryHigh}
+	F20S = { VeryHigh}
+	F22R = { High}
+THEN OVERALL_DIAGNOSIS IS 0   W 0.8556885803421637
+
+IF
+	F2R = { Low}
+	F11S = { High}
+	F13S = { VeryHigh}
+	F15S = { VeryHigh}
+THEN OVERALL_DIAGNOSIS IS 0   W 1.0
+
+IF
+THEN OVERALL_DIAGNOSIS IS 1   W 0.7933884297520661
+
+	Accuracy on training set is: 0.8008298755186722
+	Accuracy on test set is: 0.8076923076923077
+	Number of rules is: 3.0
+	Variables per rule is: 5.333333333333333
+	Variables used is: 0.3409090909090909
+	Time is: 2.278
+	Iterations is: 8568
+	Conditions is: 16
+

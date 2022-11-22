@@ -1,0 +1,114 @@
+@relation   type1diabetes2
+@attribute sex integer[1,2]
+@attribute age integer[6,18]
+@attribute weight real[17.0,98.8]
+@attribute height real[1.15,1.88]
+@attribute step_count integer[13072,114655]
+@attribute sedentary real[1343.16666666667,7813.33333333333]
+@attribute light real[345.0,2557.0]
+@attribute moderate real[53.9166666666667,630.916666666667]
+@attribute vigorious real[18.5,710.5]
+@attribute healthy{0,1}
+@inputs sex,age,weight,height,step_count,sedentary,light,moderate,vigorious
+@outputs healthy
+@data
+
+@decisiontree
+
+if ( step_count <= 60837.000000 ) then
+{
+	if ( vigorious <= 128.750000 ) then
+	{
+		healthy = "0"
+	}
+	elseif ( vigorious > 128.750000 ) then
+	{
+		if ( vigorious <= 319.500000 ) then
+		{
+			if ( age <= 8.000000 ) then
+			{
+				healthy = "0"
+			}
+			elseif ( age > 8.000000 ) then
+			{
+				if ( moderate <= 213.583333 ) then
+				{
+					if ( height <= 1.610000 ) then
+					{
+						healthy = "0"
+					}
+					elseif ( height > 1.610000 ) then
+					{
+						if ( sex <= 1.000000 ) then
+						{
+							healthy = "1"
+						}
+						elseif ( sex > 1.000000 ) then
+						{
+							if ( age <= 13.000000 ) then
+							{
+								healthy = "1"
+							}
+							elseif ( age > 13.000000 ) then
+							{
+								if ( age <= 14.000000 ) then
+								{
+									healthy = "0"
+								}
+								elseif ( age > 14.000000 ) then
+								{
+									if ( step_count <= 38888.000000 ) then
+									{
+										healthy = "1"
+									}
+									elseif ( step_count > 38888.000000 ) then
+									{
+										if ( weight <= 52.000000 ) then
+										{
+											healthy = "1"
+										}
+										elseif ( weight > 52.000000 ) then
+										{
+											healthy = "0"
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				elseif ( moderate > 213.583333 ) then
+				{
+					healthy = "1"
+				}
+			}
+		}
+		elseif ( vigorious > 319.500000 ) then
+		{
+			healthy = "0"
+		}
+	}
+}
+elseif ( step_count > 60837.000000 ) then
+{
+	healthy = "1"
+}
+
+@TotalNumberOfNodes 11
+@NumberOfLeafs 12
+@TotalNumberOfNodes 11
+@NumberOfAntecedentsByRule 6.416666666666667
+
+@NumberOfItemsetsTraining 208
+@NumberOfCorrectlyClassifiedTraining 194
+@PercentageOfCorrectlyClassifiedTraining 93.26923%
+@NumberOfInCorrectlyClassifiedTraining 14
+@PercentageOfInCorrectlyClassifiedTraining 6.730769%
+
+@NumberOfItemsetsTest 22
+@NumberOfCorrectlyClassifiedTest 21
+@PercentageOfCorrectlyClassifiedTest 95.454544%
+@NumberOfInCorrectlyClassifiedTest 1
+@PercentageOfInCorrectlyClassifiedTest 4.5454545%
+
+@ElapsedTime 0:0:0

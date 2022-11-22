@@ -1,0 +1,3 @@
+IF step_count = { VeryLow Low} THEN 0
+IF step_count = { High VeryHigh} THEN 1
+IF age = { Low High VeryHigh} AND moderate = { Low VeryHigh} THEN 1

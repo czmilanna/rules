@@ -1,0 +1,21 @@
+Number of Rules: 11
+Rule[1]: IF  step_count <= 60837.0 AND  vigorious <= 128.75  THEN Class = 0 (73/83)
+Rule[2]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  sedentary <= 2779.25  THEN Class = 1 (6/6)
+Rule[3]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  sedentary > 2779.25 AND  height <= 1.61 AND  step_count <= 54547.0  THEN Class = 0 (15/15)
+Rule[4]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  sedentary > 2779.25 AND  height <= 1.61 AND  step_count > 54547.0 AND  age <= 10.0  THEN Class = 1 (4/4)
+Rule[5]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  sedentary > 2779.25 AND  height <= 1.61 AND  step_count > 54547.0 AND  age > 10.0  THEN Class = 0 (3/4)
+Rule[6]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  sedentary > 2779.25 AND  height > 1.61 AND  sex <= 1.0  THEN Class = 1 (5/5)
+Rule[7]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  sedentary > 2779.25 AND  height > 1.61 AND  sex > 1.0 AND  age <= 13.0  THEN Class = 1 (5/5)
+Rule[8]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  sedentary > 2779.25 AND  height > 1.61 AND  sex > 1.0 AND  age > 13.0 AND  step_count <= 53072.0  THEN Class = 0 (4/4)
+Rule[9]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  sedentary > 2779.25 AND  height > 1.61 AND  sex > 1.0 AND  age > 13.0 AND  step_count > 53072.0  THEN Class = 1 (2/3)
+Rule[10]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious > 319.5  THEN Class = 0 (8/8)
+Rule[11]: IF  step_count > 60837.0  THEN Class = 1 (71/71)
+
+Number of Rules: 4
+Rule[1]: IF  moderate > 136.166666666667 AND  vigorious > 155.5  THEN Class = 0 (18/87)
+Rule[2]: IF  sedentary <= 5007.5833333333285 AND  vigorious <= 196.583333333333  THEN Class = 1 (52/137)
+Rule[3]: IF  light <= 1379.66666666667 AND  vigorious <= 239.75  THEN Class = 0 (93/153)
+Rule[4]: IF  sex > 0.0 AND  age > 13.0 AND  weight <= 61.0 AND  height > 0.6200000000000001 AND  step_count <= 74275.0 AND  sedentary <= 4999.0 AND  light <= 894.5 AND  moderate > 167.583333333333 AND  vigorious > 156.5  THEN Class = 1 (4/6)
+
+Accuracy in training: 0.8798076923076923
+Accuracy in test: 0.8181818181818182

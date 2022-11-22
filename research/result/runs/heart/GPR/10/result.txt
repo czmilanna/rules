@@ -1,0 +1,3 @@
+IF Thal is High THEN 1 | Support: 0.7083
+IF ExerciseInduced is High AND Oldpeak is Low AND MaxHeartRate is Low THEN 1 | Support: 0.2172
+ELSE 0

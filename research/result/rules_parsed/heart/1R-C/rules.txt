@@ -1,0 +1,3 @@
+IF MaxHeartRate = [71.0 , 148.0) THEN 2
+IF MaxHeartRate = [148.0 , 195.0) THEN 1
+IF MaxHeartRate = [195.0 , 202.0] THEN 2

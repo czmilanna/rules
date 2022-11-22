@@ -1,0 +1,2 @@
+IF Age in [34.0 , 83.0] AND Year in [58.0 , 69.0] AND Positive in [0.0 , 52.0] THEN positive
+IF Age in [30.0 , 77.0] AND Year in [58.0 , 69.0] AND Positive in [0.0 , 46.0] THEN negative

@@ -1,0 +1,114 @@
+Experiment: C:/Projekty/rules/data/hepatitis/hepatitis-10dobscv-4tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 72
+Class 0: 12
+Class 1: 60
+Successes: 56.0
+Errors:  6.0
+Not classified: 10.0
+	Rule 0: 56 / 6
+Successes: 56.0
+Errors:  6.0
+Not classified: 10.0
+	Rule 0: 56 / 6
+Accuracy on training: 0.7777777777777778
+Number of examples: 16
+Class 0: 12
+Class 1: 4
+Successes: 65.0
+Errors:  3.0
+Not classified: 4.0
+	Rule 0: 56 / 3
+	Rule 1: 9 / 0
+Successes: 65.0
+Errors:  3.0
+Not classified: 4.0
+	Rule 0: 56 / 3
+	Rule 1: 9 / 0
+Accuracy on training: 0.9027777777777778
+Number of examples: 7
+Class 0: 3
+Class 1: 4
+Successes: 69.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 44 / 3
+	Rule 1: 9 / 0
+	Rule 2: 16 / 0
+Successes: 69.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 44 / 3
+	Rule 1: 9 / 0
+	Rule 2: 16 / 0
+Accuracy on training: 0.9583333333333334
+Number of examples: 3
+Class 0: 3
+Class 1: 0
+Successes: 69.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 44 / 3
+	Rule 1: 9 / 0
+	Rule 2: 16 / 0
+	Rule 3: 0 / 0
+Successes: 69.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 56 / 3
+	Rule 1: 9 / 0
+	Rule 2: 4 / 0
+Successes: 69.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 56 / 3
+	Rule 1: 9 / 0
+	Rule 2: 4 / 0
+Successes: 8.0
+Errors:  0.0
+Not classified: 0.0
+	Rule 0: 6 / 0
+	Rule 1: 1 / 0
+	Rule 2: 1 / 0
+----------------------------------------------------
+Accuracy on training: 0.9583333333333334
+Accuracy on test: 1.0
+Number of rules: 3.0
+Variables per rule: 2.0
+Variables used: 0.3157894736842105
+Time: 0.738
+Iterations: 4782
+Conditions: 6
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Ascites = { T1}
+THEN Class IS 2   W 0.9047619047619048
+
+IF
+	Sex = { T0}
+	Anorexia = { T1}
+	ProTime = { Low}
+	Histology = { T1}
+THEN Class IS 1   W 1.0
+
+IF
+	Sgot = { Low Medium High}
+THEN Class IS 2   W 0.8434164912238568
+
+	Accuracy on training set is: 0.9583333333333334
+	Accuracy on test set is: 1.0
+	Number of rules is: 3.0
+	Variables per rule is: 2.0
+	Variables used is: 0.3157894736842105
+	Time is: 0.738
+	Iterations is: 4782
+	Conditions is: 6
+

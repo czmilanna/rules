@@ -1,0 +1,31 @@
+Number of Rules: 20
+Rule[1]: IF  OM <= 0.0 AND  FIGO = {0} AND  Height <= 163.0  THEN Class = no (2/2)
+Rule[2]: IF  OM <= 0.0 AND  FIGO = {0} AND  Height > 163.0  THEN Class = yes (2/3)
+Rule[3]: IF  OM <= 0.0 AND  FIGO = {1}  THEN Class = yes (6/8)
+Rule[4]: IF  OM <= 0.0 AND  FIGO = {2} AND  RUM = {3}  THEN Class = no (21/36)
+Rule[5]: IF  OM <= 0.0 AND  FIGO = {2} AND  RUM = {2}  THEN Class = yes (3/4)
+Rule[6]: IF  OM <= 0.0 AND  FIGO = {2} AND  RUM = {0}  THEN Class = no (0/0)
+Rule[7]: IF  OM <= 0.0 AND  FIGO = {2} AND  RUM = {1}  THEN Class = no (0/0)
+Rule[8]: IF  OM <= 0.0 AND  FIGO = {3} AND  Height <= 163.0  THEN Class = no (6/9)
+Rule[9]: IF  OM <= 0.0 AND  FIGO = {3} AND  Height > 163.0  THEN Class = yes (4/5)
+Rule[10]: IF  OM <= 0.0 AND  FIGO = {4} AND  Weight <= 69.0  THEN Class = yes (4/5)
+Rule[11]: IF  OM <= 0.0 AND  FIGO = {4} AND  Weight > 69.0  THEN Class = no (2/2)
+Rule[12]: IF  OM <= 0.0 AND  FIGO = {5} AND  RUM = {3}  THEN Class = no (2/2)
+Rule[13]: IF  OM <= 0.0 AND  FIGO = {5} AND  RUM = {2}  THEN Class = yes (2/3)
+Rule[14]: IF  OM <= 0.0 AND  FIGO = {5} AND  RUM = {0}  THEN Class = no (0/0)
+Rule[15]: IF  OM <= 0.0 AND  FIGO = {5} AND  RUM = {1}  THEN Class = yes (1/1)
+Rule[16]: IF  OM > 0.0 AND  Lymph <= 1.0  THEN Class = no (7/7)
+Rule[17]: IF  OM > 0.0 AND  Lymph > 1.0 AND  RUM = {3}  THEN Class = no (6/8)
+Rule[18]: IF  OM > 0.0 AND  Lymph > 1.0 AND  RUM = {2}  THEN Class = yes (2/2)
+Rule[19]: IF  OM > 0.0 AND  Lymph > 1.0 AND  RUM = {0}  THEN Class = no (0/0)
+Rule[20]: IF  OM > 0.0 AND  Lymph > 1.0 AND  RUM = {1}  THEN Class = no (0/0)
+
+Number of Rules: 5
+Rule[1]: IF  Lymph <= 3.0 AND  FIGO = {3, 5, 2}  THEN Class = no (43/75)
+Rule[2]: IF  OM <= 0.0 AND  FIGO = {3, 4, 0, 1}  THEN Class = yes (19/34)
+Rule[3]: IF  RUM = {2, 3} AND  FIGO = {1, 2, 0, 4, 5}  THEN Class = no (38/71)
+Rule[4]: IF  Lymph <= 2.0 AND  FIGO = {4, 0, 3, 5, 1}  THEN Class = yes (9/20)
+Rule[5]: IF  Age <= 62.0 AND  FIGO = {5, 4, 2, 0, 3}  THEN Class = yes (33/77)
+
+Accuracy in training: 0.5876288659793815
+Accuracy in test: 0.6

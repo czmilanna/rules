@@ -1,0 +1,31 @@
+@relation   hepatitis
+@attribute Age integer[7,78]
+@attribute Sex integer[1,2]
+@attribute Steroid integer[1,2]
+@attribute Antivirals integer[1,2]
+@attribute Fatigue integer[1,2]
+@attribute Malaise integer[1,2]
+@attribute Anorexia integer[1,2]
+@attribute LiverBig integer[1,2]
+@attribute LiverFirm integer[1,2]
+@attribute SpleenPalpable integer[1,2]
+@attribute Spiders integer[1,2]
+@attribute Ascites integer[1,2]
+@attribute Varices integer[1,2]
+@attribute Bilirubin real[0.3,8.0]
+@attribute AlkPhosphate integer[26,295]
+@attribute Sgot integer[14,648]
+@attribute AlbuMin real[2.1,6.4]
+@attribute ProTime integer[0,100]
+@attribute Histology integer[1,2]
+@attribute Class{1,2}
+@inputs Age,Sex,Steroid,Antivirals,Fatigue,Malaise,Anorexia,LiverBig,LiverFirm,SpleenPalpable,Spiders,Ascites,Varices,Bilirubin,AlkPhosphate,Sgot,AlbuMin,ProTime,Histology
+@outputs Class
+@data
+49, 1, 1, 2, 1, 1, 2, 2, 2, 1, 1, 2, 2, 1.4, 85, 70, 3.5, 35, 2, 1
+62, 2, 2, 2, 1, 1, 2, 2, 1, 2, 1, 2, 2, 1.3, 141, 156, 3.9, 58, 1, 2
+34, 2, 2, 2, 1, 1, 1, 1, 1, 2, 1, 2, 2, 0.7, 70, 24, 4.1, 100, 2, 2
+54, 1, 1, 2, 1, 1, 2, 2, 2, 2, 2, 1, 2, 1.2, 85, 92, 3.1, 66, 2, 2
+49, 1, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 0.8, 103, 43, 3.5, 66, 1, 2
+64, 1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 1.0, 80, 38, 4.3, 74, 1, 2
+20, 1, 1, 2, 1, 1, 1, 2, 2, 2, 1, 1, 2, 1.0, 160, 118, 2.9, 23, 2, 2

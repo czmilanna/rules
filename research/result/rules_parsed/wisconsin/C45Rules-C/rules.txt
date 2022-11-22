@@ -1,0 +1,13 @@
+IF CellSize<=2.0 AND NormalNucleoli<=2.0 AND EpithelialSize<=5.0 THEN 2
+IF CellShape<=3.0 AND BareNuclei<=1.0 THEN 2
+IF EpithelialSize<=3.0 AND CellSize<=3.0 AND BareNuclei<=2.0 THEN 2
+IF CellSize>4.0 AND ClumpThickness>6.0 THEN 4
+IF BareNuclei>2.0 AND EpithelialSize>5.0 THEN 4
+IF NormalNucleoli>8.0 THEN 4
+IF CellShape>3.0 AND BareNuclei>7.0 THEN 4
+IF CellShape>3.0 AND MarginalAdhesion>3.0 THEN 4
+IF BareNuclei>2.0 AND NormalNucleoli>2.0 THEN 4
+IF CellSize>4.0 AND BlandChromatin>4.0 THEN 4
+IF BlandChromatin>5.0 AND CellShape>4.0 THEN 4
+IF CellSize>2.0 AND ClumpThickness>4.0 AND BareNuclei>2.0 THEN 4
+ELSE 2

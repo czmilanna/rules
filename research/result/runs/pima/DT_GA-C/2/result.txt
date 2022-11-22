@@ -1,0 +1,35 @@
+Number of Rules: 22
+Rule[1]: IF  'plas' <= 127.0 AND  'mass' <= 26.4  THEN Class = tested_negative (118/121)
+Rule[2]: IF  'plas' <= 127.0 AND  'mass' > 26.4 AND  'age' <= 28.0  THEN Class = tested_negative (136/155)
+Rule[3]: IF  'plas' <= 127.0 AND  'mass' > 26.4 AND  'age' > 28.0 AND  'plas' <= 94.0 AND  'plas' <= 0.0  THEN Class = tested_positive (2/2)
+Rule[4]: IF  'plas' <= 127.0 AND  'mass' > 26.4 AND  'age' > 28.0 AND  'plas' <= 94.0 AND  'plas' > 0.0 AND  'pedi' <= 0.787  THEN Class = tested_negative (30/30)
+Rule[5]: IF  'plas' <= 127.0 AND  'mass' > 26.4 AND  'age' > 28.0 AND  'plas' <= 94.0 AND  'plas' > 0.0 AND  'pedi' > 0.787 AND  'preg' <= 3.0  THEN Class = tested_negative (3/3)
+Rule[6]: IF  'plas' <= 127.0 AND  'mass' > 26.4 AND  'age' > 28.0 AND  'plas' <= 94.0 AND  'plas' > 0.0 AND  'pedi' > 0.787 AND  'preg' > 3.0  THEN Class = tested_positive (3/3)
+Rule[7]: IF  'plas' <= 127.0 AND  'mass' > 26.4 AND  'age' > 28.0 AND  'plas' > 94.0 AND  'pedi' <= 0.219  THEN Class = tested_negative (21/27)
+Rule[8]: IF  'plas' <= 127.0 AND  'mass' > 26.4 AND  'age' > 28.0 AND  'plas' > 94.0 AND  'pedi' > 0.219  THEN Class = tested_positive (49/90)
+Rule[9]: IF  'plas' > 127.0 AND  'mass' <= 29.9 AND  'plas' <= 151.0 AND  'preg' <= 1.0  THEN Class = tested_negative (11/11)
+Rule[10]: IF  'plas' > 127.0 AND  'mass' <= 29.9 AND  'plas' <= 151.0 AND  'preg' > 1.0 AND  'preg' <= 3.0 AND  'mass' <= 25.5  THEN Class = tested_negative (6/6)
+Rule[11]: IF  'plas' > 127.0 AND  'mass' <= 29.9 AND  'plas' <= 151.0 AND  'preg' > 1.0 AND  'preg' <= 3.0 AND  'mass' > 25.5 AND  'pres' <= 72.0  THEN Class = tested_positive (5/5)
+Rule[12]: IF  'plas' > 127.0 AND  'mass' <= 29.9 AND  'plas' <= 151.0 AND  'preg' > 1.0 AND  'preg' <= 3.0 AND  'mass' > 25.5 AND  'pres' > 72.0  THEN Class = tested_negative (2/3)
+Rule[13]: IF  'plas' > 127.0 AND  'mass' <= 29.9 AND  'plas' <= 151.0 AND  'preg' > 1.0 AND  'preg' > 3.0  THEN Class = tested_negative (19/21)
+Rule[14]: IF  'plas' > 127.0 AND  'mass' <= 29.9 AND  'plas' > 151.0 AND  'age' <= 25.0  THEN Class = tested_negative (3/3)
+Rule[15]: IF  'plas' > 127.0 AND  'mass' <= 29.9 AND  'plas' > 151.0 AND  'age' > 25.0 AND  'age' <= 61.0 AND  'mass' <= 27.1  THEN Class = tested_positive (11/11)
+Rule[16]: IF  'plas' > 127.0 AND  'mass' <= 29.9 AND  'plas' > 151.0 AND  'age' > 25.0 AND  'age' <= 61.0 AND  'mass' > 27.1 AND  'age' <= 36.0  THEN Class = tested_positive (3/3)
+Rule[17]: IF  'plas' > 127.0 AND  'mass' <= 29.9 AND  'plas' > 151.0 AND  'age' > 25.0 AND  'age' <= 61.0 AND  'mass' > 27.1 AND  'age' > 36.0  THEN Class = tested_negative (4/4)
+Rule[18]: IF  'plas' > 127.0 AND  'mass' <= 29.9 AND  'plas' > 151.0 AND  'age' > 25.0 AND  'age' > 61.0  THEN Class = tested_negative (3/3)
+Rule[19]: IF  'plas' > 127.0 AND  'mass' > 29.9 AND  'plas' <= 165.0 AND  'pres' <= 61.0  THEN Class = tested_positive (15/16)
+Rule[20]: IF  'plas' > 127.0 AND  'mass' > 29.9 AND  'plas' <= 165.0 AND  'pres' > 61.0 AND  'age' <= 30.0  THEN Class = tested_negative (28/42)
+Rule[21]: IF  'plas' > 127.0 AND  'mass' > 29.9 AND  'plas' <= 165.0 AND  'pres' > 61.0 AND  'age' > 30.0  THEN Class = tested_positive (52/70)
+Rule[22]: IF  'plas' > 127.0 AND  'mass' > 29.9 AND  'plas' > 165.0  THEN Class = tested_positive (56/62)
+
+Number of Rules: 7
+Rule[1]: IF  'skin' > -1.0 AND  'pedi' > -0.793  THEN Class = tested_negative (450/691)
+Rule[2]: IF  'preg' > 0.0 AND  'plas' <= 99.0 AND  'pres' <= 72.0 AND  'skin' <= 21.0 AND  'insu' <= 258.0 AND  'mass' <= 32.4 AND  'pedi' > 0.181 AND  'age' <= 44.0  THEN Class = tested_positive (1/40)
+Rule[3]: IF  'preg' > 2.0 AND  'plas' > 94.0 AND  'pres' > 73.0 AND  'skin' > 18.0 AND  'insu' > 124.0 AND  'mass' <= 44.2 AND  'pedi' > -0.732 AND  'age' > 22.0  THEN Class = tested_positive (29/37)
+Rule[4]: IF  'preg' <= 6.0 AND  'plas' > -1.0 AND  'pres' <= 76.0 AND  'skin' <= 41.0 AND  'insu' > -1.0 AND  'mass' > 28.5 AND  'pedi' <= 0.727 AND  'age' <= 42.0  THEN Class = tested_positive (54/171)
+Rule[5]: IF  'preg' > 0.0 AND  'plas' <= 107.0 AND  'pres' <= 80.0 AND  'skin' <= 32.0 AND  'insu' > -1.0 AND  'mass' <= 41.0 AND  'pedi' <= 1.4 AND  'age' > 36.0  THEN Class = tested_positive (7/30)
+Rule[6]: IF  'preg' <= 10.0 AND  'plas' > 89.0 AND  'pres' <= 85.0 AND  'skin' > 0.0 AND  'insu' > -1.0 AND  'mass' > 33.9 AND  'pedi' > 0.741 AND  'age' <= 56.0  THEN Class = tested_positive (19/25)
+Rule[7]: IF  'preg' > 1.0 AND  'plas' <= 194.0 AND  'pres' > -1.0 AND  'skin' > -1.0 AND  'insu' > -1.0 AND  'mass' > 22.5 AND  'pedi' <= 0.482 AND  'age' <= 40.0  THEN Class = tested_positive (51/186)
+
+Accuracy in training: 0.8205499276410999
+Accuracy in test: 0.7532467532467533

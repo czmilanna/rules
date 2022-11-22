@@ -1,0 +1,2 @@
+IF At5 is Low AND At2 is Low THEN 1 | Support: 0.4745
+ELSE 0

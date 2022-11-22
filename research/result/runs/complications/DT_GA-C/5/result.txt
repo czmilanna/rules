@@ -1,0 +1,13 @@
+Number of Rules: 5
+Rule[1]: IF  RUM = {3}  THEN Class = no (42/74)
+Rule[2]: IF  RUM = {2} AND  Lymph <= 1.0  THEN Class = no (6/7)
+Rule[3]: IF  RUM = {2} AND  Lymph > 1.0  THEN Class = yes (7/7)
+Rule[4]: IF  RUM = {0}  THEN Class = no (4/5)
+Rule[5]: IF  RUM = {1}  THEN Class = yes (2/3)
+
+Number of Rules: 2
+Rule[1]: IF  Lymph > 0.0 AND  FIGO = {0, 5, 3, 2}  THEN Class = yes (34/77)
+Rule[2]: IF  Height <= 165.0 AND  OM <= 1.0  THEN Class = no (45/76)
+
+Accuracy in training: 0.5833333333333334
+Accuracy in test: 0.45454545454545453

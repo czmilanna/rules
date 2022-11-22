@@ -1,0 +1,117 @@
+@relation   complications
+@attribute Age integer[29,73]
+@attribute Height integer[150,176]
+@attribute Weight integer[44,118]
+@attribute BMI real[17.47,44.96]
+@attribute OM integer[0,1]
+@attribute RUM{3,2,0,1}
+@attribute Lymph integer[0,3]
+@attribute FIGO{0,1,2,3,4,5}
+@attribute Complication{no,yes}
+@inputs Age,Height,Weight,BMI,OM,RUM,Lymph,FIGO
+@outputs Complication
+@data
+
+@decisiontree
+
+if ( OM <= 0.000000 ) then
+{
+	if ( FIGO = 0 ) then
+	{
+		if ( Height <= 163.000000 ) then
+		{
+			Complication = "no"
+		}
+		elseif ( Height > 163.000000 ) then
+		{
+			Complication = "yes"
+		}
+	}
+	elseif ( FIGO = 1 ) then
+	{
+		Complication = "yes"
+	}
+	elseif ( FIGO = 2 ) then
+	{
+		if ( RUM = 3 ) then
+		{
+			Complication = "no"
+		}
+		elseif ( RUM = 2 ) then
+		{
+			Complication = "yes"
+		}
+		elseif ( RUM = 0 ) then
+		{
+			Complication = "no"
+		}
+		elseif ( RUM = 1 ) then
+		{
+			Complication = "no"
+		}
+	}
+	elseif ( FIGO = 3 ) then
+	{
+		Complication = "yes"
+	}
+	elseif ( FIGO = 4 ) then
+	{
+		if ( Lymph <= 2.000000 ) then
+		{
+			Complication = "no"
+		}
+		elseif ( Lymph > 2.000000 ) then
+		{
+			if ( Age <= 38.000000 ) then
+			{
+				Complication = "no"
+			}
+			elseif ( Age > 38.000000 ) then
+			{
+				Complication = "yes"
+			}
+		}
+	}
+	elseif ( FIGO = 5 ) then
+	{
+		if ( RUM = 3 ) then
+		{
+			Complication = "no"
+		}
+		elseif ( RUM = 2 ) then
+		{
+			Complication = "yes"
+		}
+		elseif ( RUM = 0 ) then
+		{
+			Complication = "no"
+		}
+		elseif ( RUM = 1 ) then
+		{
+			Complication = "no"
+		}
+	}
+}
+elseif ( OM > 0.000000 ) then
+{
+	Complication = "no"
+}
+
+@TotalNumberOfNodes 7
+@NumberOfLeafs 16
+@TotalNumberOfNodes 7
+@NumberOfAntecedentsByRule 2.875
+
+@NumberOfItemsetsTraining 96
+@NumberOfCorrectlyClassifiedTraining 67
+@PercentageOfCorrectlyClassifiedTraining 69.791664%
+@NumberOfInCorrectlyClassifiedTraining 29
+@PercentageOfInCorrectlyClassifiedTraining 30.208334%
+
+@NumberOfItemsetsTest 11
+@NumberOfCorrectlyClassifiedTest 4
+@PercentageOfCorrectlyClassifiedTest 36.363636%
+@NumberOfInCorrectlyClassifiedTest 7
+@PercentageOfInCorrectlyClassifiedTest 63.636364%
+
+@ElapsedTime 0:0:0

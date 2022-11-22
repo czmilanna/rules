@@ -1,0 +1,3 @@
+IF Age = [1.0, 6.0) AND Tumor-size = [_, 10.0) AND Inv-nodes = [_, 1.5) THEN 0
+IF Age = [1.0, 6.0) AND Tumor-size = [_, 10.0) AND Inv-nodes = [_, 8.0) AND Node-caps = [0.5, _) AND Deg-malig = [2.5, _) THEN 1
+IF Age = [1.0, 6.0) AND Tumor-size = [_, 10.0) AND Inv-nodes = [_, 8.0) THEN 0

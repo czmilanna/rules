@@ -1,0 +1,586 @@
+if ( -1.0*'plas' + 143.0 >= 0  ) then{
+	if ( -1.0*'mass' + 26.8 >= 0  ) then{
+		if ( -184.00553920865187*'preg' + 96.28336911468847*'pres' + -78.55558383244919*'skin' + 174.28196248930925*'insu' + 146.25684142724072*'mass' + -60.448362366400744*'pedi' + 63.333508247354416*'age' + -87.01948744408308 >= 0  ) then{
+			if ( 118.31388872077548*'preg' + 33.89510722688752*'plas' + -83.04188956577374*'pres' + 89.98822911875044*'skin' + 165.2162257500962*'insu' + 158.03917151830137*'mass' + 196.00774003099832*'pedi' + 40.06332620979828*'age' + -179.42365183947229 >= 0  ) then{
+				if ( -1.0*'plas' + 116.03419871908477*'skin' + 132.0 >= 0  ) then{
+					if ( -1.0*'mass' + 26.4 >= 0  ) then{
+						if ( -1.0*'pedi' + 0.677 >= 0  ) then{
+							'class' = tested_negative (111) 
+						}
+						else{ 
+							if ( -1.0*'pedi' + 0.68 >= 0  ) then{
+								'class' = tested_positive (1) 
+							}
+							else{ 
+								'class' = tested_negative (19) 
+							}
+						}
+					}
+					else{ 
+						if ( -1.0*'skin' + 19.0 >= 0  ) then{
+							'class' = tested_negative (5) 
+						}
+						else{ 
+							'class' = tested_positive (1) 
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*'plas' + 134.0 >= 0  ) then{
+						'class' = tested_positive (1) 
+					}
+					else{ 
+						if ( -1.0*'age' + 23.0 >= 0  ) then{
+							'class' = tested_positive (1) 
+						}
+						else{ 
+							'class' = tested_negative (4) 
+						}
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*'preg' + 3.0 >= 0  ) then{
+					'class' = tested_negative (1) 
+				}
+				else{ 
+					'class' = tested_positive (1) 
+				}
+			}
+		}
+		else{ 
+			'class' = tested_positive (1) 
+		}
+	}
+	else{ 
+		if ( -1.0*'plas' + 108.0 >= 0  ) then{
+			if ( -1.0*'age' + 25.0 >= 0  ) then{
+				if ( -1.0*'preg' + 0.0 >= 0  ) then{
+					if ( -1.0*'pedi' + 0.725 >= 0  ) then{
+						if ( -1.0*'pres' + 84.0 >= 0  ) then{
+							if ( 39.60933839893187*'preg' + -121.31837716356813*'plas' + 58.2210630779669*'pres' + -159.84326395202504*'skin' + 149.22897879714822*'insu' + 78.16386359701022*'mass' + 136.66219365239658*'pedi' + 104.30416481203963*'age' + 103.0 >= 0  ) then{
+								'class' = tested_negative (14) 
+							}
+							else{ 
+								if ( -1.0*'skin' + 33.0 >= 0  ) then{
+									'class' = tested_negative (3) 
+								}
+								else{ 
+									'class' = tested_positive (1) 
+								}
+							}
+						}
+						else{ 
+							if ( -1.0*'plas' + 92.0 >= 0  ) then{
+								'class' = tested_negative (1) 
+							}
+							else{ 
+								'class' = tested_positive (1) 
+							}
+						}
+					}
+					else{ 
+						'class' = tested_positive (1) 
+					}
+				}
+				else{ 
+					if ( -165.62158743981774*'plas' + -112.87400301379942*'pres' + 138.6772592409228*'insu' + 18.886813386084214*'mass' + -91.90687041075594*'pedi' + -101.97025656280346 >= 0  ) then{
+						if ( -1.0*'preg' + 1.0 >= 0  ) then{
+							'class' = tested_negative (1) 
+						}
+						else{ 
+							'class' = tested_positive (1) 
+						}
+					}
+					else{ 
+						'class' = tested_negative (57) 
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*'pedi' + 0.231 >= 0  ) then{
+					if ( -40.67302249387677*'pres' + 151.7348034194984*'skin' + -67.40045348820288*'mass' + 149.10024580291946*'age' + -194.55370865635427 >= 0  ) then{
+						'class' = tested_negative (20) 
+					}
+					else{ 
+						if ( -1.0*'preg' + 3.0 >= 0  ) then{
+							'class' = tested_negative (3) 
+						}
+						else{ 
+							'class' = tested_positive (2) 
+						}
+					}
+				}
+				else{ 
+					if ( -188.94703760485794*'preg' + 176.16978948381023*'plas' + 90.18943325853661*'pres' + -68.85242431165008*'skin' + -111.54337709572711*'insu' + -157.57337286080545*'pedi' + -181.3521493182872*'age' + 68.43046943387725 >= 0  ) then{
+						if ( -1.0*'plas' + 117.38501459299238*'insu' + 96.0 >= 0  ) then{
+							if ( -1.0*'pedi' + 0.801 >= 0  ) then{
+								if ( -89.52861798217722*'preg' + -10.722572405525142*'plas' + -7.687055367903582*'skin' + 199.90130569783537*'insu' + 70.48019484395167*'mass' + 97.41241985406089*'pedi' + -33.31360636123307 >= 0  ) then{
+									if ( 102.46064222940726*'preg' + -139.040043749623*'plas' + 66.62045276412283*'pres' + 134.2936142194768*'skin' + -54.31378266176063*'insu' + 197.80052909576347*'mass' + 133.91887758251255*'pedi' + -188.3626935045148*'age' + 149.39824360175948 >= 0  ) then{
+										'class' = tested_positive (1) 
+									}
+									else{ 
+										if ( -147.9764724960496*'preg' + 16.43292154568084*'plas' + 67.81406073547294*'pres' + -146.52174235007766*'skin' + -35.69534361262231*'insu' + 70.83972736048503*'mass' + -184.89238023406182*'pedi' + 49.002679215977594*'age' + 0.252 >= 0  ) then{
+											'class' = tested_negative (35) 
+										}
+										else{ 
+											if ( -1.0*'plas' + 101.0 >= 0  ) then{
+												'class' = tested_positive (1) 
+											}
+											else{ 
+												'class' = tested_negative (1) 
+											}
+										}
+									}
+								}
+								else{ 
+									'class' = tested_positive (1) 
+								}
+							}
+							else{ 
+								if ( -1.0*'pedi' + 0.88 >= 0  ) then{
+									'class' = tested_positive (3) 
+								}
+								else{ 
+									if ( -1.0*'pedi' + 1.162 >= 0  ) then{
+										'class' = tested_negative (7) 
+									}
+									else{ 
+										if ( -1.0*'preg' + 2.0 >= 0  ) then{
+											'class' = tested_negative (1) 
+										}
+										else{ 
+											'class' = tested_positive (2) 
+										}
+									}
+								}
+							}
+						}
+						else{ 
+							if ( -22.77721032099268*'preg' + 119.32501222922582*'pres' + 17.626234101510192*'skin' + 168.21158257504266*'insu' + -176.91601123123337*'mass' + -20.85831766502426*'pedi' + -112.14560603540056*'age' + 29.0 >= 0  ) then{
+								'class' = tested_negative (4) 
+							}
+							else{ 
+								if ( -1.0*'plas' + 105.0 >= 0  ) then{
+									'class' = tested_positive (8) 
+								}
+								else{ 
+									if ( -1.0*'plas' + 106.0 >= 0  ) then{
+										'class' = tested_negative (2) 
+									}
+									else{ 
+										'class' = tested_positive (3) 
+									}
+								}
+							}
+						}
+					}
+					else{ 
+						if ( -1.0*'pres' + 72.0 >= 0  ) then{
+							if ( -1.0*'plas' + 92.0 >= 0  ) then{
+								'class' = tested_positive (2) 
+							}
+							else{ 
+								'class' = tested_negative (3) 
+							}
+						}
+						else{ 
+							'class' = tested_positive (6) 
+						}
+					}
+				}
+			}
+		}
+		else{ 
+			if ( 19.44224224878525*'plas' + -177.90231238536126*'pres' + -167.8914128727958*'skin' + 92.54896964238696*'mass' + -175.0364560575775*'pedi' + 159.5479003990879*'age' + 160.3191442695258 >= 0  ) then{
+				if ( -196.3272739193233*'preg' + 57.979734860821566*'plas' + 59.9181302496973*'pres' + 177.40915761734573*'skin' + -124.99613061663605*'insu' + -130.89936569586848*'mass' + -164.8854532197317*'pedi' + -103.04475079827121*'age' + 165.1664998301227 >= 0  ) then{
+					if ( -1.0*'pres' + 76.0 >= 0  ) then{
+						'class' = tested_positive (15) 
+					}
+					else{ 
+						'class' = tested_negative (1) 
+					}
+				}
+				else{ 
+					if ( -1.0*'age' + 40.0 >= 0  ) then{
+						'class' = tested_positive (3) 
+					}
+					else{ 
+						'class' = tested_negative (3) 
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*'age' + 30.0 >= 0  ) then{
+					if ( -144.53171341319842*'preg' + -37.350416424998656*'plas' + 58.36266210730247*'insu' + 165.74921644426632*'mass' + 21.672641630673922*'age' + 4.0 >= 0  ) then{
+						if ( 91.41637484808831*'insu' + -1.0*'mass' + 42.1 >= 0  ) then{
+							if ( -1.0*'mass' + 31.2 >= 0  ) then{
+								if ( 55.17340876515337*'preg' + -110.29479045194918*'plas' + 175.8137347120358*'pres' + 192.79474858026833*'insu' + 61.6463751210008*'mass' + -27.78692055209234*'pedi' + -1.0*'age' + -147.78011589026548 >= 0  ) then{
+									'class' = tested_negative (25) 
+								}
+								else{ 
+									if ( -1.0*'preg' + 3.0 >= 0  ) then{
+										'class' = tested_negative (1) 
+									}
+									else{ 
+										'class' = tested_positive (1) 
+									}
+								}
+							}
+							else{ 
+								if ( -1.0*'pedi' + 0.532 >= 0  ) then{
+									if ( -1.0*'preg' + 0.0 >= 0  ) then{
+										if ( -1.0*'pres' + 76.0 >= 0  ) then{
+											if ( -1.0*'pedi' + 0.263 >= 0  ) then{
+												if ( -1.0*'skin' + 38.0 >= 0  ) then{
+													'class' = tested_negative (2) 
+												}
+												else{ 
+													'class' = tested_positive (1) 
+												}
+											}
+											else{ 
+												'class' = tested_positive (3) 
+											}
+										}
+										else{ 
+											if ( -1.0*'pres' + 106.0 >= 0  ) then{
+												'class' = tested_negative (5) 
+											}
+											else{ 
+												'class' = tested_positive (1) 
+											}
+										}
+									}
+									else{ 
+										if ( -1.0*'mass' + 31.6 >= 0  ) then{
+											if ( -1.0*'pres' + 64.0 >= 0  ) then{
+												'class' = tested_negative (1) 
+											}
+											else{ 
+												'class' = tested_positive (2) 
+											}
+										}
+										else{ 
+											if ( -1.0*'plas' + 109.0 >= 0  ) then{
+												'class' = tested_positive (1) 
+											}
+											else{ 
+												'class' = tested_negative (28) 
+											}
+										}
+									}
+								}
+								else{ 
+									if ( -46.160365884695295*'preg' + 125.55306812877609*'plas' + -181.12341472439547*'pres' + -31.382082829108015*'skin' + -23.002237412846227*'insu' + 106.18192122927445*'mass' + -91.09040449631642*'pedi' + 35.4 >= 0  ) then{
+										if ( -1.0*'mass' + 35.4 >= 0  ) then{
+											if ( -1.0*'age' + 25.0 >= 0  ) then{
+												if ( -1.0*'skin' + 28.0 >= 0  ) then{
+													'class' = tested_negative (2) 
+												}
+												else{ 
+													'class' = tested_positive (2) 
+												}
+											}
+											else{ 
+												'class' = tested_positive (7) 
+											}
+										}
+										else{ 
+											if ( -1.0*'preg' + 1.0 >= 0  ) then{
+												'class' = tested_positive (1) 
+											}
+											else{ 
+												'class' = tested_negative (3) 
+											}
+										}
+									}
+									else{ 
+										if ( -1.0*'age' + 28.0 >= 0  ) then{
+											'class' = tested_negative (7) 
+										}
+										else{ 
+											'class' = tested_positive (1) 
+										}
+									}
+								}
+							}
+						}
+						else{ 
+							'class' = tested_positive (3) 
+						}
+					}
+					else{ 
+						'class' = tested_positive (5) 
+					}
+				}
+				else{ 
+					if ( -1.0*'pedi' + 0.527 >= 0  ) then{
+						if ( -1.0*'age' + 46.0 >= 0  ) then{
+							if ( -1.0*'preg' + 3.0 >= 0  ) then{
+								if ( -1.0*'plas' + 113.0 >= 0  ) then{
+									'class' = tested_negative (1) 
+								}
+								else{ 
+									if ( -1.0*'pres' + 64.0 >= 0  ) then{
+										'class' = tested_negative (1) 
+									}
+									else{ 
+										'class' = tested_positive (7) 
+									}
+								}
+							}
+							else{ 
+								if ( -1.0*'plas' + 115.0 >= 0  ) then{
+									if ( -1.0*'skin' + 39.0 >= 0  ) then{
+										'class' = tested_positive (5) 
+									}
+									else{ 
+										'class' = tested_negative (1) 
+									}
+								}
+								else{ 
+									if ( -1.0*'mass' + 40.6 >= 0  ) then{
+										if ( -80.00247224234103*'preg' + 129.72025580930529*'skin' + 6.993715885792312*'mass' + -140.6582129049716*'age' + 33.0 >= 0  ) then{
+											'class' = tested_positive (2) 
+										}
+										else{ 
+											if ( -1.0*'pedi' + 0.243 >= 0  ) then{
+												if ( -1.0*'preg' + 9.0 >= 0  ) then{
+													'class' = tested_negative (1) 
+												}
+												else{ 
+													'class' = tested_positive (2) 
+												}
+											}
+											else{ 
+												if ( -1.0*'plas' + 132.0 >= 0  ) then{
+													'class' = tested_negative (12) 
+												}
+												else{ 
+													if ( -1.0*'age' + 41.0 >= 0  ) then{
+														if ( -1.0*'pres' + 72.0 >= 0  ) then{
+															if ( -1.0*'preg' + 9.0 >= 0  ) then{
+																'class' = tested_positive (1) 
+															}
+															else{ 
+																'class' = tested_negative (1) 
+															}
+														}
+														else{ 
+															'class' = tested_negative (5) 
+														}
+													}
+													else{ 
+														'class' = tested_positive (1) 
+													}
+												}
+											}
+										}
+									}
+									else{ 
+										'class' = tested_positive (2) 
+									}
+								}
+							}
+						}
+						else{ 
+							'class' = tested_negative (7) 
+						}
+					}
+					else{ 
+						if ( 98.03395864973635*'insu' + -1.0*'age' + 52.0 >= 0  ) then{
+							if ( -106.82948602056818*'preg' + -127.25245298986613*'plas' + -153.01088456833057*'pres' + 165.70876184052526*'skin' + 65.14656903807696*'insu' + -20.374350673606244*'mass' + 181.73440107650458*'age' + 15.480888312561632 >= 0  ) then{
+								if ( -1.0*'preg' + 7.0 >= 0  ) then{
+									if ( -1.0*'plas' + 119.0 >= 0  ) then{
+										'class' = tested_positive (1) 
+									}
+									else{ 
+										'class' = tested_negative (3) 
+									}
+								}
+								else{ 
+									'class' = tested_positive (2) 
+								}
+							}
+							else{ 
+								if ( -138.32533041441937*'preg' + -48.00708215870128*'plas' + 34.673382955294414*'pres' + 11.827485685196592*'skin' + 63.44223252112096*'insu' + 62.39986751750109*'mass' + 141.78825317457978*'pedi' + 47.746631653920446*'age' + -0.425107544387032 >= 0  ) then{
+									'class' = tested_positive (17) 
+								}
+								else{ 
+									if ( -1.0*'pedi' + 0.725 >= 0  ) then{
+										'class' = tested_negative (2) 
+									}
+									else{ 
+										'class' = tested_positive (2) 
+									}
+								}
+							}
+						}
+						else{ 
+							'class' = tested_negative (3) 
+						}
+					}
+				}
+			}
+		}
+	}
+}
+else{ 
+	if ( -1.0*'plas' + 154.0 >= 0  ) then{
+		if ( 191.86534117717883*'preg' + -3.9122348194737526*'plas' + -119.5983129366297*'pres' + 88.3291589767507*'skin' + 145.0454370922049*'pedi' + 181.92958971064763*'age' + 0.33 >= 0  ) then{
+			if ( -1.0*'plas' + 152.0 >= 0  ) then{
+				if ( -1.0*'pres' + 78.0 >= 0  ) then{
+					if ( -1.0*'preg' + 3.0 >= 0  ) then{
+						'class' = tested_positive (5) 
+					}
+					else{ 
+						if ( -1.0*'preg' + 7.0 >= 0  ) then{
+							if ( -1.0*'pedi' + 0.182 >= 0  ) then{
+								'class' = tested_positive (1) 
+							}
+							else{ 
+								if ( -1.0*'preg' + 6.0 >= 0  ) then{
+									'class' = tested_negative (4) 
+								}
+								else{ 
+									if ( -1.0*'pres' + 68.0 >= 0  ) then{
+										'class' = tested_negative (1) 
+									}
+									else{ 
+										'class' = tested_positive (1) 
+									}
+								}
+							}
+						}
+						else{ 
+							'class' = tested_positive (3) 
+						}
+					}
+				}
+				else{ 
+					'class' = tested_positive (9) 
+				}
+			}
+			else{ 
+				if ( -1.0*'insu' + 0.0 >= 0  ) then{
+					'class' = tested_positive (1) 
+				}
+				else{ 
+					'class' = tested_negative (3) 
+				}
+			}
+		}
+		else{ 
+			if ( 30.790724752189305*'preg' + 78.17175813908028*'plas' + -152.72892274724526*'pres' + 131.3231269669074*'skin' + 170.10357239518868*'insu' + -166.9006528255764*'mass' + -139.37815649886107*'pedi' + 125.16878124446811*'age' + -68.33962301452169 >= 0  ) then{
+				'class' = tested_negative (13) 
+			}
+			else{ 
+				if ( -1.0*'pedi' + 0.393 >= 0  ) then{
+					'class' = tested_positive (4) 
+				}
+				else{ 
+					'class' = tested_negative (2) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*'mass' + 23.2 >= 0  ) then{
+			'class' = tested_negative (2) 
+		}
+		else{ 
+			if ( 145.09455700057896*'preg' + -74.46415579748901*'plas' + 185.04319795990438*'pres' + -96.04766552710153*'skin' + -73.37589177148787*'insu' + -135.7030742652023*'mass' + 43.79244359298434*'pedi' + 39.35970725476733*'age' + 0.313 >= 0  ) then{
+				if ( -1.0*'plas' + 165.0 >= 0  ) then{
+					if ( -1.0*'mass' + 30.1 >= 0  ) then{
+						if ( -1.0*'plas' + 157.0 >= 0  ) then{
+							'class' = tested_positive (1) 
+						}
+						else{ 
+							'class' = tested_negative (2) 
+						}
+					}
+					else{ 
+						'class' = tested_positive (6) 
+					}
+				}
+				else{ 
+					if ( -1.0*'plas' + 189.0 >= 0  ) then{
+						'class' = tested_negative (4) 
+					}
+					else{ 
+						'class' = tested_positive (1) 
+					}
+				}
+			}
+			else{ 
+				if ( -164.96523245353373*'preg' + -99.07570916672137*'plas' + 120.3615530208595*'skin' + 197.40058788969196*'mass' + -16.823560795007182*'pedi' + 105.3194873745831*'age' + 198.66354986994145 >= 0  ) then{
+					if ( -1.0*'skin' + 45.0 >= 0  ) then{
+						if ( -1.0*'insu' + 0.0 >= 0  ) then{
+							'class' = tested_positive (1) 
+						}
+						else{ 
+							'class' = tested_negative (5) 
+						}
+					}
+					else{ 
+						'class' = tested_positive (4) 
+					}
+				}
+				else{ 
+					if ( -1.0*'skin' + 26.0 >= 0  ) then{
+						if ( -1.0*'age' + 26.0 >= 0  ) then{
+							if ( -1.0*'pres' + 64.0 >= 0  ) then{
+								'class' = tested_negative (3) 
+							}
+							else{ 
+								if ( -1.0*'plas' + 162.0 >= 0  ) then{
+									'class' = tested_negative (1) 
+								}
+								else{ 
+									'class' = tested_positive (2) 
+								}
+							}
+						}
+						else{ 
+							if ( -1.0*'pres' + 70.0 >= 0  ) then{
+								if ( -1.0*'pres' + 66.0 >= 0  ) then{
+									'class' = tested_positive (9) 
+								}
+								else{ 
+									if ( -1.0*'age' + 33.0 >= 0  ) then{
+										'class' = tested_positive (3) 
+									}
+									else{ 
+										if ( -1.0*'skin' + 17.0 >= 0  ) then{
+											'class' = tested_negative (2) 
+										}
+										else{ 
+											if ( -1.0*'skin' + 25.0 >= 0  ) then{
+												'class' = tested_positive (2) 
+											}
+											else{ 
+												'class' = tested_negative (1) 
+											}
+										}
+									}
+								}
+							}
+							else{ 
+								'class' = tested_positive (20) 
+							}
+						}
+					}
+					else{ 
+						'class' = tested_positive (41) 
+					}
+				}
+			}
+		}
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.7662337662337663

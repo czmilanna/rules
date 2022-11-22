@@ -1,0 +1,245 @@
+Experiment: C:/Projekty/rules/data/saheart/saheart-10dobscv-6tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 416
+Class 0: 272
+Class 1: 144
+Successes: 184.0
+Errors:  58.0
+Not classified: 174.0
+	Rule 0: 184 / 58
+Successes: 184.0
+Errors:  58.0
+Not classified: 174.0
+	Rule 0: 184 / 58
+Accuracy on training: 0.4423076923076923
+Number of examples: 232
+Class 0: 88
+Class 1: 144
+Successes: 237.0
+Errors:  78.0
+Not classified: 101.0
+	Rule 0: 184 / 58
+	Rule 1: 53 / 20
+Successes: 237.0
+Errors:  78.0
+Not classified: 101.0
+	Rule 0: 184 / 58
+	Rule 1: 53 / 20
+Accuracy on training: 0.5697115384615384
+Number of examples: 179
+Class 0: 88
+Class 1: 91
+Successes: 299.0
+Errors:  103.0
+Not classified: 14.0
+	Rule 0: 184 / 58
+	Rule 1: 46 / 13
+	Rule 2: 69 / 32
+Successes: 299.0
+Errors:  103.0
+Not classified: 14.0
+	Rule 0: 184 / 58
+	Rule 1: 46 / 13
+	Rule 2: 69 / 32
+Accuracy on training: 0.71875
+Number of examples: 117
+Class 0: 19
+Class 1: 98
+Successes: 308.0
+Errors:  99.0
+Not classified: 9.0
+	Rule 0: 184 / 58
+	Rule 1: 43 / 13
+	Rule 2: 64 / 22
+	Rule 3: 17 / 6
+Successes: 308.0
+Errors:  99.0
+Not classified: 9.0
+	Rule 0: 184 / 58
+	Rule 1: 43 / 13
+	Rule 2: 64 / 22
+	Rule 3: 17 / 6
+Accuracy on training: 0.7403846153846154
+Number of examples: 108
+Class 0: 24
+Class 1: 84
+Successes: 310.0
+Errors:  97.0
+Not classified: 9.0
+	Rule 0: 184 / 56
+	Rule 1: 43 / 13
+	Rule 2: 64 / 22
+	Rule 3: 17 / 6
+	Rule 4: 2 / 0
+Successes: 310.0
+Errors:  97.0
+Not classified: 9.0
+	Rule 0: 184 / 56
+	Rule 1: 43 / 13
+	Rule 2: 64 / 22
+	Rule 3: 17 / 6
+	Rule 4: 2 / 0
+Accuracy on training: 0.7451923076923077
+Number of examples: 106
+Class 0: 24
+Class 1: 82
+Successes: 313.0
+Errors:  95.0
+Not classified: 8.0
+	Rule 0: 184 / 56
+	Rule 1: 43 / 13
+	Rule 2: 64 / 22
+	Rule 3: 17 / 4
+	Rule 4: 2 / 0
+	Rule 5: 3 / 0
+Successes: 313.0
+Errors:  95.0
+Not classified: 8.0
+	Rule 0: 184 / 56
+	Rule 1: 43 / 13
+	Rule 2: 64 / 22
+	Rule 3: 17 / 4
+	Rule 4: 2 / 0
+	Rule 5: 3 / 0
+Accuracy on training: 0.7524038461538461
+Number of examples: 103
+Class 0: 21
+Class 1: 82
+Successes: 316.0
+Errors:  92.0
+Not classified: 8.0
+	Rule 0: 184 / 56
+	Rule 1: 43 / 13
+	Rule 2: 64 / 19
+	Rule 3: 15 / 4
+	Rule 4: 2 / 0
+	Rule 5: 3 / 0
+	Rule 6: 5 / 0
+Successes: 316.0
+Errors:  92.0
+Not classified: 8.0
+	Rule 0: 184 / 56
+	Rule 1: 43 / 13
+	Rule 2: 64 / 19
+	Rule 3: 15 / 4
+	Rule 4: 2 / 0
+	Rule 5: 3 / 0
+	Rule 6: 5 / 0
+Accuracy on training: 0.7596153846153846
+Number of examples: 100
+Class 0: 21
+Class 1: 79
+Successes: 316.0
+Errors:  92.0
+Not classified: 8.0
+	Rule 0: 184 / 56
+	Rule 1: 43 / 13
+	Rule 2: 64 / 19
+	Rule 3: 15 / 4
+	Rule 4: 2 / 0
+	Rule 5: 3 / 0
+	Rule 6: 5 / 0
+	Rule 7: 0 / 0
+Successes: 316.0
+Errors:  92.0
+Not classified: 8.0
+	Rule 0: 184 / 56
+	Rule 1: 43 / 13
+	Rule 2: 64 / 19
+	Rule 3: 15 / 4
+	Rule 4: 2 / 0
+	Rule 5: 3 / 0
+	Rule 6: 5 / 0
+Successes: 316.0
+Errors:  92.0
+Not classified: 8.0
+	Rule 0: 184 / 56
+	Rule 1: 43 / 13
+	Rule 2: 64 / 19
+	Rule 3: 15 / 4
+	Rule 4: 2 / 0
+	Rule 5: 3 / 0
+	Rule 6: 5 / 0
+Successes: 30.0
+Errors:  15.0
+Not classified: 1.0
+	Rule 0: 22 / 6
+	Rule 1: 2 / 5
+	Rule 2: 2 / 4
+	Rule 3: 4 / 0
+	Rule 4: 0 / 0
+	Rule 5: 0 / 0
+	Rule 6: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.7596153846153846
+Accuracy on test: 0.6521739130434783
+Number of rules: 7.0
+Variables per rule: 3.5714285714285716
+Variables used: 1.0
+Time: 2.147
+Iterations: 7899
+Conditions: 25
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Famhist = { T1}
+THEN Chd IS 0   W 0.7613168724279835
+
+IF
+	Ldl = { Low Medium}
+	Famhist = { T0}
+	Age = { VeryHigh}
+THEN Chd IS 1   W 0.7418216859508345
+
+IF
+	Sbp = { VeryLow Low}
+	Tobacco = { VeryLow Low}
+	Ldl = { VeryLow Low}
+	Famhist = { T0}
+	Typea = { Low Medium High}
+	Alcohol = { VeryLow Low Medium VeryHigh}
+THEN Chd IS 0   W 0.6676846992629513
+
+IF
+	Sbp = { VeryLow Low}
+	Adiposity = { Medium High VeryHigh}
+	Famhist = { T0}
+THEN Chd IS 1   W 0.47599199647465656
+
+IF
+	Tobacco = { VeryHigh}
+THEN Chd IS 1   W 1.0
+
+IF
+	Sbp = { Low Medium}
+	Ldl = { VeryLow Medium}
+	Adiposity = { VeryLow Low High VeryHigh}
+	Famhist = { T0}
+	Obesity = { Medium}
+	Age = { VeryLow Low}
+THEN Chd IS 0   W 0.9137756804598358
+
+IF
+	Sbp = { VeryLow Low}
+	Tobacco = { VeryLow Medium High VeryHigh}
+	Adiposity = { VeryHigh}
+	Famhist = { T0}
+	Obesity = { Medium}
+THEN Chd IS 1   W 0.8863158301675551
+
+	Accuracy on training set is: 0.7596153846153846
+	Accuracy on test set is: 0.6521739130434783
+	Number of rules is: 7.0
+	Variables per rule is: 3.5714285714285716
+	Variables used is: 1.0
+	Time is: 2.147
+	Iterations is: 7899
+	Conditions is: 25
+

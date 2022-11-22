@@ -1,0 +1,4 @@
+IF Area3 = [185.2 , 739.3) THEN B
+IF Area3 = [739.3 , 760.2) THEN M
+IF Area3 = [760.2 , 869.3) THEN B
+IF Area3 = [869.3 , 4254.0] THEN M

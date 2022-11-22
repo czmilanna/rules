@@ -1,0 +1,95 @@
+Error Training: 0.246
+Error Test: 0.289
+Rules (9):
+--------
+if 'preg' = [_, 12.5) and
+   'plas' = [_, 143.5) and
+   'pres' = [_, 97.0) and
+   'skin' = [_, 51.5) and
+   'insu' = [_, 307.0) and
+   'mass' = [22.8, 43.55) and
+   'pedi' = [0.1265, _) and
+   'age' = [_, 58.5)
+then
+   'class' = tested_negative (307|106)
+
+if 'preg' = [_, 12.5) and
+   'plas' = [_, 157.5) and
+   'pres' = [_, 97.0) and
+   'skin' = [_, 46.5) and
+   'mass' = [_, 42.25) and
+   'pedi' = [_, 0.7345) and
+   'age' = [_, 48.5)
+then
+   'class' = tested_negative (79|12)
+
+if 'plas' = [133.5, _) and
+   'skin' = [_, 46.5) and
+   'mass' = [30.05, 58.35) and
+   'pedi' = [0.2375, 1.263) and
+   'age' = [_, 59.5)
+then
+   'class' = tested_positive (70|11)
+
+if 'preg' = [_, 13.5) and
+   'plas' = [127.5, _) and
+   'pres' = [42.0, 118.0) and
+   'skin' = [_, 50.5) and
+   'insu' = [27.0, 307.0) and
+   'mass' = [9.1, 38.05) and
+   'pedi' = [0.1365, _) and
+   'age' = [_, 65.5)
+then
+   'class' = tested_positive (12|2)
+
+if 'preg' = [_, 12.5) and
+   'plas' = [109.5, 152.5) and
+   'pres' = [42.0, 118.0) and
+   'skin' = [_, 46.5) and
+   'insu' = [_, 389.5) and
+   'mass' = [9.1, 34.25) and
+   'pedi' = [0.1995, 0.9385) and
+   'age' = [_, 72.0)
+then
+   'class' = tested_negative (10|1)
+
+if 'preg' = [_, 13.5) and
+   'plas' = [_, 164.5) and
+   'pres' = [_, 118.0) and
+   'mass' = [27.95, 45.35) and
+   'pedi' = [0.1655, 2.3085) and
+   'age' = [_, 65.5)
+then
+   'class' = tested_negative (17|4)
+
+if 'pres' = [47.0, 118.0) and
+   'skin' = [15.5, 58.0) and
+   'insu' = [_, 542.5) and
+   'mass' = [29.95, _) and
+   'pedi' = [0.195, _) and
+   'age' = [_, 59.5)
+then
+   'class' = tested_positive (12|2)
+
+if 'preg' = [_, 13.5) and
+   'plas' = [_, 192.0) and
+   'pres' = [39.0, 85.5) and
+   'skin' = [_, 46.5) and
+   'insu' = [_, 236.0) and
+   'mass' = [_, 37.75) and
+   'pedi' = [0.1485, 0.694) and
+   'age' = [38.5, 72.0)
+then
+   'class' = tested_negative (7|0)
+
+if 'preg' = [_, 12.5) and
+   'insu' = [_, 277.5) and
+   'mass' = [23.25, 56.15) and
+   'pedi' = [0.1295, 0.8035) and
+   'age' = [30.5, 58.5)
+then
+   'class' = tested_positive (8|2)
+
+if true
+then
+   'class' = tested_positive (17|13)

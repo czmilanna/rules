@@ -1,0 +1,11 @@
+Number of Rules: 5
+Rule[1]: IF  Deg-malig <= 2.0  THEN Class = 0 (144/178)
+Rule[2]: IF  Deg-malig > 2.0 AND  Node-caps <= 0.0 AND  Tumor-size <= 3.0  THEN Class = 0 (5/5)
+Rule[3]: IF  Deg-malig > 2.0 AND  Node-caps <= 0.0 AND  Tumor-size > 3.0 AND  Irradiated = {0}  THEN Class = 0 (20/31)
+Rule[4]: IF  Deg-malig > 2.0 AND  Node-caps <= 0.0 AND  Tumor-size > 3.0 AND  Irradiated = {1}  THEN Class = 1 (8/11)
+Rule[5]: IF  Deg-malig > 2.0 AND  Node-caps > 0.0  THEN Class = 1 (20/25)
+
+Number of Rules: 0
+
+Accuracy in training: 0.788
+Accuracy in test: 0.7407407407407407

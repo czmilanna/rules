@@ -1,0 +1,6 @@
+IF Histology is Low AND AlkPhosphate is Low THEN 1 | Support: 0.5197
+IF ProTime is High AND Fatigue is Low THEN 1 | Support: 0.4010
+IF Sgot is Low AND Fatigue is High THEN 1 | Support: 0.3324
+IF LiverBig is High AND Antivirals is High AND Anorexia is Low THEN 1 | Support: 0.0833
+IF LiverBig is Low AND AlkPhosphate is High THEN 1 | Support: 0.0652
+ELSE 0

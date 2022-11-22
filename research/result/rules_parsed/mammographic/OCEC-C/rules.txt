@@ -1,0 +1,72 @@
+IF BI-RADS = 4 AND Shape = 4 THEN 1
+IF BI-RADS = 3 AND Shape = 0 THEN 0
+IF Age = 3 AND Shape = 4 THEN 1
+IF BI-RADS = 4 AND Age = 3 THEN 1
+IF BI-RADS = 3 AND Shape = 1 AND Margin = 0 THEN 0
+IF BI-RADS = 3 AND Age = 1 AND Margin = 0 THEN 0
+IF BI-RADS = 4 AND Margin = 5 THEN 1
+IF Age = 0 THEN 0
+IF BI-RADS = 4 AND Margin = 2 THEN 1
+IF Age = 2 AND Shape = 0 AND Margin = 0 THEN 0
+IF Age = 2 AND Shape = 1 AND Margin = 0 THEN 0
+IF Shape = 1 AND Margin = 0 AND Density = 1 THEN 0
+IF BI-RADS = 3 AND Age = 2 AND Shape = 4 AND Margin = 3 AND Density = 3 THEN 1
+IF BI-RADS = 4 AND Shape = 3 AND Margin = 3 THEN 1
+IF BI-RADS = 3 AND Age = 2 AND Shape = 1 AND Margin = 3 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Shape = 3 AND Margin = 3 THEN 0
+IF BI-RADS = 3 AND Age = 1 AND Shape = 1 AND Margin = 2 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 2 AND Shape = 4 AND Margin = 5 AND Density = 3 THEN 1
+IF BI-RADS = 3 AND Age = 1 AND Shape = 4 AND Margin = 3 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 2 AND Shape = 3 AND Margin = 2 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 1 AND Shape = 1 AND Margin = 1 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 2 AND Shape = 4 AND Margin = 2 AND Density = 3 THEN 0
+IF BI-RADS = 2 AND Age = 1 AND Shape = 0 AND Margin = 0 AND Density = 3 THEN 0
+IF BI-RADS = 2 AND Age = 1 AND Shape = 1 AND Margin = 0 AND Density = 3 THEN 0
+IF BI-RADS = 4 AND Age = 1 AND Shape = 0 AND Margin = 3 AND Density = 3 THEN 1
+IF BI-RADS = 3 AND Age = 3 AND Shape = 3 AND Margin = 2 AND Density = 3 THEN 1
+IF BI-RADS = 3 AND Age = 3 AND Shape = 1 AND Margin = 3 AND Density = 3 THEN 1
+IF BI-RADS = 4 AND Age = 1 AND Shape = 1 AND Margin = 0 AND Density = 3 THEN 1
+IF BI-RADS = 4 AND Age = 2 AND Shape = 1 AND Margin = 3 AND Density = 3 THEN 1
+IF BI-RADS = 3 AND Age = 1 AND Shape = 1 AND Margin = 3 AND Density = 1 THEN 0
+IF BI-RADS = 3 AND Age = 1 AND Shape = 4 AND Margin = 2 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 2 AND Shape = 1 AND Margin = 2 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 2 AND Shape = 3 AND Margin = 0 AND Density = 3 THEN 0
+IF BI-RADS = 2 AND Age = 1 AND Shape = 4 AND Margin = 3 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 3 AND Shape = 3 AND Margin = 0 AND Density = 3 THEN 1
+IF BI-RADS = 4 AND Age = 2 AND Shape = 3 AND Margin = 1 AND Density = 3 THEN 1
+IF BI-RADS = 6 AND Age = 2 AND Shape = 4 AND Margin = 3 AND Density = 3 THEN 1
+IF BI-RADS = 4 AND Age = 1 AND Shape = 3 AND Margin = 1 AND Density = 3 THEN 1
+IF BI-RADS = 4 AND Age = 1 AND Shape = 1 AND Margin = 3 AND Density = 3 THEN 1
+IF BI-RADS = 4 AND Age = 4 AND Shape = 3 AND Margin = 1 AND Density = 3 THEN 1
+IF BI-RADS = 3 AND Age = 4 AND Shape = 4 AND Margin = 3 AND Density = 3 THEN 1
+IF BI-RADS = 6 AND Age = 2 AND Shape = 3 AND Margin = 5 AND Density = 3 THEN 1
+IF BI-RADS = 3 AND Age = 2 AND Shape = 4 AND Margin = 3 AND Density = 4 THEN 1
+IF BI-RADS = 2 AND Age = 3 AND Shape = 0 AND Margin = 0 AND Density = 3 THEN 1
+IF BI-RADS = 4 AND Age = 1 AND Shape = 0 AND Margin = 0 AND Density = 3 THEN 1
+IF BI-RADS = 3 AND Age = 2 AND Shape = 4 AND Margin = 3 AND Density = 1 THEN 1
+IF BI-RADS = 6 AND Age = 1 AND Shape = 3 AND Margin = 2 AND Density = 1 THEN 1
+IF BI-RADS = 3 AND Age = 2 AND Shape = 1 AND Margin = 1 AND Density = 3 THEN 1
+IF BI-RADS = 4 AND Age = 4 AND Shape = 1 AND Margin = 0 AND Density = 3 THEN 1
+IF BI-RADS = 3 AND Age = 1 AND Shape = 4 AND Margin = 2 AND Density = 1 THEN 1
+IF BI-RADS = 3 AND Age = 1 AND Shape = 4 AND Margin = 5 AND Density = 3 THEN 1
+IF BI-RADS = 3 AND Age = 2 AND Shape = 1 AND Margin = 5 AND Density = 3 THEN 0
+IF BI-RADS = 2 AND Age = 1 AND Shape = 3 AND Margin = 3 AND Density = 3 THEN 0
+IF BI-RADS = 2 AND Age = 2 AND Shape = 3 AND Margin = 3 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 2 AND Shape = 4 AND Margin = 0 AND Density = 3 THEN 0
+IF BI-RADS = 0 AND Age = 1 AND Shape = 1 AND Margin = 3 AND Density = 3 THEN 0
+IF BI-RADS = 2 AND Age = 2 AND Shape = 1 AND Margin = 3 AND Density = 3 THEN 0
+IF BI-RADS = 2 AND Age = 2 AND Shape = 4 AND Margin = 2 AND Density = 3 THEN 0
+IF BI-RADS = 1 AND Age = 1 AND Shape = 0 AND Margin = 0 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 2 AND Shape = 4 AND Margin = 2 AND Density = 1 THEN 0
+IF BI-RADS = 3 AND Age = 3 AND Shape = 1 AND Margin = 2 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 3 AND Shape = 3 AND Margin = 0 AND Density = 1 THEN 0
+IF BI-RADS = 1 AND Age = 1 AND Shape = 4 AND Margin = 3 AND Density = 3 THEN 0
+IF BI-RADS = 0 AND Age = 2 AND Shape = 4 AND Margin = 3 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 1 AND Shape = 4 AND Margin = 3 AND Density = 1 THEN 0
+IF BI-RADS = 3 AND Age = 2 AND Shape = 4 AND Margin = 1 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 1 AND Shape = 1 AND Margin = 3 AND Density = 3 THEN 0
+IF BI-RADS = 6 AND Age = 1 AND Shape = 1 AND Margin = 0 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 3 AND Shape = 3 AND Margin = 1 AND Density = 3 THEN 0
+IF BI-RADS = 4 AND Age = 2 AND Shape = 3 AND Margin = 0 AND Density = 3 THEN 0
+IF BI-RADS = 3 AND Age = 3 AND Shape = 1 AND Margin = 2 AND Density = 1 THEN 0
+IF BI-RADS = 1 AND Age = 3 AND Shape = 0 AND Margin = 0 AND Density = 1 THEN 0

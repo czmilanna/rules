@@ -1,0 +1,27 @@
+Number of Rules: 16
+Rule[1]: IF  ChestPainType <= 3.0 AND  Thal <= 3.0  THEN Class = 1 (83/93)
+Rule[2]: IF  ChestPainType <= 3.0 AND  Thal > 3.0 AND  MajorVessels <= 0.0  THEN Class = 1 (15/20)
+Rule[3]: IF  ChestPainType <= 3.0 AND  Thal > 3.0 AND  MajorVessels > 0.0 AND  ResElectrocardiographic <= 1.0 AND  Slope <= 1.0  THEN Class = 1 (3/3)
+Rule[4]: IF  ChestPainType <= 3.0 AND  Thal > 3.0 AND  MajorVessels > 0.0 AND  ResElectrocardiographic <= 1.0 AND  Slope > 1.0  THEN Class = 2 (5/6)
+Rule[5]: IF  ChestPainType <= 3.0 AND  Thal > 3.0 AND  MajorVessels > 0.0 AND  ResElectrocardiographic > 1.0  THEN Class = 2 (7/7)
+Rule[6]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal <= 6.0 AND  ExerciseInduced <= 0.0 AND  Age <= 59.0  THEN Class = 1 (13/13)
+Rule[7]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal <= 6.0 AND  ExerciseInduced <= 0.0 AND  Age > 59.0 AND  Oldpeak <= 2.0  THEN Class = 2 (2/2)
+Rule[8]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal <= 6.0 AND  ExerciseInduced <= 0.0 AND  Age > 59.0 AND  Oldpeak > 2.0  THEN Class = 1 (4/4)
+Rule[9]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal <= 6.0 AND  ExerciseInduced > 0.0 AND  Slope <= 1.0  THEN Class = 1 (3/3)
+Rule[10]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal <= 6.0 AND  ExerciseInduced > 0.0 AND  Slope > 1.0 AND  SerumCholestoral <= 243.0  THEN Class = 1 (4/4)
+Rule[11]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal <= 6.0 AND  ExerciseInduced > 0.0 AND  Slope > 1.0 AND  SerumCholestoral > 243.0  THEN Class = 2 (4/4)
+Rule[12]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal > 6.0 AND  Oldpeak <= 6.0 AND  Sex <= 0.0  THEN Class = 2 (2/2)
+Rule[13]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal > 6.0 AND  Oldpeak <= 6.0 AND  Sex > 0.0 AND  Age <= 50.0  THEN Class = 2 (3/4)
+Rule[14]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal > 6.0 AND  Oldpeak <= 6.0 AND  Sex > 0.0 AND  Age > 50.0  THEN Class = 1 (4/4)
+Rule[15]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal > 6.0 AND  Oldpeak > 6.0  THEN Class = 2 (11/11)
+Rule[16]: IF  ChestPainType > 3.0 AND  MajorVessels > 0.0  THEN Class = 2 (59/63)
+
+Number of Rules: 5
+Rule[1]: IF  Oldpeak <= 25.0  THEN Class = 1 (132/218)
+Rule[2]: IF  ChestPainType > 2.0 AND  SerumCholestoral <= 269.0  THEN Class = 2 (62/131)
+Rule[3]: IF  Age > 53.0 AND  Sex > 0.0 AND  ChestPainType > 1.0 AND  RestBloodPressure > 118.0 AND  SerumCholestoral > 257.0 AND  FastingBloodSugar <= 0.0 AND  ResElectrocardiographic <= 2.0 AND  MaxHeartRate <= 195.0 AND  ExerciseInduced > -1.0 AND  Oldpeak <= 0.0 AND  Slope > 0.0 AND  MajorVessels > 0.0 AND  Thal <= 7.0  THEN Class = 2 (3/3)
+Rule[4]: IF  Age <= 49.0 AND  Sex > 0.0 AND  ChestPainType > 1.0 AND  RestBloodPressure > 135.0 AND  SerumCholestoral > 309.0 AND  FastingBloodSugar > -1.0 AND  ResElectrocardiographic <= 2.0 AND  MaxHeartRate <= 175.0 AND  ExerciseInduced <= 1.0 AND  Oldpeak > 2.0 AND  Slope > 1.0 AND  MajorVessels > -1.0 AND  Thal <= 6.0  THEN Class = 2 (1/1)
+Rule[5]: IF  Age > 59.0 AND  Sex > -1.0 AND  ChestPainType <= 4.0 AND  RestBloodPressure > 138.0 AND  SerumCholestoral <= 307.0 AND  FastingBloodSugar <= 0.0 AND  ResElectrocardiographic > 0.0 AND  MaxHeartRate <= 160.0 AND  ExerciseInduced > 0.0 AND  Oldpeak <= 19.0 AND  Slope <= 2.0 AND  MajorVessels <= 2.0 AND  Thal > 6.0  THEN Class = 2 (2/2)
+
+Accuracy in training: 0.8395061728395061
+Accuracy in test: 0.7777777777777778

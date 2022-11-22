@@ -1,0 +1,26 @@
+if(Thal>3.0 && ExerciseInduced>0.0 && Oldpeak>15.0) (26/26)
+	output=2
+else if(MajorVessels>0.0 && ChestPainType>3.0 && Oldpeak>9.0) (30/30)
+	output=2
+else if(ChestPainType>3.0 && Thal>6.0 && Oldpeak>6.0) (35/35)
+	output=2
+else if(FastingBloodSugar<=0.0 && Age>57.0 && Sex>0.0) (41/52)
+	output=2
+else if(Thal>3.0 && MajorVessels>0.0 && Slope>1.0) (42/44)
+	output=2
+else if(ChestPainType<=3.0 && MajorVessels<=0.0 && ExerciseInduced<=0.0) (69/78)
+	output=1
+else if(Thal<=3.0 && MajorVessels<=0.0 && Age<=57.0 && RestBloodPressure<=146.0) (63/64)
+	output=1
+else if(MajorVessels<=0.0 && FastingBloodSugar<=0.0 && Sex<=0.0) (42/48)
+	output=1
+else if(Thal<=3.0 && FastingBloodSugar<=0.0 && Sex<=0.0 && ChestPainType<=3.0) (36/36)
+	output=1
+else if(Thal<=3.0 && MajorVessels<=0.0 && Age<=57.0 && MaxHeartRate>159.0) (46/46)
+	output=1
+else if(ChestPainType<=3.0 && MajorVessels<=0.0 && Oldpeak<=15.0) (67/74)
+	output=1
+else if(Sex<=0.0 && RestBloodPressure<=126.0) (26/27)
+	output=1
+else 
+	output=2

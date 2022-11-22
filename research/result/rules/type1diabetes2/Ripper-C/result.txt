@@ -1,0 +1,19 @@
+@Number of Rules: 9
+if(step_count<=60837.0 && height<=1.58) (64/74)
+	output=0
+else if(step_count<=60837.0 && moderate<=119.0) (21/21)
+	output=0
+else if(step_count<=60837.0 && vigorious<=127.5 && height>1.64 && moderate>123.333333333333) (16/19)
+	output=0
+else if(step_count<=60837.0 && age>15.0 && weight>48.2) (23/28)
+	output=0
+else if(step_count<=58604.0 && height<=1.6 && weight<=75.0) (65/73)
+	output=0
+else if(step_count<=60837.0 && light>772.666666666667) (71/87)
+	output=0
+else if(light<=694.583333333333 && sex>1.0) (11/17)
+	output=0
+else if(step_count<=47167.0 && sex>1.0) (31/36)
+	output=0
+else 
+	output=1

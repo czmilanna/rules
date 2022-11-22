@@ -1,0 +1,10 @@
+
+
+Rule 1: IF  Age in [20.0 , 72.0] AND Bilirubin in [0.3 , 4.6] AND AlkPhosphate in [26.0 , 230.0] AND Sgot in [14.0 , 269.0] AND AlbuMin in [2.7 , 5.0] AND ProTime in [0.0 , 100.0] THEN Class -> 2      [ Hyperrectangle weight = 1.15 ]     [ Volumen = 0.6369807222373065 ] 
+
+Rule 2: IF  Age in [33.0 , 59.0] AND Sex = 1.0 AND Anorexia = 2.0 AND LiverBig = 2.0 AND Bilirubin in [0.5 , 4.6] AND AlkPhosphate in [62.0 , 280.0] AND Sgot in [19.0 , 157.0] AND AlbuMin in [2.1 , 4.2] AND ProTime in [29.0 , 66.0] THEN Class -> 1      [ Hyperrectangle weight = 1.0 ]     [ Volumen = 0.059329420901966495 ] 
+
+Attributes Weights: Age = 1.2   Sex = 1.2   Steroid = 1.2   Antivirals = 1.2   Fatigue = 1.2   Malaise = 1.2   Anorexia = 1.2   LiverBig = 1.2   LiverFirm = 1.2   SpleenPalpable = 0.8   Spiders = 1.2   Ascites = 0.8   Varices = 0.8   Bilirubin = 0.8   AlkPhosphate = 0.8   Sgot = 1.2   AlbuMin = 0.8   ProTime = 0.8   Histology = 0.8   
+
+Accuracy Training: 0.9295774647887324
+Accuracy Test: 0.7777777777777778

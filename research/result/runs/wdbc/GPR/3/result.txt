@@ -1,0 +1,3 @@
+IF Radius3 is High THEN 1 | Support: 0.4697
+IF Concavity3 is Medium THEN 1 | Support: 0.2082
+ELSE 0

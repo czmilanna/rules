@@ -1,0 +1,7 @@
+algorithm = Ripper
+inputData = "C:/Projekty/rules/data/mammographic/mammographic-10dobscv-7tra.dat" "C:/Projekty/rules/data/mammographic/mammographic-10dobscv-7tra.dat" "C:/Projekty/rules/data/mammographic/mammographic-10dobscv-7tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/mammographic/Ripper-C/7/result.tra" "C:/Projekty/rules/research/result/runs/mammographic/Ripper-C/7/result.tst" "C:/Projekty/rules/research/result/runs/mammographic/Ripper-C/7/result.txt"
+
+seed = 1
+grow_pct = 0.66
+K = 2

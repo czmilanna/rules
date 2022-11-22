@@ -1,0 +1,12 @@
+if(Age>24.0 && Typea>70.0) (9/10)
+	output=1
+else if(Age>50.0 && Famhist=1) (56/79)
+	output=1
+else if(Age<=24.0) (58/59)
+	output=0
+else if(Age<=50.0 && Typea<=53.0) (104/120)
+	output=0
+else if(Famhist=0 && Tobacco<=7.6) (175/216)
+	output=0
+else 
+	output=1

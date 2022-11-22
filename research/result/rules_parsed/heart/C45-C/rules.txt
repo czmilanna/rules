@@ -1,0 +1,20 @@
+IF Thal <= 3.000000 AND ChestPainType <= 3.000000 THEN 1
+IF Thal <= 3.000000 AND ChestPainType > 3.000000 AND MajorVessels <= 0.000000 AND Age <= 54.000000 THEN 1
+IF Thal <= 3.000000 AND ChestPainType > 3.000000 AND MajorVessels <= 0.000000 AND Age > 54.000000 AND ExerciseInduced <= 0.000000 AND Oldpeak <= 2.000000 AND Age <= 59.000000 THEN 1
+IF Thal <= 3.000000 AND ChestPainType > 3.000000 AND MajorVessels <= 0.000000 AND Age > 54.000000 AND ExerciseInduced <= 0.000000 AND Oldpeak <= 2.000000 AND Age > 59.000000 THEN 2
+IF Thal <= 3.000000 AND ChestPainType > 3.000000 AND MajorVessels <= 0.000000 AND Age > 54.000000 AND ExerciseInduced <= 0.000000 AND Oldpeak > 2.000000 THEN 1
+IF Thal <= 3.000000 AND ChestPainType > 3.000000 AND MajorVessels <= 0.000000 AND Age > 54.000000 AND ExerciseInduced > 0.000000 AND Slope <= 1.000000 THEN 1
+IF Thal <= 3.000000 AND ChestPainType > 3.000000 AND MajorVessels <= 0.000000 AND Age > 54.000000 AND ExerciseInduced > 0.000000 AND Slope > 1.000000 THEN 2
+IF Thal <= 3.000000 AND ChestPainType > 3.000000 AND MajorVessels > 0.000000 AND Sex <= 0.000000 AND Oldpeak <= 9.000000 THEN 1
+IF Thal <= 3.000000 AND ChestPainType > 3.000000 AND MajorVessels > 0.000000 AND Sex <= 0.000000 AND Oldpeak > 9.000000 THEN 2
+IF Thal <= 3.000000 AND ChestPainType > 3.000000 AND MajorVessels > 0.000000 AND Sex > 0.000000 THEN 2
+IF Thal > 3.000000 AND MajorVessels <= 0.000000 AND ExerciseInduced <= 0.000000 AND FastingBloodSugar <= 0.000000 AND Thal <= 6.000000 THEN 1
+IF Thal > 3.000000 AND MajorVessels <= 0.000000 AND ExerciseInduced <= 0.000000 AND FastingBloodSugar <= 0.000000 AND Thal > 6.000000 AND Age <= 52.000000 THEN 2
+IF Thal > 3.000000 AND MajorVessels <= 0.000000 AND ExerciseInduced <= 0.000000 AND FastingBloodSugar <= 0.000000 AND Thal > 6.000000 AND Age > 52.000000 THEN 1
+IF Thal > 3.000000 AND MajorVessels <= 0.000000 AND ExerciseInduced <= 0.000000 AND FastingBloodSugar > 0.000000 THEN 1
+IF Thal > 3.000000 AND MajorVessels <= 0.000000 AND ExerciseInduced > 0.000000 AND Sex <= 0.000000 THEN 2
+IF Thal > 3.000000 AND MajorVessels <= 0.000000 AND ExerciseInduced > 0.000000 AND Sex > 0.000000 AND Oldpeak <= 15.000000 AND ResElectrocardiographic <= 1.000000 THEN 1
+IF Thal > 3.000000 AND MajorVessels <= 0.000000 AND ExerciseInduced > 0.000000 AND Sex > 0.000000 AND Oldpeak <= 15.000000 AND ResElectrocardiographic > 1.000000 AND Age <= 51.000000 THEN 2
+IF Thal > 3.000000 AND MajorVessels <= 0.000000 AND ExerciseInduced > 0.000000 AND Sex > 0.000000 AND Oldpeak <= 15.000000 AND ResElectrocardiographic > 1.000000 AND Age > 51.000000 THEN 1
+IF Thal > 3.000000 AND MajorVessels <= 0.000000 AND ExerciseInduced > 0.000000 AND Sex > 0.000000 AND Oldpeak > 15.000000 THEN 2
+IF Thal > 3.000000 AND MajorVessels > 0.000000 THEN 2

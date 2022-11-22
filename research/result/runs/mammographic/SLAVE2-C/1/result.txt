@@ -1,0 +1,204 @@
+Experiment: C:/Projekty/rules/data/mammographic/mammographic-10dobscv-1tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 745
+Class 0: 384
+Class 1: 361
+Accuracy on training: 0.41073825503355704
+Number of examples: 439
+Class 0: 78
+Class 1: 361
+Accuracy on training: 0.46308724832214765
+Number of examples: 400
+Class 0: 43
+Class 1: 361
+Accuracy on training: 0.47651006711409394
+Number of examples: 390
+Class 0: 33
+Class 1: 361
+Accuracy on training: 0.4791946308724832
+Number of examples: 388
+Class 0: 31
+Class 1: 361
+Accuracy on training: 0.4791946308724832
+Number of examples: 388
+Class 0: 30
+Class 1: 361
+Accuracy on training: 0.48053691275167787
+Number of examples: 387
+Class 0: 29
+Class 1: 361
+Accuracy on training: 0.4818791946308725
+Number of examples: 386
+Class 0: 28
+Class 1: 361
+Accuracy on training: 0.48322147651006714
+Number of examples: 385
+Class 0: 384
+Class 1: 361
+Accuracy on training: 0.8308724832214766
+Number of examples: 483
+Class 0: 384
+Class 1: 99
+Accuracy on training: 0.8523489932885906
+Number of examples: 436
+Class 0: 384
+Class 1: 52
+Accuracy on training: 0.8536912751677852
+Number of examples: 435
+Class 0: 384
+Class 1: 51
+Accuracy on training: 0.8563758389261745
+Number of examples: 433
+Class 0: 384
+Class 1: 49
+Successes: 638.0
+Errors:  106.0
+Not classified: 1.0
+	Rule 0: 300 / 42
+	Rule 1: 15 / 6
+	Rule 2: 0 / 0
+	Rule 3: 2 / 0
+	Rule 4: 2 / 0
+	Rule 5: 2 / 0
+	Rule 6: 2 / 0
+	Rule 7: 3 / 0
+	Rule 8: 261 / 26
+	Rule 9: 47 / 32
+	Rule 10: 2 / 0
+	Rule 11: 2 / 0
+Successes: 71.0
+Errors:  14.0
+Not classified: 0.0
+	Rule 0: 29 / 3
+	Rule 1: 5 / 2
+	Rule 2: 0 / 0
+	Rule 3: 0 / 0
+	Rule 4: 0 / 0
+	Rule 5: 0 / 0
+	Rule 6: 0 / 0
+	Rule 7: 0 / 0
+	Rule 8: 34 / 6
+	Rule 9: 2 / 2
+	Rule 10: 0 / 0
+	Rule 11: 1 / 1
+----------------------------------------------------
+Accuracy on training: 0.8563758389261745
+Accuracy on test: 0.8352941176470589
+Number of rules: 12.0
+Variables per rule: 3.0833333333333335
+Variables used: 1.0
+Time: 8.994
+Iterations: 135011
+Conditions: 37
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	BI-RADS = { T0 T1 T2 T3 T4}
+	Age = { Low Medium}
+	Shape = { T0 T1 T2}
+	Density = { T2 T3}
+THEN Severity IS 0   W 0.8771428571428571
+
+IF
+	BI-RADS = { T0 T1 T2 T3 T4}
+	Age = { Low Medium}
+	Shape = { T3}
+	Margin = { T0 T1 T2 T3}
+	Density = { T2}
+THEN Severity IS 0   W 0.5685168409464876
+
+IF
+	BI-RADS = { T4}
+	Age = { Medium}
+	Shape = { T1 T3}
+	Margin = { T4}
+	Density = { T0 T2}
+THEN Severity IS 0   W 0.5445756553335064
+
+IF
+	BI-RADS = { T6}
+	Age = { VeryLow Low VeryHigh}
+	Shape = { T0 T1}
+	Margin = { T1 T2}
+	Density = { T0 T1 T3}
+THEN Severity IS 0   W 1.0
+
+IF
+	BI-RADS = { T3}
+	Age = { Medium High}
+	Shape = { T0 T1 T3}
+	Margin = { T2}
+	Density = { T2}
+THEN Severity IS 0   W 1.0
+
+IF
+	BI-RADS = { T2 T6}
+	Age = { Low High}
+	Shape = { T1 T2}
+	Margin = { T1 T2 T4}
+	Density = { T0}
+THEN Severity IS 0   W 1.0
+
+IF
+	BI-RADS = { T0 T1 T2 T3 T4}
+	Age = { Medium VeryHigh}
+	Shape = { T3}
+	Margin = { T2}
+	Density = { T0 T1}
+THEN Severity IS 0   W 0.9014084507042254
+
+IF
+	BI-RADS = { T0 T1 T2 T3 T5 T6}
+	Age = { VeryLow}
+	Shape = { T0 T3}
+	Margin = { T0 T1 T3 T4}
+	Density = { T0 T2}
+THEN Severity IS 0   W 0.9610894941634242
+
+IF
+	BI-RADS = { T0 T5 T6}
+	Age = { VeryLow Medium High}
+	Shape = { T0}
+	Margin = { T1 T3}
+	Density = { T2}
+THEN Severity IS 1   W 0.9006849315068494
+
+IF
+	BI-RADS = { T3 T4}
+	Age = { Medium High VeryHigh}
+	Shape = { T3}
+	Margin = { T0 T3 T4}
+THEN Severity IS 1   W 0.5937602320033678
+
+IF
+	BI-RADS = { T3 T4 T5 T6}
+	Age = { VeryLow Low VeryHigh}
+	Shape = { T2 T3}
+	Margin = { T1 T2}
+	Density = { T1 T3}
+THEN Severity IS 1   W 1.0
+
+IF
+	BI-RADS = { T0 T1 T2 T3 T4}
+	Age = { Low High}
+	Shape = { T0 T3}
+	Margin = { T1}
+	Density = { T2}
+THEN Severity IS 1   W 0.8969072164948454
+
+	Accuracy on training set is: 0.8563758389261745
+	Accuracy on test set is: 0.8352941176470589
+	Number of rules is: 12.0
+	Variables per rule is: 3.0833333333333335
+	Variables used is: 1.0
+	Time is: 8.994
+	Iterations is: 135011
+	Conditions is: 37
+

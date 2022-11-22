@@ -1,0 +1,3 @@
+IF At5 is Low AND At2 is Low THEN 1 | Support: 0.4954
+IF At4 is very High AND At5 is Low AND At6 is High AND At3 is High THEN 1 | Support: 0.0033
+ELSE 0

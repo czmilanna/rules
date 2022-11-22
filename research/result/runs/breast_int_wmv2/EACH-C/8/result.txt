@@ -1,0 +1,10 @@
+
+
+Rule 1: IF  Age in [20 , 70]  AND Menopause in [0.0 , 2.0] AND Tumor-size in [0.0 , 10.0] AND Inv-nodes in [0.0 , 5.0] AND Deg-malig in [1.0 , 3.0] AND Breast-quad in [0.0 , 4.0] THEN Class -> 0      [ Hyperrectangle weight = 1.4067796610169492 ]     [ Volumen = 0.625 ] 
+
+Rule 2: IF  Age in [30 , 60]  AND Menopause in [1.0 , 2.0] AND Tumor-size in [0.0 , 10.0] AND Inv-nodes in [0.0 , 8.0] AND Deg-malig in [1.0 , 3.0] AND Breast-quad in [0.0 , 4.0] THEN Class -> 1      [ Hyperrectangle weight = 1.1095890410958904 ]     [ Volumen = 0.30000000000000004 ] 
+
+Attributes Weights: Age = 0.8   Menopause = 1.2   Tumor-size = 1.2   Inv-nodes = 1.2   Node-caps = 1.2   Deg-malig = 1.2   Breast = 1.2   Breast-quad = 0.8   Irradiated = 1.2   
+
+Accuracy Training: 0.328
+Accuracy Test: 0.37037037037037035

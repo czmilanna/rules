@@ -1,0 +1,2 @@
+IF BMI is Low AND Age is Low THEN 1 | Support: 0.4172
+ELSE 0

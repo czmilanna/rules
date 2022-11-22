@@ -1,0 +1,16 @@
+
+Rule 1: IF  Bilirubin in [0.3 , 4.8) THEN Class -> 2     [ 5 52]
+Rule 2: IF  Bilirubin = 4.8 THEN Class -> 1     [ 1 0]
+
+####Average results for test data####
+Avg. Rule length: 3
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.3333333333333333
+Avg. Support: 0.875
+Avg. Significance: 0.7364125234447035
+Avg. Unusualness: 14.833333333333334
+
+Accuracy Training: 0.8472222222222222
+Accuracy Test: 0.875
+
+  Time (seconds); 

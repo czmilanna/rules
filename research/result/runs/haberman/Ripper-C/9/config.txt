@@ -1,0 +1,7 @@
+algorithm = Ripper
+inputData = "C:/Projekty/rules/data/haberman/haberman-10dobscv-9tra.dat" "C:/Projekty/rules/data/haberman/haberman-10dobscv-9tra.dat" "C:/Projekty/rules/data/haberman/haberman-10dobscv-9tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/haberman/Ripper-C/9/result.tra" "C:/Projekty/rules/research/result/runs/haberman/Ripper-C/9/result.tst" "C:/Projekty/rules/research/result/runs/haberman/Ripper-C/9/result.txt"
+
+seed = 1
+grow_pct = 0.66
+K = 2

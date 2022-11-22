@@ -1,0 +1,22 @@
+IF 'plas' <= 127.000000 AND 'mass' <= 26.400000 AND 'preg' <= 7.000000 THEN tested_negative
+IF 'plas' <= 127.000000 AND 'mass' <= 26.400000 AND 'preg' > 7.000000 AND 'mass' <= 0.000000 THEN tested_positive
+IF 'plas' <= 127.000000 AND 'mass' <= 26.400000 AND 'preg' > 7.000000 AND 'mass' > 0.000000 THEN tested_negative
+IF 'plas' <= 127.000000 AND 'mass' > 26.400000 AND 'age' <= 28.000000 THEN tested_negative
+IF 'plas' <= 127.000000 AND 'mass' > 26.400000 AND 'age' > 28.000000 AND 'plas' <= 99.000000 THEN tested_negative
+IF 'plas' <= 127.000000 AND 'mass' > 26.400000 AND 'age' > 28.000000 AND 'plas' > 99.000000 AND 'pedi' <= 0.560000 THEN tested_negative
+IF 'plas' <= 127.000000 AND 'mass' > 26.400000 AND 'age' > 28.000000 AND 'plas' > 99.000000 AND 'pedi' > 0.560000 AND 'preg' <= 6.000000 AND 'age' <= 30.000000 THEN tested_positive
+IF 'plas' <= 127.000000 AND 'mass' > 26.400000 AND 'age' > 28.000000 AND 'plas' > 99.000000 AND 'pedi' > 0.560000 AND 'preg' <= 6.000000 AND 'age' > 30.000000 AND 'age' <= 34.000000 THEN tested_negative
+IF 'plas' <= 127.000000 AND 'mass' > 26.400000 AND 'age' > 28.000000 AND 'plas' > 99.000000 AND 'pedi' > 0.560000 AND 'preg' <= 6.000000 AND 'age' > 30.000000 AND 'age' > 34.000000 AND 'mass' <= 33.100000 THEN tested_positive
+IF 'plas' <= 127.000000 AND 'mass' > 26.400000 AND 'age' > 28.000000 AND 'plas' > 99.000000 AND 'pedi' > 0.560000 AND 'preg' <= 6.000000 AND 'age' > 30.000000 AND 'age' > 34.000000 AND 'mass' > 33.100000 THEN tested_negative
+IF 'plas' <= 127.000000 AND 'mass' > 26.400000 AND 'age' > 28.000000 AND 'plas' > 99.000000 AND 'pedi' > 0.560000 AND 'preg' > 6.000000 THEN tested_positive
+IF 'plas' > 127.000000 AND 'mass' <= 29.900000 AND 'plas' <= 145.000000 THEN tested_negative
+IF 'plas' > 127.000000 AND 'mass' <= 29.900000 AND 'plas' > 145.000000 AND 'age' <= 25.000000 THEN tested_negative
+IF 'plas' > 127.000000 AND 'mass' <= 29.900000 AND 'plas' > 145.000000 AND 'age' > 25.000000 AND 'age' <= 61.000000 AND 'mass' <= 27.100000 THEN tested_positive
+IF 'plas' > 127.000000 AND 'mass' <= 29.900000 AND 'plas' > 145.000000 AND 'age' > 25.000000 AND 'age' <= 61.000000 AND 'mass' > 27.100000 AND 'pres' <= 82.000000 AND 'pedi' <= 0.396000 THEN tested_positive
+IF 'plas' > 127.000000 AND 'mass' <= 29.900000 AND 'plas' > 145.000000 AND 'age' > 25.000000 AND 'age' <= 61.000000 AND 'mass' > 27.100000 AND 'pres' <= 82.000000 AND 'pedi' > 0.396000 THEN tested_negative
+IF 'plas' > 127.000000 AND 'mass' <= 29.900000 AND 'plas' > 145.000000 AND 'age' > 25.000000 AND 'age' <= 61.000000 AND 'mass' > 27.100000 AND 'pres' > 82.000000 THEN tested_negative
+IF 'plas' > 127.000000 AND 'mass' <= 29.900000 AND 'plas' > 145.000000 AND 'age' > 25.000000 AND 'age' > 61.000000 THEN tested_negative
+IF 'plas' > 127.000000 AND 'mass' > 29.900000 AND 'plas' <= 157.000000 AND 'pres' <= 61.000000 THEN tested_positive
+IF 'plas' > 127.000000 AND 'mass' > 29.900000 AND 'plas' <= 157.000000 AND 'pres' > 61.000000 AND 'age' <= 30.000000 THEN tested_negative
+IF 'plas' > 127.000000 AND 'mass' > 29.900000 AND 'plas' <= 157.000000 AND 'pres' > 61.000000 AND 'age' > 30.000000 THEN tested_positive
+IF 'plas' > 127.000000 AND 'mass' > 29.900000 AND 'plas' > 157.000000 THEN tested_positive

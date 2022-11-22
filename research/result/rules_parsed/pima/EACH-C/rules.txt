@@ -1,0 +1,2 @@
+IF 'preg' in [0.0 , 17.0] AND 'plas' in [0.0 , 199.0] AND 'pres' in [0.0 , 114.0] AND 'skin' in [0.0 , 99.0] AND 'insu' in [0.0 , 846.0] AND 'mass' in [0.0 , 67.1] AND 'pedi' in [0.088 , 2.42] AND 'age' in [21.0 , 70.0] THEN tested_positive
+IF 'preg' in [0.0 , 13.0] AND 'plas' in [0.0 , 197.0] AND 'pres' in [0.0 , 122.0] AND 'skin' in [0.0 , 60.0] AND 'insu' in [0.0 , 744.0] AND 'mass' in [0.0 , 57.3] AND 'pedi' in [0.078 , 2.329] AND 'age' in [21.0 , 81.0] THEN tested_negative

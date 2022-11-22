@@ -1,0 +1,7 @@
+algorithm = C4.5 Decision Tree
+inputData = "C:/Projekty/rules/data/hepatitis/hepatitis.dat" "C:/Projekty/rules/data/hepatitis/hepatitis.dat" "C:/Projekty/rules/data/hepatitis/hepatitis.dat"
+outputData = "rules/hepatitis/C45-C/result.tra" "rules/hepatitis/C45-C/result.tst" "rules/hepatitis/C45-C/result.txt"
+
+pruned = TRUE
+confidence = 0.25
+instancesPerLeaf = 2

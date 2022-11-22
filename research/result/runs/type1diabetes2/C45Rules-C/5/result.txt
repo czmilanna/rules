@@ -1,0 +1,6 @@
+if(step_count>60590.0) (71/71)
+	output=1
+else if(step_count<=60590.0) (103/135)
+	output=0
+else 
+	output=1

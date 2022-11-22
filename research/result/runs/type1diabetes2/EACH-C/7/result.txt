@@ -1,0 +1,10 @@
+
+
+Rule 1: IF   AND age in [7.0 , 18.0] AND weight in [21.0 , 88.9] AND height in [1.2 , 1.88] AND step_count in [25621.0 , 114655.0] AND sedentary in [1621.16666666667 , 6873.83333333333] AND light in [386.25 , 1773.25] AND moderate in [119.083333333333 , 630.916666666667] AND vigorious in [48.9166666666667 , 710.5] THEN healthy -> 1      [ Hyperrectangle weight = 1.5096153846153846 ]     [ Volumen = 0.27594460929625586 ] 
+
+Rule 2: IF   AND age in [6.0 , 18.0] AND weight in [19.3 , 98.8] AND height in [1.15 , 1.88] AND step_count in [13072.0 , 60837.0] AND sedentary in [1343.16666666667 , 7813.33333333333] AND light in [345.0 , 2557.0] AND moderate in [53.9166666666667 , 438.5] AND vigorious in [18.5 , 593.0] THEN healthy -> 0      [ Hyperrectangle weight = 1.1923076923076923 ]     [ Volumen = 0.2601880416462038 ] 
+
+Attributes Weights: sex = 0.8   age = 0.8   weight = 0.8   height = 0.8   step_count = 0.8   sedentary = 0.8   light = 0.8   moderate = 0.8   vigorious = 0.8   
+
+Accuracy Training: 0.8413461538461539
+Accuracy Test: 0.7727272727272727

@@ -1,0 +1,16 @@
+if(Concave_points3>0.179) (98/98)
+	output=M
+else if(Concave_points3>0.132 && Texture3>27.37) (105/105)
+	output=M
+else if(Area3>880.8 && Texture1>16.18 && Texture2<=1.434) (117/117)
+	output=M
+else if(Area3>880.8 && Concavity1>0.088) (139/139)
+	output=M
+else if(Area3<=880.8 && Concave_points3<=0.132 && Area2<=33.27) (273/274)
+	output=B
+else if(Area3<=880.8 && Texture3<=27.37 && Concave_points3<=0.179) (249/255)
+	output=B
+else if(Concavity1<=0.088 && Texture1<=16.18) (106/106)
+	output=B
+else 
+	output=M

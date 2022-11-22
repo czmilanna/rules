@@ -1,0 +1,4 @@
+IF Sbp is High AND Obesity is Low THEN 1 | Support: 0.2244
+IF Ldl is High AND Famhist is High THEN 1 | Support: 0.2074
+IF Ldl is High AND Tobacco is High THEN 1 | Support: 0.0539
+ELSE 0

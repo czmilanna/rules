@@ -1,0 +1,10 @@
+algorithm = Genetic Algorithm with real-valued genes
+inputData = "C:/Projekty/rules/data/wisconsin/wisconsin.dat" "C:/Projekty/rules/data/wisconsin/wisconsin.dat" "C:/Projekty/rules/data/wisconsin/wisconsin.dat"
+outputData = "rules/wisconsin/PGIRLA-C/result.tra" "rules/wisconsin/PGIRLA-C/result.tst" "rules/wisconsin/PGIRLA-C/result.txt"
+
+seed = 1
+Number_of_Generations = 5000
+Population_Size = 61
+Cross_Probability = 0.7
+Mutation_Probability = 0.5
+Number_of_Rules = 20

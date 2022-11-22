@@ -1,0 +1,28 @@
+Appendicitis data set
+
+1: Description.
+
+This dataset was proposed in S. M. Weiss, and C. A. Kulikowski, Computer Systems That Learn (1991). 
+
+The data represents 7 medical measures taken over 106 patients on which the class label represents if the patient has appendicitis (class label 1) or not (class label 0).
+
+2: Type.			Classification	
+3: Origin.			Real world
+4: Instances.		106
+5: Features.		9
+6: Classes.			2	
+7: Missing values.	No
+
+8: Header.
+@relation appendicitis
+@attribute At1 real[0.0,1.0]
+@attribute At2 real[0.0,1.0]
+@attribute At3 real[0.0,1.0]
+@attribute At4 real[0.0,1.0]
+@attribute At5 real[0.0,1.0]
+@attribute At6 real[0.0,1.0]
+@attribute At7 real[0.0,1.0]
+@attribute Class {0,1}
+@inputs At1, At2, At3, At4, At5, At6, At7
+@outputs Class
+

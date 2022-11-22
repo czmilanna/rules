@@ -1,0 +1,11 @@
+IF Fractal_dimension1<=0.056 AND Concave_points2>0.015 THEN M
+IF Concave_points3>0.179 THEN M
+IF Concave_points3>0.132 AND Texture3>27.37 THEN M
+IF Area3>880.8 AND Texture1>16.18 AND Texture2<=1.434 THEN M
+IF Area3>880.8 AND Concavity1>0.083 THEN M
+IF Area3<=880.8 AND Concave_points3<=0.132 AND Concave_points2<=0.015 THEN B
+IF Area3<=880.8 AND Concave_points3<=0.132 AND Fractal_dimension1>0.056 THEN B
+IF Texture3<=27.37 AND Concave_points3<=0.179 AND Area3<=734.6 THEN B
+IF Area3<=880.8 AND Texture3<=27.37 AND Area3>734.6 AND Radius1>14.06 THEN B
+IF Concavity1<=0.083 AND Texture1<=16.18 THEN B
+ELSE M

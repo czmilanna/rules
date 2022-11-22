@@ -1,0 +1,6 @@
+IF F12S is Low AND F15R is High THEN 1 | Support: 0.2539
+IF F16R is Low THEN 1 | Support: 0.2245
+IF F5S is Low AND F6S is High AND F4S is High THEN 1 | Support: 0.1715
+IF F15R is Low AND F17R is Low THEN 1 | Support: 0.0944
+IF F14S is Low AND F20S is Low THEN 1 | Support: 0.0935
+ELSE 0

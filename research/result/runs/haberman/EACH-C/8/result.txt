@@ -1,0 +1,10 @@
+
+
+Rule 1: IF  Age in [30.0 , 77.0] AND Year in [58.0 , 69.0] AND Positive in [0.0 , 46.0] THEN Survival -> negative      [ Hyperrectangle weight = 1.3349753694581281 ]     [ Volumen = 0.7844702467343977 ] 
+
+Rule 2: IF  Age in [34.0 , 83.0] AND Year in [58.0 , 69.0] AND Positive in [0.0 , 52.0] THEN Survival -> positive      [ Hyperrectangle weight = 1.1369863013698631 ]     [ Volumen = 0.9245283018867925 ] 
+
+Attributes Weights: Age = 0.8   Year = 0.8   Positive = 0.8   
+
+Accuracy Training: 0.7463768115942029
+Accuracy Test: 0.7333333333333333

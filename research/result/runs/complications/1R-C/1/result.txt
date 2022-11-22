@@ -1,0 +1,19 @@
+
+Rule 1: IF  BMI in [17.47 , 21.93) THEN Complication -> no     [ 10 6]
+Rule 2: IF  BMI in [21.93 , 24.01) THEN Complication -> yes     [ 9 12]
+Rule 3: IF  BMI in [24.01 , 25.32) THEN Complication -> no     [ 8 3]
+Rule 4: IF  BMI in [25.32 , 27.34) THEN Complication -> yes     [ 3 9]
+Rule 5: IF  BMI in [27.34 , 38.76] THEN Complication -> no     [ 8 5]
+
+####Average results for test data####
+Avg. Rule length: 7
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.12987012987012986
+Avg. Support: 0.2727272727272727
+Avg. Significance: 0.901108802829729
+Avg. Unusualness: 0.27272727272727276
+
+Accuracy Training: 0.6458333333333334
+Accuracy Test: 0.2727272727272727
+
+  Time (seconds); 

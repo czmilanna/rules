@@ -1,0 +1,191 @@
+Experiment: C:/Projekty/rules/data/complications/complications-10dobscv-2tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 96
+Class 0: 53
+Class 1: 43
+Accuracy on training: 0.4895833333333333
+Number of examples: 49
+Class 0: 9
+Class 1: 43
+Accuracy on training: 0.5104166666666666
+Number of examples: 47
+Class 0: 7
+Class 1: 43
+Accuracy on training: 0.5104166666666666
+Number of examples: 47
+Class 0: 6
+Class 1: 43
+Accuracy on training: 0.53125
+Number of examples: 45
+Class 0: 5
+Class 1: 43
+Accuracy on training: 0.5416666666666666
+Number of examples: 44
+Class 0: 4
+Class 1: 43
+Accuracy on training: 0.5416666666666666
+Number of examples: 44
+Class 0: 53
+Class 1: 43
+Accuracy on training: 0.6666666666666666
+Number of examples: 78
+Class 0: 53
+Class 1: 26
+Accuracy on training: 0.7083333333333334
+Number of examples: 74
+Class 0: 53
+Class 1: 22
+Accuracy on training: 0.71875
+Number of examples: 73
+Class 0: 53
+Class 1: 20
+Accuracy on training: 0.7395833333333334
+Number of examples: 71
+Class 0: 53
+Class 1: 18
+Successes: 71.0
+Errors:  22.0
+Not classified: 3.0
+	Rule 0: 40 / 16
+	Rule 1: 2 / 0
+	Rule 2: 1 / 0
+	Rule 3: 2 / 0
+	Rule 4: 1 / 0
+	Rule 5: 14 / 6
+	Rule 6: 5 / 0
+	Rule 7: 4 / 0
+	Rule 8: 2 / 0
+Successes: 6.0
+Errors:  5.0
+Not classified: 0.0
+	Rule 0: 2 / 2
+	Rule 1: 1 / 0
+	Rule 2: 0 / 0
+	Rule 3: 0 / 0
+	Rule 4: 0 / 0
+	Rule 5: 1 / 2
+	Rule 6: 2 / 0
+	Rule 7: 0 / 1
+	Rule 8: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.7395833333333334
+Accuracy on test: 0.5454545454545454
+Number of rules: 9.0
+Variables per rule: 3.2222222222222223
+Variables used: 1.0
+Time: 2.1249999999999996
+Iterations: 106371
+Conditions: 29
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Age = { Low Medium High VeryHigh}
+	Height = { Low Medium High VeryHigh}
+	Weight = { VeryLow Low Medium High}
+	BMI = { Low}
+	RUM = { T0 T1 T2}
+	Lymph = { T0 T1 T3}
+	FIGO = { T0 T2 T3 T5}
+THEN Complication IS no   W 0.6554841823852665
+
+IF
+	Age = { Low}
+	Height = { Low High}
+	Weight = { Medium High VeryHigh}
+	BMI = { Medium High}
+	OM = { T0}
+	RUM = { T0 T1}
+	FIGO = { T4 T5}
+THEN Complication IS no   W 0.895734597156398
+
+IF
+	Age = { VeryLow}
+	Height = { Medium}
+	Weight = { VeryLow Medium High VeryHigh}
+	BMI = { VeryLow Low High VeryHigh}
+	RUM = { T0 T2}
+	Lymph = { T0}
+	FIGO = { T1 T5}
+THEN Complication IS no   W 1.0
+
+IF
+	Age = { Low}
+	Height = { Medium}
+	Weight = { VeryLow}
+	BMI = { VeryLow}
+	OM = { T1}
+	RUM = { T0}
+	Lymph = { T3}
+	FIGO = { T0 T1 T2}
+THEN Complication IS no   W 0.7057035844531327
+
+IF
+	Age = { Low Medium High}
+	Height = { VeryLow Medium VeryHigh}
+	Weight = { VeryLow Low Medium VeryHigh}
+	BMI = { VeryHigh}
+	OM = { T0}
+	RUM = { T2}
+	Lymph = { T2}
+	FIGO = { T1 T2 T3}
+THEN Complication IS no   W 1.0
+
+IF
+	Age = { Low Medium High VeryHigh}
+	Height = { VeryLow Medium High}
+	Weight = { Medium VeryHigh}
+	BMI = { VeryLow Low Medium VeryHigh}
+	OM = { T0}
+	RUM = { T0 T2}
+	Lymph = { T0 T1 T3}
+	FIGO = { T0 T1 T3 T4 T5}
+THEN Complication IS yes   W 0.7121837430468331
+
+IF
+	Age = { VeryLow Low}
+	Height = { High VeryHigh}
+	Weight = { Low Medium}
+	BMI = { Low}
+	OM = { T0}
+	RUM = { T1 T3}
+	Lymph = { T2 T3}
+	FIGO = { T2 T3 T4}
+THEN Complication IS yes   W 1.0
+
+IF
+	Age = { Low}
+	Height = { Low Medium}
+	Weight = { Low}
+	BMI = { VeryLow Low}
+	OM = { T0}
+	RUM = { T0}
+	Lymph = { T3}
+	FIGO = { T4}
+THEN Complication IS yes   W 1.0
+
+IF
+	Age = { Low Medium High VeryHigh}
+	Height = { Low}
+	Weight = { VeryLow Low Medium}
+	BMI = { Low Medium}
+	RUM = { T0 T3}
+	Lymph = { T0 T1 T2}
+	FIGO = { T2 T3 T5}
+THEN Complication IS yes   W 1.0
+
+	Accuracy on training set is: 0.7395833333333334
+	Accuracy on test set is: 0.5454545454545454
+	Number of rules is: 9.0
+	Variables per rule is: 3.2222222222222223
+	Variables used is: 1.0
+	Time is: 2.1249999999999996
+	Iterations is: 106371
+	Conditions is: 29
+

@@ -1,0 +1,4 @@
+IF MajorVessels is High AND ChestPainType is High THEN 1 | Support: 0.3374
+IF RestBloodPressure is High AND Thal is High THEN 1 | Support: 0.2804
+IF Oldpeak is High THEN 1 | Support: 0.2162
+ELSE 0

@@ -1,0 +1,6 @@
+IF FIGO = 0 THEN no
+IF FIGO = 1 THEN yes
+IF FIGO = 2 THEN no
+IF FIGO = 3 THEN no
+IF FIGO = 4 THEN yes
+IF FIGO = 5 THEN no

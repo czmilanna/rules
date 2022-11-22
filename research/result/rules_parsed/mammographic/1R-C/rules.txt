@@ -1,0 +1,2 @@
+IF Age = [18.0 , 52.0) THEN 0
+IF Age = [52.0 , 96.0] THEN 1

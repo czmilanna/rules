@@ -1,0 +1,9 @@
+IF step_count<=60837.0 AND height<=1.58 THEN 0
+IF step_count<=60837.0 AND moderate<=119.0 THEN 0
+IF step_count<=60837.0 AND vigorious<=127.5 AND height>1.64 AND moderate>123.333333333333 THEN 0
+IF step_count<=60837.0 AND age>15.0 AND weight>48.2 THEN 0
+IF step_count<=58604.0 AND height<=1.6 AND weight<=75.0 THEN 0
+IF step_count<=60837.0 AND light>772.666666666667 THEN 0
+IF light<=694.583333333333 AND sex>1.0 THEN 0
+IF step_count<=47167.0 AND sex>1.0 THEN 0
+ELSE 1

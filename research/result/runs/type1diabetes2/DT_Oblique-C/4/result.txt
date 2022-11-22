@@ -1,0 +1,136 @@
+if ( -1.0*step_count + 60837.0 >= 0  ) then{
+	if ( -1.0*vigorious + 128.75 >= 0  ) then{
+		if ( -1.0*height + 1.87 >= 0  ) then{
+			if ( -1.0*weight + 22.6 >= 0  ) then{
+				if ( -1.0*age + 8.0 >= 0  ) then{
+					healthy = 0 (3) 
+				}
+				else{ 
+					healthy = 1 (2) 
+				}
+			}
+			else{ 
+				if ( 168.486174002403*sex + -178.36864022034422*age + -36.57868193382831*light + 185.88945474147084*vigorious + 18.795399605016087 >= 0  ) then{
+					healthy = 1 (2) 
+				}
+				else{ 
+					if ( -1.0*weight + 80.5 >= 0  ) then{
+						if ( -1.0*moderate + 266.91666666666697 >= 0  ) then{
+							if ( -1.0*height + 1.68 >= 0  ) then{
+								healthy = 0 (53) 
+							}
+							else{ 
+								if ( -1.0*height + 1.69 >= 0  ) then{
+									healthy = 1 (2) 
+								}
+								else{ 
+									healthy = 0 (15) 
+								}
+							}
+						}
+						else{ 
+							if ( -1.0*sex + 1.0 >= 0  ) then{
+								healthy = 0 (1) 
+							}
+							else{ 
+								healthy = 1 (1) 
+							}
+						}
+					}
+					else{ 
+						if ( -1.0*sex + 1.0 >= 0  ) then{
+							healthy = 1 (1) 
+						}
+						else{ 
+							healthy = 0 (1) 
+						}
+					}
+				}
+			}
+		}
+		else{ 
+			healthy = 1 (1) 
+		}
+	}
+	else{ 
+		if ( -1.0*vigorious + 309.91666666666697 >= 0  ) then{
+			if ( -1.0*height + 1.61 >= 0  ) then{
+				if ( -1.0*moderate + 237.083333333333 >= 0  ) then{
+					if ( -1.0*vigorious + 241.583333333333 >= 0  ) then{
+						if ( -1.0*weight + 56.7 >= 0  ) then{
+							healthy = 0 (14) 
+						}
+						else{ 
+							if ( -1.0*sex + 1.0 >= 0  ) then{
+								healthy = 1 (1) 
+							}
+							else{ 
+								healthy = 0 (1) 
+							}
+						}
+					}
+					else{ 
+						healthy = 1 (1) 
+					}
+				}
+				else{ 
+					if ( -1.0*age + 7.0 >= 0  ) then{
+						healthy = 0 (1) 
+					}
+					else{ 
+						healthy = 1 (6) 
+					}
+				}
+			}
+			else{ 
+				if ( 181.859377301731*age + 199.44073250504226*weight + 50.56800550095923*height + -12.130361006625549*step_count + 191.77946746157937*sedentary + -49.945551587721695*moderate + 2.136903582638354*vigorious + 143.46482370595095 >= 0  ) then{
+					if ( -1.0*weight + 92.5 >= 0  ) then{
+						if ( -1.0*moderate + 119.0 >= 0  ) then{
+							healthy = 0 (1) 
+						}
+						else{ 
+							if ( -1.0*step_count + 52907.0 >= 0  ) then{
+								if ( -1.0*step_count + 51570.0 >= 0  ) then{
+									if ( -1.0*sedentary + 4212.9166666666715 >= 0  ) then{
+										healthy = 1 (6) 
+									}
+									else{ 
+										if ( -1.0*age + 13.0 >= 0  ) then{
+											healthy = 1 (1) 
+										}
+										else{ 
+											healthy = 0 (1) 
+										}
+									}
+								}
+								else{ 
+									healthy = 0 (1) 
+								}
+							}
+							else{ 
+								healthy = 1 (8) 
+							}
+						}
+					}
+					else{ 
+						healthy = 0 (1) 
+					}
+				}
+				else{ 
+					healthy = 0 (2) 
+				}
+			}
+		}
+		else{ 
+			healthy = 0 (8) 
+		}
+	}
+}
+else{ 
+	healthy = 1 (71) 
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.875

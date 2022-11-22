@@ -1,0 +1,16 @@
+Error Training: 0.028
+Error Test: 0.029
+Rules (2):
+--------
+if ClumpThickness = [_, 8.5) and
+   CellShape = [_, 8.5) and
+   MarginalAdhesion = [_, 6.5) and
+   BareNuclei = [_, 5.5) and
+   BlandChromatin = [_, 7.5) and
+   NormalNucleoli = [_, 8.5)
+then
+   Class = 2 (394|11)
+
+if true
+then
+   Class = 4 (204|6)

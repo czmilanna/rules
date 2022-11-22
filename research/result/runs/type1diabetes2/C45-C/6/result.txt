@@ -1,0 +1,107 @@
+@relation   type1diabetes2
+@attribute sex integer[1,2]
+@attribute age integer[6,18]
+@attribute weight real[17.0,98.8]
+@attribute height real[1.15,1.88]
+@attribute step_count integer[13072,114655]
+@attribute sedentary real[1343.16666666667,7813.33333333333]
+@attribute light real[345.0,2557.0]
+@attribute moderate real[53.9166666666667,630.916666666667]
+@attribute vigorious real[18.5,710.5]
+@attribute healthy{0,1}
+@inputs sex,age,weight,height,step_count,sedentary,light,moderate,vigorious
+@outputs healthy
+@data
+
+@decisiontree
+
+if ( step_count <= 60837.000000 ) then
+{
+	if ( vigorious <= 128.750000 ) then
+	{
+		healthy = "0"
+	}
+	elseif ( vigorious > 128.750000 ) then
+	{
+		if ( vigorious <= 319.500000 ) then
+		{
+			if ( sedentary <= 2779.250000 ) then
+			{
+				healthy = "1"
+			}
+			elseif ( sedentary > 2779.250000 ) then
+			{
+				if ( height <= 1.610000 ) then
+				{
+					if ( step_count <= 54547.000000 ) then
+					{
+						healthy = "0"
+					}
+					elseif ( step_count > 54547.000000 ) then
+					{
+						if ( age <= 10.000000 ) then
+						{
+							healthy = "1"
+						}
+						elseif ( age > 10.000000 ) then
+						{
+							healthy = "0"
+						}
+					}
+				}
+				elseif ( height > 1.610000 ) then
+				{
+					if ( sex <= 1.000000 ) then
+					{
+						healthy = "1"
+					}
+					elseif ( sex > 1.000000 ) then
+					{
+						if ( age <= 13.000000 ) then
+						{
+							healthy = "1"
+						}
+						elseif ( age > 13.000000 ) then
+						{
+							if ( step_count <= 53072.000000 ) then
+							{
+								healthy = "0"
+							}
+							elseif ( step_count > 53072.000000 ) then
+							{
+								healthy = "1"
+							}
+						}
+					}
+				}
+			}
+		}
+		elseif ( vigorious > 319.500000 ) then
+		{
+			healthy = "0"
+		}
+	}
+}
+elseif ( step_count > 60837.000000 ) then
+{
+	healthy = "1"
+}
+
+@TotalNumberOfNodes 10
+@NumberOfLeafs 11
+@TotalNumberOfNodes 10
+@NumberOfAntecedentsByRule 5.363636363636363
+
+@NumberOfItemsetsTraining 208
+@NumberOfCorrectlyClassifiedTraining 196
+@PercentageOfCorrectlyClassifiedTraining 94.23077%
+@NumberOfInCorrectlyClassifiedTraining 12
+@PercentageOfInCorrectlyClassifiedTraining 5.769231%
+
+@NumberOfItemsetsTest 22
+@NumberOfCorrectlyClassifiedTest 18
+@PercentageOfCorrectlyClassifiedTest 81.818184%
+@NumberOfInCorrectlyClassifiedTest 4
+@PercentageOfInCorrectlyClassifiedTest 18.181818%
+
+@ElapsedTime 0:0:0

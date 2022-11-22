@@ -1,0 +1,7 @@
+@Number of Rules: 3
+if(ProTime<=40.0) (8/14)
+	output=1
+else if(Histology>1.0 && Sgot<=49.0 && AlkPhosphate>81.0) (5/7)
+	output=1
+else 
+	output=2

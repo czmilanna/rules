@@ -1,0 +1,39 @@
+Error Training: 0.095
+Error Test: 0.091
+Rules (4):
+--------
+if At1 = [0.1955, 0.942) and
+   At2 = [0.402, _) and
+   At3 = [0.143, _) and
+   At4 = [0.049, 0.59) and
+   At5 = [0.0245, _) and
+   At6 = [0.222, _) and
+   At7 = [0.088, _)
+then
+   Class = 0 (59|4)
+
+if At1 = [_, 0.3665) and
+   At3 = [0.0395, 0.2315) and
+   At4 = [_, 0.59) and
+   At5 = [_, 0.2255) and
+   At6 = [0.0645, 0.7505) and
+   At7 = [_, 0.2435)
+then
+   Class = 1 (12|1)
+
+if At1 = [0.1645, _) and
+   At2 = [_, 0.8125) and
+   At3 = [0.1185, _) and
+   At7 = [_, 0.9185)
+then
+   Class = 0 (12|1)
+
+if At3 = [0.0395, _) and
+   At4 = [0.076, _) and
+   At7 = [0.0165, _)
+then
+   Class = 0 (3|0)
+
+if true
+then
+   Class = 1 (2|1)

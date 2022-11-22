@@ -1,0 +1,443 @@
+Experiment: C:/Projekty/rules/data/heart/heart-10dobscv-6tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 243
+Class 0: 135
+Class 1: 108
+Accuracy on training: 0.43209876543209874
+Number of examples: 138
+Class 0: 33
+Class 1: 108
+Accuracy on training: 0.4567901234567901
+Number of examples: 132
+Class 0: 25
+Class 1: 108
+Accuracy on training: 0.5020576131687243
+Number of examples: 121
+Class 0: 17
+Class 1: 108
+Accuracy on training: 0.5185185185185185
+Number of examples: 117
+Class 0: 13
+Class 1: 108
+Accuracy on training: 0.5473251028806584
+Number of examples: 110
+Class 0: 8
+Class 1: 108
+Accuracy on training: 0.5473251028806584
+Number of examples: 110
+Class 0: 7
+Class 1: 108
+Accuracy on training: 0.5555555555555556
+Number of examples: 108
+Class 0: 6
+Class 1: 108
+Accuracy on training: 0.5555555555555556
+Number of examples: 108
+Class 0: 5
+Class 1: 108
+Accuracy on training: 0.5555555555555556
+Number of examples: 108
+Class 0: 3
+Class 1: 108
+Accuracy on training: 0.5555555555555556
+Number of examples: 108
+Class 0: 2
+Class 1: 108
+Accuracy on training: 0.5555555555555556
+Number of examples: 108
+Class 0: 135
+Class 1: 108
+Accuracy on training: 0.8477366255144033
+Number of examples: 167
+Class 0: 135
+Class 1: 33
+Accuracy on training: 0.8888888888888888
+Number of examples: 152
+Class 0: 135
+Class 1: 18
+Accuracy on training: 0.9094650205761317
+Number of examples: 147
+Class 0: 135
+Class 1: 13
+Accuracy on training: 0.9218106995884774
+Number of examples: 144
+Class 0: 135
+Class 1: 10
+Accuracy on training: 0.9218106995884774
+Number of examples: 144
+Class 0: 135
+Class 1: 9
+Accuracy on training: 0.934156378600823
+Number of examples: 141
+Class 0: 135
+Class 1: 6
+Accuracy on training: 0.9465020576131687
+Number of examples: 138
+Class 0: 135
+Class 1: 3
+Accuracy on training: 0.9506172839506173
+Number of examples: 137
+Class 0: 135
+Class 1: 2
+Accuracy on training: 0.9547325102880658
+Number of examples: 136
+Class 0: 135
+Class 1: 1
+Successes: 232.0
+Errors:  11.0
+Not classified: 0.0
+	Rule 0: 87 / 8
+	Rule 1: 13 / 0
+	Rule 2: 6 / 1
+	Rule 3: 4 / 0
+	Rule 4: 16 / 0
+	Rule 5: 1 / 0
+	Rule 6: 1 / 0
+	Rule 7: 1 / 0
+	Rule 8: 3 / 0
+	Rule 9: 1 / 0
+	Rule 10: 0 / 0
+	Rule 11: 64 / 2
+	Rule 12: 13 / 0
+	Rule 13: 5 / 0
+	Rule 14: 3 / 0
+	Rule 15: 1 / 0
+	Rule 16: 8 / 0
+	Rule 17: 3 / 0
+	Rule 18: 1 / 0
+	Rule 19: 1 / 0
+	Rule 20: 0 / 0
+Successes: 23.0
+Errors:  3.0
+Not classified: 1.0
+	Rule 0: 8 / 1
+	Rule 1: 2 / 0
+	Rule 2: 1 / 0
+	Rule 3: 0 / 0
+	Rule 4: 1 / 0
+	Rule 5: 0 / 0
+	Rule 6: 0 / 0
+	Rule 7: 0 / 0
+	Rule 8: 0 / 0
+	Rule 9: 0 / 0
+	Rule 10: 0 / 0
+	Rule 11: 8 / 1
+	Rule 12: 2 / 0
+	Rule 13: 0 / 0
+	Rule 14: 0 / 0
+	Rule 15: 0 / 0
+	Rule 16: 0 / 0
+	Rule 17: 1 / 1
+	Rule 18: 0 / 0
+	Rule 19: 0 / 0
+	Rule 20: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.9547325102880658
+Accuracy on test: 0.8518518518518519
+Number of rules: 21.0
+Variables per rule: 10.476190476190476
+Variables used: 1.0
+Time: 5.135000000000001
+Iterations: 117838
+Conditions: 220
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	MaxHeartRate = { Medium High VeryHigh}
+	Oldpeak = { VeryLow Low VeryHigh}
+	MajorVessels = { T0 T1}
+	Thal = { T0 T2 T3}
+THEN Class IS 1   W 0.8580823783252303
+
+IF
+	Age = { VeryLow High VeryHigh}
+	Sex = { T0}
+	SerumCholestoral = { VeryLow Low Medium}
+	ResElectrocardiographic = { T0 T1}
+	MaxHeartRate = { Low Medium High VeryHigh}
+	ExerciseInduced = { T0}
+	MajorVessels = { T0 T2}
+	Thal = { T0 T1 T4}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { Low Medium High VeryHigh}
+	Sex = { T1}
+	RestBloodPressure = { VeryLow Low High VeryHigh}
+	SerumCholestoral = { Low Medium VeryHigh}
+	ResElectrocardiographic = { T0}
+	MaxHeartRate = { High VeryHigh}
+	Oldpeak = { VeryLow Low VeryHigh}
+	MajorVessels = { T0 T3}
+	Thal = { T1 T2 T3 T4}
+THEN Class IS 1   W 0.8459339781811663
+
+IF
+	Age = { Low Medium High VeryHigh}
+	ChestPainType = { T1 T2}
+	RestBloodPressure = { VeryLow Low Medium}
+	SerumCholestoral = { Low Medium High VeryHigh}
+	ResElectrocardiographic = { T2}
+	MaxHeartRate = { Medium High}
+	Oldpeak = { VeryLow Low}
+	MajorVessels = { T0 T2}
+	Thal = { T4}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { VeryLow Low Medium High}
+	Sex = { T1}
+	ChestPainType = { T0 T2}
+	RestBloodPressure = { VeryLow Low Medium High}
+	SerumCholestoral = { VeryLow Low High}
+	ResElectrocardiographic = { T0 T2}
+	MaxHeartRate = { VeryLow High}
+	Oldpeak = { VeryLow Low High}
+	Slope = { T0 T2}
+THEN Class IS 1   W 0.8752442917091842
+
+IF
+	Age = { High}
+	Sex = { T0}
+	ChestPainType = { T2}
+	RestBloodPressure = { Low}
+	SerumCholestoral = { Low}
+	FastingBloodSugar = { T0}
+	ResElectrocardiographic = { T2}
+	MaxHeartRate = { Low}
+	ExerciseInduced = { T0}
+	Oldpeak = { Low}
+	Slope = { T1}
+	MajorVessels = { T0}
+	Thal = { T0}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { Medium High VeryHigh}
+	ChestPainType = { T1 T3}
+	RestBloodPressure = { Low VeryHigh}
+	SerumCholestoral = { Low VeryHigh}
+	FastingBloodSugar = { T0}
+	ResElectrocardiographic = { T0 T2}
+	MaxHeartRate = { VeryLow Low}
+	ExerciseInduced = { T1}
+	Oldpeak = { VeryLow VeryHigh}
+	Slope = { T0 T1}
+	MajorVessels = { T0 T1}
+	Thal = { T1 T2 T4}
+THEN Class IS 1   W 0.9459119496855346
+
+IF
+	Age = { Medium}
+	Sex = { T1}
+	ChestPainType = { T0}
+	RestBloodPressure = { High}
+	SerumCholestoral = { Low}
+	FastingBloodSugar = { T0}
+	ResElectrocardiographic = { T2}
+	MaxHeartRate = { Medium}
+	ExerciseInduced = { T0}
+	Oldpeak = { High}
+	Slope = { T2}
+	MajorVessels = { T0}
+	Thal = { T4}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { VeryLow High}
+	Sex = { T1}
+	ChestPainType = { T2}
+	RestBloodPressure = { Low}
+	SerumCholestoral = { VeryLow Low}
+	ResElectrocardiographic = { T0}
+	MaxHeartRate = { Low Medium VeryHigh}
+	ExerciseInduced = { T0}
+	Oldpeak = { VeryLow Low Medium}
+	MajorVessels = { T0 T1 T3}
+	Thal = { T0 T2 T4}
+THEN Class IS 1   W 0.9720865317515701
+
+IF
+	Age = { Medium}
+	Sex = { T1}
+	ChestPainType = { T3}
+	RestBloodPressure = { Low}
+	SerumCholestoral = { Low}
+	FastingBloodSugar = { T1}
+	ResElectrocardiographic = { T0}
+	MaxHeartRate = { Medium}
+	ExerciseInduced = { T0}
+	Oldpeak = { VeryLow}
+	Slope = { T0}
+	MajorVessels = { T3}
+	Thal = { T4}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { VeryLow Medium VeryHigh}
+	Sex = { T1}
+	ChestPainType = { T2 T3}
+	RestBloodPressure = { Low}
+	SerumCholestoral = { Low}
+	MaxHeartRate = { Low}
+	ExerciseInduced = { T1}
+	Oldpeak = { VeryLow Medium}
+	Slope = { T0}
+	MajorVessels = { T0}
+	Thal = { T4}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { VeryLow Low Medium High}
+	ChestPainType = { T1 T2 T3}
+	RestBloodPressure = { Low Medium High VeryHigh}
+	SerumCholestoral = { VeryLow Low Medium High}
+	ResElectrocardiographic = { T0 T2}
+	MaxHeartRate = { Low Medium High VeryHigh}
+	Thal = { T1 T2 T3 T4}
+THEN Class IS 2   W 0.7836035029497914
+
+IF
+	ChestPainType = { T3}
+	RestBloodPressure = { VeryLow Low Medium}
+	SerumCholestoral = { VeryLow Low Medium}
+	MaxHeartRate = { VeryLow Low Medium High}
+	Oldpeak = { VeryLow Low Medium}
+	MajorVessels = { T1 T2 T3}
+	Thal = { T0 T2 T3}
+THEN Class IS 2   W 0.8421052631578947
+
+IF
+	Age = { High}
+	Sex = { T1}
+	ChestPainType = { T0 T2}
+	RestBloodPressure = { Medium High}
+	SerumCholestoral = { VeryLow Low Medium}
+	FastingBloodSugar = { T0}
+	MaxHeartRate = { Medium High VeryHigh}
+	ExerciseInduced = { T0}
+	Oldpeak = { VeryLow Medium}
+	Slope = { T0 T1}
+	MajorVessels = { T0 T2}
+	Thal = { T0 T1 T4}
+THEN Class IS 2   W 0.989010989010989
+
+IF
+	Age = { VeryLow Medium High}
+	Sex = { T0}
+	ChestPainType = { T1 T3}
+	RestBloodPressure = { Low Medium}
+	SerumCholestoral = { Medium}
+	ResElectrocardiographic = { T2}
+	MaxHeartRate = { Low Medium High VeryHigh}
+	Oldpeak = { VeryLow Medium VeryHigh}
+	Slope = { T0}
+	MajorVessels = { T0 T2}
+THEN Class IS 2   W 1.0
+
+IF
+	Age = { Medium}
+	Sex = { T1}
+	ChestPainType = { T3}
+	RestBloodPressure = { VeryLow}
+	SerumCholestoral = { Low}
+	FastingBloodSugar = { T0}
+	ResElectrocardiographic = { T0}
+	MaxHeartRate = { High}
+	ExerciseInduced = { T0}
+	Oldpeak = { VeryLow}
+	Slope = { T0}
+	MajorVessels = { T1}
+	Thal = { T4}
+THEN Class IS 2   W 1.0
+
+IF
+	Age = { Low Medium High}
+	ChestPainType = { T0 T1 T3}
+	SerumCholestoral = { Low Medium VeryHigh}
+	FastingBloodSugar = { T0}
+	ResElectrocardiographic = { T0 T1}
+	MaxHeartRate = { VeryLow Low High}
+	ExerciseInduced = { T1}
+	Oldpeak = { VeryLow Low Medium VeryHigh}
+	Slope = { T1 T2}
+	MajorVessels = { T0 T2}
+	Thal = { T0 T2 T4}
+THEN Class IS 2   W 1.0
+
+IF
+	Age = { Low Medium High VeryHigh}
+	Sex = { T1}
+	ChestPainType = { T0 T1 T2}
+	RestBloodPressure = { Low Medium High VeryHigh}
+	SerumCholestoral = { Low}
+	ExerciseInduced = { T0}
+	Oldpeak = { Low Medium High}
+	Slope = { T1}
+	MajorVessels = { T0 T1 T2}
+	Thal = { T0 T2 T3}
+THEN Class IS 2   W 0.9163253364540667
+
+IF
+	Age = { Medium}
+	Sex = { T1}
+	ChestPainType = { T2}
+	RestBloodPressure = { Low}
+	SerumCholestoral = { VeryLow}
+	FastingBloodSugar = { T0}
+	ResElectrocardiographic = { T2}
+	MaxHeartRate = { Medium}
+	ExerciseInduced = { T0}
+	Oldpeak = { Low}
+	Slope = { T0}
+	MajorVessels = { T3}
+	Thal = { T0}
+THEN Class IS 2   W 1.0
+
+IF
+	Age = { High}
+	Sex = { T1}
+	ChestPainType = { T3}
+	RestBloodPressure = { Low}
+	SerumCholestoral = { Low}
+	FastingBloodSugar = { T0}
+	ResElectrocardiographic = { T0}
+	MaxHeartRate = { VeryLow}
+	ExerciseInduced = { T0}
+	Oldpeak = { VeryLow}
+	Slope = { T1}
+	MajorVessels = { T0}
+	Thal = { T0}
+THEN Class IS 2   W 1.0
+
+IF
+	Age = { Low}
+	Sex = { T1}
+	ChestPainType = { T2}
+	RestBloodPressure = { VeryLow High VeryHigh}
+	SerumCholestoral = { Low Medium}
+	ResElectrocardiographic = { T0}
+	MaxHeartRate = { VeryLow Medium}
+	ExerciseInduced = { T0}
+	Oldpeak = { VeryLow}
+	Slope = { T0}
+	MajorVessels = { T0}
+	Thal = { T0 T2}
+THEN Class IS 2   W 0.9011247711221553
+
+	Accuracy on training set is: 0.9547325102880658
+	Accuracy on test set is: 0.8518518518518519
+	Number of rules is: 21.0
+	Variables per rule is: 10.476190476190476
+	Variables used is: 1.0
+	Time is: 5.135000000000001
+	Iterations is: 117838
+	Conditions is: 220
+

@@ -1,0 +1,7 @@
+algorithm = Ripper
+inputData = "C:/Projekty/rules/data/heart/heart.dat" "C:/Projekty/rules/data/heart/heart.dat" "C:/Projekty/rules/data/heart/heart.dat"
+outputData = "rules/heart/Ripper-C/result.tra" "rules/heart/Ripper-C/result.tst" "rules/heart/Ripper-C/result.txt"
+
+seed = 1
+grow_pct = 0.66
+K = 2

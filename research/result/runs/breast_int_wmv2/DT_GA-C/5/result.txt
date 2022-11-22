@@ -1,0 +1,9 @@
+Number of Rules: 3
+Rule[1]: IF  Deg-malig <= 2.0  THEN Class = 0 (142/177)
+Rule[2]: IF  Deg-malig > 2.0 AND  Inv-nodes <= 0.0  THEN Class = 0 (26/40)
+Rule[3]: IF  Deg-malig > 2.0 AND  Inv-nodes > 0.0  THEN Class = 1 (24/32)
+
+Number of Rules: 0
+
+Accuracy in training: 0.7710843373493976
+Accuracy in test: 0.8214285714285714

@@ -1,0 +1,7 @@
+IF CellSize is High THEN 1 | Support: 0.6243
+IF Mitoses is Low AND BareNuclei is High THEN 1 | Support: 0.6086
+IF NormalNucleoli is High AND BareNuclei is Low AND ClumpThickness is High THEN 1 | Support: 0.1079
+IF Mitoses is Medium AND BareNuclei is Low THEN 1 | Support: 0.0163
+IF Mitoses is Medium AND NormalNucleoli is High AND CellSize is Low THEN 1 | Support: 0.0116
+IF MarginalAdhesion is Medium AND BlandChromatin is Low AND CellSize is High AND CellShape is High AND EpithelialSize is Low THEN 1 | Support: 0.0099
+ELSE 0

@@ -1,0 +1,7 @@
+algorithm = Each
+inputData = "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat"
+outputData = "rules/type1diabetes2/EACH-C/result.tra" "rules/type1diabetes2/EACH-C/result.tst" "rules/type1diabetes2/EACH-C/result.txt"
+
+seed = 1
+FeatureAdjustmentRate = 0.2
+UseSecondChance = YES

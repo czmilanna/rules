@@ -1,0 +1,32 @@
+IF BI-RADS>4.0 AND Age>57.0 AND Margin>2.0 AND Shape>3.0 THEN 1
+IF BI-RADS>4.0 THEN 1
+IF Shape>2.0 AND Age>66.0 THEN 1
+IF Shape>3.0 AND Age>45.0 AND Margin>3.0 AND Density>3.0 THEN 1
+IF Margin>1.0 AND Shape>3.0 AND Age>56.0 AND BI-RADS>0.0 AND Density<=2.0 THEN 1
+IF BI-RADS>4.0 AND Age>56.0 AND Density>2.0 AND Shape<=2.0 THEN 1
+IF BI-RADS>4.0 AND Age>56.0 AND Margin>4.0 THEN 1
+IF Shape>2.0 AND Age>53.0 AND Margin<=3.0 AND BI-RADS=null AND Density=null THEN 1
+IF BI-RADS>4.0 AND Age>60.0 AND Margin<=3.0 THEN 1
+IF Margin>3.0 AND Age>58.0 AND Shape>1.0 AND BI-RADS=null AND Density=null THEN 1
+IF Age>64.0 AND Shape<=1.0 AND Density>2.0 AND Margin<=2.0 AND BI-RADS=null THEN 1
+IF BI-RADS>4.0 AND Age>66.0 AND Density<=3.0 AND Margin<=3.0 THEN 1
+IF Margin>3.0 AND Age<=28.0 THEN 1
+IF BI-RADS>4.0 AND Age>72.0 AND Margin>4.0 THEN 1
+IF Age>40.0 AND Density<=1.0 AND Shape<=1.0 THEN 1
+IF BI-RADS>4.0 AND Age>60.0 AND Margin>4.0 THEN 1
+IF Age>40.0 AND Shape>2.0 AND Margin<=1.0 AND Density>2.0 AND BI-RADS=null THEN 1
+IF Age>68.0 AND Margin>3.0 THEN 1
+IF BI-RADS>4.0 AND Age>59.0 AND Density<=3.0 AND Margin<=3.0 THEN 1
+IF BI-RADS>4.0 AND Age>57.0 AND Shape>3.0 AND Margin<=3.0 THEN 1
+IF BI-RADS>4.0 AND Age>57.0 AND Shape>3.0 AND Density<=3.0 AND Margin<=3.0 THEN 1
+IF Age>40.0 AND Shape>3.0 AND Density<=2.0 AND Margin>1.0 AND BI-RADS=null THEN 1
+IF Shape>3.0 AND Age<=57.0 AND BI-RADS<=4.0 AND Margin>4.0 AND Density=null THEN 1
+IF Margin>3.0 AND Age<=54.0 AND BI-RADS<=4.0 AND Shape>3.0 AND Density>2.0 THEN 1
+IF Shape>3.0 AND Age<=58.0 AND BI-RADS<=4.0 AND Density>2.0 AND Margin>3.0 THEN 1
+IF Age<=43.0 AND Shape>2.0 AND Margin>1.0 AND BI-RADS<=4.0 AND Density>2.0 THEN 1
+IF BI-RADS>4.0 AND Age>60.0 AND Density<=3.0 AND Margin<=3.0 THEN 1
+IF BI-RADS>4.0 AND Age>59.0 AND Shape>3.0 AND Margin<=3.0 THEN 1
+IF BI-RADS<=3.0 AND Age>57.0 THEN 1
+IF Age>40.0 AND Shape<=2.0 AND Density>2.0 AND Margin<=2.0 AND BI-RADS<=3.0 THEN 1
+IF Age<=59.0 AND Shape<=3.0 AND Margin>1.0 AND BI-RADS>3.0 AND Density>2.0 THEN 1
+ELSE 0

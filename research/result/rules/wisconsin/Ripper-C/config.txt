@@ -1,0 +1,7 @@
+algorithm = Ripper
+inputData = "C:/Projekty/rules/data/wisconsin/wisconsin.dat" "C:/Projekty/rules/data/wisconsin/wisconsin.dat" "C:/Projekty/rules/data/wisconsin/wisconsin.dat"
+outputData = "rules/wisconsin/Ripper-C/result.tra" "rules/wisconsin/Ripper-C/result.tst" "rules/wisconsin/Ripper-C/result.txt"
+
+seed = 1
+grow_pct = 0.66
+K = 2

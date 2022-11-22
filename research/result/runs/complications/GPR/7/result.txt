@@ -1,0 +1,5 @@
+IF Weight is Low AND Lymph is High THEN 1 | Support: 0.6158
+IF RUM is Low AND OM is Low AND BMI is Low AND Weight is Low AND Lymph is Low THEN 1 | Support: 0.0210
+IF RUM is Low AND OM is Low AND BMI is Low AND FIGO is Low THEN 1 | Support: 0.0169
+IF RUM is Medium AND OM is High THEN 1 | Support: 0.0103
+ELSE 0

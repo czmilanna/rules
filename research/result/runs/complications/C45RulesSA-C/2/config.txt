@@ -1,0 +1,13 @@
+algorithm = C45RulesSA
+inputData = "C:/Projekty/rules/data/complications/complications-10dobscv-2tra.dat" "C:/Projekty/rules/data/complications/complications-10dobscv-2tra.dat" "C:/Projekty/rules/data/complications/complications-10dobscv-2tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/complications/C45RulesSA-C/2/result.tra" "C:/Projekty/rules/research/result/runs/complications/C45RulesSA-C/2/result.tst" "C:/Projekty/rules/research/result/runs/complications/C45RulesSA-C/2/result.txt"
+
+seed = 1
+confidence = 0.25
+itemsetsPerLeaf = 2
+threshold = 10
+maxColdings = 10
+maxTrials = 10
+mu = 0.5
+phi = 0.5
+alpha = 0.5

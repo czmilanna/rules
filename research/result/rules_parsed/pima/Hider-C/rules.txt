@@ -1,0 +1,7 @@
+IF 'preg' = [_, 11.5) AND 'plas' = [_, 138.5) AND 'pres' = [39.0, 107.0) AND 'skin' = [_, 55.0) AND 'insu' = [_, 274.5) AND 'mass' = [_, 45.95) AND 'pedi' = [0.1995, 0.999) AND 'age' = [_, 65.5) THEN tested_negative
+IF 'plas' = [114.5, _) AND 'pres' = [_, 118.0) AND 'insu' = [_, 397.0) AND 'mass' = [28.15, 58.35) AND 'pedi' = [0.1655, 2.3745) THEN tested_positive
+IF 'preg' = [_, 11.5) AND 'plas' = [_, 152.5) AND 'pres' = [_, 101.0) AND 'skin' = [_, 42.5) AND 'insu' = [_, 329.0) AND 'mass' = [_, 41.25) AND 'pedi' = [0.1345, 0.7305) AND 'age' = [_, 55.5) THEN tested_negative
+IF 'preg' = [_, 13.5) AND 'plas' = [_, 149.5) AND 'pres' = [_, 99.0) AND 'skin' = [_, 58.0) AND 'insu' = [_, 256.5) AND 'mass' = [23.45, 41.65) AND 'pedi' = [_, 0.8315) AND 'age' = [_, 62.5) THEN tested_negative
+IF 'preg' = [_, 13.5) AND 'plas' = [109.5, _) AND 'pres' = [61.5, 118.0) AND 'skin' = [_, 55.0) AND 'insu' = [_, 795.0) AND 'mass' = [23.35, 56.15) AND 'age' = [35.5, 58.5) THEN tested_positive
+IF 'preg' = [_, 11.5) AND 'plas' = [_, 165.5) AND 'pres' = [_, 84.5) AND 'skin' = [_, 50.5) AND 'insu' = [_, 795.0) AND 'mass' = [_, 46.25) AND 'pedi' = [_, 1.837) AND 'age' = [_, 58.5) THEN tested_negative
+IF 'preg' = [_, 13.5) AND 'plas' = [_, 190.5) AND 'pres' = [47.0, 118.0) AND 'skin' = [_, 61.5) AND 'insu' = [_, 372.5) AND 'mass' = [_, 44.55) AND 'pedi' = [0.1635, 1.397) AND 'age' = [33.5, 71.0) THEN tested_negative

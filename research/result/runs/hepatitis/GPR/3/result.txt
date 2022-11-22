@@ -1,0 +1,5 @@
+IF Ascites is High THEN 1 | Support: 0.9167
+IF Bilirubin is Low THEN 1 | Support: 0.8304
+IF Spiders is Low AND Fatigue is High AND AlkPhosphate is High AND LiverFirm is Low AND Age is High THEN 1 | Support: 0.0046
+IF AlbuMin is very High AND Fatigue is Low AND Varices is Low AND Bilirubin is Low AND Histology is Low THEN 1 | Support: 0.0010
+ELSE 0

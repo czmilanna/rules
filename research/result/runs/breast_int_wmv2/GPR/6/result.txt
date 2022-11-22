@@ -1,0 +1,4 @@
+IF Irradiated is High AND Breast is High AND Deg-malig is High THEN 1 | Support: 0.2260
+IF Deg-malig is High AND Menopause is very High AND Node-caps is High AND Irradiated is Low THEN 1 | Support: 0.1301
+IF Breast is High AND Inv-nodes is High AND Menopause is Medium THEN 1 | Support: 0.0137
+ELSE 0

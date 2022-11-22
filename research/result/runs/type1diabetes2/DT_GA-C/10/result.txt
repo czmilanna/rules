@@ -1,0 +1,20 @@
+Number of Rules: 12
+Rule[1]: IF  step_count <= 60837.0 AND  height <= 1.56  THEN Class = 0 (55/61)
+Rule[2]: IF  step_count <= 60837.0 AND  height > 1.56 AND  moderate <= 119.0  THEN Class = 0 (11/11)
+Rule[3]: IF  step_count <= 60837.0 AND  height > 1.56 AND  moderate > 119.0 AND  sex <= 1.0 AND  moderate <= 123.916667  THEN Class = 1 (5/5)
+Rule[4]: IF  step_count <= 60837.0 AND  height > 1.56 AND  moderate > 119.0 AND  sex <= 1.0 AND  moderate > 123.916667 AND  step_count <= 55333.0  THEN Class = 0 (18/19)
+Rule[5]: IF  step_count <= 60837.0 AND  height > 1.56 AND  moderate > 119.0 AND  sex <= 1.0 AND  moderate > 123.916667 AND  step_count > 55333.0 AND  light <= 964.25  THEN Class = 1 (5/5)
+Rule[6]: IF  step_count <= 60837.0 AND  height > 1.56 AND  moderate > 119.0 AND  sex <= 1.0 AND  moderate > 123.916667 AND  step_count > 55333.0 AND  light > 964.25  THEN Class = 0 (3/3)
+Rule[7]: IF  step_count <= 60837.0 AND  height > 1.56 AND  moderate > 119.0 AND  sex > 1.0 AND  light <= 586.333333  THEN Class = 1 (5/5)
+Rule[8]: IF  step_count <= 60837.0 AND  height > 1.56 AND  moderate > 119.0 AND  sex > 1.0 AND  light > 586.333333 AND  step_count <= 48701.0  THEN Class = 0 (9/9)
+Rule[9]: IF  step_count <= 60837.0 AND  height > 1.56 AND  moderate > 119.0 AND  sex > 1.0 AND  light > 586.333333 AND  step_count > 48701.0 AND  age <= 13.0  THEN Class = 1 (7/7)
+Rule[10]: IF  step_count <= 60837.0 AND  height > 1.56 AND  moderate > 119.0 AND  sex > 1.0 AND  light > 586.333333 AND  step_count > 48701.0 AND  age > 13.0 AND  sedentary <= 4580.833333  THEN Class = 0 (8/9)
+Rule[11]: IF  step_count <= 60837.0 AND  height > 1.56 AND  moderate > 119.0 AND  sex > 1.0 AND  light > 586.333333 AND  step_count > 48701.0 AND  age > 13.0 AND  sedentary > 4580.833333  THEN Class = 1 (3/3)
+Rule[12]: IF  step_count > 60837.0  THEN Class = 1 (71/71)
+
+Number of Rules: 2
+Rule[1]: IF  weight > 40.5 AND  height <= 1.79  THEN Class = 1 (57/114)
+Rule[2]: IF  sex <= 2.0 AND  height <= 1.88 AND  step_count <= 59516.0  THEN Class = 0 (99/130)
+
+Accuracy in training: 0.8798076923076923
+Accuracy in test: 0.6818181818181818

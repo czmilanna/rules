@@ -1,0 +1,128 @@
+@relation    wisconsin
+@attribute ClumpThickness integer[1,10]
+@attribute CellSize integer[1,10]
+@attribute CellShape integer[1,10]
+@attribute MarginalAdhesion integer[1,10]
+@attribute EpithelialSize integer[1,10]
+@attribute BareNuclei integer[1,10]
+@attribute BlandChromatin integer[1,10]
+@attribute NormalNucleoli integer[1,10]
+@attribute Mitoses integer[1,10]
+@attribute Class{2,4}
+@inputs ClumpThickness,CellSize,CellShape,MarginalAdhesion,EpithelialSize,BareNuclei,BlandChromatin,NormalNucleoli,Mitoses
+@outputs Class
+@data
+
+@decisiontree
+
+if ( CellSize <= 2.000000 ) then
+{
+	if ( BareNuclei <= 2.000000 ) then
+	{
+		Class = "2"
+	}
+	elseif ( BareNuclei > 2.000000 ) then
+	{
+		if ( NormalNucleoli <= 2.000000 ) then
+		{
+			if ( EpithelialSize <= 5.000000 ) then
+			{
+				Class = "2"
+			}
+			elseif ( EpithelialSize > 5.000000 ) then
+			{
+				Class = "4"
+			}
+		}
+		elseif ( NormalNucleoli > 2.000000 ) then
+		{
+			Class = "4"
+		}
+	}
+}
+elseif ( CellSize > 2.000000 ) then
+{
+	if ( CellSize <= 4.000000 ) then
+	{
+		if ( BareNuclei <= 3.000000 ) then
+		{
+			if ( NormalNucleoli <= 1.000000 ) then
+			{
+				Class = "2"
+			}
+			elseif ( NormalNucleoli > 1.000000 ) then
+			{
+				if ( ClumpThickness <= 4.000000 ) then
+				{
+					Class = "2"
+				}
+				elseif ( ClumpThickness > 4.000000 ) then
+				{
+					if ( ClumpThickness <= 7.000000 ) then
+					{
+						Class = "4"
+					}
+					elseif ( ClumpThickness > 7.000000 ) then
+					{
+						if ( ClumpThickness <= 9.000000 ) then
+						{
+							Class = "2"
+						}
+						elseif ( ClumpThickness > 9.000000 ) then
+						{
+							Class = "4"
+						}
+					}
+				}
+			}
+		}
+		elseif ( BareNuclei > 3.000000 ) then
+		{
+			if ( CellShape <= 4.000000 ) then
+			{
+				if ( BareNuclei <= 8.000000 ) then
+				{
+					if ( BareNuclei <= 4.000000 ) then
+					{
+						Class = "4"
+					}
+					elseif ( BareNuclei > 4.000000 ) then
+					{
+						Class = "2"
+					}
+				}
+				elseif ( BareNuclei > 8.000000 ) then
+				{
+					Class = "4"
+				}
+			}
+			elseif ( CellShape > 4.000000 ) then
+			{
+				Class = "4"
+			}
+		}
+	}
+	elseif ( CellSize > 4.000000 ) then
+	{
+		Class = "4"
+	}
+}
+
+@TotalNumberOfNodes 13
+@NumberOfLeafs 14
+@TotalNumberOfNodes 13
+@NumberOfAntecedentsByRule 4.642857142857143
+
+@NumberOfItemsetsTraining 615
+@NumberOfCorrectlyClassifiedTraining 607
+@PercentageOfCorrectlyClassifiedTraining 98.69919%
+@NumberOfInCorrectlyClassifiedTraining 8
+@PercentageOfInCorrectlyClassifiedTraining 1.300813%
+
+@NumberOfItemsetsTest 68
+@NumberOfCorrectlyClassifiedTest 65
+@PercentageOfCorrectlyClassifiedTest 95.588234%
+@NumberOfInCorrectlyClassifiedTest 3
+@PercentageOfInCorrectlyClassifiedTest 4.4117646%
+
+@ElapsedTime 0:0:0

@@ -1,0 +1,5 @@
+IF 'plas' is very High AND 'mass' is High THEN 1 | Support: 0.2784
+IF 'preg' is High AND 'mass' is High THEN 1 | Support: 0.1443
+IF 'pedi' is Medium AND 'age' is Low AND 'plas' is High THEN 1 | Support: 0.0709
+IF 'pedi' is Medium AND 'age' is Low AND 'preg' is High THEN 1 | Support: 0.0259
+ELSE 0

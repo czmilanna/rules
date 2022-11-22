@@ -1,0 +1,30 @@
+if(F6S<=60.0) (28/28)
+	output=1
+else if(F13S<=59.0 && F20S<=70.0) (91/91)
+	output=1
+else if(F18R>72.0) (10/10)
+	output=1
+else if(F13S<=59.0 && F17S<=62.0) (68/68)
+	output=1
+else if(F20S<=66.0 && F3S<=72.0 && F21S<=73.0) (95/95)
+	output=1
+else if(F17R<=63.0 && F21R<=77.0 && F5S<=61.0) (54/55)
+	output=1
+else if(F17R<=63.0 && F6R<=72.0 && F7R<=70.0 && F19S<=71.0) (42/42)
+	output=1
+else if(F13S<=59.0 && F22R<=56.0) (84/84)
+	output=1
+else if(F13S>59.0 && F17R<=63.0 && F21R<=77.0 && F6R<=72.0 && F16R>71.0) (16/16)
+	output=1
+else if(F20S<=66.0 && F5R<=66.0) (58/58)
+	output=1
+else if(F5R>66.0 && F3S>72.0) (5/6)
+	output=0
+else if(F13S>59.0 && F20S>66.0 && F17R<=63.0 && F5S>61.0 && F6R>72.0 && F9S<=74.0) (12/13)
+	output=0
+else if(F13S>59.0 && F21R>77.0) (7/8)
+	output=0
+else if(F13S>59.0 && F20S>66.0 && F17R>63.0 && F18R<=72.0) (19/20)
+	output=0
+else 
+	output=1

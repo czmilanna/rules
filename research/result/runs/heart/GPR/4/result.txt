@@ -1,0 +1,5 @@
+IF ChestPainType is High AND Thal is High THEN 1 | Support: 0.6250
+IF ResElectrocardiographic is High AND Sex is very High AND MaxHeartRate is Low THEN 1 | Support: 0.2447
+IF Oldpeak is High AND FastingBloodSugar is High AND ChestPainType is High THEN 1 | Support: 0.0213
+IF FastingBloodSugar is very High AND Oldpeak is Low AND Sex is Low AND MajorVessels is High THEN 1 | Support: 0.0184
+ELSE 0

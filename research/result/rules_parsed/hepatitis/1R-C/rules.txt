@@ -1,0 +1,2 @@
+IF AlkPhosphate = [26.0 , 243.0) THEN 2
+IF AlkPhosphate = [243.0 , 280.0] THEN 1

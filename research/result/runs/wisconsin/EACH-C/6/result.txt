@@ -1,0 +1,10 @@
+
+
+Rule 1: IF  ClumpThickness in [1.0 , 10.0] AND CellSize in [1.0 , 10.0] AND CellShape in [1.0 , 10.0] AND MarginalAdhesion in [1.0 , 10.0] AND EpithelialSize in [1.0 , 10.0] AND BareNuclei in [1.0 , 10.0] AND BlandChromatin in [1.0 , 10.0] AND NormalNucleoli in [1.0 , 10.0] AND Mitoses in [1.0 , 10.0] THEN Class -> 4      [ Hyperrectangle weight = 2.627906976744186 ]     [ Volumen = 1.0 ] 
+
+Rule 2: IF  ClumpThickness in [1.0 , 8.0] AND CellSize in [1.0 , 9.0] AND CellShape in [1.0 , 8.0] AND MarginalAdhesion in [1.0 , 10.0] AND EpithelialSize in [1.0 , 10.0] AND BareNuclei in [1.0 , 10.0] AND BlandChromatin in [1.0 , 7.0] AND NormalNucleoli in [1.0 , 8.0] AND Mitoses in [1.0 , 8.0] THEN Class -> 2      [ Hyperrectangle weight = 1.005 ]     [ Volumen = 0.21685944441621915 ] 
+
+Attributes Weights: ClumpThickness = 0.8   CellSize = 0.8   CellShape = 0.8   MarginalAdhesion = 0.8   EpithelialSize = 0.8   BareNuclei = 0.8   BlandChromatin = 0.8   NormalNucleoli = 0.8   Mitoses = 1.2   
+
+Accuracy Training: 0.8959349593495934
+Accuracy Test: 0.8676470588235294

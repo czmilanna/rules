@@ -1,0 +1,7 @@
+algorithm = Organizational Coevolutionary Algorithm (OCEC)
+inputData = "C:/Projekty/rules/data/wisconsin/wisconsin.dat" "C:/Projekty/rules/data/wisconsin/wisconsin.dat" "C:/Projekty/rules/data/wisconsin/wisconsin.dat"
+outputData = "rules/wisconsin/OCEC-C/result.tra" "rules/wisconsin/OCEC-C/result.tst" "rules/wisconsin/OCEC-C/result.txt"
+
+seed = 1
+Number of Total Generations = 500
+Number of migrating/exchanging members = 1

@@ -1,0 +1,3 @@
+IF OM is Low AND Height is High THEN 1 | Support: 0.4445
+IF Height is Low AND RUM is High AND Weight is Low AND Lymph is Low THEN 1 | Support: 0.0317
+ELSE 0

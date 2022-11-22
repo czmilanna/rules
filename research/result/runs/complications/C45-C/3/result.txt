@@ -1,0 +1,101 @@
+@relation   complications
+@attribute Age integer[29,73]
+@attribute Height integer[150,176]
+@attribute Weight integer[44,118]
+@attribute BMI real[17.47,44.96]
+@attribute OM integer[0,1]
+@attribute RUM{3,2,0,1}
+@attribute Lymph integer[0,3]
+@attribute FIGO{0,1,2,3,4,5}
+@attribute Complication{no,yes}
+@inputs Age,Height,Weight,BMI,OM,RUM,Lymph,FIGO
+@outputs Complication
+@data
+
+@decisiontree
+
+if ( OM <= 0.000000 ) then
+{
+	if ( Height <= 155.000000 ) then
+	{
+		Complication = "yes"
+	}
+	elseif ( Height > 155.000000 ) then
+	{
+		if ( RUM = 3 ) then
+		{
+			if ( Lymph <= 1.000000 ) then
+			{
+				Complication = "yes"
+			}
+			elseif ( Lymph > 1.000000 ) then
+			{
+				Complication = "no"
+			}
+		}
+		elseif ( RUM = 2 ) then
+		{
+			if ( Height <= 165.000000 ) then
+			{
+				Complication = "no"
+			}
+			elseif ( Height > 165.000000 ) then
+			{
+				Complication = "yes"
+			}
+		}
+		elseif ( RUM = 0 ) then
+		{
+			Complication = "no"
+		}
+		elseif ( RUM = 1 ) then
+		{
+			Complication = "no"
+		}
+	}
+}
+elseif ( OM > 0.000000 ) then
+{
+	if ( Lymph <= 1.000000 ) then
+	{
+		Complication = "no"
+	}
+	elseif ( Lymph > 1.000000 ) then
+	{
+		if ( RUM = 3 ) then
+		{
+			Complication = "no"
+		}
+		elseif ( RUM = 2 ) then
+		{
+			Complication = "yes"
+		}
+		elseif ( RUM = 0 ) then
+		{
+			Complication = "no"
+		}
+		elseif ( RUM = 1 ) then
+		{
+			Complication = "no"
+		}
+	}
+}
+
+@TotalNumberOfNodes 7
+@NumberOfLeafs 12
+@TotalNumberOfNodes 7
+@NumberOfAntecedentsByRule 3.1666666666666665
+
+@NumberOfItemsetsTraining 96
+@NumberOfCorrectlyClassifiedTraining 69
+@PercentageOfCorrectlyClassifiedTraining 71.875%
+@NumberOfInCorrectlyClassifiedTraining 27
+@PercentageOfInCorrectlyClassifiedTraining 28.125%
+
+@NumberOfItemsetsTest 11
+@NumberOfCorrectlyClassifiedTest 6
+@PercentageOfCorrectlyClassifiedTest 54.545456%
+@NumberOfInCorrectlyClassifiedTest 5
+@PercentageOfInCorrectlyClassifiedTest 45.454544%
+
+@ElapsedTime 0:0:0

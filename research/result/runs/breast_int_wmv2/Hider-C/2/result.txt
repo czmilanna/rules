@@ -1,0 +1,20 @@
+Error Training: 0.265
+Error Test: 0.357
+Rules (2):
+--------
+if Age = [1.0, 6.0) and
+   Tumor-size = [_, 10.0) and
+   Inv-nodes = [_, 1.5)
+then
+   Class = 0 (165|52)
+
+if Age = [1.0, 6.0) and
+   Tumor-size = [_, 10.0) and
+   Inv-nodes = [_, 8.0) and
+   Deg-malig = [2.5, _)
+then
+   Class = 1 (18|3)
+
+if true
+then
+   Class = 0 (8|3)

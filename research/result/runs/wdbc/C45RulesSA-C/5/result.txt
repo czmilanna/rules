@@ -1,0 +1,20 @@
+if(Fractal_dimension1<=0.056 && Concave_points2>0.015) (17/17)
+	output=M
+else if(Concave_points3>0.179) (100/100)
+	output=M
+else if(Concave_points3>0.132 && Texture3>27.37) (101/101)
+	output=M
+else if(Area3>880.8 && Texture1>16.18) (149/151)
+	output=M
+else if(Area3<=880.8 && Concave_points3<=0.132 && Concave_points2<=0.015) (264/267)
+	output=B
+else if(Area3<=880.8 && Concave_points3<=0.132 && Fractal_dimension1>0.056) (257/259)
+	output=B
+else if(Texture3<=27.37 && Concave_points3<=0.179 && Area3<=734.6) (216/218)
+	output=B
+else if(Area3<=880.8 && Texture3<=27.37 && Area3>734.6 && Radius1>14.06) (25/26)
+	output=B
+else if(Concave_points3<=0.137 && Texture1<=16.18) (106/106)
+	output=B
+else 
+	output=M

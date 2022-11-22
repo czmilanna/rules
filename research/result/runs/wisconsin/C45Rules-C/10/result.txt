@@ -1,0 +1,22 @@
+if(CellSize<=2.0 && ClumpThickness<=3.0) (236/236)
+	output=2
+else if(CellSize<=2.0 && BlandChromatin<=2.0 && BareNuclei<=4.0) (247/247)
+	output=2
+else if(CellShape<=3.0 && CellSize<=3.0 && BareNuclei<=2.0) (358/358)
+	output=2
+else if(ClumpThickness>3.0 && BareNuclei>4.0) (156/165)
+	output=4
+else if(BlandChromatin>5.0 && CellShape>4.0) (97/97)
+	output=4
+else if(CellSize>2.0 && BareNuclei>1.0 && EpithelialSize>3.0) (139/146)
+	output=4
+else if(CellShape>3.0 && Mitoses>1.0) (86/87)
+	output=4
+else if(BareNuclei>2.0 && ClumpThickness>3.0 && BlandChromatin>2.0) (171/179)
+	output=4
+else if(CellSize>4.0 && ClumpThickness>6.0) (95/95)
+	output=4
+else if(CellShape>3.0 && MarginalAdhesion>3.0) (134/138)
+	output=4
+else 
+	output=2

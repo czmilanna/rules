@@ -1,0 +1,3 @@
+IF step_count is High THEN 1 | Support: 0.5259
+IF step_count is Low AND vigorious is Medium THEN 1 | Support: 0.0576
+ELSE 0

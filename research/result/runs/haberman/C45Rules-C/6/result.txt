@@ -1,0 +1,10 @@
+if(Positive>20.0) (8/13)
+	output=positive
+else if(Positive>4.0 && Age>42.0) (33/55)
+	output=positive
+else if(Positive<=4.0) (171/209)
+	output=negative
+else if(Age<=42.0 && Positive<=20.0) (47/53)
+	output=negative
+else 
+	output=positive

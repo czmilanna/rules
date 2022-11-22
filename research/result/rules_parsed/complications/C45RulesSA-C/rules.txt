@@ -1,0 +1,5 @@
+IF FIGO=1 THEN yes
+IF RUM=2 AND Lymph>1.0 THEN yes
+IF RUM=3 AND FIGO=2 THEN no
+IF RUM=0 THEN no
+ELSE yes

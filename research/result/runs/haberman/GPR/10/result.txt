@@ -1,0 +1,4 @@
+IF Positive is High THEN 1 | Support: 0.1391
+IF Positive is High THEN 1 | Support: 0.1391
+IF Age is very High AND Year is Low THEN 1 | Support: 0.1336
+ELSE 0

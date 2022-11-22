@@ -1,0 +1,4 @@
+IF step_count = [13072.0 , 55333.0) THEN 0
+IF step_count = [55333.0 , 58288.0) THEN 1
+IF step_count = [58288.0 , 60294.0) THEN 0
+IF step_count = [60294.0 , 114655.0] THEN 1

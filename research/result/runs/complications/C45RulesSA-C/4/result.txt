@@ -1,0 +1,14 @@
+if(OM<=0.0 && Height>163.0) (23/39)
+	output=yes
+else if(FIGO=1) (6/8)
+	output=yes
+else if(OM>0.0) (15/18)
+	output=no
+else if(Height<=163.0) (29/46)
+	output=no
+else if(OM<=0.0 && FIGO=2 && RUM=0) (0/0)
+	output=no
+else if(FIGO=2 && RUM=3) (24/39)
+	output=no
+else 
+	output=yes

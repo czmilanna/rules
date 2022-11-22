@@ -1,0 +1,38 @@
+@relation   haberman
+@attribute Age integer[30,83]
+@attribute Year integer[58,69]
+@attribute Positive integer[0,52]
+@attribute Survival{positive,negative}
+@inputs Age,Year,Positive
+@outputs Survival
+@data
+67, 63, 1, positive
+57, 64, 1, positive
+46, 69, 3, positive
+53, 58, 4, positive
+53, 60, 9, positive
+39, 66, 0, positive
+56, 65, 9, positive
+46, 58, 2, positive
+57, 63, 0, negative
+62, 66, 0, negative
+66, 68, 0, negative
+54, 62, 0, negative
+37, 59, 6, negative
+59, 63, 0, negative
+49, 61, 0, negative
+62, 62, 6, negative
+52, 61, 0, negative
+49, 60, 1, negative
+30, 65, 0, negative
+50, 61, 6, negative
+55, 69, 3, negative
+52, 60, 4, negative
+68, 68, 0, negative
+40, 65, 0, negative
+72, 58, 0, negative
+39, 59, 2, negative
+44, 61, 0, negative
+39, 58, 0, negative
+43, 63, 14, negative
+63, 61, 0, negative

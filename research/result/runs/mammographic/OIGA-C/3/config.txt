@@ -1,0 +1,13 @@
+algorithm = OIGA
+inputData = "C:/Projekty/rules/data/mammographic/mammographic-10dobscv-3tra.dat" "C:/Projekty/rules/data/mammographic/mammographic-10dobscv-3tra.dat" "C:/Projekty/rules/data/mammographic/mammographic-10dobscv-3tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/mammographic/OIGA-C/3/result.tra" "C:/Projekty/rules/research/result/runs/mammographic/OIGA-C/3/result.tst" "C:/Projekty/rules/research/result/runs/mammographic/OIGA-C/3/result.txt"
+
+seed = 1
+ProbMutation = 0.01
+CrossoverRate = 1
+popSize = 200
+ruleNumber = 30
+stagnationLimit = 30
+generationLimit = 200
+SurvivorsPercent = 0.5
+AttributeOrder = descendent

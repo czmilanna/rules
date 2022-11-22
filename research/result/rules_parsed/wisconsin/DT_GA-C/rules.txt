@@ -1,0 +1,30 @@
+IF CellSize <= 2.0 AND BareNuclei <= 2.0 THEN 2
+IF CellSize <= 2.0 AND BareNuclei > 2.0 AND NormalNucleoli <= 2.0 AND EpithelialSize <= 5.0 THEN 2
+IF CellSize <= 2.0 AND BareNuclei > 2.0 AND NormalNucleoli <= 2.0 AND EpithelialSize > 5.0 THEN 4
+IF CellSize <= 2.0 AND BareNuclei > 2.0 AND NormalNucleoli > 2.0 THEN 4
+IF CellSize > 2.0 AND CellShape <= 3.0 AND BareNuclei <= 1.0 THEN 2
+IF CellSize > 2.0 AND CellShape <= 3.0 AND BareNuclei > 1.0 AND EpithelialSize <= 3.0 AND ClumpThickness <= 4.0 THEN 2
+IF CellSize > 2.0 AND CellShape <= 3.0 AND BareNuclei > 1.0 AND EpithelialSize <= 3.0 AND ClumpThickness > 4.0 AND BareNuclei <= 2.0 THEN 2
+IF CellSize > 2.0 AND CellShape <= 3.0 AND BareNuclei > 1.0 AND EpithelialSize <= 3.0 AND ClumpThickness > 4.0 AND BareNuclei > 2.0 THEN 4
+IF CellSize > 2.0 AND CellShape <= 3.0 AND BareNuclei > 1.0 AND EpithelialSize > 3.0 THEN 4
+IF CellSize > 2.0 AND CellShape > 3.0 AND CellSize <= 4.0 AND BareNuclei <= 7.0 AND NormalNucleoli <= 8.0 AND MarginalAdhesion <= 3.0 THEN 2
+IF CellSize > 2.0 AND CellShape > 3.0 AND CellSize <= 4.0 AND BareNuclei <= 7.0 AND NormalNucleoli <= 8.0 AND MarginalAdhesion > 3.0 AND BlandChromatin <= 5.0 THEN 4
+IF CellSize > 2.0 AND CellShape > 3.0 AND CellSize <= 4.0 AND BareNuclei <= 7.0 AND NormalNucleoli <= 8.0 AND MarginalAdhesion > 3.0 AND BlandChromatin > 5.0 AND CellShape <= 4.0 THEN 2
+IF CellSize > 2.0 AND CellShape > 3.0 AND CellSize <= 4.0 AND BareNuclei <= 7.0 AND NormalNucleoli <= 8.0 AND MarginalAdhesion > 3.0 AND BlandChromatin > 5.0 AND CellShape > 4.0 THEN 4
+IF CellSize > 2.0 AND CellShape > 3.0 AND CellSize <= 4.0 AND BareNuclei <= 7.0 AND NormalNucleoli > 8.0 THEN 4
+IF CellSize > 2.0 AND CellShape > 3.0 AND CellSize <= 4.0 AND BareNuclei > 7.0 THEN 4
+IF CellSize > 2.0 AND CellShape > 3.0 AND CellSize > 4.0 THEN 4
+IF NormalNucleoli <= 9.0 AND Mitoses <= 7.0 THEN 2
+IF ClumpThickness <= 10.0 AND CellSize <= 4.0 AND CellShape > 1.0 AND MarginalAdhesion <= 5.0 AND EpithelialSize > 2.0 AND BareNuclei <= 4.0 AND BlandChromatin <= 7.0 AND NormalNucleoli > 5.0 AND Mitoses > 0.0 THEN 4
+IF ClumpThickness > 5.0 AND CellSize > 1.0 AND CellShape <= 5.0 AND MarginalAdhesion > 0.0 AND EpithelialSize > 2.0 AND BareNuclei <= 4.0 AND BlandChromatin <= 3.0 AND NormalNucleoli > 1.0 AND Mitoses <= 1.0 THEN 4
+IF ClumpThickness > 1.0 AND CellSize <= 7.0 AND CellShape <= 4.0 AND MarginalAdhesion <= 4.0 AND EpithelialSize > 1.0 AND BareNuclei <= 5.0 AND BlandChromatin > 1.0 AND NormalNucleoli > 1.0 AND Mitoses <= 1.0 THEN 4
+IF ClumpThickness <= 7.0 AND CellSize > 3.0 AND CellShape > 1.0 AND MarginalAdhesion > 1.0 AND EpithelialSize > 2.0 AND BareNuclei <= 1.0 AND BlandChromatin <= 4.0 AND NormalNucleoli > 1.0 AND Mitoses > 0.0 THEN 4
+IF ClumpThickness > 1.0 AND CellSize <= 4.0 AND CellShape > 1.0 AND MarginalAdhesion > 1.0 AND EpithelialSize <= 7.0 AND BareNuclei <= 5.0 AND BlandChromatin > 4.0 AND NormalNucleoli <= 4.0 AND Mitoses <= 1.0 THEN 4
+IF ClumpThickness > 5.0 AND CellSize <= 3.0 AND CellShape <= 4.0 AND MarginalAdhesion <= 4.0 AND EpithelialSize <= 3.0 AND BareNuclei > 2.0 AND BlandChromatin > 2.0 AND NormalNucleoli > 1.0 AND Mitoses <= 7.0 THEN 4
+IF ClumpThickness <= 8.0 AND CellSize > 1.0 AND CellShape <= 3.0 AND MarginalAdhesion > 1.0 AND EpithelialSize <= 10.0 AND BareNuclei <= 8.0 AND BlandChromatin <= 7.0 AND NormalNucleoli > 1.0 AND Mitoses > 0.0 THEN 4
+IF ClumpThickness > 7.0 AND CellSize > 2.0 AND CellShape <= 5.0 AND MarginalAdhesion <= 1.0 AND EpithelialSize <= 10.0 AND BareNuclei > 4.0 AND BlandChromatin <= 7.0 AND NormalNucleoli <= 10.0 AND Mitoses <= 8.0 THEN 4
+IF ClumpThickness > 8.0 AND CellSize <= 1.0 AND CellShape > 1.0 AND MarginalAdhesion <= 8.0 AND EpithelialSize > 3.0 AND BareNuclei > 1.0 AND BlandChromatin <= 7.0 AND NormalNucleoli > 1.0 AND Mitoses <= 2.0 THEN 4
+IF ClumpThickness > 5.0 AND CellSize <= 4.0 AND CellShape <= 2.0 AND MarginalAdhesion > 0.0 AND EpithelialSize <= 3.0 AND BareNuclei <= 2.0 AND BlandChromatin <= 4.0 AND NormalNucleoli <= 3.0 AND Mitoses <= 10.0 THEN 4
+IF ClumpThickness > 5.0 AND CellSize > 3.0 AND CellShape <= 7.0 AND MarginalAdhesion > 1.0 AND EpithelialSize <= 3.0 AND BareNuclei > 6.0 AND BlandChromatin > 1.0 AND NormalNucleoli > 5.0 AND Mitoses > 0.0 THEN 4
+IF ClumpThickness <= 5.0 AND CellSize <= 4.0 AND CellShape <= 6.0 AND MarginalAdhesion > 4.0 AND EpithelialSize <= 9.0 AND BareNuclei > 1.0 AND BlandChromatin <= 8.0 AND NormalNucleoli <= 10.0 AND Mitoses > 0.0 THEN 4
+IF ClumpThickness <= 5.0 AND CellSize > 1.0 AND CellShape > 1.0 AND MarginalAdhesion > 0.0 AND EpithelialSize > 2.0 AND BareNuclei <= 10.0 AND BlandChromatin <= 5.0 AND NormalNucleoli <= 1.0 AND Mitoses <= 1.0 THEN 4

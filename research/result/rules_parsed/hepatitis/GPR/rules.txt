@@ -1,0 +1,5 @@
+IF Malaise is High THEN 1 
+IF ProTime is High THEN 1 
+IF SpleenPalpable is High AND Age is Low AND Anorexia is Low AND LiverBig is High AND AlbuMin is High THEN 1 
+IF Sgot is very High AND Sex is very High AND Anorexia is High AND Age is Low THEN 1 
+ELSE 0

@@ -1,0 +1,13 @@
+IF CellSize <= 2.000000 AND BareNuclei <= 3.000000 AND EpithelialSize <= 2.000000 THEN 2
+IF CellSize <= 2.000000 AND BareNuclei <= 3.000000 AND EpithelialSize > 2.000000 AND CellShape <= 2.000000 THEN 2
+IF CellSize <= 2.000000 AND BareNuclei <= 3.000000 AND EpithelialSize > 2.000000 AND CellShape > 2.000000 THEN 4
+IF CellSize <= 2.000000 AND BareNuclei > 3.000000 AND ClumpThickness <= 3.000000 THEN 2
+IF CellSize <= 2.000000 AND BareNuclei > 3.000000 AND ClumpThickness > 3.000000 AND BlandChromatin <= 2.000000 AND MarginalAdhesion <= 3.000000 THEN 4
+IF CellSize <= 2.000000 AND BareNuclei > 3.000000 AND ClumpThickness > 3.000000 AND BlandChromatin <= 2.000000 AND MarginalAdhesion > 3.000000 THEN 2
+IF CellSize <= 2.000000 AND BareNuclei > 3.000000 AND ClumpThickness > 3.000000 AND BlandChromatin > 2.000000 THEN 4
+IF CellSize > 2.000000 AND CellShape <= 2.000000 AND ClumpThickness <= 5.000000 THEN 2
+IF CellSize > 2.000000 AND CellShape <= 2.000000 AND ClumpThickness > 5.000000 THEN 4
+IF CellSize > 2.000000 AND CellShape > 2.000000 AND CellSize <= 4.000000 AND BareNuclei <= 2.000000 AND MarginalAdhesion <= 3.000000 THEN 2
+IF CellSize > 2.000000 AND CellShape > 2.000000 AND CellSize <= 4.000000 AND BareNuclei <= 2.000000 AND MarginalAdhesion > 3.000000 THEN 4
+IF CellSize > 2.000000 AND CellShape > 2.000000 AND CellSize <= 4.000000 AND BareNuclei > 2.000000 THEN 4
+IF CellSize > 2.000000 AND CellShape > 2.000000 AND CellSize > 4.000000 THEN 4

@@ -1,0 +1,29 @@
+IF 'plas'>133.0 AND 'mass'>31.3 AND 'pedi'>0.271 AND 'insu'<=328.0 THEN tested_positive
+IF 'age'>28.0 AND 'plas'>154.0 THEN tested_positive
+IF 'mass'>29.8 AND 'plas'>127.0 AND 'pedi'>0.434 AND 'age'>25.0 AND 'insu'<=190.0 THEN tested_positive
+IF 'plas'>106.0 AND 'mass'>26.8 AND 'age'>32.0 AND 'pedi'<=0.26 AND 'insu'>100.0 AND 'preg'>6.0 THEN tested_positive
+IF 'age'>28.0 AND 'insu'>140.0 AND 'preg'<=4.0 THEN tested_positive
+IF 'preg'>2.0 AND 'plas'>106.0 AND 'insu'<=48.0 AND 'mass'>27.1 AND 'pres'<=72.0 AND 'age'>24.0 AND 'pedi'<=0.38 THEN tested_positive
+IF 'mass'>27.8 AND 'preg'>5.0 AND 'pedi'>0.6 THEN tested_positive
+IF 'mass'>26.3 AND 'plas'>124.0 AND 'pres'<=52.0 AND 'pedi'<=0.302 THEN tested_positive
+IF 'plas'>144.0 AND 'pedi'>0.338 AND 'preg'<=3.0 AND 'mass'<=42.4 THEN tested_positive
+IF 'plas'>123.0 AND 'age'>24.0 AND 'pedi'>0.647 AND 'skin'>0.0 THEN tested_positive
+IF 'plas'>127.0 AND 'mass'>29.9 AND 'pedi'>0.433 AND 'preg'>7.0 THEN tested_positive
+IF 'mass'>26.3 AND 'pedi'>0.244 AND 'plas'>99.0 AND 'insu'<=99.0 AND 'preg'>6.0 AND 'age'<=38.0 THEN tested_positive
+IF 'plas'>123.0 AND 'mass'>28.7 AND 'insu'<=130.0 AND 'preg'<=6.0 AND 'age'>37.0 AND 'pedi'>0.218 THEN tested_positive
+IF 'mass'>26.2 AND 'pedi'>0.493 AND 'plas'>103.0 AND 'preg'>7.0 AND 'skin'<=28.0 THEN tested_positive
+IF 'plas'>122.0 AND 'pres'>106.0 THEN tested_positive
+IF 'age'>26.0 AND 'plas'>154.0 THEN tested_positive
+IF 'insu'<=0.0 AND 'plas'>114.0 AND 'age'>47.0 AND 'pres'<=76.0 THEN tested_positive
+IF 'age'>30.0 AND 'pedi'>0.856 AND 'plas'>118.0 AND 'mass'<=36.5 THEN tested_positive
+IF 'pres'>78.0 AND 'mass'>40.1 AND 'preg'>4.0 AND 'pedi'<=0.925 THEN tested_positive
+IF 'plas'>127.0 AND 'mass'>30.1 AND 'preg'>6.0 AND 'age'>42.0 AND 'pedi'>0.164 THEN tested_positive
+IF 'insu'<=48.0 AND 'plas'>106.0 AND 'mass'<=0.0 AND 'preg'>6.0 THEN tested_positive
+IF 'mass'>30.9 AND 'age'<=27.0 AND 'pedi'>0.498 AND 'pres'<=68.0 AND 'plas'>84.0 AND 'preg'>2.0 THEN tested_positive
+IF 'plas'>141.0 AND 'mass'>33.7 AND 'pedi'<=1.034 AND 'age'>30.0 THEN tested_positive
+IF 'plas'>123.0 AND 'mass'>30.1 AND 'pedi'>0.42 AND 'preg'>6.0 THEN tested_positive
+IF 'mass'>30.7 AND 'plas'<=118.0 AND 'pres'>72.0 AND 'skin'<=30.0 AND 'pedi'<=0.378 AND 'preg'<=0.0 THEN tested_positive
+IF 'skin'>28.0 AND 'age'<=27.0 AND 'plas'>154.0 THEN tested_positive
+IF 'mass'>30.5 AND 'insu'<=99.0 AND 'preg'<=3.0 AND 'skin'>29.0 AND 'plas'>103.0 AND 'age'>29.0 THEN tested_positive
+IF 'pedi'>0.495 AND 'skin'>28.0 AND 'pres'<=68.0 AND 'plas'<=113.0 AND 'preg'<=2.0 AND 'mass'<=38.2 THEN tested_positive
+ELSE tested_negative

@@ -1,0 +1,3 @@
+IF Ldl is High THEN 1 | Support: 0.3182
+IF Tobacco is High AND Famhist is High THEN 1 | Support: 0.1003
+ELSE 0

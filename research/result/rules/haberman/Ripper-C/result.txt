@@ -1,0 +1,35 @@
+@Number of Rules: 17
+if(Positive>4.0 && Age>42.0 && Year<=65.0) (31/49)
+	output=positive
+else if(Positive>1.0 && Age>50.0) (35/69)
+	output=positive
+else if(Year<=59.0 && Age>61.0 && Positive=null) (4/9)
+	output=positive
+else if(Year>62.0 && Age<=46.0 && Positive>13.0) (3/5)
+	output=positive
+else if(Year>62.0 && Age<=49.0) (20/66)
+	output=positive
+else if(Year>62.0 && Positive>0.0 && Age>65.0) (5/9)
+	output=positive
+else if(Age>59.0 && Positive>0.0 && Year>67.0) (1/2)
+	output=positive
+else if(Age<=47.0 && Positive>15.0) (6/9)
+	output=positive
+else if(Year>62.0 && Age<=61.0 && Positive>0.0) (27/72)
+	output=positive
+else if(Age>59.0 && Year<=65.0 && Positive>0.0) (14/26)
+	output=positive
+else if(Age<=47.0 && Year<=59.0 && Positive<=2.0) (4/15)
+	output=positive
+else if(Positive>4.0 && Age>43.0 && Year>61.0) (25/40)
+	output=positive
+else if(Year>63.0 && Age<=50.0) (18/55)
+	output=positive
+else if(Year>61.0 && Age<=47.0 && Positive<=0.0) (8/29)
+	output=positive
+else if(Age>60.0 && Year<=65.0 && Positive=null) (6/30)
+	output=positive
+else if(Age>59.0 && Year<=65.0 && Positive=null) (7/32)
+	output=positive
+else 
+	output=negative

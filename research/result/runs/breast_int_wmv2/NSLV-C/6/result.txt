@@ -1,0 +1,400 @@
+Experiment: C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2-10dobscv-6tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 249
+Class 0: 176
+Class 1: 73
+Successes: 141.0
+Errors:  32.0
+Not classified: 76.0
+	Rule 0: 141 / 32
+Successes: 141.0
+Errors:  32.0
+Not classified: 76.0
+	Rule 0: 141 / 32
+Accuracy on training: 0.5662650602409639
+Number of examples: 108
+Class 0: 35
+Class 1: 73
+Successes: 146.0
+Errors:  27.0
+Not classified: 76.0
+	Rule 0: 141 / 27
+	Rule 1: 5 / 0
+Successes: 146.0
+Errors:  27.0
+Not classified: 76.0
+	Rule 0: 141 / 27
+	Rule 1: 5 / 0
+Accuracy on training: 0.5863453815261044
+Number of examples: 103
+Class 0: 35
+Class 1: 68
+Successes: 160.0
+Errors:  27.0
+Not classified: 62.0
+	Rule 0: 141 / 27
+	Rule 1: 5 / 0
+	Rule 2: 14 / 0
+Successes: 160.0
+Errors:  27.0
+Not classified: 62.0
+	Rule 0: 141 / 27
+	Rule 1: 5 / 0
+	Rule 2: 14 / 0
+Accuracy on training: 0.642570281124498
+Number of examples: 89
+Class 0: 35
+Class 1: 54
+Successes: 172.0
+Errors:  29.0
+Not classified: 48.0
+	Rule 0: 115 / 25
+	Rule 1: 5 / 0
+	Rule 2: 14 / 0
+	Rule 3: 38 / 4
+Successes: 172.0
+Errors:  29.0
+Not classified: 48.0
+	Rule 0: 115 / 25
+	Rule 1: 5 / 0
+	Rule 2: 14 / 0
+	Rule 3: 38 / 4
+Accuracy on training: 0.6907630522088354
+Number of examples: 77
+Class 0: 23
+Class 1: 54
+Successes: 174.0
+Errors:  29.0
+Not classified: 46.0
+	Rule 0: 115 / 25
+	Rule 1: 5 / 0
+	Rule 2: 13 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+Successes: 174.0
+Errors:  29.0
+Not classified: 46.0
+	Rule 0: 115 / 25
+	Rule 1: 5 / 0
+	Rule 2: 13 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+Accuracy on training: 0.6987951807228916
+Number of examples: 75
+Class 0: 23
+Class 1: 52
+Successes: 182.0
+Errors:  29.0
+Not classified: 38.0
+	Rule 0: 115 / 25
+	Rule 1: 5 / 0
+	Rule 2: 13 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 8 / 0
+Successes: 182.0
+Errors:  29.0
+Not classified: 38.0
+	Rule 0: 115 / 25
+	Rule 1: 5 / 0
+	Rule 2: 13 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 8 / 0
+Accuracy on training: 0.7309236947791165
+Number of examples: 67
+Class 0: 23
+Class 1: 44
+Successes: 186.0
+Errors:  27.0
+Not classified: 36.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+Successes: 186.0
+Errors:  27.0
+Not classified: 36.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+Accuracy on training: 0.7469879518072289
+Number of examples: 63
+Class 0: 24
+Class 1: 39
+Successes: 192.0
+Errors:  27.0
+Not classified: 30.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+Successes: 192.0
+Errors:  27.0
+Not classified: 30.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+Accuracy on training: 0.7710843373493976
+Number of examples: 57
+Class 0: 18
+Class 1: 39
+Successes: 198.0
+Errors:  30.0
+Not classified: 21.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+	Rule 8: 6 / 3
+Successes: 198.0
+Errors:  30.0
+Not classified: 21.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+	Rule 8: 6 / 3
+Accuracy on training: 0.7951807228915663
+Number of examples: 51
+Class 0: 18
+Class 1: 33
+Successes: 212.0
+Errors:  37.0
+Not classified: 0.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+	Rule 8: 6 / 3
+	Rule 9: 14 / 7
+Successes: 212.0
+Errors:  37.0
+Not classified: 0.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+	Rule 8: 6 / 3
+	Rule 9: 14 / 7
+Accuracy on training: 0.8514056224899599
+Number of examples: 37
+Class 0: 4
+Class 1: 33
+Successes: 216.0
+Errors:  33.0
+Not classified: 0.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+	Rule 8: 6 / 3
+	Rule 9: 11 / 0
+	Rule 10: 7 / 3
+Successes: 216.0
+Errors:  33.0
+Not classified: 0.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+	Rule 8: 6 / 3
+	Rule 9: 11 / 0
+	Rule 10: 7 / 3
+Accuracy on training: 0.8674698795180723
+Number of examples: 33
+Class 0: 7
+Class 1: 26
+Successes: 216.0
+Errors:  33.0
+Not classified: 0.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+	Rule 8: 6 / 3
+	Rule 9: 7 / 0
+	Rule 10: 7 / 3
+	Rule 11: 4 / 0
+Successes: 216.0
+Errors:  33.0
+Not classified: 0.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+	Rule 8: 6 / 3
+	Rule 9: 11 / 0
+	Rule 10: 7 / 3
+Successes: 216.0
+Errors:  33.0
+Not classified: 0.0
+	Rule 0: 114 / 22
+	Rule 1: 5 / 0
+	Rule 2: 11 / 0
+	Rule 3: 38 / 4
+	Rule 4: 3 / 0
+	Rule 5: 6 / 0
+	Rule 6: 9 / 1
+	Rule 7: 6 / 0
+	Rule 8: 6 / 3
+	Rule 9: 11 / 0
+	Rule 10: 7 / 3
+Successes: 20.0
+Errors:  8.0
+Not classified: 0.0
+	Rule 0: 13 / 5
+	Rule 1: 0 / 0
+	Rule 2: 0 / 0
+	Rule 3: 4 / 1
+	Rule 4: 0 / 0
+	Rule 5: 0 / 0
+	Rule 6: 0 / 0
+	Rule 7: 0 / 0
+	Rule 8: 0 / 0
+	Rule 9: 1 / 0
+	Rule 10: 2 / 2
+----------------------------------------------------
+Accuracy on training: 0.8674698795180723
+Accuracy on test: 0.7142857142857143
+Number of rules: 11.0
+Variables per rule: 3.272727272727273
+Variables used: 1.0
+Time: 1.928
+Iterations: 12091
+Conditions: 36
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Deg-malig = { T0 T1}
+THEN Class IS 0   W 0.8160919540229885
+
+IF
+	Age = { T4 T5}
+	Tumor-size = { Medium}
+	Inv-nodes = { VeryLow}
+	Deg-malig = { T1}
+	Breast-quad = { T2 T4}
+THEN Class IS 1   W 0.9192825112107624
+
+IF
+	Breast = { T1}
+	Irradiated = { T1}
+THEN Class IS 1   W 0.6666666666666666
+
+IF
+	Menopause = { T1}
+	Node-caps = { T0}
+	Breast = { T1}
+	Irradiated = { T0}
+THEN Class IS 0   W 0.9069767441860465
+
+IF
+	Age = { T4}
+	Node-caps = { T0}
+	Irradiated = { T1}
+THEN Class IS 1   W 0.8
+
+IF
+	Menopause = { T2}
+	Node-caps = { T1}
+	Irradiated = { T0}
+THEN Class IS 1   W 0.7142857142857143
+
+IF
+	Age = { T3 T4}
+	Node-caps = { T1}
+	Breast-quad = { T2 T3}
+THEN Class IS 1   W 0.9090909090909091
+
+IF
+	Age = { T3}
+	Menopause = { T2}
+	Deg-malig = { T2}
+	Breast = { T0}
+	Irradiated = { T1}
+THEN Class IS 0   W 1.0
+
+IF
+	Age = { T2 T3 T5 T6}
+	Deg-malig = { T2}
+	Breast-quad = { T1 T3}
+THEN Class IS 1   W 0.6666666666666666
+
+IF
+	Tumor-size = { VeryLow Low High}
+	Inv-nodes = { VeryLow}
+	Deg-malig = { T2}
+THEN Class IS 0   W 0.6158980582524273
+
+IF
+	Menopause = { T1 T2}
+	Tumor-size = { Medium VeryHigh}
+	Deg-malig = { T2}
+	Breast-quad = { T0 T2 T3 T4}
+THEN Class IS 1   W 0.6289735501091968
+
+	Accuracy on training set is: 0.8674698795180723
+	Accuracy on test set is: 0.7142857142857143
+	Number of rules is: 11.0
+	Variables per rule is: 3.272727272727273
+	Variables used is: 1.0
+	Time is: 1.928
+	Iterations is: 12091
+	Conditions is: 36
+

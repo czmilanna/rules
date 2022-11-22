@@ -1,0 +1,9 @@
+@Number of Rules: 4
+if(step_count<=54547.0) (89/110)
+	output=0
+else if(step_count<=60837.0 && vigorious<=127.083333333333) (70/80)
+	output=0
+else if(step_count<=60837.0 && age>10.0 && light>894.5) (33/38)
+	output=0
+else 
+	output=1

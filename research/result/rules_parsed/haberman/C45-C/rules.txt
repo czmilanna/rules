@@ -1,0 +1,3 @@
+IF Positive <= 4.000000 THEN negative
+IF Positive > 4.000000 AND Age <= 42.000000 THEN negative
+IF Positive > 4.000000 AND Age > 42.000000 THEN positive

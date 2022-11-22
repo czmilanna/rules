@@ -1,0 +1,10 @@
+algorithm = Genetic Algorithm with real-valued genes
+inputData = "C:/Projekty/rules/data/wdbc/wdbc-10dobscv-10tra.dat" "C:/Projekty/rules/data/wdbc/wdbc-10dobscv-10tra.dat" "C:/Projekty/rules/data/wdbc/wdbc-10dobscv-10tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/wdbc/PGIRLA-C/10/result.tra" "C:/Projekty/rules/research/result/runs/wdbc/PGIRLA-C/10/result.tst" "C:/Projekty/rules/research/result/runs/wdbc/PGIRLA-C/10/result.txt"
+
+seed = 1
+Number_of_Generations = 5000
+Population_Size = 61
+Cross_Probability = 0.7
+Mutation_Probability = 0.5
+Number_of_Rules = 20

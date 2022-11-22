@@ -1,0 +1,4 @@
+IF Perimeter3 is High THEN 1 
+IF Area3 is High THEN 1 
+IF Texture3 is High AND Compactness3 is Low AND Smoothness2 is High THEN 1 
+ELSE 0

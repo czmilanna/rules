@@ -1,0 +1,6 @@
+if(Positive>4.0) (34/66)
+	output=positive
+else if(Positive<=4.0) (170/209)
+	output=negative
+else 
+	output=positive

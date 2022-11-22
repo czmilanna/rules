@@ -1,0 +1,5 @@
+IF Breast is High AND Deg-malig is High AND Breast-quad is High THEN 1 | Support: 0.1421
+IF Inv-nodes is High THEN 1 | Support: 0.1370
+IF Inv-nodes is High THEN 1 | Support: 0.1370
+IF Breast is High AND Deg-malig is High AND Inv-nodes is High AND Tumor-size is Low THEN 1 | Support: 0.0457
+ELSE 0

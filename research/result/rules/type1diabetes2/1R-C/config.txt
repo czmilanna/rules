@@ -1,0 +1,6 @@
+algorithm = UnoR
+inputData = "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat"
+outputData = "rules/type1diabetes2/1R-C/result.tra" "rules/type1diabetes2/1R-C/result.tst" "rules/type1diabetes2/1R-C/result.txt"
+
+seed = 1
+SMALL = 6

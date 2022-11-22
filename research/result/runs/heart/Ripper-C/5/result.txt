@@ -1,0 +1,19 @@
+@Number of Rules: 9
+if(Thal>3.0) (78/107)
+	output=2
+else if(MaxHeartRate<=132.0 && Sex>0.0) (39/46)
+	output=2
+else if(Age>54.0 && Slope>1.0) (55/75)
+	output=2
+else if(SerumCholestoral>325.0 && Age>58.0) (4/7)
+	output=2
+else if(SerumCholestoral>275.0 && ResElectrocardiographic>0.0 && Oldpeak<=0.0) (8/11)
+	output=2
+else if(RestBloodPressure<=110.0 && Sex>0.0 && MajorVessels>0.0) (8/10)
+	output=2
+else if(Oldpeak>35.0) (8/9)
+	output=2
+else if(RestBloodPressure<=108.0 && SerumCholestoral>223.0 && Age>42.0) (4/11)
+	output=2
+else 
+	output=1

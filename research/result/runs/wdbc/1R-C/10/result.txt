@@ -1,0 +1,18 @@
+
+Rule 1: IF  Area3 in [185.2 , 739.3) THEN Class -> B     [ 0 121]
+Rule 2: IF  Area3 in [739.3 , 760.2) THEN Class -> M     [ 7 5]
+Rule 3: IF  Area3 in [760.2 , 876.5) THEN Class -> B     [ 2 9]
+Rule 4: IF  Area3 in [876.5 , 4254.0] THEN Class -> M     [ 9 2]
+
+####Average results for test data####
+Avg. Rule length: 17
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.05777310924369748
+Avg. Support: 0.8928571428571429
+Avg. Significance: 3.9154942166584625
+Avg. Unusualness: 0.5
+
+Accuracy Training: 0.9239766081871345
+Accuracy Test: 0.9107142857142857
+
+  Time (seconds); 

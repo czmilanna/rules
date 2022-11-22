@@ -1,0 +1,45 @@
+@Number of Rules: 22
+if(BI-RADS>4.0 && Age>60.0 && Shape>3.0 && Density<=3.0 && Margin<=3.0) (29/29)
+	output=1
+else if(BI-RADS>4.0 && Margin>3.0 && Shape>3.0) (159/176)
+	output=1
+else if(BI-RADS>4.0 && Age>56.0 && Margin<=3.0) (48/52)
+	output=1
+else if(Margin>1.0 && BI-RADS>4.0) (253/280)
+	output=1
+else if(Margin>3.0 && Age>64.0) (124/141)
+	output=1
+else if(Shape>3.0) (268/340)
+	output=1
+else if(BI-RADS>4.0 && Shape<=2.0 && Age>41.0) (24/28)
+	output=1
+else if(Age>54.0 && Margin>1.0) (254/323)
+	output=1
+else if(Age>64.0 && Shape<=1.0) (17/28)
+	output=1
+else if(BI-RADS>4.0 && Age>57.0 && Density<=3.0 && Margin<=3.0) (47/50)
+	output=1
+else if(Density<=1.0) (5/9)
+	output=1
+else if(BI-RADS>4.0 && Age>71.0) (72/76)
+	output=1
+else if(BI-RADS>4.0 && Age>72.0 && Margin<=3.0) (17/18)
+	output=1
+else if(BI-RADS>4.0 && Age<=34.0) (4/5)
+	output=1
+else if(Margin<=1.0 && Shape>1.0 && Age>66.0 && BI-RADS<=4.0 && Density>2.0) (4/12)
+	output=1
+else if(BI-RADS>4.0 && Age>60.0 && Shape>3.0 && Density<=3.0 && Margin<=4.0) (86/89)
+	output=1
+else if(BI-RADS>4.0 && Age>57.0 && Margin>4.0) (56/59)
+	output=1
+else if(Margin<=1.0 && Age>49.0 && Density>2.0 && Shape>1.0 && BI-RADS<=4.0) (8/49)
+	output=1
+else if(BI-RADS>4.0 && Age>59.0 && Margin<=3.0 && Density<=3.0) (45/47)
+	output=1
+else if(Age<=54.0 && Margin<=1.0 && Density>2.0 && BI-RADS<=3.0 && Shape>1.0) (1/4)
+	output=1
+else if(Age<=45.0 && Shape>2.0 && Density>2.0 && BI-RADS<=4.0 && Margin<=1.0) (1/9)
+	output=1
+else 
+	output=0

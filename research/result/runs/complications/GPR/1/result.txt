@@ -1,0 +1,4 @@
+IF OM is Low AND Height is High AND RUM is High AND BMI is Low THEN 1 | Support: 0.2664
+IF OM is Low AND RUM is High AND BMI is Low AND Weight is Medium THEN 1 | Support: 0.1046
+IF Weight is Low AND RUM is Low AND FIGO is High THEN 1 | Support: 0.0336
+ELSE 0

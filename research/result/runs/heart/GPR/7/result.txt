@@ -1,0 +1,6 @@
+IF Sex is High AND MajorVessels is High THEN 1 | Support: 0.2994
+IF ExerciseInduced is High AND MajorVessels is High THEN 1 | Support: 0.2068
+IF Thal is High AND MaxHeartRate is High AND ExerciseInduced is High THEN 1 | Support: 0.2019
+IF Oldpeak is High THEN 1 | Support: 0.2013
+IF RestBloodPressure is High AND MajorVessels is High AND Oldpeak is Low AND Slope is Medium THEN 1 | Support: 0.0204
+ELSE 0

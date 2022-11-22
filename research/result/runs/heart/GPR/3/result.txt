@@ -1,0 +1,3 @@
+IF MajorVessels is High THEN 1 | Support: 0.3889
+IF Oldpeak is Low AND ChestPainType is High AND Thal is High AND SerumCholestoral is Low THEN 1 | Support: 0.3574
+ELSE 0

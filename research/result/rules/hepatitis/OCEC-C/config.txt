@@ -1,0 +1,7 @@
+algorithm = Organizational Coevolutionary Algorithm (OCEC)
+inputData = "C:/Projekty/rules/data/hepatitis/hepatitis.dat" "C:/Projekty/rules/data/hepatitis/hepatitis.dat" "C:/Projekty/rules/data/hepatitis/hepatitis.dat"
+outputData = "rules/hepatitis/OCEC-C/result.tra" "rules/hepatitis/OCEC-C/result.tst" "rules/hepatitis/OCEC-C/result.txt"
+
+seed = 1
+Number of Total Generations = 500
+Number of migrating/exchanging members = 1

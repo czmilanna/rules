@@ -1,0 +1,7 @@
+algorithm = Each
+inputData = "C:/Projekty/rules/data/mammographic/mammographic.dat" "C:/Projekty/rules/data/mammographic/mammographic.dat" "C:/Projekty/rules/data/mammographic/mammographic.dat"
+outputData = "rules/mammographic/EACH-C/result.tra" "rules/mammographic/EACH-C/result.tst" "rules/mammographic/EACH-C/result.txt"
+
+seed = 1
+FeatureAdjustmentRate = 0.2
+UseSecondChance = YES

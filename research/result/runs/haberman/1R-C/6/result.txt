@@ -1,0 +1,16 @@
+
+Rule 1: IF  Positive in [0.0 , 23.0) THEN Survival -> negative     [ 48 186]
+Rule 2: IF  Positive in [23.0 , 52.0] THEN Survival -> positive     [ 6 3]
+
+####Average results for test data####
+Avg. Rule length: 3
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.3333333333333333
+Avg. Support: 0.7
+Avg. Significance: 0.7973908647429183
+Avg. Unusualness: 15.6
+
+Accuracy Training: 0.7463768115942029
+Accuracy Test: 0.7
+
+  Time (seconds); 

@@ -1,0 +1,7 @@
+algorithm = Each
+inputData = "C:/Projekty/rules/data/complications/complications.dat" "C:/Projekty/rules/data/complications/complications.dat" "C:/Projekty/rules/data/complications/complications.dat"
+outputData = "rules/complications/EACH-C/result.tra" "rules/complications/EACH-C/result.tst" "rules/complications/EACH-C/result.txt"
+
+seed = 1
+FeatureAdjustmentRate = 0.2
+UseSecondChance = YES

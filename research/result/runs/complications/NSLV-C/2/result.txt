@@ -1,0 +1,203 @@
+Experiment: C:/Projekty/rules/data/complications/complications-10dobscv-2tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 96
+Class 0: 53
+Class 1: 43
+Successes: 49.0
+Errors:  31.0
+Not classified: 16.0
+	Rule 0: 49 / 31
+Successes: 49.0
+Errors:  31.0
+Not classified: 16.0
+	Rule 0: 49 / 31
+Accuracy on training: 0.5104166666666666
+Number of examples: 47
+Class 0: 4
+Class 1: 43
+Successes: 61.0
+Errors:  32.0
+Not classified: 3.0
+	Rule 0: 49 / 29
+	Rule 1: 12 / 3
+Successes: 61.0
+Errors:  32.0
+Not classified: 3.0
+	Rule 0: 49 / 29
+	Rule 1: 12 / 3
+Accuracy on training: 0.6354166666666666
+Number of examples: 35
+Class 0: 4
+Class 1: 31
+Successes: 68.0
+Errors:  27.0
+Not classified: 1.0
+	Rule 0: 49 / 24
+	Rule 1: 12 / 3
+	Rule 2: 7 / 0
+Successes: 68.0
+Errors:  27.0
+Not classified: 1.0
+	Rule 0: 49 / 24
+	Rule 1: 12 / 3
+	Rule 2: 7 / 0
+Accuracy on training: 0.7083333333333334
+Number of examples: 28
+Class 0: 4
+Class 1: 24
+Successes: 69.0
+Errors:  27.0
+Not classified: 0.0
+	Rule 0: 49 / 24
+	Rule 1: 12 / 3
+	Rule 2: 7 / 0
+	Rule 3: 1 / 0
+Successes: 69.0
+Errors:  27.0
+Not classified: 0.0
+	Rule 0: 49 / 24
+	Rule 1: 12 / 3
+	Rule 2: 7 / 0
+	Rule 3: 1 / 0
+Accuracy on training: 0.71875
+Number of examples: 27
+Class 0: 3
+Class 1: 24
+Successes: 70.0
+Errors:  26.0
+Not classified: 0.0
+	Rule 0: 49 / 24
+	Rule 1: 12 / 2
+	Rule 2: 7 / 0
+	Rule 3: 1 / 0
+	Rule 4: 1 / 0
+Successes: 70.0
+Errors:  26.0
+Not classified: 0.0
+	Rule 0: 49 / 24
+	Rule 1: 12 / 2
+	Rule 2: 7 / 0
+	Rule 3: 1 / 0
+	Rule 4: 1 / 0
+Accuracy on training: 0.7291666666666666
+Number of examples: 26
+Class 0: 2
+Class 1: 24
+Successes: 72.0
+Errors:  24.0
+Not classified: 0.0
+	Rule 0: 49 / 22
+	Rule 1: 12 / 2
+	Rule 2: 7 / 0
+	Rule 3: 1 / 0
+	Rule 4: 1 / 0
+	Rule 5: 2 / 0
+Successes: 72.0
+Errors:  24.0
+Not classified: 0.0
+	Rule 0: 49 / 22
+	Rule 1: 12 / 2
+	Rule 2: 7 / 0
+	Rule 3: 1 / 0
+	Rule 4: 1 / 0
+	Rule 5: 2 / 0
+Accuracy on training: 0.75
+Number of examples: 24
+Class 0: 2
+Class 1: 22
+Successes: 72.0
+Errors:  24.0
+Not classified: 0.0
+	Rule 0: 49 / 22
+	Rule 1: 12 / 2
+	Rule 2: 7 / 0
+	Rule 3: 1 / 0
+	Rule 4: 1 / 0
+	Rule 5: 2 / 0
+	Rule 6: 0 / 0
+Successes: 72.0
+Errors:  24.0
+Not classified: 0.0
+	Rule 0: 49 / 22
+	Rule 1: 12 / 2
+	Rule 2: 7 / 0
+	Rule 3: 1 / 0
+	Rule 4: 2 / 0
+	Rule 5: 1 / 0
+Successes: 72.0
+Errors:  24.0
+Not classified: 0.0
+	Rule 0: 49 / 22
+	Rule 1: 12 / 2
+	Rule 2: 7 / 0
+	Rule 3: 1 / 0
+	Rule 4: 2 / 0
+	Rule 5: 1 / 0
+Successes: 7.0
+Errors:  4.0
+Not classified: 0.0
+	Rule 0: 3 / 2
+	Rule 1: 0 / 2
+	Rule 2: 1 / 0
+	Rule 3: 0 / 0
+	Rule 4: 2 / 0
+	Rule 5: 1 / 0
+----------------------------------------------------
+Accuracy on training: 0.75
+Accuracy on test: 0.6363636363636364
+Number of rules: 6.0
+Variables per rule: 2.3333333333333335
+Variables used: 1.0
+Time: 0.727
+Iterations: 6978
+Conditions: 14
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	RUM = { T0 T1 T2}
+	FIGO = { T0 T2 T3 T5}
+THEN Complication IS no   W 0.6172839506172839
+
+IF
+	OM = { T0}
+	Lymph = { T3}
+	FIGO = { T0 T1 T4}
+THEN Complication IS yes   W 0.8125
+
+IF
+	Age = { Low Medium}
+	Height = { VeryLow Low High}
+	Lymph = { T1 T2}
+	FIGO = { T0 T1 T2 T3 T5}
+THEN Complication IS yes   W 0.8065683273030894
+
+IF
+	BMI = { High VeryHigh}
+	FIGO = { T4 T5}
+THEN Complication IS no   W 1.0
+
+IF
+	Height = { VeryLow High}
+	Weight = { Medium}
+	OM = { T0}
+THEN Complication IS yes   W 0.7243241249626446
+
+IF
+THEN Complication IS no   W 0.5567010309278351
+
+	Accuracy on training set is: 0.75
+	Accuracy on test set is: 0.6363636363636364
+	Number of rules is: 6.0
+	Variables per rule is: 2.3333333333333335
+	Variables used is: 1.0
+	Time is: 0.727
+	Iterations is: 6978
+	Conditions is: 14
+

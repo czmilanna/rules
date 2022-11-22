@@ -1,0 +1,10 @@
+
+
+Rule 1: IF  'preg' in [0.0 , 17.0] AND 'plas' in [0.0 , 199.0] AND 'pres' in [0.0 , 114.0] AND 'skin' in [0.0 , 99.0] AND 'insu' in [0.0 , 846.0] AND 'mass' in [0.0 , 67.1] AND 'pedi' in [0.088 , 2.42] AND 'age' in [21.0 , 70.0] THEN 'class' -> tested_positive      [ Hyperrectangle weight = 2.6431535269709543 ]     [ Volumen = 0.759856364883594 ] 
+
+Rule 2: IF  'preg' in [0.0 , 13.0] AND 'plas' in [0.0 , 197.0] AND 'pres' in [0.0 , 122.0] AND 'skin' in [0.0 , 60.0] AND 'insu' in [0.0 , 744.0] AND 'mass' in [0.0 , 57.3] AND 'pedi' in [0.078 , 2.329] AND 'age' in [21.0 , 81.0] THEN 'class' -> tested_negative      [ Hyperrectangle weight = 1.0533333333333332 ]     [ Volumen = 0.33116689413972966 ] 
+
+Attributes Weights: 'preg' = 0.8   'plas' = 0.8   'pres' = 0.8   'skin' = 0.8   'insu' = 0.8   'mass' = 0.8   'pedi' = 0.8   'age' = 1.2   
+
+Accuracy Training: 0.6642547033285094
+Accuracy Test: 0.6623376623376623

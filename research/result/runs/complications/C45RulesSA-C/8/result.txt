@@ -1,0 +1,12 @@
+if(OM>0.0 && Lymph>1.0 && RUM=3 && FIGO=4) (0/0)
+	output=no
+else if(RUM=3 && FIGO=5) (4/4)
+	output=no
+else if(RUM=0) (5/6)
+	output=no
+else if(RUM=2 && Lymph<=1.0) (6/7)
+	output=no
+else if(OM<=0.0) (38/76)
+	output=yes
+else 
+	output=no

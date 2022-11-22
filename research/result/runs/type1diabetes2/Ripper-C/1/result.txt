@@ -1,0 +1,11 @@
+@Number of Rules: 5
+if(step_count<=60837.0 && height<=1.53) (44/48)
+	output=0
+else if(step_count<=54249.0) (85/106)
+	output=0
+else if(step_count<=60837.0 && light>982.916666666667) (39/45)
+	output=0
+else if(height>1.73 && step_count<=60231.0) (15/18)
+	output=0
+else 
+	output=1

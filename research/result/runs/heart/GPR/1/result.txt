@@ -1,0 +1,3 @@
+IF Sex is High AND MaxHeartRate is Low THEN 1 | Support: 0.4083
+IF MajorVessels is High THEN 1 | Support: 0.3920
+ELSE 0

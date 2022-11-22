@@ -1,0 +1,19 @@
+@Number of Rules: 9
+if(Area3>873.2 && Texture1>15.7) (152/153)
+	output=M
+else if(Concave_points3>0.145 && Smoothness3>0.131 && Radius1>10.97 && Area2>12.96) (126/127)
+	output=M
+else if(Concave_points3>0.129 && Texture1>20.53) (103/103)
+	output=M
+else if(Area3>783.6 && Area1<=602.4 && Texture1>14.76) (15/15)
+	output=M
+else if(Area2>38.34 && Symmetry2<=0.019 && Texture1>13.23) (80/81)
+	output=M
+else if(Concavity1>0.119 && Texture1>20.7) (81/81)
+	output=M
+else if(Area3>862.1 && Concavity1>0.071) (148/148)
+	output=M
+else if(Texture3>33.33 && Texture1<=22.47 && Radius1>11.36) (3/3)
+	output=M
+else 
+	output=B

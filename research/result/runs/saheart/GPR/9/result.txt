@@ -1,0 +1,5 @@
+IF Ldl is High AND Typea is High THEN 1 | Support: 0.2005
+IF Ldl is High AND Famhist is High THEN 1 | Support: 0.1919
+IF Tobacco is High THEN 1 | Support: 0.1677
+IF Alcohol is High AND Typea is Low AND Ldl is very Low AND Obesity is High AND Adiposity is Low THEN 1 | Support: 0.0035
+ELSE 0

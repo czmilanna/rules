@@ -1,0 +1,16 @@
+Error Training: 0.17
+Error Test: 0.17
+Rules (2):
+--------
+if BI-RADS = [1.0, 4.5) and
+   Age = [_, 79.5)
+then
+   Severity = 0 (391|104)
+
+if Age = [32.5, _)
+then
+   Severity = 1 (298|36)
+
+if true
+then
+   Severity = 1 (1|0)

@@ -1,0 +1,6 @@
+IF Spiders is High AND Ascites is High THEN 1 | Support: 0.7049
+IF ProTime is High THEN 1 | Support: 0.6639
+IF Anorexia is Low THEN 1 | Support: 0.1967
+IF Sex is High THEN 1 | Support: 0.1639
+IF Sex is High THEN 1 | Support: 0.1639
+ELSE 0

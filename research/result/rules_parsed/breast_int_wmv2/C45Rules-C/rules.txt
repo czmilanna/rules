@@ -1,0 +1,12 @@
+IF Deg-malig>2.0 AND Tumor-size>3.0 AND Menopause>1.0 THEN 1
+IF Inv-nodes>0.0 AND Breast=1 AND Breast-quad>1.0 THEN 1
+IF Inv-nodes>0.0 AND Breast=0 AND Node-caps<=0.0 AND Tumor-size>4.0 AND Irradiated=0 THEN 1
+IF Deg-malig>2.0 AND Inv-nodes>0.0 THEN 1
+IF Deg-malig<=2.0 AND Tumor-size>2.0 AND Inv-nodes<=0.0 AND Irradiated=1 AND Breast-quad>0.0 AND Age=70 THEN 0
+IF Deg-malig>2.0 AND Node-caps<=0.0 AND Tumor-size>3.0 AND Irradiated=0 AND Inv-nodes<=0.0 AND Menopause<=1.0 AND Age=30 THEN 0
+IF Deg-malig<=2.0 AND Tumor-size<=2.0 THEN 0
+IF Deg-malig<=2.0 AND Tumor-size>2.0 AND Inv-nodes<=0.0 AND Irradiated=0 AND Age=80 THEN 0
+IF Inv-nodes<=0.0 AND Breast-quad>0.0 AND Tumor-size<=4.0 THEN 0
+IF Deg-malig<=2.0 AND Inv-nodes<=0.0 AND Irradiated=0 AND Menopause<=1.0 THEN 0
+IF Node-caps<=0.0 AND Irradiated=0 AND Inv-nodes<=0.0 AND Tumor-size<=6.0 THEN 0
+ELSE 0

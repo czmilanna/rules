@@ -1,0 +1,12 @@
+algorithm = Fuzzy Rule Learning, SLAVE2 Algorithm
+inputData = "C:/Projekty/rules/data/wdbc/wdbc-10dobscv-3tra.dat" "C:/Projekty/rules/data/wdbc/wdbc-10dobscv-3tra.dat" "C:/Projekty/rules/data/wdbc/wdbc-10dobscv-3tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/wdbc/SLAVE2-C/3/result.tra" "C:/Projekty/rules/research/result/runs/wdbc/SLAVE2-C/3/result.tst" "C:/Projekty/rules/research/result/runs/wdbc/SLAVE2-C/3/result.txt"
+
+seed = 1
+Population Size = 20
+Number of Iterations Allowed without Change = 500
+Binary Mutation Probability = 0.5
+Binary Crossover Probability = 0.1
+Real Mutation Probability = 1
+Real Crossover Probability = 0.2
+Lambda = 0.8

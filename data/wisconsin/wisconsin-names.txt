@@ -1,0 +1,30 @@
+Breast Cancer Wisconsin (Original) data set
+
+1: Description.
+
+This dataset contains cases from a study that was conducted at the University of Wisconsin Hospitals, Madison, about patients who had undergone surgery for breast cancer. The task is to determine if the detected tumor is benign (2) os malignant (4).
+
+To asses the data to classification process, the first attribute of the original data set (the sample code number) has been removed in this version.
+
+2: Type.			Classification	
+3: Origin.			Real world
+4: Instances.		683 (699)
+5: Features.		9
+6: Classes.			2	
+7: Missing values.	Si
+
+8: Header.
+
+@relation wisconsin
+@attribute ClumpThickness integer [1, 10]
+@attribute CellSize integer [1, 10]
+@attribute CellShape integer [1, 10]
+@attribute MarginalAdhesion integer [1, 10]
+@attribute EpithelialSize integer [1, 10]
+@attribute BareNuclei integer [1, 10]
+@attribute BlandChromatin integer [1, 10]
+@attribute NormalNucleoli integer [1, 10]
+@attribute Mitoses integer [1, 10]
+@attribute Class {2,4}
+@inputs ClumpThickness, CellSize, CellShape, MarginalAdhesion, EpithelialSize, BareNuclei, BlandChromatin, NormalNucleoli, Mitoses
+@outputs Class

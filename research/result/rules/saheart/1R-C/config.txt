@@ -1,0 +1,6 @@
+algorithm = UnoR
+inputData = "C:/Projekty/rules/data/saheart/saheart.dat" "C:/Projekty/rules/data/saheart/saheart.dat" "C:/Projekty/rules/data/saheart/saheart.dat"
+outputData = "rules/saheart/1R-C/result.tra" "rules/saheart/1R-C/result.tst" "rules/saheart/1R-C/result.txt"
+
+seed = 1
+SMALL = 6

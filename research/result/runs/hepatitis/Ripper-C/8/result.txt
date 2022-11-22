@@ -1,0 +1,11 @@
+@Number of Rules: 5
+if(ProTime<=40.0 && Steroid<=1.0 && Fatigue<=1.0) (6/6)
+	output=1
+else if(AlbuMin<=2.6) (3/3)
+	output=1
+else if(Sgot<=23.0 && Age>39.0 && Steroid>1.0) (3/3)
+	output=1
+else if(AlkPhosphate>230.0) (2/2)
+	output=1
+else 
+	output=2

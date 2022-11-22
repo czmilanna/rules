@@ -1,0 +1,24 @@
+@relation  complications
+@attribute Age integer[29,73]
+@attribute Height integer[150,176]
+@attribute Weight integer[44,118]
+@attribute BMI real[17.47,44.96]
+@attribute OM integer[0,1]
+@attribute RUM{3,2,0,1}
+@attribute Lymph integer[0,3]
+@attribute FIGO{0,1,2,3,4,5}
+@attribute Complication{no,yes}
+@inputs Age,Height,Weight,BMI,OM,RUM,Lymph,FIGO
+@outputs Complication
+@data
+43, 164, 75, 27.89, 0, 0, 1, 0, no
+44, 157, 61, 24.75, 0, 3, 3, 2, no
+62, 159, 98, 38.76, 1, 0, 1, 2, no
+51, 158, 56, 22.43, 0, 3, 3, 3, no
+30, 158, 54, 21.63, 0, 3, 3, 2, no
+64, 164, 83, 30.86, 0, 3, 3, 2, no
+50, 161, 78, 30.09, 1, 3, 3, 2, yes
+44, 150, 57, 25.33, 0, 3, 3, 2, yes
+30, 162, 61, 23.24, 0, 3, 3, 2, yes
+73, 173, 75, 25.06, 1, 2, 3, 2, yes
+45, 152, 46, 19.91, 0, 1, 1, 5, yes

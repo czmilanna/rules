@@ -1,0 +1,5 @@
+IF At2 = { Medium High VeryHigh} AND At3 = { Low Medium High VeryHigh} AND At7 = { Low Medium High} THEN 0
+IF At1 = { VeryLow Low} AND At2 = { Medium High VeryHigh} AND At3 = { VeryLow High VeryHigh} AND At4 = { Low Medium VeryHigh} AND At5 = { Low Medium High VeryHigh} AND At6 = { VeryLow High VeryHigh} AND At7 = { VeryLow High} THEN 0
+IF At1 = { Low} AND At2 = { Low} AND At3 = { VeryLow Low} AND At4 = { Low} AND At5 = { Low High VeryHigh} AND At6 = { VeryLow Low} AND At7 = { Low} THEN 0
+IF At2 = { Low Medium High} AND At3 = { VeryLow VeryHigh} AND At4 = { VeryLow Low VeryHigh} AND At5 = { VeryLow Low Medium High} AND At6 = { Low Medium High VeryHigh} AND At7 = { VeryLow Low VeryHigh} THEN 1
+IF At1 = { VeryLow Low VeryHigh} AND At2 = { VeryLow Low High VeryHigh} AND At3 = { Low Medium} AND At4 = { VeryLow High} AND At5 = { VeryLow Low VeryHigh} AND At6 = { Medium} AND At7 = { VeryLow High} THEN 1

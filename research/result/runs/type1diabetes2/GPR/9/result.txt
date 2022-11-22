@@ -1,0 +1,4 @@
+IF moderate is High THEN 1 | Support: 0.3726
+IF vigorious is High THEN 1 | Support: 0.2797
+IF vigorious is very High THEN 1 | Support: 0.1011
+ELSE 0

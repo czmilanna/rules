@@ -1,0 +1,13 @@
+@Number of Rules: 6
+if(Bilirubin>1.8 && Anorexia>1.0) (5/5)
+	output=1
+else if(ProTime<=38.0 && Sgot>55.0 && Age>20.0) (5/5)
+	output=1
+else if(AlkPhosphate>230.0) (2/2)
+	output=1
+else if(AlbuMin<=2.1) (1/1)
+	output=1
+else if(Ascites<=1.0 && Sgot<=19.0) (1/1)
+	output=1
+else 
+	output=2

@@ -1,0 +1,11 @@
+Number of Rules: 3
+Rule[1]: IF  Ascites <= 1.0 AND  ProTime <= 42.0  THEN Class = 1 (6/6)
+Rule[2]: IF  Ascites <= 1.0 AND  ProTime > 42.0  THEN Class = 2 (3/4)
+Rule[3]: IF  Ascites > 1.0  THEN Class = 2 (58/63)
+
+Number of Rules: 2
+Rule[1]: IF  Varices <= 1.0 AND  Histology <= 2.0  THEN Class = 1 (5/10)
+Rule[2]: IF  ProTime <= 46.0 AND  Histology <= 2.0  THEN Class = 1 (10/20)
+
+Accuracy in training: 0.9041095890410958
+Accuracy in test: 0.7142857142857143

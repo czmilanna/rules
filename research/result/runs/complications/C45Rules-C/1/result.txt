@@ -1,0 +1,10 @@
+if(RUM=3 && Weight>68.0) (14/28)
+	output=yes
+else if(FIGO=1) (5/7)
+	output=yes
+else if(RUM=3 && FIGO=2) (25/41)
+	output=no
+else if(OM>0.0) (14/19)
+	output=no
+else 
+	output=yes

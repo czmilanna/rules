@@ -1,0 +1,11 @@
+@Number of Rules: 5
+if(ProTime<=46.0 && AlkPhosphate<=123.0 && Spiders<=1.0) (6/6)
+	output=1
+else if(AlkPhosphate>230.0) (2/2)
+	output=1
+else if(ProTime<=46.0 && Ascites<=1.0 && Anorexia>1.0) (6/6)
+	output=1
+else if(Varices<=1.0 && Fatigue>1.0 && Age>38.0) (1/1)
+	output=1
+else 
+	output=2

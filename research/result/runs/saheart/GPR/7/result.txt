@@ -1,0 +1,5 @@
+IF Ldl is High THEN 1 | Support: 0.3134
+IF Famhist is High AND Tobacco is High THEN 1 | Support: 0.1087
+IF Tobacco is very High THEN 1 | Support: 0.0662
+IF Tobacco is very High AND Age is Low AND Ldl is High AND Sbp is High THEN 1 | Support: 0.0011
+ELSE 0

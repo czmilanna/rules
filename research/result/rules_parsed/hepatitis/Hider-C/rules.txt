@@ -1,0 +1,4 @@
+IF Age = [20.0, 58.5) AND Bilirubin = [_, 4.7) AND AlkPhosphate = [_, 236.5) AND Sgot = [_, 420.0) AND AlbuMin = [2.65, 5.0) AND ProTime = [38.5, _) THEN 2
+IF Age = [20.0, 58.5) AND Sex = [_, 1.5) AND Bilirubin = [_, 3.15) AND AlkPhosphate = [62.5, 280.0) AND Sgot = [_, 161.5) AND AlbuMin = [_, 3.85) AND ProTime = [26.0, _) THEN 1
+IF Age = [43.5, 72.0) AND Bilirubin = [_, 3.15) AND AlkPhosphate = [66.5, 236.5) AND Sgot = [23.5, 156.5) AND AlbuMin = [2.65, 5.0) THEN 2
+IF Age = [20.0, 60.0) AND Anorexia = [1.5, _) AND Bilirubin = [_, 4.8) AND AlkPhosphate = [62.5, 280.0) AND Sgot = [_, 420.0) AND AlbuMin = [2.65, 5.0) AND ProTime = [_, 41.5) THEN 1

@@ -1,0 +1,17 @@
+IF Age = { Low Medium High VeryHigh} AND Height = { Low Medium High VeryHigh} AND Weight = { Low Medium High} AND BMI = { VeryLow Medium High VeryHigh} AND OM = { T0} AND RUM = { T0 T1 T2} AND Lymph = { T0 T1 T3} AND FIGO = { T0 T2 T3 T5} THEN no
+IF Age = { Medium High} AND Height = { Low Medium} AND Weight = { Medium High VeryHigh} AND BMI = { VeryLow Medium High} AND RUM = { T1 T2 T3} AND Lymph = { T2} AND FIGO = { T4} THEN no
+IF Age = { VeryLow} AND Height = { Medium VeryHigh} AND Weight = { VeryLow Low} AND BMI = { VeryLow} AND OM = { T0} AND RUM = { T0 T2} AND Lymph = { T1 T3} AND FIGO = { T0 T1 T5} THEN no
+IF Age = { VeryLow Low} AND Height = { Medium High} AND Weight = { VeryLow Medium VeryHigh} AND BMI = { VeryLow Medium High VeryHigh} AND RUM = { T3} AND Lymph = { T1} AND FIGO = { T1 T4} THEN no
+IF Age = { High} AND Height = { High} AND Weight = { Medium VeryHigh} AND BMI = { Low} AND OM = { T1} AND RUM = { T0} AND Lymph = { T2} AND FIGO = { T2} THEN no
+IF Age = { VeryLow Low} AND Height = { Medium High} AND Weight = { VeryLow} AND BMI = { VeryLow High} AND OM = { T0} AND RUM = { T0 T2} AND Lymph = { T3} AND FIGO = { T1} THEN no
+IF Age = { Low Medium High VeryHigh} AND Height = { VeryLow} AND Weight = { Low} AND BMI = { Medium} AND OM = { T0} AND RUM = { T0} AND Lymph = { T3} AND FIGO = { T2 T4 T5} THEN no
+IF Age = { VeryLow} AND Height = { Low} AND Weight = { Low Medium} AND BMI = { Low} AND RUM = { T0 T1 T2} AND Lymph = { T2 T3} AND FIGO = { T0 T2} THEN no
+IF Height = { VeryLow High} AND Weight = { VeryLow Medium High} AND OM = { T0} AND RUM = { T0 T1 T3} AND Lymph = { T1 T2 T3} AND FIGO = { T0 T1 T2 T5} THEN yes
+IF Age = { VeryLow Low} AND Height = { High} AND Weight = { VeryLow Low High} AND BMI = { Low Medium} AND OM = { T0} AND RUM = { T0 T2} AND Lymph = { T0 T1 T2} AND FIGO = { T2 T3} THEN yes
+IF Age = { Low High VeryHigh} AND Height = { VeryLow Medium High VeryHigh} AND Weight = { Low} AND BMI = { VeryLow High} AND RUM = { T1 T2} AND Lymph = { T2 T3} AND FIGO = { T1 T3 T4} THEN yes
+IF Age = { Low} AND Height = { Low Medium} AND Weight = { VeryLow} AND BMI = { Low} AND OM = { T0} AND RUM = { T0} AND Lymph = { T2} AND FIGO = { T2} THEN yes
+IF Age = { Medium High VeryHigh} AND Height = { VeryLow Medium High} AND Weight = { VeryLow Low Medium VeryHigh} AND BMI = { VeryLow Medium High VeryHigh} AND OM = { T0} AND RUM = { T1 T2} AND Lymph = { T3} AND FIGO = { T0 T1 T4} THEN yes
+IF Age = { Medium High VeryHigh} AND Height = { VeryLow Low} AND Weight = { VeryLow Low} AND BMI = { VeryLow Medium High VeryHigh} AND OM = { T0} AND RUM = { T1 T2 T3} AND Lymph = { T0 T1 T3} AND FIGO = { T2 T5} THEN yes
+IF Age = { Medium} AND Height = { VeryLow Medium} AND Weight = { VeryLow Medium} AND BMI = { Medium High VeryHigh} AND OM = { T0} AND RUM = { T0 T2} AND Lymph = { T2 T3} AND FIGO = { T1 T2} THEN yes
+IF Age = { High VeryHigh} AND Height = { Medium} AND Weight = { Medium High} AND BMI = { Low} AND OM = { T1} AND RUM = { T0 T1 T2} AND Lymph = { T3} AND FIGO = { T2 T3 T4} THEN yes
+IF Age = { Medium High VeryHigh} AND Height = { VeryLow} AND Weight = { VeryLow VeryHigh} AND BMI = { VeryLow Low Medium} AND OM = { T0} AND RUM = { T0 T3} AND Lymph = { T3} AND FIGO = { T2 T3 T4} THEN yes

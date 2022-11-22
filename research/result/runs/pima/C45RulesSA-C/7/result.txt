@@ -1,0 +1,10 @@
+if('plas'<=127.0 && 'preg'<=6.0 && 'insu'<=120.0) (256/294)
+	output=tested_negative
+else if('plas'<=127.0 && 'age'<=28.0) (219/237)
+	output=tested_negative
+else if('plas'<=94.0 && 'pedi'<=0.711) (108/111)
+	output=tested_negative
+else if('plas'<=127.0 && 'mass'<=26.9 && 'mass'>19.4) (108/109)
+	output=tested_negative
+else 
+	output=tested_positive

@@ -1,0 +1,177 @@
+Experiment: C:/Projekty/rules/data/wisconsin/wisconsin-10dobscv-2tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 614
+Class 0: 399
+Class 1: 215
+Accuracy on training: 0.6368078175895765
+Number of examples: 223
+Class 0: 8
+Class 1: 215
+Accuracy on training: 0.6416938110749185
+Number of examples: 220
+Class 0: 5
+Class 1: 215
+Accuracy on training: 0.6498371335504886
+Number of examples: 215
+Class 0: 399
+Class 1: 215
+Accuracy on training: 0.9413680781758957
+Number of examples: 432
+Class 0: 399
+Class 1: 33
+Accuracy on training: 0.9771986970684039
+Number of examples: 408
+Class 0: 399
+Class 1: 9
+Accuracy on training: 0.9853420195439739
+Number of examples: 403
+Class 0: 399
+Class 1: 4
+Accuracy on training: 0.990228013029316
+Number of examples: 400
+Class 0: 399
+Class 1: 1
+Successes: 609.0
+Errors:  5.0
+Not classified: 0.0
+	Rule 0: 187 / 5
+	Rule 1: 3 / 0
+	Rule 2: 209 / 0
+	Rule 3: 61 / 0
+	Rule 4: 15 / 0
+	Rule 5: 85 / 0
+	Rule 6: 48 / 0
+	Rule 7: 1 / 0
+Successes: 66.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 24 / 1
+	Rule 1: 0 / 0
+	Rule 2: 20 / 1
+	Rule 3: 9 / 0
+	Rule 4: 2 / 0
+	Rule 5: 7 / 1
+	Rule 6: 4 / 0
+	Rule 7: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.99185667752443
+Accuracy on test: 0.9565217391304348
+Number of rules: 8.0
+Variables per rule: 2.5
+Variables used: 1.0
+Time: 7.098
+Iterations: 96425
+Conditions: 20
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	ClumpThickness = { T1 T2 T3 T4 T5}
+	CellSize = { T0 T1 T2 T3}
+	CellShape = { T0 T1 T2 T3 T4 T5 T8}
+	MarginalAdhesion = { T3 T7 T9}
+	EpithelialSize = { T0 T3 T4 T5 T7 T8 T9}
+	BareNuclei = { T0 T1 T2 T3 T4 T5}
+	BlandChromatin = { T0 T1 T2 T4 T5 T6 T7 T8 T9}
+	NormalNucleoli = { T0 T1 T2 T5 T6 T7}
+	Mitoses = { T0 T1 T4 T5 T7}
+THEN Class IS 2   W 0.9824561403508771
+
+IF
+	ClumpThickness = { T5}
+	CellSize = { T1 T3 T5 T8}
+	CellShape = { T1 T3 T6}
+	MarginalAdhesion = { T4 T6}
+	EpithelialSize = { T5 T7 T8 T9}
+	BareNuclei = { T4 T8}
+	BlandChromatin = { T1 T2 T9}
+	NormalNucleoli = { T0 T1 T6 T9}
+	Mitoses = { T0 T1 T5}
+THEN Class IS 2   W 1.0
+
+IF
+	ClumpThickness = { T0 T2 T5}
+	CellSize = { T1 T2 T3 T5 T6 T8}
+	CellShape = { T0 T1 T2 T5 T7 T8}
+	MarginalAdhesion = { T2 T3 T7 T8}
+	EpithelialSize = { T1 T6 T7 T8 T9}
+	BareNuclei = { T1 T2 T5 T6}
+	BlandChromatin = { T0 T1 T2 T8 T9}
+	NormalNucleoli = { T0 T3 T5 T8}
+	Mitoses = { T0 T2 T4 T5 T8}
+THEN Class IS 2   W 1.0
+
+IF
+	ClumpThickness = { T1 T2 T3 T4 T5 T6}
+	CellSize = { T3 T4 T5 T6 T7 T8 T9}
+	CellShape = { T3 T5 T7}
+	MarginalAdhesion = { T4 T5 T6 T7 T8 T9}
+	BareNuclei = { T2 T5 T8}
+	BlandChromatin = { T2 T4}
+	NormalNucleoli = { T2}
+	Mitoses = { T2 T3 T6}
+THEN Class IS 4   W 0.9581151832460733
+
+IF
+	ClumpThickness = { T5 T6 T7 T8 T9}
+	CellSize = { T1 T2 T5 T8}
+	CellShape = { T2 T3 T4 T5 T7 T8 T9}
+	MarginalAdhesion = { T4 T6}
+	EpithelialSize = { T1 T2 T3 T4 T5 T6 T8 T9}
+	BareNuclei = { T2 T3 T4 T5 T6 T7 T8 T9}
+	BlandChromatin = { T0 T4 T8}
+	NormalNucleoli = { T0 T1 T2 T3 T4 T5 T8 T9}
+	Mitoses = { T0 T1 T2 T7 T8}
+THEN Class IS 4   W 0.9615384615384616
+
+IF
+	ClumpThickness = { T9}
+	CellSize = { T0 T3 T4 T6 T7 T8 T9}
+	CellShape = { T0 T8}
+	MarginalAdhesion = { T0 T1 T8}
+	EpithelialSize = { T1 T9}
+	BareNuclei = { T4 T9}
+	BlandChromatin = { T4}
+	NormalNucleoli = { T3 T8 T9}
+	Mitoses = { T0 T1 T2 T5 T7}
+THEN Class IS 4   W 1.0
+
+IF
+	ClumpThickness = { T4}
+	CellSize = { T2 T4 T9}
+	CellShape = { T1 T7 T8 T9}
+	MarginalAdhesion = { T0 T1 T3 T4 T5 T7}
+	EpithelialSize = { T6 T9}
+	BareNuclei = { T3 T9}
+	BlandChromatin = { T3 T5 T6 T7}
+	NormalNucleoli = { T0 T5 T6 T8}
+	Mitoses = { T1 T7 T8 T9}
+THEN Class IS 4   W 1.0
+
+IF
+	ClumpThickness = { T3}
+	CellSize = { T0}
+	CellShape = { T0}
+	MarginalAdhesion = { T2}
+	EpithelialSize = { T0}
+	BareNuclei = { T4}
+	BlandChromatin = { T1}
+	NormalNucleoli = { T0}
+	Mitoses = { T0}
+THEN Class IS 4   W 1.0
+
+	Accuracy on training set is: 0.99185667752443
+	Accuracy on test set is: 0.9565217391304348
+	Number of rules is: 8.0
+	Variables per rule is: 2.5
+	Variables used is: 1.0
+	Time is: 7.098
+	Iterations is: 96425
+	Conditions is: 20
+

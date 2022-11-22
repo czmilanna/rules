@@ -1,0 +1,26 @@
+\begin{table}
+\footnotesize
+\caption{Comparison of classifiers and DT GA-C using Wilcoxon signed-rank test}
+\label{tab:wilcoxon comparison}
+\begin{tabular}{lllllllll}
+\hline
+ & Algorithm & MCC p-value & Specificity p-value & AUC p-value & Accuracy p-value & Precision p-value & Recall p-value & Mixed p-value \\
+\hline
+1 & 1R-C & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 \\
+2 & C45-C & \textbf{0.9353} & 0.0414 & \textbf{0.9878} & \textbf{0.8052} & \textbf{0.8318} & \textbf{0.8052} & \textbf{0.8553} \\
+3 & C45Rules-C & \textbf{0.8962} & 0.0000 & \textbf{0.2983} & 0.0232 & \textbf{0.7006} & 0.0232 & \textbf{0.3126} \\
+4 & C45RulesSA-C & \textbf{0.8179} & 0.0001 & \textbf{0.1795} & 0.0222 & \textbf{0.8307} & 0.0222 & \textbf{0.3760} \\
+5 & DT Oblique-C & 0.0044 & 0.0000 & 0.0319 & 0.0000 & 0.0050 & 0.0000 & 0.0001 \\
+6 & EACH-C & 0.0000 & 0.0029 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 \\
+7 & GPR & \textbf{0.9265} & \textbf{0.8858} & \textbf{0.6479} & \textbf{0.3322} & \textbf{0.8834} & \textbf{0.3322} & \textbf{0.6232} \\
+8 & Hider-C & 0.0144 & \textbf{0.7514} & 0.0019 & 0.0253 & 0.0382 & 0.0253 & 0.0141 \\
+9 & NSLV-C & \textbf{0.9989} & \textbf{0.3746} & \textbf{0.9247} & \textbf{0.0649} & \textbf{0.6747} & \textbf{0.0649} & \textbf{0.3004} \\
+10 & OCEC-C & \textbf{0.4530} & 0.0000 & \textbf{0.9071} & 0.0042 & \textbf{0.3506} & 0.0042 & \textbf{0.1234} \\
+11 & OIGA-C & \textbf{0.7014} & 0.0014 & \textbf{0.5902} & \textbf{0.0989} & \textbf{0.4496} & \textbf{0.0989} & \textbf{0.3065} \\
+12 & PGIRLA-C & 0.0002 & \textbf{0.8313} & 0.0003 & 0.0002 & 0.0000 & 0.0002 & 0.0000 \\
+13 & Ripper-C & \textbf{0.9751} & 0.0000 & \textbf{0.2481} & 0.0000 & \textbf{0.5192} & 0.0000 & 0.0050 \\
+14 & SLAVE2-C & \textbf{0.2922} & \textbf{0.3684} & \textbf{0.1958} & \textbf{0.9181} & \textbf{0.3300} & \textbf{0.9181} & \textbf{0.6663} \\
+15 & SLAVEv0-C & 0.0019 & 0.0444 & 0.0012 & \textbf{0.1409} & 0.0015 & \textbf{0.1409} & 0.0199 \\
+\hline
+\end{tabular}
+\end{table}

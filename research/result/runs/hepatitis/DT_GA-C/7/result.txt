@@ -1,0 +1,12 @@
+Number of Rules: 4
+Rule[1]: IF  ProTime <= 46.0 AND  Histology <= 1.0  THEN Class = 2 (6/7)
+Rule[2]: IF  ProTime <= 46.0 AND  Histology > 1.0 AND  ProTime <= 23.0  THEN Class = 2 (2/2)
+Rule[3]: IF  ProTime <= 46.0 AND  Histology > 1.0 AND  ProTime > 23.0  THEN Class = 1 (10/10)
+Rule[4]: IF  ProTime > 46.0  THEN Class = 2 (52/53)
+
+Number of Rules: 2
+Rule[1]: IF  Age <= 39.0 AND  Sex > 0.0 AND  Steroid <= 2.0 AND  Antivirals > 0.0 AND  Fatigue <= 1.0 AND  Malaise > 0.0 AND  Anorexia > 1.0 AND  LiverBig > 1.0 AND  LiverFirm <= 1.0 AND  SpleenPalpable > 1.0 AND  Spiders <= 2.0 AND  Ascites <= 2.0 AND  Varices <= 2.0 AND  Bilirubin <= 2.3 AND  AlkPhosphate > 100.0 AND  Sgot > 20.0 AND  AlbuMin > 2.8 AND  ProTime > 39.0 AND  Histology <= 1.0  THEN Class = 1 (1/2)
+Rule[2]: IF  Antivirals > 1.0 AND  Histology > 0.0  THEN Class = 2 (41/51)
+
+Accuracy in training: 0.9722222222222222
+Accuracy in test: 0.75

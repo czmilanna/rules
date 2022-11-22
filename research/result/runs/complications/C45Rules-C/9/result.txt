@@ -1,0 +1,8 @@
+if(OM<=0.0 && Height>163.0) (21/36)
+	output=yes
+else if(FIGO=1) (6/8)
+	output=yes
+else if(Weight>69.0) (24/42)
+	output=no
+else 
+	output=yes

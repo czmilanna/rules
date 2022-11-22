@@ -1,0 +1,35 @@
+@Number of Rules: 17
+if(ChestPainType>3.0 && MajorVessels>0.0 && RestBloodPressure>108.0) (55/57)
+	output=2
+else if(Thal>3.0 && MaxHeartRate<=144.0) (47/53)
+	output=2
+else if(Thal>6.0 && ResElectrocardiographic>0.0 && RestBloodPressure>120.0) (32/34)
+	output=2
+else if(Age>57.0 && Sex>0.0 && FastingBloodSugar<=0.0 && RestBloodPressure>138.0) (14/16)
+	output=2
+else if(MajorVessels>1.0 && Age>52.0) (31/37)
+	output=2
+else if(Oldpeak>24.0) (21/23)
+	output=2
+else if(MajorVessels>0.0 && Oldpeak>5.0 && MaxHeartRate>162.0) (4/4)
+	output=2
+else if(RestBloodPressure<=110.0 && Thal>3.0 && MaxHeartRate>156.0) (3/3)
+	output=2
+else if(RestBloodPressure>172.0) (6/7)
+	output=2
+else if(SerumCholestoral>283.0 && Age>57.0 && ChestPainType>3.0 && Slope<=1.0) (5/6)
+	output=2
+else if(ChestPainType>3.0 && MajorVessels>0.0 && Sex>0.0) (49/50)
+	output=2
+else if(Thal>3.0 && MajorVessels>0.0 && Slope>1.0) (39/40)
+	output=2
+else if(Age<=40.0 && Thal>3.0) (6/7)
+	output=2
+else if(Oldpeak>16.0 && SerumCholestoral>245.0 && Age>43.0) (18/18)
+	output=2
+else if(SerumCholestoral<=149.0 && Age<=49.0) (1/2)
+	output=2
+else if(RestBloodPressure<=108.0 && Age<=47.0 && Sex>0.0) (1/2)
+	output=2
+else 
+	output=1

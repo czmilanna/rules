@@ -1,0 +1,208 @@
+IF Tobacco = 1 AND Age = 4 THEN 1
+IF Ldl = 0 AND Famhist = 1 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Famhist = 1 AND Obesity = 1 AND Age = 1 THEN 0
+IF Sbp = 0 AND Ldl = 0 AND Age = 0 THEN 0
+IF Adiposity = 3 AND Famhist = 0 AND Age = 4 THEN 1
+IF Adiposity = 3 AND Typea = 4 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Adiposity = 3 THEN 0
+IF Sbp = 0 AND Typea = 2 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Tobacco = 1 AND Ldl = 2 AND Famhist = 0 THEN 1
+IF Sbp = 3 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 0 AND Obesity = 0 AND Alcohol = 0 THEN 0
+IF Tobacco = 0 AND Ldl = 0 AND Typea = 3 AND Obesity = 1 AND Age = 0 THEN 0
+IF Sbp = 2 AND Ldl = 1 AND Adiposity = 3 THEN 0
+IF Tobacco = 0 AND Famhist = 1 AND Typea = 1 AND Obesity = 1 THEN 0
+IF Ldl = 0 AND Famhist = 0 AND Age = 1 THEN 0
+IF Ldl = 1 AND Famhist = 1 AND Typea = 3 AND Age = 4 THEN 1
+IF Sbp = 1 AND Adiposity = 0 AND Typea = 3 AND Age = 0 THEN 0
+IF Sbp = 1 AND Ldl = 1 AND Adiposity = 2 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Tobacco = 1 AND Adiposity = 3 AND Age = 3 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Adiposity = 4 AND Typea = 3 THEN 1
+IF Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Age = 1 THEN 0
+IF Sbp = 1 AND Adiposity = 2 AND Famhist = 0 AND Obesity = 1 AND Alcohol = 1 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Tobacco = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 1 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 1 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 0 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 2 AND Alcohol = 1 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 64 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 0 AND Tobacco = 2 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 1 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 1 AND Typea = 4 AND Obesity = 0 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 4 AND Obesity = 3 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 0 AND Typea = 3 AND Obesity = 0 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 2 AND Alcohol = 3 AND Age = 3 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 3 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 1 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 0 AND Tobacco = 2 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 1 AND Typea = 4 AND Obesity = 3 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 4 AND Tobacco = 3 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 3 AND Obesity = 2 AND Alcohol = 1 AND Age = 4 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 3 AND Age = 4 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 3 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 2 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 3 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 1 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 3 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 0 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 64 THEN 1
+IF Sbp = 4 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 1 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 1 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 2 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 4 AND Famhist = 0 AND Typea = 1 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 0 AND Famhist = 1 AND Typea = 3 AND Obesity = 0 AND Alcohol = 1 AND Age = 1 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 3 AND Adiposity = 4 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 3 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 0 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 3 AND Adiposity = 4 AND Famhist = 1 AND Typea = 3 AND Obesity = 3 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 3 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 1 AND Age = 1 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 4 AND Famhist = 0 AND Typea = 2 AND Obesity = 4 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 1 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 0 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 64 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 0 AND Typea = 4 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 0 AND Typea = 4 AND Obesity = 1 AND Alcohol = 0 AND Age = 1 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 4 AND Tobacco = 4 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 1 AND Alcohol = 1 AND Age = 4 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 0 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 3 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 0 AND Famhist = 0 AND Typea = 3 AND Obesity = 0 AND Alcohol = 0 AND Age = 1 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 4 AND Famhist = 1 AND Typea = 2 AND Obesity = 2 AND Alcohol = 2 AND Age = 4 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 64 THEN 1
+IF Sbp = 2 AND Tobacco = 2 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 4 AND Obesity = 2 AND Alcohol = 2 AND Age = 2 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 1 AND Famhist = 0 AND Typea = 4 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 2 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 2 AND Obesity = 3 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 2 AND Tobacco = 2 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 1 AND Typea = 3 AND Obesity = 3 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 1 AND Age = 2 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 3 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 4 AND Tobacco = 0 AND Ldl = 3 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 2 AND Alcohol = 2 AND Age = 1 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 1 AND Age = 3 THEN 1
+IF Sbp = 0 AND Tobacco = 4 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 1 AND Typea = 2 AND Obesity = 0 AND Alcohol = 1 AND Age = 4 THEN 1
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 1 AND Tobacco = 2 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 1
+IF Sbp = 4 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 0 AND Typea = 2 AND Obesity = 0 AND Alcohol = 0 AND Age = 4 THEN 1
+IF Sbp = 2 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 0 AND Alcohol = 2 AND Age = 3 THEN 1
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 64 THEN 1
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Sbp = 3 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 0 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 4 AND Famhist = 1 AND Typea = 2 AND Obesity = 3 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 2 AND Alcohol = 3 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 1 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 0 AND Typea = 2 AND Obesity = 3 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 0 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 4 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 1 AND Tobacco = 1 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 2 AND Age = 4 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 0 AND Famhist = 1 AND Typea = 2 AND Obesity = 0 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 1 THEN 0
+IF Sbp = 3 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 4 AND Famhist = 1 AND Typea = 3 AND Obesity = 3 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 0 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 3 AND Age = 3 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 1 AND Alcohol = 1 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 3 AND Adiposity = 3 AND Famhist = 0 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 1 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 2 AND Age = 3 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 3 AND Famhist = 0 AND Typea = 3 AND Obesity = 2 AND Alcohol = 2 AND Age = 1 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 2 AND Obesity = 4 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 2 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 3 AND Obesity = 3 AND Alcohol = 0 AND Age = 64 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 2 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 1 AND Age = 4 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 0 AND Tobacco = 1 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 3 AND Age = 2 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 1 AND Age = 1 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 0 AND Obesity = 0 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 2 AND Ldl = 0 AND Adiposity = 4 AND Famhist = 1 AND Typea = 2 AND Obesity = 3 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 2 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 1 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 1 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 0 AND Famhist = 0 AND Typea = 2 AND Obesity = 0 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Sbp = 1 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 0 AND Typea = 2 AND Obesity = 2 AND Alcohol = 2 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 0 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 1 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 2 AND Tobacco = 2 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 0 AND Obesity = 2 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 2 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 0 AND Famhist = 1 AND Typea = 4 AND Obesity = 0 AND Alcohol = 0 AND Age = 1 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 4 AND Famhist = 1 AND Typea = 2 AND Obesity = 2 AND Alcohol = 1 AND Age = 3 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 1 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 2 AND Alcohol = 0 AND Age = 1 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 3 AND Tobacco = 1 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 2 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 1 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 2 AND Ldl = 2 AND Adiposity = 4 AND Famhist = 1 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 0 AND Typea = 4 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 3 AND Famhist = 0 AND Typea = 3 AND Obesity = 3 AND Alcohol = 1 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 64 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 1 AND Age = 4 THEN 0
+IF Sbp = 1 AND Tobacco = 3 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 1 AND Age = 2 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 2 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 1 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 2 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 1 AND Typea = 2 AND Obesity = 3 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 1 AND Age = 2 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 3 AND Obesity = 2 AND Alcohol = 1 AND Age = 1 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 1 AND Typea = 3 AND Obesity = 2 AND Alcohol = 0 AND Age = 1 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 1 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 1 AND Typea = 4 AND Obesity = 1 AND Alcohol = 0 AND Age = 0 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 1 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 3 AND Famhist = 0 AND Typea = 3 AND Obesity = 3 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 3 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 3 AND Age = 64 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 1 AND Age = 2 THEN 0
+IF Sbp = 3 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 4 AND Famhist = 1 AND Typea = 2 AND Obesity = 2 AND Alcohol = 2 AND Age = 3 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 3 AND Adiposity = 4 AND Famhist = 1 AND Typea = 1 AND Obesity = 2 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 3 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 2 AND Age = 2 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 0 AND Typea = 3 AND Obesity = 1 AND Alcohol = 1 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 2 AND Famhist = 0 AND Typea = 4 AND Obesity = 1 AND Alcohol = 4 AND Age = 2 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 2 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 0 AND Tobacco = 2 AND Ldl = 1 AND Adiposity = 3 AND Famhist = 1 AND Typea = 2 AND Obesity = 2 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 1 AND Adiposity = 1 AND Famhist = 0 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 0 AND Adiposity = 2 AND Famhist = 1 AND Typea = 2 AND Obesity = 1 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 1 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 4 AND Famhist = 1 AND Typea = 1 AND Obesity = 2 AND Alcohol = 0 AND Age = 4 THEN 0
+IF Sbp = 0 AND Tobacco = 0 AND Ldl = 2 AND Adiposity = 2 AND Famhist = 1 AND Typea = 3 AND Obesity = 1 AND Alcohol = 0 AND Age = 2 THEN 0

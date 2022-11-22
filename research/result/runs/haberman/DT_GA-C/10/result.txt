@@ -1,0 +1,12 @@
+Number of Rules: 5
+Rule[1]: IF  Positive <= 2.0  THEN Class = negative (148/175)
+Rule[2]: IF  Positive > 2.0 AND  Age <= 44.0 AND  Age <= 43.0 AND  Positive <= 20.0  THEN Class = negative (17/18)
+Rule[3]: IF  Positive > 2.0 AND  Age <= 44.0 AND  Age <= 43.0 AND  Positive > 20.0  THEN Class = positive (2/3)
+Rule[4]: IF  Positive > 2.0 AND  Age <= 44.0 AND  Age > 43.0  THEN Class = positive (3/4)
+Rule[5]: IF  Positive > 2.0 AND  Age > 44.0  THEN Class = positive (40/76)
+
+Number of Rules: 1
+Rule[1]: IF  Age <= 60.0 AND  Year > 57.0 AND  Positive <= 30.0  THEN Class = positive (52/206)
+
+Accuracy in training: 0.7608695652173914
+Accuracy in test: 0.7333333333333333

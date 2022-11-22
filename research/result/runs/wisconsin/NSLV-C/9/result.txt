@@ -1,0 +1,269 @@
+Experiment: C:/Projekty/rules/data/wisconsin/wisconsin-10dobscv-9tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 615
+Class 0: 400
+Class 1: 215
+Successes: 361.0
+Errors:  6.0
+Not classified: 248.0
+	Rule 0: 361 / 6
+Successes: 361.0
+Errors:  6.0
+Not classified: 248.0
+	Rule 0: 361 / 6
+Accuracy on training: 0.5869918699186992
+Number of examples: 254
+Class 0: 39
+Class 1: 215
+Successes: 542.0
+Errors:  17.0
+Not classified: 56.0
+	Rule 0: 361 / 6
+	Rule 1: 181 / 11
+Successes: 542.0
+Errors:  17.0
+Not classified: 56.0
+	Rule 0: 361 / 6
+	Rule 1: 181 / 11
+Accuracy on training: 0.8813008130081301
+Number of examples: 73
+Class 0: 39
+Class 1: 34
+Successes: 566.0
+Errors:  17.0
+Not classified: 32.0
+	Rule 0: 27 / 6
+	Rule 1: 181 / 11
+	Rule 2: 358 / 0
+Successes: 566.0
+Errors:  17.0
+Not classified: 32.0
+	Rule 0: 27 / 6
+	Rule 1: 181 / 11
+	Rule 2: 358 / 0
+Accuracy on training: 0.9203252032520325
+Number of examples: 49
+Class 0: 15
+Class 1: 34
+Successes: 590.0
+Errors:  21.0
+Not classified: 4.0
+	Rule 0: 27 / 6
+	Rule 1: 181 / 11
+	Rule 2: 358 / 0
+	Rule 3: 24 / 4
+Successes: 590.0
+Errors:  21.0
+Not classified: 4.0
+	Rule 0: 27 / 6
+	Rule 1: 181 / 11
+	Rule 2: 358 / 0
+	Rule 3: 24 / 4
+Accuracy on training: 0.959349593495935
+Number of examples: 25
+Class 0: 15
+Class 1: 10
+Successes: 594.0
+Errors:  19.0
+Not classified: 2.0
+	Rule 0: 27 / 4
+	Rule 1: 153 / 11
+	Rule 2: 358 / 0
+	Rule 3: 24 / 4
+	Rule 4: 32 / 0
+Successes: 594.0
+Errors:  19.0
+Not classified: 2.0
+	Rule 0: 27 / 4
+	Rule 1: 153 / 11
+	Rule 2: 358 / 0
+	Rule 3: 24 / 4
+	Rule 4: 32 / 0
+Accuracy on training: 0.9658536585365853
+Number of examples: 21
+Class 0: 15
+Class 1: 6
+Successes: 596.0
+Errors:  17.0
+Not classified: 2.0
+	Rule 0: 27 / 2
+	Rule 1: 139 / 11
+	Rule 2: 358 / 0
+	Rule 3: 24 / 4
+	Rule 4: 32 / 0
+	Rule 5: 16 / 0
+Successes: 596.0
+Errors:  17.0
+Not classified: 2.0
+	Rule 0: 27 / 2
+	Rule 1: 139 / 11
+	Rule 2: 358 / 0
+	Rule 3: 24 / 4
+	Rule 4: 32 / 0
+	Rule 5: 16 / 0
+Accuracy on training: 0.9691056910569106
+Number of examples: 19
+Class 0: 15
+Class 1: 4
+Successes: 603.0
+Errors:  10.0
+Not classified: 2.0
+	Rule 0: 7 / 2
+	Rule 1: 139 / 7
+	Rule 2: 358 / 0
+	Rule 3: 24 / 1
+	Rule 4: 32 / 0
+	Rule 5: 16 / 0
+	Rule 6: 27 / 0
+Successes: 603.0
+Errors:  10.0
+Not classified: 2.0
+	Rule 0: 7 / 2
+	Rule 1: 139 / 7
+	Rule 2: 358 / 0
+	Rule 3: 24 / 1
+	Rule 4: 32 / 0
+	Rule 5: 16 / 0
+	Rule 6: 27 / 0
+Accuracy on training: 0.9804878048780488
+Number of examples: 12
+Class 0: 8
+Class 1: 4
+Successes: 604.0
+Errors:  10.0
+Not classified: 1.0
+	Rule 0: 7 / 2
+	Rule 1: 139 / 7
+	Rule 2: 358 / 0
+	Rule 3: 24 / 1
+	Rule 4: 32 / 0
+	Rule 5: 16 / 0
+	Rule 6: 27 / 0
+	Rule 7: 1 / 0
+Successes: 604.0
+Errors:  10.0
+Not classified: 1.0
+	Rule 0: 7 / 2
+	Rule 1: 139 / 7
+	Rule 2: 358 / 0
+	Rule 3: 24 / 1
+	Rule 4: 32 / 0
+	Rule 5: 16 / 0
+	Rule 6: 27 / 0
+	Rule 7: 1 / 0
+Accuracy on training: 0.9821138211382113
+Number of examples: 11
+Class 0: 8
+Class 1: 3
+Successes: 604.0
+Errors:  11.0
+Not classified: 0.0
+	Rule 0: 7 / 2
+	Rule 1: 139 / 7
+	Rule 2: 358 / 0
+	Rule 3: 24 / 1
+	Rule 4: 32 / 0
+	Rule 5: 16 / 0
+	Rule 6: 27 / 0
+	Rule 7: 1 / 0
+	Rule 8: 0 / 1
+Successes: 604.0
+Errors:  10.0
+Not classified: 1.0
+	Rule 0: 7 / 2
+	Rule 1: 139 / 7
+	Rule 2: 358 / 0
+	Rule 3: 24 / 1
+	Rule 4: 32 / 0
+	Rule 5: 16 / 0
+	Rule 6: 27 / 0
+	Rule 7: 1 / 0
+Successes: 604.0
+Errors:  10.0
+Not classified: 1.0
+	Rule 0: 7 / 2
+	Rule 1: 139 / 7
+	Rule 2: 358 / 0
+	Rule 3: 24 / 1
+	Rule 4: 32 / 0
+	Rule 5: 16 / 0
+	Rule 6: 27 / 0
+	Rule 7: 1 / 0
+Successes: 65.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 1 / 1
+	Rule 1: 14 / 0
+	Rule 2: 41 / 0
+	Rule 3: 1 / 0
+	Rule 4: 6 / 0
+	Rule 5: 0 / 0
+	Rule 6: 2 / 2
+	Rule 7: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.9821138211382113
+Accuracy on test: 0.9558823529411765
+Number of rules: 8.0
+Variables per rule: 2.0
+Variables used: 0.7777777777777778
+Time: 2.848
+Iterations: 10467
+Conditions: 16
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	CellSize = { T0 T1}
+	Mitoses = { T0 T6}
+THEN Class IS 2   W 0.9836956521739131
+
+IF
+	CellSize = { T3 T4 T5 T6 T7 T8 T9}
+THEN Class IS 4   W 0.9430051813471503
+
+IF
+	CellSize = { T0 T1 T2 T4 T5}
+	CellShape = { T0 T1 T2 T5}
+	BareNuclei = { T0 T1}
+THEN Class IS 2   W 1.0
+
+IF
+	CellSize = { T2 T4 T5 T9}
+THEN Class IS 4   W 0.8461538461538461
+
+IF
+	CellSize = { T1 T4 T5 T9}
+	EpithelialSize = { T4 T5}
+THEN Class IS 4   W 1.0
+
+IF
+	ClumpThickness = { T2 T3 T4}
+	CellSize = { T1 T4 T5 T9}
+	CellShape = { T2 T4 T5 T9}
+THEN Class IS 4   W 1.0
+
+IF
+	ClumpThickness = { T0 T2 T3 T4 T5}
+	BareNuclei = { T0 T2 T4}
+	NormalNucleoli = { T0 T1 T4 T5 T6 T7}
+THEN Class IS 2   W 0.9969135802469136
+
+IF
+	CellSize = { T1 T4 T5 T9}
+THEN Class IS 4   W 0.7718120805369127
+
+	Accuracy on training set is: 0.9821138211382113
+	Accuracy on test set is: 0.9558823529411765
+	Number of rules is: 8.0
+	Variables per rule is: 2.0
+	Variables used is: 0.7777777777777778
+	Time is: 2.848
+	Iterations is: 10467
+	Conditions is: 16
+

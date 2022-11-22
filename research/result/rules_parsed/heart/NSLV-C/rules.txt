@@ -1,0 +1,14 @@
+IF Oldpeak = { VeryLow Low} AND MajorVessels = { T0} AND Thal = { T0 T1 T3} THEN 1
+IF ChestPainType = { T3} THEN 2
+IF MaxHeartRate = { High VeryHigh} THEN 1
+IF Sex = { T1} AND RestBloodPressure = { Low Medium} AND FastingBloodSugar = { T0} AND MaxHeartRate = { Low Medium High} AND Oldpeak = { Medium High VeryHigh} AND Thal = { T0 T4} THEN 2
+IF FastingBloodSugar = { T0} AND Oldpeak = { VeryLow} AND MajorVessels = { T3} THEN 2
+IF Age = { High VeryHigh} AND Sex = { T1} AND RestBloodPressure = { Medium High VeryHigh} AND ResElectrocardiographic = { T1 T2} AND MaxHeartRate = { High} AND Slope = { T1} THEN 2
+IF Age = { Medium} AND Slope = { T1} AND MajorVessels = { T1} THEN 2
+IF FastingBloodSugar = { T1} AND ResElectrocardiographic = { T2} AND MajorVessels = { T2} THEN 2
+IF SerumCholestoral = { Medium} AND Thal = { T3} THEN 2
+IF Sex = { T0} AND ResElectrocardiographic = { T2} AND MajorVessels = { T1} THEN 1
+IF Sex = { T0} AND ChestPainType = { T2} AND SerumCholestoral = { Medium VeryHigh} THEN 1
+IF Age = { Medium} AND ChestPainType = { T1} AND Slope = { T1 T2} AND Thal = { T3 T4} THEN 2
+IF Age = { Medium High} AND ChestPainType = { T1} AND FastingBloodSugar = { T0} AND MaxHeartRate = { Low Medium VeryHigh} AND Thal = { T3 T4} THEN 2
+IF ChestPainType = { T0 T1} THEN 1

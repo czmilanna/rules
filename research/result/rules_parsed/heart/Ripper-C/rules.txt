@@ -1,0 +1,15 @@
+IF Thal>3.0 AND MajorVessels>0.0 AND ResElectrocardiographic>0.0 THEN 2
+IF ChestPainType>3.0 AND Thal>6.0 AND Oldpeak>5.0 THEN 2
+IF ChestPainType>3.0 AND MajorVessels>0.0 AND MaxHeartRate>159.0 THEN 2
+IF MaxHeartRate<=161.0 AND Sex>0.0 AND MajorVessels>0.0 AND Age>54.0 AND Oldpeak>2.0 THEN 2
+IF MaxHeartRate<=147.0 AND ExerciseInduced>0.0 AND SerumCholestoral>263.0 THEN 2
+IF MaxHeartRate<=158.0 AND Oldpeak<=3.0 AND Sex>0.0 AND FastingBloodSugar<=0.0 AND ExerciseInduced<=0.0 AND RestBloodPressure<=124.0 THEN 2
+IF SerumCholestoral>271.0 AND Oldpeak>12.0 AND Age>51.0 AND Sex>0.0 THEN 2
+IF Thal>3.0 AND Age<=50.0 THEN 2
+IF MaxHeartRate<=161.0 AND RestBloodPressure>145.0 AND Age<=60.0 AND Oldpeak<=2.0 THEN 2
+IF MaxHeartRate<=132.0 AND MajorVessels>0.0 AND SerumCholestoral<=212.0 THEN 2
+IF Age>60.0 AND Slope>1.0 AND ResElectrocardiographic<=0.0 AND RestBloodPressure>128.0 AND SerumCholestoral>243.0 THEN 2
+IF SerumCholestoral>315.0 AND Oldpeak<=0.0 AND RestBloodPressure>120.0 THEN 2
+IF SerumCholestoral<=185.0 AND Age>57.0 AND RestBloodPressure>120.0 THEN 2
+IF Oldpeak>35.0 THEN 2
+ELSE 1

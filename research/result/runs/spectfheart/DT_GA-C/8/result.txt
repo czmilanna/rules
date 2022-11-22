@@ -1,0 +1,27 @@
+Number of Rules: 18
+Rule[1]: IF  F20S <= 70.0 AND  F3S <= 67.0  THEN Class = 1 (105/106)
+Rule[2]: IF  F20S <= 70.0 AND  F3S > 67.0 AND  F14S <= 59.0  THEN Class = 1 (14/14)
+Rule[3]: IF  F20S <= 70.0 AND  F3S > 67.0 AND  F14S > 59.0 AND  F17R <= 65.0 AND  F21S <= 65.0 AND  F21S <= 62.0  THEN Class = 1 (6/6)
+Rule[4]: IF  F20S <= 70.0 AND  F3S > 67.0 AND  F14S > 59.0 AND  F17R <= 65.0 AND  F21S <= 65.0 AND  F21S > 62.0  THEN Class = 0 (4/5)
+Rule[5]: IF  F20S <= 70.0 AND  F3S > 67.0 AND  F14S > 59.0 AND  F17R <= 65.0 AND  F21S > 65.0  THEN Class = 1 (13/13)
+Rule[6]: IF  F20S <= 70.0 AND  F3S > 67.0 AND  F14S > 59.0 AND  F17R > 65.0 AND  F11R <= 73.0  THEN Class = 1 (3/3)
+Rule[7]: IF  F20S <= 70.0 AND  F3S > 67.0 AND  F14S > 59.0 AND  F17R > 65.0 AND  F11R > 73.0  THEN Class = 0 (7/7)
+Rule[8]: IF  F20S > 70.0 AND  F13S <= 47.0  THEN Class = 1 (12/12)
+Rule[9]: IF  F20S > 70.0 AND  F13S > 47.0 AND  F4S <= 65.0  THEN Class = 1 (8/8)
+Rule[10]: IF  F20S > 70.0 AND  F13S > 47.0 AND  F4S > 65.0 AND  F6S <= 61.0  THEN Class = 1 (7/7)
+Rule[11]: IF  F20S > 70.0 AND  F13S > 47.0 AND  F4S > 65.0 AND  F6S > 61.0 AND  F5R <= 69.0 AND  F17R <= 63.0 AND  F11S <= 70.0  THEN Class = 1 (4/4)
+Rule[12]: IF  F20S > 70.0 AND  F13S > 47.0 AND  F4S > 65.0 AND  F6S > 61.0 AND  F5R <= 69.0 AND  F17R <= 63.0 AND  F11S > 70.0 AND  F13R <= 72.0 AND  F12R <= 69.0 AND  F13R <= 62.0  THEN Class = 0 (6/7)
+Rule[13]: IF  F20S > 70.0 AND  F13S > 47.0 AND  F4S > 65.0 AND  F6S > 61.0 AND  F5R <= 69.0 AND  F17R <= 63.0 AND  F11S > 70.0 AND  F13R <= 72.0 AND  F12R <= 69.0 AND  F13R > 62.0  THEN Class = 1 (7/7)
+Rule[14]: IF  F20S > 70.0 AND  F13S > 47.0 AND  F4S > 65.0 AND  F6S > 61.0 AND  F5R <= 69.0 AND  F17R <= 63.0 AND  F11S > 70.0 AND  F13R <= 72.0 AND  F12R > 69.0 AND  F8R <= 60.0  THEN Class = 1 (2/3)
+Rule[15]: IF  F20S > 70.0 AND  F13S > 47.0 AND  F4S > 65.0 AND  F6S > 61.0 AND  F5R <= 69.0 AND  F17R <= 63.0 AND  F11S > 70.0 AND  F13R <= 72.0 AND  F12R > 69.0 AND  F8R > 60.0  THEN Class = 0 (14/14)
+Rule[16]: IF  F20S > 70.0 AND  F13S > 47.0 AND  F4S > 65.0 AND  F6S > 61.0 AND  F5R <= 69.0 AND  F17R <= 63.0 AND  F11S > 70.0 AND  F13R > 72.0  THEN Class = 1 (3/3)
+Rule[17]: IF  F20S > 70.0 AND  F13S > 47.0 AND  F4S > 65.0 AND  F6S > 61.0 AND  F5R <= 69.0 AND  F17R > 63.0  THEN Class = 0 (17/17)
+Rule[18]: IF  F20S > 70.0 AND  F13S > 47.0 AND  F4S > 65.0 AND  F6S > 61.0 AND  F5R > 69.0  THEN Class = 1 (5/5)
+
+Number of Rules: 3
+Rule[1]: IF  F17R <= 67.0 AND  F19R > 53.0  THEN Class = 1 (158/202)
+Rule[2]: IF  F22R <= 64.0 AND  F22S <= 64.0  THEN Class = 0 (32/197)
+Rule[3]: IF  F17S <= 67.0  THEN Class = 0 (42/212)
+
+Accuracy in training: 0.921161825726141
+Accuracy in test: 0.7307692307692307

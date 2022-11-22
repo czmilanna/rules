@@ -1,0 +1,251 @@
+Experiment: C:/Projekty/rules/data/pima/pima-10dobscv-6tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 691
+Class 0: 450
+Class 1: 241
+Accuracy on training: 0.6005788712011577
+Number of examples: 276
+Class 0: 121
+Class 1: 241
+Accuracy on training: 0.61794500723589
+Number of examples: 264
+Class 0: 107
+Class 1: 241
+Accuracy on training: 0.6251808972503617
+Number of examples: 259
+Class 0: 94
+Class 1: 241
+Accuracy on training: 0.6266280752532561
+Number of examples: 258
+Class 0: 86
+Class 1: 241
+Accuracy on training: 0.6266280752532561
+Number of examples: 258
+Class 0: 84
+Class 1: 241
+Accuracy on training: 0.6266280752532561
+Number of examples: 258
+Class 0: 81
+Class 1: 241
+Accuracy on training: 0.6280752532561505
+Number of examples: 257
+Class 0: 79
+Class 1: 241
+Accuracy on training: 0.6280752532561505
+Number of examples: 257
+Class 0: 450
+Class 1: 241
+Accuracy on training: 0.7409551374819102
+Number of examples: 602
+Class 0: 450
+Class 1: 191
+Accuracy on training: 0.7698986975397974
+Number of examples: 570
+Class 0: 450
+Class 1: 153
+Accuracy on training: 0.784370477568741
+Number of examples: 560
+Class 0: 450
+Class 1: 147
+Accuracy on training: 0.7945007235890015
+Number of examples: 553
+Class 0: 450
+Class 1: 141
+Successes: 549.0
+Errors:  142.0
+Not classified: 0.0
+	Rule 0: 345 / 85
+	Rule 1: 21 / 7
+	Rule 2: 23 / 7
+	Rule 3: 13 / 3
+	Rule 4: 2 / 1
+	Rule 5: 2 / 0
+	Rule 6: 3 / 0
+	Rule 7: 2 / 0
+	Rule 8: 70 / 19
+	Rule 9: 44 / 18
+	Rule 10: 10 / 0
+	Rule 11: 14 / 2
+	Rule 12: 0 / 0
+Successes: 61.0
+Errors:  16.0
+Not classified: 0.0
+	Rule 0: 43 / 13
+	Rule 1: 2 / 0
+	Rule 2: 2 / 0
+	Rule 3: 0 / 0
+	Rule 4: 0 / 0
+	Rule 5: 0 / 0
+	Rule 6: 0 / 0
+	Rule 7: 0 / 0
+	Rule 8: 6 / 1
+	Rule 9: 5 / 1
+	Rule 10: 1 / 0
+	Rule 11: 1 / 1
+	Rule 12: 1 / 0
+----------------------------------------------------
+Accuracy on training: 0.7945007235890015
+Accuracy on test: 0.7922077922077922
+Number of rules: 13.0
+Variables per rule: 5.615384615384615
+Variables used: 1.0
+Time: 16.855
+Iterations: 168754
+Conditions: 73
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	'preg' = { VeryLow Low High VeryHigh}
+	'plas' = { VeryLow Low Medium}
+	'pres' = { Low Medium High VeryHigh}
+	'skin' = { VeryLow High VeryHigh}
+	'insu' = { VeryLow Low Medium VeryHigh}
+	'mass' = { VeryLow Low Medium}
+	'pedi' = { VeryLow Low High}
+	'age' = { VeryLow Medium VeryHigh}
+THEN 'class' IS tested_negative   W 0.805062059937505
+
+IF
+	'preg' = { VeryLow Low High VeryHigh}
+	'plas' = { VeryLow High}
+	'pres' = { Low Medium High}
+	'skin' = { VeryLow Low Medium}
+	'insu' = { VeryLow Low Medium}
+	'mass' = { VeryLow Low}
+	'pedi' = { VeryLow Low High}
+	'age' = { VeryLow High VeryHigh}
+THEN 'class' IS tested_negative   W 0.7290732529820171
+
+IF
+	'preg' = { VeryLow Low High VeryHigh}
+	'plas' = { High}
+	'pres' = { High VeryHigh}
+	'skin' = { VeryLow Low Medium}
+	'insu' = { VeryLow Low}
+	'mass' = { Low Medium}
+	'pedi' = { VeryLow}
+	'age' = { VeryLow High VeryHigh}
+THEN 'class' IS tested_negative   W 0.590074616211973
+
+IF
+	'preg' = { VeryLow}
+	'plas' = { VeryLow Low Medium}
+	'pres' = { Low Medium High}
+	'skin' = { Low Medium High}
+	'insu' = { VeryLow Medium}
+	'mass' = { VeryLow Low High}
+	'pedi' = { VeryLow Medium}
+	'age' = { VeryLow Low}
+THEN 'class' IS tested_negative   W 0.68756931029263
+
+IF
+	'preg' = { VeryLow Low Medium}
+	'plas' = { Medium}
+	'pres' = { Medium}
+	'skin' = { VeryLow High}
+	'insu' = { VeryLow}
+	'mass' = { High}
+	'pedi' = { Low High}
+	'age' = { VeryLow}
+THEN 'class' IS tested_negative   W 0.8828449545027907
+
+IF
+	'preg' = { Medium High}
+	'plas' = { High VeryHigh}
+	'skin' = { VeryLow Medium VeryHigh}
+	'insu' = { VeryLow VeryHigh}
+	'mass' = { Low Medium VeryHigh}
+	'pedi' = { VeryLow VeryHigh}
+	'age' = { High VeryHigh}
+THEN 'class' IS tested_negative   W 0.7646186481952958
+
+IF
+	'preg' = { VeryLow Medium High VeryHigh}
+	'plas' = { High}
+	'pres' = { Medium}
+	'skin' = { VeryLow Low High}
+	'insu' = { VeryLow Low}
+	'mass' = { Low Medium High}
+	'pedi' = { Low}
+	'age' = { High VeryHigh}
+THEN 'class' IS tested_negative   W 0.7355824531555433
+
+IF
+	'preg' = { Medium High VeryHigh}
+	'plas' = { VeryLow Low Medium High}
+	'pres' = { VeryLow Medium}
+	'skin' = { VeryLow Low VeryHigh}
+	'insu' = { VeryLow}
+	'mass' = { Low}
+	'pedi' = { VeryLow Medium}
+	'age' = { High}
+THEN 'class' IS tested_negative   W 0.9349646365605441
+
+IF
+	'preg' = { Low}
+	'plas' = { VeryHigh}
+	'pres' = { VeryLow Low Medium High}
+	'skin' = { VeryLow Low Medium High}
+	'insu' = { Medium}
+	'mass' = { VeryLow Medium High}
+	'pedi' = { VeryLow Low Medium High}
+THEN 'class' IS tested_positive   W 0.8185759500411498
+
+IF
+	'preg' = { Low Medium High VeryHigh}
+	'plas' = { VeryLow High}
+	'pres' = { Low Medium High VeryHigh}
+	'skin' = { VeryLow Medium}
+	'insu' = { Low High}
+	'mass' = { VeryLow Medium High}
+	'pedi' = { VeryLow Low}
+	'age' = { Medium}
+THEN 'class' IS tested_positive   W 0.6509721467287634
+
+IF
+	'preg' = { VeryLow Low}
+	'plas' = { High VeryHigh}
+	'pres' = { VeryLow VeryHigh}
+	'skin' = { VeryLow Low Medium}
+	'insu' = { VeryLow High VeryHigh}
+	'mass' = { Low Medium High VeryHigh}
+	'pedi' = { Low VeryHigh}
+	'age' = { VeryLow}
+THEN 'class' IS tested_positive   W 0.8925137940275468
+
+IF
+	'preg' = { VeryLow Low Medium}
+	'plas' = { High}
+	'pres' = { Medium High VeryHigh}
+	'insu' = { Low}
+	'mass' = { VeryLow Medium VeryHigh}
+	'pedi' = { Medium High VeryHigh}
+	'age' = { Low Medium}
+THEN 'class' IS tested_positive   W 0.7501331908584536
+
+IF
+	'preg' = { VeryLow Low}
+	'plas' = { VeryHigh}
+	'pres' = { VeryLow Medium}
+	'skin' = { VeryLow Medium}
+	'insu' = { VeryLow Low}
+	'mass' = { VeryLow Low}
+	'age' = { VeryLow Low}
+THEN 'class' IS tested_positive   W 0.6942219984696912
+
+	Accuracy on training set is: 0.7945007235890015
+	Accuracy on test set is: 0.7922077922077922
+	Number of rules is: 13.0
+	Variables per rule is: 5.615384615384615
+	Variables used is: 1.0
+	Time is: 16.855
+	Iterations is: 168754
+	Conditions is: 73
+

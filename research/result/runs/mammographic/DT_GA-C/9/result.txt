@@ -1,0 +1,14 @@
+Number of Rules: 6
+Rule[1]: IF  BI-RADS <= 4.0 AND  Shape <= 2.0  THEN Class = 0 (269/297)
+Rule[2]: IF  BI-RADS <= 4.0 AND  Shape > 2.0 AND  Age <= 69.0 AND  Margin <= 4.0  THEN Class = 0 (72/109)
+Rule[3]: IF  BI-RADS <= 4.0 AND  Shape > 2.0 AND  Age <= 69.0 AND  Margin > 4.0 AND  Age <= 57.0  THEN Class = 1 (7/8)
+Rule[4]: IF  BI-RADS <= 4.0 AND  Shape > 2.0 AND  Age <= 69.0 AND  Margin > 4.0 AND  Age > 57.0  THEN Class = 0 (7/12)
+Rule[5]: IF  BI-RADS <= 4.0 AND  Shape > 2.0 AND  Age > 69.0  THEN Class = 1 (20/25)
+Rule[6]: IF  BI-RADS > 4.0  THEN Class = 1 (266/297)
+
+Number of Rules: 2
+Rule[1]: IF  BI-RADS <= 5.0 AND  Age <= 48.0 AND  Shape > 2.0 AND  Margin > 4.0 AND  Density <= 3.0  THEN Class = 0 (4/16)
+Rule[2]: IF  BI-RADS <= 4.0 AND  Age > 22.0 AND  Shape <= 4.0 AND  Margin <= 5.0 AND  Density <= 3.0  THEN Class = 1 (97/436)
+
+Accuracy in training: 0.856951871657754
+Accuracy in test: 0.8170731707317073

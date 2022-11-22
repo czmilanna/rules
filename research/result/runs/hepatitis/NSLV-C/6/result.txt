@@ -1,0 +1,174 @@
+Experiment: C:/Projekty/rules/data/hepatitis/hepatitis-10dobscv-6tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 72
+Class 0: 12
+Class 1: 60
+Successes: 55.0
+Errors:  6.0
+Not classified: 11.0
+	Rule 0: 55 / 6
+Successes: 55.0
+Errors:  6.0
+Not classified: 11.0
+	Rule 0: 55 / 6
+Accuracy on training: 0.7638888888888888
+Number of examples: 17
+Class 0: 12
+Class 1: 5
+Successes: 64.0
+Errors:  3.0
+Not classified: 5.0
+	Rule 0: 55 / 3
+	Rule 1: 9 / 0
+Successes: 64.0
+Errors:  3.0
+Not classified: 5.0
+	Rule 0: 55 / 3
+	Rule 1: 9 / 0
+Accuracy on training: 0.8888888888888888
+Number of examples: 8
+Class 0: 3
+Class 1: 5
+Successes: 65.0
+Errors:  2.0
+Not classified: 5.0
+	Rule 0: 55 / 2
+	Rule 1: 9 / 0
+	Rule 2: 1 / 0
+Successes: 65.0
+Errors:  2.0
+Not classified: 5.0
+	Rule 0: 55 / 2
+	Rule 1: 9 / 0
+	Rule 2: 1 / 0
+Accuracy on training: 0.9027777777777778
+Number of examples: 7
+Class 0: 2
+Class 1: 5
+Successes: 66.0
+Errors:  1.0
+Not classified: 5.0
+	Rule 0: 55 / 1
+	Rule 1: 9 / 0
+	Rule 2: 1 / 0
+	Rule 3: 1 / 0
+Successes: 66.0
+Errors:  1.0
+Not classified: 5.0
+	Rule 0: 55 / 1
+	Rule 1: 9 / 0
+	Rule 2: 1 / 0
+	Rule 3: 1 / 0
+Accuracy on training: 0.9166666666666666
+Number of examples: 6
+Class 0: 1
+Class 1: 5
+Successes: 71.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 55 / 1
+	Rule 1: 9 / 0
+	Rule 2: 1 / 0
+	Rule 3: 1 / 0
+	Rule 4: 5 / 0
+Successes: 71.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 55 / 1
+	Rule 1: 9 / 0
+	Rule 2: 1 / 0
+	Rule 3: 1 / 0
+	Rule 4: 5 / 0
+Accuracy on training: 0.9861111111111112
+Number of examples: 1
+Class 0: 1
+Class 1: 0
+Successes: 71.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 16 / 0
+	Rule 1: 9 / 0
+	Rule 2: 1 / 0
+	Rule 3: 1 / 0
+	Rule 4: 4 / 0
+	Rule 5: 40 / 1
+Successes: 71.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 55 / 1
+	Rule 1: 9 / 0
+	Rule 2: 1 / 0
+	Rule 3: 1 / 0
+	Rule 4: 5 / 0
+Successes: 71.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 55 / 1
+	Rule 1: 9 / 0
+	Rule 2: 1 / 0
+	Rule 3: 1 / 0
+	Rule 4: 5 / 0
+Successes: 7.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 7 / 0
+	Rule 1: 0 / 0
+	Rule 2: 0 / 0
+	Rule 3: 0 / 0
+	Rule 4: 0 / 1
+----------------------------------------------------
+Accuracy on training: 0.9861111111111112
+Accuracy on test: 0.875
+Number of rules: 5.0
+Variables per rule: 2.8
+Variables used: 0.5789473684210527
+Time: 0.74
+Iterations: 5677
+Conditions: 14
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Ascites = { T1}
+THEN Class IS 2   W 0.9032258064516129
+
+IF
+	Sex = { T0}
+	Anorexia = { T1}
+	ProTime = { Low}
+	Histology = { T1}
+THEN Class IS 1   W 1.0
+
+IF
+	SpleenPalpable = { T1}
+	AlkPhosphate = { VeryHigh}
+THEN Class IS 1   W 1.0
+
+IF
+	Fatigue = { T1}
+	AlkPhosphate = { High VeryHigh}
+	Histology = { T1}
+THEN Class IS 1   W 1.0
+
+IF
+	Antivirals = { T1}
+	Fatigue = { T0}
+	Bilirubin = { VeryLow Low}
+	AlbuMin = { Low Medium}
+THEN Class IS 2   W 0.8670176039703676
+
+	Accuracy on training set is: 0.9861111111111112
+	Accuracy on test set is: 0.875
+	Number of rules is: 5.0
+	Variables per rule is: 2.8
+	Variables used is: 0.5789473684210527
+	Time is: 0.74
+	Iterations is: 5677
+	Conditions is: 14
+

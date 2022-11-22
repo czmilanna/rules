@@ -1,0 +1,5 @@
+IF Sex is High AND MaxHeartRate is Low THEN 1 | Support: 0.4006
+IF MajorVessels is High THEN 1 | Support: 0.3796
+IF Sex is High AND Slope is very Low AND ExerciseInduced is High AND MaxHeartRate is Low AND ChestPainType is Low THEN 1 | Support: 0.0029
+IF Age is Medium AND ChestPainType is Low AND Slope is High AND Sex is Low THEN 1 | Support: 0.0003
+ELSE 0

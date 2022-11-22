@@ -1,0 +1,13 @@
+algorithm = Hider
+inputData = "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2-10dobscv-7tra.dat" "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2-10dobscv-7tra.dat" "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2-10dobscv-7tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/breast_int_wmv2/Hider-C/7/result.tra" "C:/Projekty/rules/research/result/runs/breast_int_wmv2/Hider-C/7/result.tst" "C:/Projekty/rules/research/result/runs/breast_int_wmv2/Hider-C/7/result.txt"
+
+seed = 1
+populationSize = 100
+nGenerations = 100
+mutationProbability = 0.5
+crossPercent = 80
+extremeMutationProbability = 0.05
+pruneExamplesFactor = 0.05
+penaltyFactor = 1
+errorCoeficient = 0

@@ -1,0 +1,107 @@
+@relation    wisconsin
+@attribute ClumpThickness integer[1,10]
+@attribute CellSize integer[1,10]
+@attribute CellShape integer[1,10]
+@attribute MarginalAdhesion integer[1,10]
+@attribute EpithelialSize integer[1,10]
+@attribute BareNuclei integer[1,10]
+@attribute BlandChromatin integer[1,10]
+@attribute NormalNucleoli integer[1,10]
+@attribute Mitoses integer[1,10]
+@attribute Class{2,4}
+@inputs ClumpThickness,CellSize,CellShape,MarginalAdhesion,EpithelialSize,BareNuclei,BlandChromatin,NormalNucleoli,Mitoses
+@outputs Class
+@data
+
+@decisiontree
+
+if ( CellSize <= 2.000000 ) then
+{
+	if ( BareNuclei <= 2.000000 ) then
+	{
+		Class = "2"
+	}
+	elseif ( BareNuclei > 2.000000 ) then
+	{
+		if ( ClumpThickness <= 3.000000 ) then
+		{
+			Class = "2"
+		}
+		elseif ( ClumpThickness > 3.000000 ) then
+		{
+			if ( CellSize <= 1.000000 ) then
+			{
+				if ( BlandChromatin <= 3.000000 ) then
+				{
+					Class = "2"
+				}
+				elseif ( BlandChromatin > 3.000000 ) then
+				{
+					Class = "4"
+				}
+			}
+			elseif ( CellSize > 1.000000 ) then
+			{
+				Class = "4"
+			}
+		}
+	}
+}
+elseif ( CellSize > 2.000000 ) then
+{
+	if ( CellShape <= 2.000000 ) then
+	{
+		if ( EpithelialSize <= 4.000000 ) then
+		{
+			Class = "2"
+		}
+		elseif ( EpithelialSize > 4.000000 ) then
+		{
+			Class = "4"
+		}
+	}
+	elseif ( CellShape > 2.000000 ) then
+	{
+		if ( CellSize <= 4.000000 ) then
+		{
+			if ( BareNuclei <= 2.000000 ) then
+			{
+				if ( MarginalAdhesion <= 3.000000 ) then
+				{
+					Class = "2"
+				}
+				elseif ( MarginalAdhesion > 3.000000 ) then
+				{
+					Class = "4"
+				}
+			}
+			elseif ( BareNuclei > 2.000000 ) then
+			{
+				Class = "4"
+			}
+		}
+		elseif ( CellSize > 4.000000 ) then
+		{
+			Class = "4"
+		}
+	}
+}
+
+@TotalNumberOfNodes 10
+@NumberOfLeafs 11
+@TotalNumberOfNodes 10
+@NumberOfAntecedentsByRule 3.8181818181818183
+
+@NumberOfItemsetsTraining 614
+@NumberOfCorrectlyClassifiedTraining 602
+@PercentageOfCorrectlyClassifiedTraining 98.0456%
+@NumberOfInCorrectlyClassifiedTraining 12
+@PercentageOfInCorrectlyClassifiedTraining 1.9543974%
+
+@NumberOfItemsetsTest 69
+@NumberOfCorrectlyClassifiedTest 64
+@PercentageOfCorrectlyClassifiedTest 92.753624%
+@NumberOfInCorrectlyClassifiedTest 5
+@PercentageOfInCorrectlyClassifiedTest 7.246377%
+
+@ElapsedTime 0:0:0

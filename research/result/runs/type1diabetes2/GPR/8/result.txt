@@ -1,0 +1,6 @@
+IF step_count is High THEN 1 | Support: 0.5314
+IF vigorious is Medium AND light is very Low AND age is Low AND moderate is Low THEN 1 | Support: 0.0237
+IF vigorious is High AND sedentary is High AND light is Low AND height is High AND sex is High THEN 1 | Support: 0.0218
+IF vigorious is High AND height is High AND light is Low AND age is Medium AND moderate is High THEN 1 | Support: 0.0075
+IF sex is Medium AND vigorious is Low AND moderate is High THEN 1 | Support: 0.0000
+ELSE 0

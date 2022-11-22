@@ -1,0 +1,6 @@
+algorithm = UnoR
+inputData = "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat"
+outputData = "rules/wdbc/1R-C/result.tra" "rules/wdbc/1R-C/result.tst" "rules/wdbc/1R-C/result.txt"
+
+seed = 1
+SMALL = 6

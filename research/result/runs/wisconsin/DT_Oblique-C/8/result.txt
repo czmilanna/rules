@@ -1,0 +1,151 @@
+if ( -1.0*CellSize + 2.0 >= 0  ) then{
+	if ( -1.0*BareNuclei + 5.0 >= 0  ) then{
+		if ( -1.0*NormalNucleoli + 8.0 >= 0  ) then{
+			if ( -1.0*ClumpThickness + 6.0 >= 0  ) then{
+				if ( -133.23167337412752*CellShape + 40.181924551767736*MarginalAdhesion + 58.86568023331131*BareNuclei + -69.19159196996864*Mitoses + -149.16490380399975 >= 0  ) then{
+					if ( -1.0*ClumpThickness + 4.0 >= 0  ) then{
+						Class = 4 (1) 
+					}
+					else{ 
+						Class = 2 (1) 
+					}
+				}
+				else{ 
+					Class = 2 (364) 
+				}
+			}
+			else{ 
+				if ( -1.0*CellShape + 2.0 >= 0  ) then{
+					Class = 2 (2) 
+				}
+				else{ 
+					Class = 4 (2) 
+				}
+			}
+		}
+		else{ 
+			Class = 4 (1) 
+		}
+	}
+	else{ 
+		if ( -1.0*ClumpThickness + 3.0 >= 0  ) then{
+			Class = 2 (1) 
+		}
+		else{ 
+			Class = 4 (7) 
+		}
+	}
+}
+else{ 
+	if ( -1.0*CellShape + 2.0 >= 0  ) then{
+		if ( -1.0*ClumpThickness + 5.0 >= 0  ) then{
+			if ( -1.0*MarginalAdhesion + 7.0 >= 0  ) then{
+				Class = 2 (14) 
+			}
+			else{ 
+				Class = 4 (1) 
+			}
+		}
+		else{ 
+			Class = 4 (3) 
+		}
+	}
+	else{ 
+		if ( 66.45315919687346*ClumpThickness + -108.73609183093907*CellSize + -197.03862983664465*MarginalAdhesion + -196.54026497074875*BareNuclei + 161.2372301428665*BlandChromatin + -19.330714973465234*NormalNucleoli + 150.75679047749304 >= 0  ) then{
+			if ( -1.0*CellSize + 3.0 >= 0  ) then{
+				Class = 2 (7) 
+			}
+			else{ 
+				if ( -1.0*CellShape + 5.0 >= 0  ) then{
+					Class = 4 (3) 
+				}
+				else{ 
+					Class = 2 (1) 
+				}
+			}
+		}
+		else{ 
+			if ( -148.2838798193922*ClumpThickness + 104.1582396962117*CellShape + -114.95539283262458*MarginalAdhesion + 80.10073115120196*NormalNucleoli + -185.94404775322045*Mitoses + 6.0 >= 0  ) then{
+				if ( -1.0*NormalNucleoli + 7.0 >= 0  ) then{
+					if ( -1.0*ClumpThickness + 2.0 >= 0  ) then{
+						Class = 4 (1) 
+					}
+					else{ 
+						Class = 2 (3) 
+					}
+				}
+				else{ 
+					Class = 4 (7) 
+				}
+			}
+			else{ 
+				if ( -1.0*CellShape + 4.0 >= 0  ) then{
+					if ( 181.00499985297324*ClumpThickness + 148.25224847259284*CellSize + -116.71338368130694*CellShape + -180.35009651918665*BareNuclei + 184.25081511592742*BlandChromatin + -120.09010955693435*NormalNucleoli + 23.063275735607192*Mitoses + 6.0 >= 0  ) then{
+						if ( 159.29659063911453*CellShape + -68.19877779767819*MarginalAdhesion + -31.281673775818575*EpithelialSize + -42.69502596992419*BareNuclei + -1.0*BlandChromatin + -124.86060995721738*NormalNucleoli + -163.25622283929405 >= 0  ) then{
+							Class = 2 (1) 
+						}
+						else{ 
+							if ( -129.49524399114196*ClumpThickness + -124.46225917070691*CellSize + 29.927741603443366*CellShape + -47.17078605833714*MarginalAdhesion + 144.94070642277148*EpithelialSize + -142.13184908547714*BareNuclei + 181.52573983686182*BlandChromatin + -149.73745791933905*NormalNucleoli + 95.41967573934693*Mitoses + 190.79829407641625 >= 0  ) then{
+								Class = 2 (1) 
+							}
+							else{ 
+								if ( -1.0*NormalNucleoli + 7.0 >= 0  ) then{
+									Class = 4 (26) 
+								}
+								else{ 
+									if ( -1.0*CellSize + 4.0 >= 0  ) then{
+										if ( -1.0*ClumpThickness + 6.0 >= 0  ) then{
+											Class = 4 (1) 
+										}
+										else{ 
+											Class = 2 (1) 
+										}
+									}
+									else{ 
+										Class = 4 (7) 
+									}
+								}
+							}
+						}
+					}
+					else{ 
+						if ( -1.0*ClumpThickness + 6.0 >= 0  ) then{
+							if ( -1.0*MarginalAdhesion + 5.0 >= 0  ) then{
+								if ( -1.0*NormalNucleoli + 1.0 >= 0  ) then{
+									Class = 4 (1) 
+								}
+								else{ 
+									Class = 2 (3) 
+								}
+							}
+							else{ 
+								Class = 4 (1) 
+							}
+						}
+						else{ 
+							Class = 4 (1) 
+						}
+					}
+				}
+				else{ 
+					if ( -5.664884998850738*ClumpThickness + 130.39208499956692*CellSize + -24.87251139825034*CellShape + -124.25771633262227*EpithelialSize + 135.7717802598541*BareNuclei + -196.12301811485622*BlandChromatin + -174.50976566749387*NormalNucleoli + -173.55532934273484*Mitoses + -119.5728980748851 >= 0  ) then{
+						if ( -1.0*EpithelialSize + 4.0 >= 0  ) then{
+							Class = 4 (6) 
+						}
+						else{ 
+							Class = 2 (1) 
+						}
+					}
+					else{ 
+						Class = 4 (146) 
+					}
+				}
+			}
+		}
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.9558823529411765

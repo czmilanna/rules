@@ -1,0 +1,2 @@
+IF 'plas' is very High THEN 1 | Support: 0.5292
+ELSE 0

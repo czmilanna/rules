@@ -1,0 +1,16 @@
+if('plas'>127.0 && 'pres'<=0.0) (11/12)
+	output=tested_positive
+else if('mass'>26.3 && 'age'>28.0 && 'plas'>99.0 && 'pedi'>0.528) (71/93)
+	output=tested_positive
+else if('plas'>143.0 && 'insu'<=370.0) (104/143)
+	output=tested_positive
+else if('plas'>166.0) (63/73)
+	output=tested_positive
+else if('plas'<=143.0 && 'mass'<=26.3) (133/137)
+	output=tested_negative
+else if('age'<=28.0 && 'plas'<=127.0) (223/244)
+	output=tested_negative
+else if('plas'<=143.0 && 'pedi'<=0.528) (295/362)
+	output=tested_negative
+else 
+	output=tested_positive

@@ -1,0 +1,61 @@
+@relation   mammographic
+@attribute BI-RADS integer[0,6]
+@attribute Age integer[18,96]
+@attribute Shape integer[1,4]
+@attribute Margin integer[1,5]
+@attribute Density integer[1,4]
+@attribute Severity{0,1}
+@inputs BI-RADS,Age,Shape,Margin,Density
+@outputs Severity
+@data
+
+@decisiontree
+
+if ( BI-RADS <= 4.000000 ) then
+{
+	if ( Shape <= 2.000000 ) then
+	{
+		Severity = "0"
+	}
+	elseif ( Shape > 2.000000 ) then
+	{
+		if ( Age <= 69.000000 ) then
+		{
+			if ( Margin <= 4.000000 ) then
+			{
+				Severity = "0"
+			}
+			elseif ( Margin > 4.000000 ) then
+			{
+				Severity = "1"
+			}
+		}
+		elseif ( Age > 69.000000 ) then
+		{
+			Severity = "1"
+		}
+	}
+}
+elseif ( BI-RADS > 4.000000 ) then
+{
+	Severity = "1"
+}
+
+@TotalNumberOfNodes 4
+@NumberOfLeafs 5
+@TotalNumberOfNodes 4
+@NumberOfAntecedentsByRule 2.8
+
+@NumberOfItemsetsTraining 830
+@NumberOfCorrectlyClassifiedTraining 707
+@PercentageOfCorrectlyClassifiedTraining 85.180725%
+@NumberOfInCorrectlyClassifiedTraining 123
+@PercentageOfInCorrectlyClassifiedTraining 14.819277%
+
+@NumberOfItemsetsTest 830
+@NumberOfCorrectlyClassifiedTest 707
+@PercentageOfCorrectlyClassifiedTest 85.180725%
+@NumberOfInCorrectlyClassifiedTest 123
+@PercentageOfInCorrectlyClassifiedTest 14.819277%
+
+@ElapsedTime 0:0:0

@@ -1,0 +1,26 @@
+\begin{table}
+\footnotesize
+\caption{Comparison of classifiers and SLAVE2-C using Wilcoxon signed-rank test}
+\label{tab:wilcoxon comparison}
+\begin{tabular}{lllllllll}
+\hline
+ & Algorithm & MCC p-value & Specificity p-value & AUC p-value & Accuracy p-value & Precision p-value & Recall p-value & Mixed p-value \\
+\hline
+1 & 1R-C & 0.0000 & 0.0001 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 \\
+2 & C45-C & \textbf{0.2500} & \textbf{0.7864} & \textbf{0.1345} & \textbf{0.9817} & \textbf{0.2035} & \textbf{0.9817} & \textbf{0.4695} \\
+3 & C45Rules-C & \textbf{0.1992} & 0.0002 & 0.0070 & \textbf{0.0508} & \textbf{0.1444} & \textbf{0.0508} & \textbf{0.8539} \\
+4 & C45RulesSA-C & \textbf{0.1923} & 0.0014 & 0.0044 & \textbf{0.0660} & \textbf{0.1851} & \textbf{0.0660} & \textbf{0.8667} \\
+5 & DT GA-C & \textbf{0.2922} & \textbf{0.3684} & \textbf{0.1958} & \textbf{0.9181} & \textbf{0.3300} & \textbf{0.9181} & \textbf{0.6663} \\
+6 & DT Oblique-C & 0.0269 & 0.0000 & \textbf{0.2225} & 0.0000 & \textbf{0.0542} & 0.0000 & 0.0002 \\
+7 & EACH-C & 0.0000 & 0.0014 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 \\
+8 & GPR & \textbf{0.2653} & \textbf{0.3240} & \textbf{0.2346} & \textbf{0.4621} & \textbf{0.4335} & \textbf{0.4621} & \textbf{0.3238} \\
+9 & Hider-C & \textbf{0.3245} & \textbf{0.3500} & \textbf{0.1409} & \textbf{0.1450} & \textbf{0.6008} & \textbf{0.1450} & \textbf{0.1654} \\
+10 & NSLV-C & \textbf{0.3259} & \textbf{0.7493} & \textbf{0.2118} & \textbf{0.1546} & \textbf{0.6297} & \textbf{0.1546} & \textbf{0.2437} \\
+11 & OCEC-C & \textbf{0.9517} & 0.0000 & \textbf{0.3305} & 0.0006 & \textbf{0.9156} & 0.0006 & \textbf{0.1371} \\
+12 & OIGA-C & \textbf{0.5146} & 0.0000 & \textbf{0.8057} & \textbf{0.2782} & \textbf{0.1878} & \textbf{0.2782} & \textbf{0.3137} \\
+13 & PGIRLA-C & 0.0060 & \textbf{0.8503} & 0.0090 & 0.0057 & 0.0000 & 0.0057 & 0.0003 \\
+14 & Ripper-C & \textbf{0.6364} & 0.0000 & \textbf{0.0716} & 0.0000 & \textbf{0.2417} & 0.0000 & 0.0037 \\
+15 & SLAVEv0-C & 0.0078 & 0.0137 & 0.0223 & 0.0175 & 0.0061 & 0.0175 & 0.0079 \\
+\hline
+\end{tabular}
+\end{table}

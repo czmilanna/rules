@@ -1,0 +1,8 @@
+algorithm = C45Rules
+inputData = "C:/Projekty/rules/data/pima/pima.dat" "C:/Projekty/rules/data/pima/pima.dat" "C:/Projekty/rules/data/pima/pima.dat"
+outputData = "rules/pima/C45Rules-C/result.tra" "rules/pima/C45Rules-C/result.tst" "rules/pima/C45Rules-C/result.txt"
+
+seed = 1
+confidence = 0.25
+itemsetsPerLeaf = 2
+threshold = 10

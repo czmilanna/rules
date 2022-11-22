@@ -1,0 +1,4 @@
+IF Deg-malig is High AND Irradiated is High THEN 1 | Support: 0.3082
+IF Deg-malig is very High AND Breast is High AND Menopause is very High AND Irradiated is Low THEN 1 | Support: 0.1481
+IF Breast-quad is Medium AND Menopause is Low THEN 1 | Support: 0.0287
+ELSE 0

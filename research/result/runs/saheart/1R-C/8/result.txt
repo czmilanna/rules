@@ -1,0 +1,26 @@
+
+Rule 1: IF  Adiposity in [6.74 , 25.22) THEN Chd -> 0     [ 17 1]
+Rule 2: IF  Adiposity in [25.22 , 25.73) THEN Chd -> 1     [ 3 8]
+Rule 3: IF  Adiposity in [25.73 , 26.25) THEN Chd -> 0     [ 11 2]
+Rule 4: IF  Adiposity in [26.25 , 26.68) THEN Chd -> 1     [ 5 9]
+Rule 5: IF  Adiposity in [26.68 , 28.47) THEN Chd -> 0     [ 10 6]
+Rule 6: IF  Adiposity in [28.47 , 29.12) THEN Chd -> 1     [ 5 8]
+Rule 7: IF  Adiposity in [29.12 , 31.85) THEN Chd -> 0     [ 10 1]
+Rule 8: IF  Adiposity in [31.85 , 32.48) THEN Chd -> 1     [ 5 7]
+Rule 9: IF  Adiposity in [32.48 , 34.07) THEN Chd -> 0     [ 7 4]
+Rule 10: IF  Adiposity in [34.07 , 36.1) THEN Chd -> 1     [ 6 8]
+Rule 11: IF  Adiposity in [36.1 , 37.25) THEN Chd -> 0     [ 8 5]
+Rule 12: IF  Adiposity in [37.25 , 42.17] THEN Chd -> 1     [ 3 7]
+
+####Average results for test data####
+Avg. Rule length: 31
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.029453015427769985
+Avg. Support: 0.5434782608695652
+Avg. Significance: 1.0661845924542523
+Avg. Unusualness: 0.0
+
+Accuracy Training: 0.7163461538461539
+Accuracy Test: 0.6086956521739131
+
+  Time (seconds); 

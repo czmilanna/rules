@@ -1,0 +1,98 @@
+Error Training: 0.24
+Error Test: 0.299
+Rules (9):
+--------
+if 'preg' = [_, 10.5) and
+   'plas' = [_, 156.5) and
+   'pres' = [_, 97.0) and
+   'skin' = [7.5, 50.5) and
+   'insu' = [_, 544.0) and
+   'mass' = [_, 40.85) and
+   'pedi' = [0.1405, 0.9045) and
+   'age' = [_, 55.5)
+then
+   'class' = tested_negative (240|51)
+
+if 'preg' = [_, 13.5) and
+   'plas' = [_, 138.5) and
+   'pres' = [_, 101.0) and
+   'skin' = [_, 55.0) and
+   'insu' = [_, 261.5) and
+   'mass' = [_, 40.85) and
+   'pedi' = [0.1995, 0.911) and
+   'age' = [_, 69.5)
+then
+   'class' = tested_negative (76|30)
+
+if 'plas' = [_, 134.5) and
+   'pres' = [_, 101.0) and
+   'skin' = [_, 49.5) and
+   'insu' = [_, 270.5) and
+   'mass' = [_, 42.85) and
+   'pedi' = [_, 0.694)
+then
+   'class' = tested_negative (50|8)
+
+if 'plas' = [110.5, 192.0) and
+   'pres' = [_, 101.0) and
+   'skin' = [_, 43.5) and
+   'insu' = [_, 270.5) and
+   'pedi' = [0.2385, 1.2375) and
+   'age' = [_, 53.5)
+then
+   'class' = tested_positive (68|18)
+
+if 'preg' = [_, 11.5) and
+   'plas' = [_, 127.5) and
+   'pres' = [47.0, _) and
+   'skin' = [_, 43.5) and
+   'insu' = [_, 277.5) and
+   'pedi' = [0.2315, 2.3745) and
+   'age' = [_, 58.5)
+then
+   'class' = tested_negative (25|8)
+
+if 'plas' = [138.5, _) and
+   'pres' = [61.5, 105.0) and
+   'skin' = [_, 43.5) and
+   'insu' = [_, 452.5) and
+   'mass' = [23.25, 44.55) and
+   'pedi' = [_, 1.0275) and
+   'age' = [_, 71.0)
+then
+   'class' = tested_positive (32|13)
+
+if 'preg' = [_, 11.5) and
+   'plas' = [110.5, _) and
+   'pres' = [34.0, 118.0) and
+   'skin' = [11.5, _) and
+   'insu' = [_, 544.0) and
+   'mass' = [30.6, _) and
+   'pedi' = [0.1405, 2.3745)
+then
+   'class' = tested_positive (24|5)
+
+if 'plas' = [143.5, 190.0) and
+   'pres' = [34.0, _) and
+   'skin' = [3.5, 44.5) and
+   'insu' = [_, 795.0) and
+   'mass' = [23.25, 58.35) and
+   'pedi' = [0.2215, 0.7325) and
+   'age' = [_, 58.5)
+then
+   'class' = tested_negative (3|0)
+
+if 'preg' = [_, 13.5) and
+   'plas' = [99.5, _) and
+   'pres' = [27.0, 99.0) and
+   'skin' = [7.5, 49.5) and
+   'insu' = [123.5, _) and
+   'mass' = [27.85, 44.55) and
+   'pedi' = [_, 2.233) and
+   'age' = [_, 65.5)
+then
+   'class' = tested_positive (7|1)
+
+if true
+then
+   'class' = tested_negative (19|13)

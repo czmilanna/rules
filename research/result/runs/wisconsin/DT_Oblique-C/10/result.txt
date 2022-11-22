@@ -1,0 +1,141 @@
+if ( -1.0*CellShape + 3.0 >= 0  ) then{
+	if ( -1.0*BareNuclei + 5.0 >= 0  ) then{
+		if ( -1.0*BlandChromatin + 3.0 >= 0  ) then{
+			if ( -114.95376143487024*CellSize + 47.67898708760714*CellShape + -178.6791684056351*EpithelialSize + 113.4173684551887*BareNuclei + -148.2635676740351*NormalNucleoli + -59.569288291868105*Mitoses + 2.0 >= 0  ) then{
+				Class = 4 (1) 
+			}
+			else{ 
+				if ( -1.0*NormalNucleoli + 2.0 >= 0  ) then{
+					Class = 2 (361) 
+				}
+				else{ 
+					if ( -1.0*CellShape + 2.0 >= 0  ) then{
+						Class = 2 (8) 
+					}
+					else{ 
+						if ( -1.0*ClumpThickness + 4.0 >= 0  ) then{
+							Class = 2 (1) 
+						}
+						else{ 
+							Class = 4 (2) 
+						}
+					}
+				}
+			}
+		}
+		else{ 
+			if ( -101.44043394863616*ClumpThickness + -103.6453030779132*MarginalAdhesion + 110.89462589260529*BlandChromatin + 66.81726711495253 >= 0  ) then{
+				Class = 2 (10) 
+			}
+			else{ 
+				if ( -1.0*BareNuclei + 2.0 >= 0  ) then{
+					if ( -1.0*CellSize + 3.0 >= 0  ) then{
+						Class = 2 (1) 
+					}
+					else{ 
+						Class = 4 (2) 
+					}
+				}
+				else{ 
+					Class = 4 (6) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -137.58938450775793*ClumpThickness + -108.73609183093907*CellSize + -101.35773408723942*CellShape + -97.43877116065445*MarginalAdhesion + 17.79553448264383*EpithelialSize + 99.50981333374739*BareNuclei + -151.8597751743765*BlandChromatin + 160.0054311472935*NormalNucleoli + 154.65206856714843*Mitoses + 144.09523213843238 >= 0  ) then{
+			Class = 2 (2) 
+		}
+		else{ 
+			Class = 4 (17) 
+		}
+	}
+}
+else{ 
+	if ( 28.119885695194796*ClumpThickness + -1.0*CellSize + 128.487712686995*CellShape + -163.0984100427242*MarginalAdhesion + -6.261998183620619*EpithelialSize + -155.99359962064625*BareNuclei + -8.559285152833752*BlandChromatin + -32.147400228340985*NormalNucleoli + -164.44918735987721*Mitoses + 87.71898483105912 >= 0  ) then{
+		if ( -1.0*NormalNucleoli + 7.0 >= 0  ) then{
+			Class = 2 (8) 
+		}
+		else{ 
+			Class = 4 (3) 
+		}
+	}
+	else{ 
+		if ( -1.0*CellShape + 4.0 >= 0  ) then{
+			if ( -1.0*ClumpThickness + 5.0 >= 0  ) then{
+				if ( -1.0*NormalNucleoli + 2.0 >= 0  ) then{
+					Class = 2 (3) 
+				}
+				else{ 
+					if ( -1.0*MarginalAdhesion + 5.0 >= 0  ) then{
+						if ( -1.0*MarginalAdhesion + 1.0 >= 0  ) then{
+							Class = 4 (2) 
+						}
+						else{ 
+							if ( -1.0*ClumpThickness + 3.0 >= 0  ) then{
+								Class = 4 (1) 
+							}
+							else{ 
+								Class = 2 (2) 
+							}
+						}
+					}
+					else{ 
+						Class = 4 (4) 
+					}
+				}
+			}
+			else{ 
+				if ( -152.85607510080004*EpithelialSize + -1.0*BlandChromatin + 129.49097173509443*NormalNucleoli + -194.4983104231065*Mitoses + 6.0 >= 0  ) then{
+					if ( -1.0*MarginalAdhesion + 4.0 >= 0  ) then{
+						Class = 4 (2) 
+					}
+					else{ 
+						Class = 2 (1) 
+					}
+				}
+				else{ 
+					Class = 4 (19) 
+				}
+			}
+		}
+		else{ 
+			if ( -129.49524399114196*ClumpThickness + 160.98454463318564*CellSize + -101.98168612597084*CellShape + 22.0702741812147*MarginalAdhesion + 133.6315163256674*EpithelialSize + 73.2640039811991*BareNuclei + -121.35127883435956*BlandChromatin + -169.94775980011275*NormalNucleoli + -179.6094778877705*Mitoses + 190.79829407641625 >= 0  ) then{
+				if ( -1.0*EpithelialSize + 5.0 >= 0  ) then{
+					if ( -1.0*CellShape + 6.0 >= 0  ) then{
+						Class = 4 (3) 
+					}
+					else{ 
+						if ( -1.0*ClumpThickness + 3.0 >= 0  ) then{
+							Class = 4 (1) 
+						}
+						else{ 
+							Class = 2 (2) 
+						}
+					}
+				}
+				else{ 
+					Class = 4 (12) 
+				}
+			}
+			else{ 
+				if ( 110.47795561851888*ClumpThickness + 88.5353163556511*CellSize + 51.285455155019974*CellShape + 194.6347002858842*MarginalAdhesion + -108.27655631775887*EpithelialSize + 16.74531768466005*BlandChromatin + -139.24107047245863*NormalNucleoli + 45.53335659334746*Mitoses + -58.309776116700306 >= 0  ) then{
+					Class = 4 (139) 
+				}
+				else{ 
+					if ( -1.0*ClumpThickness + 3.0 >= 0  ) then{
+						Class = 2 (1) 
+					}
+					else{ 
+						Class = 4 (2) 
+					}
+				}
+			}
+		}
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.9701492537313433

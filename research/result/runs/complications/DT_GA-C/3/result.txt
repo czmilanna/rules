@@ -1,0 +1,20 @@
+Number of Rules: 12
+Rule[1]: IF  OM <= 0.0 AND  Height <= 155.0  THEN Class = yes (7/7)
+Rule[2]: IF  OM <= 0.0 AND  Height > 155.0 AND  RUM = {3} AND  Lymph <= 1.0  THEN Class = yes (3/3)
+Rule[3]: IF  OM <= 0.0 AND  Height > 155.0 AND  RUM = {3} AND  Lymph > 1.0  THEN Class = no (34/57)
+Rule[4]: IF  OM <= 0.0 AND  Height > 155.0 AND  RUM = {2} AND  Height <= 165.0  THEN Class = no (2/2)
+Rule[5]: IF  OM <= 0.0 AND  Height > 155.0 AND  RUM = {2} AND  Height > 165.0  THEN Class = yes (4/4)
+Rule[6]: IF  OM <= 0.0 AND  Height > 155.0 AND  RUM = {0}  THEN Class = no (2/3)
+Rule[7]: IF  OM <= 0.0 AND  Height > 155.0 AND  RUM = {1}  THEN Class = no (1/2)
+Rule[8]: IF  OM > 0.0 AND  Lymph <= 1.0  THEN Class = no (7/7)
+Rule[9]: IF  OM > 0.0 AND  Lymph > 1.0 AND  RUM = {3}  THEN Class = no (7/9)
+Rule[10]: IF  OM > 0.0 AND  Lymph > 1.0 AND  RUM = {2}  THEN Class = yes (2/2)
+Rule[11]: IF  OM > 0.0 AND  Lymph > 1.0 AND  RUM = {0}  THEN Class = no (0/0)
+Rule[12]: IF  OM > 0.0 AND  Lymph > 1.0 AND  RUM = {1}  THEN Class = no (0/0)
+
+Number of Rules: 2
+Rule[1]: IF  OM <= 1.0 AND  RUM = {0, 3, 2} AND  FIGO = {5, 3, 1, 2, 0}  THEN Class = no (49/87)
+Rule[2]: IF  Age <= 66.0 AND  Lymph > 0.0  THEN Class = yes (40/88)
+
+Accuracy in training: 0.5625
+Accuracy in test: 0.5454545454545454

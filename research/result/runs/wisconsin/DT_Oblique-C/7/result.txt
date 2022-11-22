@@ -1,0 +1,126 @@
+if ( -1.0*CellSize + 2.0 >= 0  ) then{
+	if ( -1.0*NormalNucleoli + 3.0 >= 0  ) then{
+		if ( -1.0*ClumpThickness + -75.3983040050134*CellSize + -19.39864377942837*MarginalAdhesion + -180.66526473980986*EpithelialSize + 146.21442229166036*BareNuclei + -92.59315111967577*BlandChromatin + -197.703181486042*NormalNucleoli + 8.0 >= 0  ) then{
+			if ( -1.0*ClumpThickness + 3.0 >= 0  ) then{
+				Class = 2 (1) 
+			}
+			else{ 
+				Class = 4 (2) 
+			}
+		}
+		else{ 
+			if ( -1.0*ClumpThickness + 6.0 >= 0  ) then{
+				Class = 2 (360) 
+			}
+			else{ 
+				if ( -1.0*CellShape + 3.0 >= 0  ) then{
+					Class = 2 (2) 
+				}
+				else{ 
+					Class = 4 (1) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*ClumpThickness + 4.0 >= 0  ) then{
+			if ( -1.0*CellSize + 1.0 >= 0  ) then{
+				Class = 2 (2) 
+			}
+			else{ 
+				Class = 4 (1) 
+			}
+		}
+		else{ 
+			Class = 4 (6) 
+		}
+	}
+}
+else{ 
+	if ( -1.0*CellShape + 2.0 >= 0  ) then{
+		if ( -1.0*ClumpThickness + 5.0 >= 0  ) then{
+			if ( -1.0*MarginalAdhesion + 7.0 >= 0  ) then{
+				Class = 2 (15) 
+			}
+			else{ 
+				Class = 4 (1) 
+			}
+		}
+		else{ 
+			Class = 4 (4) 
+		}
+	}
+	else{ 
+		if ( -1.0*CellSize + 122.89040962301436*CellShape + -197.03862983664465*MarginalAdhesion + -40.68615423531415*EpithelialSize + -189.19411468999323*BareNuclei + 161.2372301428665*BlandChromatin + -180.32531803015743*NormalNucleoli + 125.84437959032238*Mitoses + 55.561470579253836 >= 0  ) then{
+			if ( -1.0*CellSize + 4.0 >= 0  ) then{
+				if ( -1.0*MarginalAdhesion + 3.0 >= 0  ) then{
+					Class = 2 (9) 
+				}
+				else{ 
+					Class = 4 (1) 
+				}
+			}
+			else{ 
+				Class = 4 (5) 
+			}
+		}
+		else{ 
+			if ( -148.2838798193922*ClumpThickness + -163.0984100427242*MarginalAdhesion + 141.2668874350532*EpithelialSize + -198.85209547329043*BareNuclei + -145.01466665999374*BlandChromatin + 116.32048914123334*NormalNucleoli + -125.80447968230686*Mitoses + 4.0 >= 0  ) then{
+				Class = 2 (1) 
+			}
+			else{ 
+				if ( 23.64986804864597*CellShape + -140.26095651561883*MarginalAdhesion + 184.80931352470287*EpithelialSize + -73.83194022668337*BlandChromatin + -194.7322049165918*Mitoses + 172.96366839971478 >= 0  ) then{
+					if ( -1.0*ClumpThickness + 6.0 >= 0  ) then{
+						if ( 156.80668632425522*ClumpThickness + 73.7113917883745*CellSize + 183.1158601639596*CellShape + -187.30403743388692*EpithelialSize + -42.69502596992419*BareNuclei + -98.56962652378007*BlandChromatin + -119.90960983557385*NormalNucleoli + -194.4983104231065*Mitoses + 7.0 >= 0  ) then{
+							Class = 2 (4) 
+						}
+						else{ 
+							if ( -105.34605279223669*ClumpThickness + 186.61953089447218*CellSize + -159.79263306590556*MarginalAdhesion + -36.502893230994914*EpithelialSize + 89.11230710547238*BareNuclei + -31.123273687233052*NormalNucleoli + 120.38303108894803*Mitoses + -137.1010595786155 >= 0  ) then{
+								Class = 4 (14) 
+							}
+							else{ 
+								if ( -1.0*CellShape + 5.0 >= 0  ) then{
+									if ( -1.0*BareNuclei + 2.0 >= 0  ) then{
+										Class = 4 (2) 
+									}
+									else{ 
+										Class = 2 (4) 
+									}
+								}
+								else{ 
+									Class = 4 (2) 
+								}
+							}
+						}
+					}
+					else{ 
+						Class = 4 (33) 
+					}
+				}
+				else{ 
+					if ( -45.80784808979553*ClumpThickness + 102.83753729957101*CellSize + 49.16192988147071*CellShape + -61.74855098634691*EpithelialSize + 4.0 >= 0  ) then{
+						Class = 4 (127) 
+					}
+					else{ 
+						if ( -1.0*ClumpThickness + 8.0 >= 0  ) then{
+							if ( -1.0*MarginalAdhesion + 5.0 >= 0  ) then{
+								Class = 2 (2) 
+							}
+							else{ 
+								Class = 4 (3) 
+							}
+						}
+						else{ 
+							Class = 4 (13) 
+						}
+					}
+				}
+			}
+		}
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.9705882352941176

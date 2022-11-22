@@ -1,0 +1,7 @@
+algorithm = Ripper
+inputData = "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2-10dobscv-1tra.dat" "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2-10dobscv-1tra.dat" "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2-10dobscv-1tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/breast_int_wmv2/Ripper-C/1/result.tra" "C:/Projekty/rules/research/result/runs/breast_int_wmv2/Ripper-C/1/result.tst" "C:/Projekty/rules/research/result/runs/breast_int_wmv2/Ripper-C/1/result.txt"
+
+seed = 1
+grow_pct = 0.66
+K = 2

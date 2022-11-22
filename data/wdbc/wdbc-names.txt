@@ -1,0 +1,65 @@
+Breast Cancer Wisconsin (Diagnostic) data set
+
+1: Description.
+
+This database contains 30 features computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. 
+
+The task is to determine if a found tumor is benign or malignant (M = malignant, B = benign). 
+
+The ten real-valued features that are computed for each of three different cell nucleus are the following: 
+
+a) radius: mean of distances from center to points on the perimeter. 
+b) texture: standard deviation of gray-scale values. 
+c) perimeter. 
+d) area. 
+e) smoothness: local variation in radius lengths. 
+f) compactness: perimeter^2 / area - 1.0 
+g) concavity: severity of concave portions of the contour. 
+h) concave points: number of concave portions of the contour. 
+i) symmetry. 
+j) fractal dimension: "coastline approximation" - 1
+
+
+2: Type.			Classification	
+3: Origin.			Real world
+4: Instances.		569
+5: Features.		30
+6: Classes.			2	
+7: Missing values.	No
+
+8: Header.
+
+@relation wdbc
+@attribute Radius1 real [6.981, 28.11]
+@attribute Texture1 real [9.71, 39.28]
+@attribute Perimeter1 real [43.79, 188.5]
+@attribute Area1 real [143.5, 2501.0]
+@attribute Smoothness1 real [0.053, 0.163]
+@attribute Compactness1 real [0.019, 0.345]
+@attribute Concavity1 real [0.0, 0.427]
+@attribute Concave_points1 real [0.0, 0.201]
+@attribute Symmetry1 real [0.106, 0.304]
+@attribute Fractal_dimension1 real [0.05, 0.097]
+@attribute Radius2 real [0.112, 2.873]
+@attribute Texture2 real [0.36, 4.885]
+@attribute Perimeter2 real [0.757, 21.98]
+@attribute Area2 real [6.802, 542.2]
+@attribute Smoothness2 real [0.0020, 0.031]
+@attribute Compactness2 real [0.0020, 0.135]
+@attribute Concavity2 real [0.0, 0.396]
+@attribute Concave_points2 real [0.0, 0.053]
+@attribute Symmetry2 real [0.0080, 0.079]
+@attribute Fractal_dimension2 real [0.0010, 0.03]
+@attribute Radius3 real [7.93, 36.04]
+@attribute Texture3 real [12.02, 49.54]
+@attribute Perimeter3 real [50.41, 251.2]
+@attribute Area3 real [185.2, 4254.0]
+@attribute Smoothness3 real [0.071, 0.223]
+@attribute Compactness3 real [0.027, 1.058]
+@attribute Concavity3 real [0.0, 1.252]
+@attribute Concave_points3 real [0.0, 0.291]
+@attribute Symmetry3 real [0.156, 0.664]
+@attribute Fractal_dimension3 real [0.055, 0.208]
+@attribute Class {M, B}
+@inputs Radius1, Texture1, Perimeter1, Area1, Smoothness1, Compactness1, Concavity1, Concave_points1, Symmetry1, Fractal_dimension1, Radius2, Texture2, Perimeter2, Area2, Smoothness2, Compactness2, Concavity2, Concave_points2, Symmetry2, Fractal_dimension2, Radius3, Texture3, Perimeter3, Area3, Smoothness3, Compactness3, Concavity3, Concave_points3, Symmetry3, Fractal_dimension3
+@outputs Class

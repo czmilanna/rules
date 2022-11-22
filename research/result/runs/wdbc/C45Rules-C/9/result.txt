@@ -1,0 +1,16 @@
+if(Symmetry2<=0.016 && Texture1>18.07 && Radius2>0.404) (45/46)
+	output=M
+else if(Concave_points1>0.079) (116/117)
+	output=M
+else if(Concave_points1>0.048 && Texture3>29.51) (82/82)
+	output=M
+else if(Concave_points1>0.048 && Texture3>25.62 && Concavity1>0.09) (127/127)
+	output=M
+else if(Perimeter3>115.0) (155/159)
+	output=M
+else if(Perimeter3<=115.0 && Texture3<=25.62 && Concave_points1<=0.079) (220/223)
+	output=B
+else if(Concave_points1<=0.051) (298/314)
+	output=B
+else 
+	output=M

@@ -1,0 +1,7 @@
+algorithm = C4.5 Decision Tree
+inputData = "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat"
+outputData = "rules/type1diabetes2/C45-C/result.tra" "rules/type1diabetes2/C45-C/result.tst" "rules/type1diabetes2/C45-C/result.txt"
+
+pruned = TRUE
+confidence = 0.25
+instancesPerLeaf = 2

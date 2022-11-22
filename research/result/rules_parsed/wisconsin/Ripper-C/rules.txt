@@ -1,0 +1,9 @@
+IF CellSize>2.0 AND MarginalAdhesion>2.0 AND CellShape>4.0 THEN 4
+IF CellSize>2.0 AND BareNuclei>2.0 AND BlandChromatin>3.0 THEN 4
+IF BareNuclei>2.0 AND ClumpThickness>6.0 THEN 4
+IF NormalNucleoli>2.0 AND MarginalAdhesion>3.0 AND CellShape>2.0 THEN 4
+IF NormalNucleoli>2.0 AND ClumpThickness>5.0 THEN 4
+IF CellSize>4.0 AND CellShape<=6.0 THEN 4
+IF BareNuclei>4.0 AND ClumpThickness>3.0 AND CellSize<=3.0 AND MarginalAdhesion<=3.0 THEN 4
+IF Mitoses>2.0 AND ClumpThickness>3.0 THEN 4
+ELSE 2

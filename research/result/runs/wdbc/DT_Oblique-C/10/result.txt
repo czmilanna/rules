@@ -1,0 +1,106 @@
+if ( -1.0*Radius3 + 16.77 >= 0  ) then{
+	if ( -1.0*Concave_points3 + 0.16 >= 0  ) then{
+		if ( -1.0*Concave_points3 + 0.134 >= 0  ) then{
+			if ( -1.0*Area1 + 693.7 >= 0  ) then{
+				if ( -88.0301653146814*Texture1 + -85.73979807219929*Perimeter1 + -172.18376406752128*Smoothness1 + 15.332183385112387*Compactness1 + 126.58894218657844*Concave_points1 + 164.1008151611548*Area2 + -118.7691702318306*Symmetry2 + -5.166747375663078*Texture3 + -55.2494845947366*Concavity3 + -132.83533852846253*Concave_points3 + -120.43540531779533*Symmetry3 + 157.2759740886455 >= 0  ) then{
+					if ( -1.0*Texture1 + 18.7 >= 0  ) then{
+						Class = M (1) 
+					}
+					else{ 
+						Class = B (2) 
+					}
+				}
+				else{ 
+					if ( 95.54287462857155*Texture1 + 162.0318943546228*Perimeter1 + 31.36520502887788*Smoothness1 + -102.76522960112551*Compactness1 + 115.95523476506469*Concavity1 + -134.49715234676776*Concave_points1 + -141.6827567717253*Symmetry1 + 115.32808065305653*Texture2 + -9.869026814091256*Compactness2 + 146.93151990578775*Fractal_dimension2 + 116.80312490016297*Radius3 + -168.4132737965354*Texture3 + -8.56156652061307*Perimeter3 + -16.74623783136397*Area3 + -155.16008202805187*Concavity3 + 93.95485434074766*Concave_points3 + -69.28892523732245 >= 0  ) then{
+						Class = B (276) 
+					}
+					else{ 
+						if ( -1.0*Concavity1 + 0.117 >= 0  ) then{
+							if ( -1.0*Perimeter2 + 1.466 >= 0  ) then{
+								if ( -1.0*Radius1 + 11.84 >= 0  ) then{
+									Class = B (1) 
+								}
+								else{ 
+									Class = M (1) 
+								}
+							}
+							else{ 
+								Class = B (15) 
+							}
+						}
+						else{ 
+							Class = M (1) 
+						}
+					}
+				}
+			}
+			else{ 
+				Class = M (1) 
+			}
+		}
+		else{ 
+			if ( -1.0*Texture1 + 20.56 >= 0  ) then{
+				if ( -1.0*Area3 + 809.8 >= 0  ) then{
+					Class = B (15) 
+				}
+				else{ 
+					if ( -1.0*Texture1 + 16.84 >= 0  ) then{
+						Class = B (1) 
+					}
+					else{ 
+						Class = M (2) 
+					}
+				}
+			}
+			else{ 
+				Class = M (7) 
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*Texture3 + 23.39 >= 0  ) then{
+			if ( -1.0*Texture1 + 15.76 >= 0  ) then{
+				Class = M (1) 
+			}
+			else{ 
+				Class = B (2) 
+			}
+		}
+		else{ 
+			Class = M (16) 
+		}
+	}
+}
+else{ 
+	if ( -1.0*Texture2 + 0.489 >= 0  ) then{
+		if ( -1.0*Texture1 + 16.18 >= 0  ) then{
+			Class = B (6) 
+		}
+		else{ 
+			Class = M (2) 
+		}
+	}
+	else{ 
+		if ( -1.0*Concavity3 + 0.19 >= 0  ) then{
+			if ( -1.0*Texture1 + 19.97 >= 0  ) then{
+				Class = B (3) 
+			}
+			else{ 
+				Class = M (2) 
+			}
+		}
+		else{ 
+			if ( -1.0*Texture1 + 21.884537726148153*Perimeter1 + -144.77142867277644*Smoothness1 + 48.78324946593105*Compactness1 + -6.704400807317455*Concavity1 + -61.01301318523778*Concave_points1 + 151.04118156038254*Symmetry1 + -111.0151125842275*Radius2 + -136.89017871788008*Perimeter2 + -182.00825275434374*Area2 + -75.73918790457286*Smoothness2 + -131.27280360350215*Concavity2 + 134.90509957422154*Concave_points2 + 98.97068568947043*Fractal_dimension2 + 10.321310211513492*Radius3 + -130.7799598040944*Texture3 + 41.54980896076884*Perimeter3 + -26.28100286849798*Smoothness3 + -129.0722699670755*Concavity3 + 148.42397662541458*Fractal_dimension3 + 14.93 >= 0  ) then{
+				Class = B (1) 
+			}
+			else{ 
+				Class = M (157) 
+			}
+		}
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.9464285714285714

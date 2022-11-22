@@ -1,0 +1,16 @@
+if('mass'>29.9 && 'plas'>157.0) (71/83)
+	output=tested_positive
+else if('plas'>127.0 && 'mass'>29.9 && 'plas'<=157.0 && 'preg'<=7.0 && 'pres'>86.0) (12/14)
+	output=tested_positive
+else if('plas'>127.0 && 'mass'>29.9 && 'pres'<=61.0) (20/21)
+	output=tested_positive
+else if('mass'>26.4 && 'age'>28.0 && 'plas'>99.0 && 'age'<=47.0 && 'pedi'>0.137) (115/179)
+	output=tested_positive
+else if('plas'<=127.0 && 'age'<=22.0) (95/98)
+	output=tested_negative
+else if('plas'<=127.0 && 'age'<=47.0 && 'pedi'<=0.137) (24/26)
+	output=tested_negative
+else if('plas'<=157.0 && 'preg'<=7.0 && 'pres'<=86.0) (356/453)
+	output=tested_negative
+else 
+	output=tested_positive

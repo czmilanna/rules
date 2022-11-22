@@ -1,0 +1,10 @@
+if(FIGO=1) (6/7)
+	output=yes
+else if(RUM=2 && Lymph>1.0) (7/7)
+	output=yes
+else if(RUM=3 && FIGO=2) (25/41)
+	output=no
+else if(Lymph<=1.0) (13/18)
+	output=no
+else 
+	output=yes

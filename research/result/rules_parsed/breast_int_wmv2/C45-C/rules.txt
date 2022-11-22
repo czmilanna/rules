@@ -1,0 +1,10 @@
+IF Deg-malig <= 2.000000 THEN 0
+IF Deg-malig > 2.000000 AND Node-caps <= 0.000000 AND Tumor-size <= 3.000000 THEN 0
+IF Deg-malig > 2.000000 AND Node-caps <= 0.000000 AND Tumor-size > 3.000000 AND Irradiated = 0 AND Inv-nodes <= 0.000000 THEN 0
+IF Deg-malig > 2.000000 AND Node-caps <= 0.000000 AND Tumor-size > 3.000000 AND Irradiated = 0 AND Inv-nodes > 0.000000 THEN 1
+IF Deg-malig > 2.000000 AND Node-caps <= 0.000000 AND Tumor-size > 3.000000 AND Irradiated = 1 THEN 1
+IF Deg-malig > 2.000000 AND Node-caps > 0.000000 AND Breast = 0 AND Irradiated = 0 AND Menopause <= 1.000000 AND Breast-quad <= 0.000000 THEN 0
+IF Deg-malig > 2.000000 AND Node-caps > 0.000000 AND Breast = 0 AND Irradiated = 0 AND Menopause <= 1.000000 AND Breast-quad > 0.000000 THEN 1
+IF Deg-malig > 2.000000 AND Node-caps > 0.000000 AND Breast = 0 AND Irradiated = 0 AND Menopause > 1.000000 THEN 1
+IF Deg-malig > 2.000000 AND Node-caps > 0.000000 AND Breast = 0 AND Irradiated = 1 THEN 0
+IF Deg-malig > 2.000000 AND Node-caps > 0.000000 AND Breast = 1 THEN 1

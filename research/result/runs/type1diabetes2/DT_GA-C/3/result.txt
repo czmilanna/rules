@@ -1,0 +1,19 @@
+Number of Rules: 10
+Rule[1]: IF  step_count <= 60837.0 AND  vigorious <= 127.5 AND  weight <= 80.5  THEN Class = 0 (71/80)
+Rule[2]: IF  step_count <= 60837.0 AND  vigorious <= 127.5 AND  weight > 80.5  THEN Class = 1 (2/3)
+Rule[3]: IF  step_count <= 60837.0 AND  vigorious > 127.5 AND  vigorious <= 319.5 AND  step_count <= 54860.0 AND  age <= 8.0  THEN Class = 0 (5/5)
+Rule[4]: IF  step_count <= 60837.0 AND  vigorious > 127.5 AND  vigorious <= 319.5 AND  step_count <= 54860.0 AND  age > 8.0 AND  sex <= 1.0 AND  vigorious <= 168.916667  THEN Class = 1 (4/4)
+Rule[5]: IF  step_count <= 60837.0 AND  vigorious > 127.5 AND  vigorious <= 319.5 AND  step_count <= 54860.0 AND  age > 8.0 AND  sex <= 1.0 AND  vigorious > 168.916667  THEN Class = 0 (4/4)
+Rule[6]: IF  step_count <= 60837.0 AND  vigorious > 127.5 AND  vigorious <= 319.5 AND  step_count <= 54860.0 AND  age > 8.0 AND  sex > 1.0  THEN Class = 0 (10/16)
+Rule[7]: IF  step_count <= 60837.0 AND  vigorious > 127.5 AND  vigorious <= 319.5 AND  step_count > 54860.0 AND  step_count <= 59584.0  THEN Class = 1 (11/12)
+Rule[8]: IF  step_count <= 60837.0 AND  vigorious > 127.5 AND  vigorious <= 319.5 AND  step_count > 54860.0 AND  step_count > 59584.0  THEN Class = 0 (2/2)
+Rule[9]: IF  step_count <= 60837.0 AND  vigorious > 127.5 AND  vigorious > 319.5  THEN Class = 0 (9/9)
+Rule[10]: IF  step_count > 60837.0  THEN Class = 1 (71/71)
+
+Number of Rules: 3
+Rule[1]: IF  sedentary > 1905.5  THEN Class = 0 (99/199)
+Rule[2]: IF  sex <= 2.0 AND  age <= 15.0 AND  weight <= 56.7 AND  height <= 1.66 AND  step_count <= 77040.0 AND  sedentary <= 4004.25 AND  light > 623.583333333333 AND  moderate > 120.416666666667 AND  vigorious > 72.4166666666667  THEN Class = 0 (27/67)
+Rule[3]: IF  sex > 0.0 AND  age <= 15.0 AND  weight > 45.8 AND  height <= 1.66 AND  step_count <= 64368.0 AND  sedentary > 2815.333333333331 AND  light > 677.083333333333 AND  moderate > 120.416666666667 AND  vigorious > 66.1666666666667  THEN Class = 1 (7/16)
+
+Accuracy in training: 0.8932038834951457
+Accuracy in test: 0.8333333333333334

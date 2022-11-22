@@ -1,0 +1,86 @@
+if ( -1.0*Perimeter3 + 105.9 >= 0  ) then{
+	if ( -144.7785085869903*Radius1 + -1.1278964116070256*Perimeter1 + -187.24917508364868*Area1 + 186.1061659609215*Smoothness1 + -119.56603562449246*Compactness1 + -146.9107078264725*Concavity1 + -54.18551281424834*Symmetry1 + -23.27703885344718*Fractal_dimension1 + -25.445493642577304*Radius2 + 28.43802874638652*Texture2 + -155.3672275402041*Area2 + 140.68387382214047*Smoothness2 + -138.50344129337543*Compactness2 + 15.546851375966042*Concavity2 + 31.813885232390334*Symmetry2 + 179.16461154333427*Fractal_dimension2 + -190.50550013559533*Radius3 + 154.63117713914983*Texture3 + -194.27675939963123*Perimeter3 + 170.32088655287419*Area3 + 89.08465977038367*Compactness3 + 57.02514067688611*Concavity3 + 16.84899204802909*Concave_points3 + 58.67970526653335*Symmetry3 + 72.41356472308132*Fractal_dimension3 + 194.3120039054919 >= 0  ) then{
+		if ( -1.0*Concave_points3 + 0.11 >= 0  ) then{
+			Class = B (5) 
+		}
+		else{ 
+			Class = M (10) 
+		}
+	}
+	else{ 
+		if ( -1.0*Radius2 + 1.095 >= 0  ) then{
+			if ( -1.0*Area2 + 48.9 >= 0  ) then{
+				if ( -1.0*Texture3 + 33.33 >= 0  ) then{
+					Class = B (275) 
+				}
+				else{ 
+					if ( -1.0*Texture1 + 23.21 >= 0  ) then{
+						Class = M (2) 
+					}
+					else{ 
+						Class = B (13) 
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*Compactness1 + 0.059 >= 0  ) then{
+					Class = M (1) 
+				}
+				else{ 
+					Class = B (2) 
+				}
+			}
+		}
+		else{ 
+			Class = M (1) 
+		}
+	}
+}
+else{ 
+	if ( -1.0*Perimeter3 + 117.2 >= 0  ) then{
+		if ( -1.0*Smoothness3 + 0.134 >= 0  ) then{
+			if ( -1.0*Texture3 + 25.82 >= 0  ) then{
+				Class = B (17) 
+			}
+			else{ 
+				if ( -1.0*Radius1 + 14.99 >= 0  ) then{
+					if ( -1.0*Smoothness1 + 0.09 >= 0  ) then{
+						Class = B (6) 
+					}
+					else{ 
+						Class = M (2) 
+					}
+				}
+				else{ 
+					Class = M (6) 
+				}
+			}
+		}
+		else{ 
+			if ( -1.0*Texture1 + 15.05 >= 0  ) then{
+				Class = B (1) 
+			}
+			else{ 
+				Class = M (21) 
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*Smoothness3 + 0.099 >= 0  ) then{
+			if ( -1.0*Radius1 + 18.01 >= 0  ) then{
+				Class = B (2) 
+			}
+			else{ 
+				Class = M (1) 
+			}
+		}
+		else{ 
+			Class = M (146) 
+		}
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.9137931034482759

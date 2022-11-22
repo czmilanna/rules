@@ -1,0 +1,39 @@
+IF ChestPainType = 4 AND Thal = 7 THEN 2
+IF Sex = 1 AND SerumCholestoral = 1 AND Slope = 2 THEN 2
+IF ResElectrocardiographic = 2 AND Thal = 7 THEN 2
+IF Sex = 0 AND MaxHeartRate = 3 AND Thal = 0 THEN 1
+IF RestBloodPressure = 1 AND FastingBloodSugar = 0 AND Thal = 7 THEN 2
+IF RestBloodPressure = 1 AND Slope = 0 AND Thal = 0 THEN 1
+IF Sex = 0 AND Oldpeak = 0 AND MajorVessels = 0 AND Thal = 0 THEN 1
+IF Age = 1 AND Oldpeak = 0 AND MajorVessels = 0 AND Thal = 0 THEN 1
+IF Age = 3 AND ChestPainType = 4 AND MajorVessels = 3 THEN 2
+IF ChestPainType = 1 AND MajorVessels = 0 AND Thal = 0 THEN 1
+IF ChestPainType = 4 AND ResElectrocardiographic = 2 AND MajorVessels = 1 THEN 2
+IF ChestPainType = 3 AND SerumCholestoral = 1 AND Slope = 0 THEN 1
+IF ChestPainType = 3 AND SerumCholestoral = 0 THEN 1
+IF Sex = 1 AND RestBloodPressure = 1 AND FastingBloodSugar = 0 AND MaxHeartRate = 2 AND Slope = 2 THEN 2
+IF RestBloodPressure = 2 AND SerumCholestoral = 1 AND MajorVessels = 0 AND Thal = 0 THEN 1
+IF ChestPainType = 3 AND RestBloodPressure = 1 AND FastingBloodSugar = 0 AND ExerciseInduced = 0 AND MajorVessels = 0 THEN 1
+IF ChestPainType = 1 AND ResElectrocardiographic = 0 AND MaxHeartRate = 3 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Slope = 0 THEN 1
+IF ResElectrocardiographic = 2 AND ExerciseInduced = 1 AND Oldpeak = 1 THEN 2
+IF MaxHeartRate = 3 AND Oldpeak = 0 AND Slope = 2 AND MajorVessels = 0 AND Thal = 0 THEN 1
+IF Sex = 0 AND ChestPainType = 3 AND ResElectrocardiographic = 2 AND ExerciseInduced = 0 AND Thal = 0 THEN 1
+IF RestBloodPressure = 3 AND ResElectrocardiographic = 2 AND MaxHeartRate = 2 THEN 2
+IF Age = 1 AND RestBloodPressure = 1 AND SerumCholestoral = 1 AND ResElectrocardiographic = 0 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Thal = 0 THEN 1
+IF Sex = 1 AND ChestPainType = 4 AND RestBloodPressure = 1 AND SerumCholestoral = 2 AND FastingBloodSugar = 0 THEN 2
+IF ChestPainType = 1 AND FastingBloodSugar = 0 AND MaxHeartRate = 4 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Slope = 0 AND Thal = 0 THEN 1
+IF Age = 3 AND Sex = 1 AND ChestPainType = 3 AND RestBloodPressure = 2 AND SerumCholestoral = 2 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 0 AND MaxHeartRate = 3 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Slope = 0 AND MajorVessels = 0 AND Thal = 0 THEN 2
+IF Age = 2 AND Sex = 1 AND ChestPainType = 4 AND RestBloodPressure = 0 AND SerumCholestoral = 1 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 0 AND MaxHeartRate = 3 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Slope = 0 AND MajorVessels = 1 AND Thal = 0 THEN 2
+IF Age = 2 AND Sex = 0 AND ChestPainType = 4 AND RestBloodPressure = 4 AND SerumCholestoral = 2 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 2 AND MaxHeartRate = 1 AND ExerciseInduced = 1 AND Oldpeak = 2 AND Slope = 2 AND MajorVessels = 0 AND Thal = 0 THEN 2
+IF Age = 1 AND Sex = 1 AND ChestPainType = 1 AND RestBloodPressure = 0 AND SerumCholestoral = 1 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 0 AND MaxHeartRate = 3 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Slope = 3 AND MajorVessels = 0 AND Thal = 7 THEN 2
+IF Age = 3 AND Sex = 1 AND ChestPainType = 0 AND RestBloodPressure = 2 AND SerumCholestoral = 1 AND FastingBloodSugar = 1 AND ResElectrocardiographic = 2 AND MaxHeartRate = 3 AND ExerciseInduced = 0 AND Oldpeak = 1 AND Slope = 3 AND MajorVessels = 0 AND Thal = 3 THEN 1
+IF Age = 1 AND Sex = 1 AND ChestPainType = 0 AND RestBloodPressure = 2 AND SerumCholestoral = 1 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 2 AND MaxHeartRate = 4 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Slope = 0 AND MajorVessels = 3 AND Thal = 0 THEN 1
+IF Age = 2 AND ChestPainType = 3 AND SerumCholestoral = 1 AND ResElectrocardiographic = 2 AND MaxHeartRate = 3 AND MajorVessels = 1 AND Thal = 0 THEN 1
+IF Age = 2 AND Sex = 1 AND ChestPainType = 0 AND RestBloodPressure = 1 AND SerumCholestoral = 0 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 2 AND MaxHeartRate = 4 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Slope = 2 AND MajorVessels = 0 AND Thal = 3 THEN 1
+IF Age = 4 AND Sex = 0 AND ChestPainType = 4 AND RestBloodPressure = 0 AND SerumCholestoral = 0 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 0 AND MaxHeartRate = 2 AND ExerciseInduced = 0 AND Oldpeak = 1 AND Slope = 2 AND MajorVessels = 0 AND Thal = 0 THEN 1
+IF Age = 0 AND Sex = 0 AND ChestPainType = 4 AND RestBloodPressure = 2 AND SerumCholestoral = 0 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 0 AND MaxHeartRate = 4 AND ExerciseInduced = 0 AND Oldpeak = 1 AND Slope = 0 AND MajorVessels = 0 AND Thal = 0 THEN 1
+IF Age = 2 AND Sex = 1 AND ChestPainType = 4 AND RestBloodPressure = 2 AND SerumCholestoral = 0 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 0 AND MaxHeartRate = 2 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Slope = 2 AND MajorVessels = 0 AND Thal = 3 THEN 1
+IF Age = 3 AND Sex = 0 AND ChestPainType = 3 AND RestBloodPressure = 2 AND SerumCholestoral = 2 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 0 AND MaxHeartRate = 2 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Slope = 0 AND MajorVessels = 0 AND Thal = 7 THEN 1
+IF Age = 1 AND Sex = 1 AND ChestPainType = 3 AND RestBloodPressure = 1 AND SerumCholestoral = 1 AND FastingBloodSugar = 1 AND ResElectrocardiographic = 0 AND MaxHeartRate = 4 AND ExerciseInduced = 0 AND Oldpeak = 0 AND Slope = 3 AND MajorVessels = 0 AND Thal = 7 THEN 1
+IF Age = 1 AND Sex = 1 AND ChestPainType = 0 AND RestBloodPressure = 2 AND SerumCholestoral = 0 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 0 AND MaxHeartRate = 4 AND ExerciseInduced = 1 AND Oldpeak = 1 AND Slope = 0 AND MajorVessels = 0 AND Thal = 7 THEN 1
+IF Age = 2 AND Sex = 1 AND ChestPainType = 4 AND RestBloodPressure = 0 AND SerumCholestoral = 0 AND FastingBloodSugar = 0 AND ResElectrocardiographic = 0 AND MaxHeartRate = 2 AND ExerciseInduced = 1 AND Oldpeak = 1 AND Slope = 2 AND MajorVessels = 0 AND Thal = 3 THEN 1

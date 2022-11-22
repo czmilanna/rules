@@ -1,0 +1,210 @@
+Error Training: 0.209
+Error Test: 0.196
+Rules (19):
+--------
+if Sbp = [101.5, 167.0) and
+   Tobacco = [_, 9.775) and
+   Ldl = [1.73, 5.87) and
+   Adiposity = [9.38, 34.18) and
+   Typea = [_, 76.0) and
+   Obesity = [21.805, _) and
+   Alcohol = [_, 47.47) and
+   Age = [_, 50.5)
+then
+   Chd = 0 (114|22)
+
+if Sbp = [102.5, 189.0) and
+   Tobacco = [_, 9.775) and
+   Ldl = [2.73, 8.095) and
+   Adiposity = [11.38, 36.56) and
+   Typea = [16.5, 67.5) and
+   Obesity = [18.95, 29.94) and
+   Alcohol = [_, 23.31) and
+   Age = [_, 57.5)
+then
+   Chd = 0 (37|9)
+
+if Sbp = [_, 175.0) and
+   Tobacco = [_, 12.24) and
+   Ldl = [1.49, 4.985) and
+   Adiposity = [9.54, 32.6) and
+   Typea = [_, 70.5) and
+   Obesity = [19.375, 27.165) and
+   Alcohol = [_, 90.155) and
+   Age = [_, 60.5)
+then
+   Chd = 0 (33|13)
+
+if Sbp = [107.0, 177.0) and
+   Tobacco = [0.78, 14.7) and
+   Ldl = [3.13, 8.675) and
+   Adiposity = [22.315, 36.995) and
+   Typea = [28.5, 69.5) and
+   Obesity = [21.475, 30.59) and
+   Alcohol = [2.615, 98.76)
+then
+   Chd = 1 (28|10)
+
+if Sbp = [102.5, 169.0) and
+   Tobacco = [_, 6.675) and
+   Ldl = [1.57, 9.03) and
+   Adiposity = [_, 34.055) and
+   Typea = [_, 67.5) and
+   Obesity = [16.225, _) and
+   Alcohol = [_, 23.04)
+then
+   Chd = 0 (23|10)
+
+if Sbp = [107.0, 169.0) and
+   Tobacco = [1.86, 14.25) and
+   Ldl = [3.19, 14.745) and
+   Adiposity = [17.655, 40.825) and
+   Typea = [40.5, 77.5) and
+   Obesity = [21.845, 46.15) and
+   Alcohol = [_, 25.405) and
+   Age = [38.5, 60.5)
+then
+   Chd = 1 (13|3)
+
+if Sbp = [104.5, 211.0) and
+   Tobacco = [_, 18.1) and
+   Ldl = [2.03, 6.405) and
+   Adiposity = [23.03, _) and
+   Typea = [16.5, 67.5) and
+   Obesity = [21.495, 31.24) and
+   Alcohol = [2.2, 146.24) and
+   Age = [44.5, _)
+then
+   Chd = 0 (13|1)
+
+if Sbp = [101.5, 163.0) and
+   Tobacco = [_, 17.0) and
+   Ldl = [_, 6.945) and
+   Adiposity = [19.91, 34.24) and
+   Typea = [28.5, 76.0) and
+   Obesity = [18.48, 34.385) and
+   Age = [_, 44.5)
+then
+   Chd = 0 (6|0)
+
+if Sbp = [102.5, 165.0) and
+   Tobacco = [3.01, 17.0) and
+   Ldl = [4.025, _) and
+   Adiposity = [_, 40.825) and
+   Typea = [28.5, 63.5) and
+   Obesity = [24.225, 38.105) and
+   Alcohol = [_, 49.18) and
+   Age = [40.5, _)
+then
+   Chd = 0 (7|1)
+
+if Sbp = [123.5, 216.0) and
+   Tobacco = [2.655, 18.7) and
+   Ldl = [_, 6.405) and
+   Adiposity = [14.5, 40.825) and
+   Typea = [16.5, 76.0) and
+   Obesity = [20.59, 38.105) and
+   Alcohol = [2.04, 33.2) and
+   Age = [39.5, _)
+then
+   Chd = 1 (6|0)
+
+if Sbp = [123.5, 175.0) and
+   Tobacco = [_, 17.0) and
+   Ldl = [4.215, 9.385) and
+   Adiposity = [13.665, 37.085) and
+   Typea = [22.5, 76.0) and
+   Obesity = [_, 35.725) and
+   Alcohol = [_, 25.405) and
+   Age = [40.5, _)
+then
+   Chd = 1 (9|0)
+
+if Sbp = [122.5, 189.0) and
+   Tobacco = [1.335, 14.25) and
+   Ldl = [1.73, 6.665) and
+   Adiposity = [13.665, _) and
+   Typea = [34.5, 77.5) and
+   Obesity = [18.41, _) and
+   Alcohol = [3.56, 94.91) and
+   Age = [38.5, 59.5)
+then
+   Chd = 1 (6|0)
+
+if Sbp = [123.5, 211.0) and
+   Tobacco = [0.67, 14.25) and
+   Ldl = [3.715, 8.05) and
+   Adiposity = [27.865, 37.425) and
+   Typea = [22.5, 70.5) and
+   Obesity = [23.38, 36.0) and
+   Alcohol = [6.535, 146.24) and
+   Age = [43.5, 60.5)
+then
+   Chd = 0 (4|0)
+
+if Sbp = [107.0, 211.0) and
+   Tobacco = [0.015, 27.4) and
+   Ldl = [2.945, 14.745) and
+   Adiposity = [19.98, 36.45) and
+   Typea = [62.5, _) and
+   Obesity = [23.38, 46.15) and
+   Alcohol = [_, 90.155) and
+   Age = [43.5, _)
+then
+   Chd = 1 (5|0)
+
+if Sbp = [101.5, 211.0) and
+   Tobacco = [_, 4.49) and
+   Ldl = [_, 6.36) and
+   Typea = [28.5, 68.5) and
+   Obesity = [25.43, 46.15) and
+   Alcohol = [_, 76.765) and
+   Age = [40.5, 59.5)
+then
+   Chd = 0 (6|1)
+
+if Sbp = [104.5, 189.0) and
+   Tobacco = [0.005, 19.525) and
+   Ldl = [1.57, 7.065) and
+   Adiposity = [11.38, 42.115) and
+   Typea = [28.5, 76.0) and
+   Obesity = [18.41, _) and
+   Alcohol = [0.44, 39.635) and
+   Age = [_, 57.5)
+then
+   Chd = 1 (5|0)
+
+if Sbp = [155.0, 211.0) and
+   Tobacco = [_, 19.8) and
+   Ldl = [3.11, 5.87) and
+   Adiposity = [25.265, 40.825) and
+   Typea = [_, 77.5) and
+   Obesity = [21.845, 34.385) and
+   Alcohol = [2.83, 66.755)
+then
+   Chd = 1 (3|0)
+
+if Sbp = [122.5, 197.0) and
+   Tobacco = [_, 19.8) and
+   Ldl = [3.285, 9.385) and
+   Adiposity = [19.98, 40.825) and
+   Typea = [37.5, 69.5) and
+   Obesity = [22.72, 33.225) and
+   Alcohol = [_, 108.9) and
+   Age = [40.5, _)
+then
+   Chd = 0 (6|1)
+
+if Sbp = [_, 167.0) and
+   Tobacco = [_, 15.75) and
+   Ldl = [3.11, _) and
+   Typea = [22.5, 70.5) and
+   Obesity = [16.225, 35.725) and
+   Alcohol = [2.59, 98.76) and
+   Age = [_, 57.5)
+then
+   Chd = 0 (5|0)
+
+if true
+then
+   Chd = 1 (11|5)

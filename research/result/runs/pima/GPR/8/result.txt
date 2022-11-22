@@ -1,0 +1,4 @@
+IF 'insu' is Low AND 'mass' is High AND 'skin' is Low AND 'plas' is very High THEN 1 | Support: 0.1866
+IF 'insu' is Low AND 'mass' is High AND 'skin' is Low AND 'plas' is very High THEN 1 | Support: 0.1866
+IF 'plas' is High AND 'skin' is High THEN 1 | Support: 0.1611
+ELSE 0

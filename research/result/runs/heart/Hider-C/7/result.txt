@@ -1,0 +1,87 @@
+Error Training: 0.148
+Error Test: 0.296
+Rules (10):
+--------
+if Age = [40.5, 67.5) and
+   RestBloodPressure = [_, 156.5) and
+   SerumCholestoral = [185.5, 308.5) and
+   MaxHeartRate = [142.5, 194.5) and
+   Oldpeak = [_, 23.5) and
+   MajorVessels = [_, 0.5)
+then
+   Class = 1 (71|6)
+
+if Age = [34.5, 70.5) and
+   Sex = [0.5, _) and
+   RestBloodPressure = [111.0, _) and
+   SerumCholestoral = [183.5, 321.5) and
+   MaxHeartRate = [88.0, 177.5) and
+   Oldpeak = [1.5, 34.5)
+then
+   Class = 2 (46|8)
+
+if Age = [34.5, _) and
+   ChestPainType = [_, 3.5) and
+   RestBloodPressure = [100.5, _) and
+   SerumCholestoral = [162.0, _) and
+   MaxHeartRate = [120.5, 177.5) and
+   Oldpeak = [_, 17.0)
+then
+   Class = 1 (27|3)
+
+if Age = [36.0, 76.5) and
+   SerumCholestoral = [187.0, 400.5) and
+   MaxHeartRate = [88.0, _) and
+   MajorVessels = [0.5, _)
+then
+   Class = 2 (31|6)
+
+if Age = [_, 69.5) and
+   ChestPainType = [_, 3.5) and
+   RestBloodPressure = [107.0, 156.5) and
+   SerumCholestoral = [_, 400.5) and
+   MaxHeartRate = [115.5, _) and
+   Oldpeak = [_, 23.5)
+then
+   Class = 1 (8|1)
+
+if Age = [_, 61.5) and
+   RestBloodPressure = [_, 173.0) and
+   SerumCholestoral = [170.0, _) and
+   MaxHeartRate = [137.0, 176.0) and
+   Oldpeak = [_, 34.5)
+then
+   Class = 2 (7|1)
+
+if Age = [34.5, 67.5) and
+   RestBloodPressure = [111.0, 162.5) and
+   MaxHeartRate = [115.5, 156.5) and
+   Oldpeak = [11.5, _)
+then
+   Class = 2 (4|0)
+
+if Age = [54.5, 76.5) and
+   RestBloodPressure = [109.0, 143.0) and
+   MaxHeartRate = [115.5, 169.5) and
+   Oldpeak = [3.5, 23.5)
+then
+   Class = 1 (5|0)
+
+if Age = [36.0, 70.5) and
+   RestBloodPressure = [107.0, 156.5) and
+   MaxHeartRate = [88.0, 198.5) and
+   ExerciseInduced = [0.5, _) and
+   Oldpeak = [3.5, _)
+then
+   Class = 2 (3|0)
+
+if Age = [_, 70.5) and
+   RestBloodPressure = [100.5, 171.0) and
+   SerumCholestoral = [174.5, 320.0) and
+   MaxHeartRate = [88.0, 169.5)
+then
+   Class = 1 (5|0)
+
+if true
+then
+   Class = 2 (7|4)

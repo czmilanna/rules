@@ -1,0 +1,8 @@
+IF Area2 = { VeryLow} AND Area3 = { VeryLow} AND Concave_points3 = { VeryLow Low} THEN B
+IF Fractal_dimension2 = { VeryLow Low} AND Concave_points3 = { High VeryHigh} THEN M
+IF Texture1 = { Medium High VeryHigh} AND Radius3 = { Medium High VeryHigh} THEN M
+IF Texture1 = { VeryLow Low} AND Symmetry2 = { VeryLow Low} AND Texture3 = { VeryLow Low} AND Area3 = { VeryLow} AND Concave_points3 = { VeryLow Medium} AND Symmetry3 = { VeryLow Low} THEN B
+IF Perimeter2 = { Medium} THEN M
+IF Area1 = { Low Medium} AND Fractal_dimension1 = { VeryLow Low Medium} AND Texture2 = { Low Medium} AND Perimeter2 = { VeryLow Low High VeryHigh} AND Concavity2 = { Low} AND Smoothness3 = { Medium} THEN M
+IF Texture1 = { VeryLow} AND Concave_points3 = { VeryLow Low} AND Symmetry3 = { VeryLow} AND Fractal_dimension3 = { VeryLow} THEN B
+IF Compactness1 = { Low Medium} AND Concave_points2 = { Low Medium} AND Symmetry2 = { VeryLow} AND Texture3 = { VeryLow Low VeryHigh} AND Smoothness3 = { Medium} AND Concavity3 = { Low Medium High} AND Concave_points3 = { VeryLow Medium High VeryHigh} AND Fractal_dimension3 = { Low Medium High VeryHigh} THEN M

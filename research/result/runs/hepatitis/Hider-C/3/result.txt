@@ -1,0 +1,36 @@
+Error Training: 0.07
+Error Test: 0.111
+Rules (3):
+--------
+if Age = [20.0, 72.0) and
+   Bilirubin = [_, 4.8) and
+   AlkPhosphate = [_, 236.5) and
+   Sgot = [_, 420.0) and
+   AlbuMin = [2.55, 5.0) and
+   ProTime = [38.5, _)
+then
+   Class = 2 (56|2)
+
+if Age = [20.0, 72.0) and
+   Sex = [_, 1.5) and
+   Anorexia = [1.5, _) and
+   Bilirubin = [_, 4.8) and
+   AlkPhosphate = [_, 280.0) and
+   Sgot = [23.5, 161.5) and
+   AlbuMin = [_, 3.85) and
+   ProTime = [21.0, 41.5)
+then
+   Class = 1 (7|0)
+
+if Age = [20.0, 60.0) and
+   Bilirubin = [_, 4.7) and
+   AlkPhosphate = [84.5, 280.0) and
+   Sgot = [50.5, 420.0) and
+   AlbuMin = [_, 5.0) and
+   ProTime = [21.0, _)
+then
+   Class = 2 (3|0)
+
+if true
+then
+   Class = 1 (2|1)

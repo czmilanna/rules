@@ -1,0 +1,6 @@
+IF ProTime<=42.0 AND AlkPhosphate<=123.0 AND Fatigue<=1.0 THEN 1
+IF AlbuMin<=2.4 THEN 1
+IF ProTime<=42.0 AND Ascites<=1.0 THEN 1
+IF AlkPhosphate>230.0 THEN 1
+IF Varices<=1.0 AND Fatigue>1.0 THEN 1
+ELSE 2

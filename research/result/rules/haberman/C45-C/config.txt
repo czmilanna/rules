@@ -1,0 +1,7 @@
+algorithm = C4.5 Decision Tree
+inputData = "C:/Projekty/rules/data/haberman/haberman.dat" "C:/Projekty/rules/data/haberman/haberman.dat" "C:/Projekty/rules/data/haberman/haberman.dat"
+outputData = "rules/haberman/C45-C/result.tra" "rules/haberman/C45-C/result.tst" "rules/haberman/C45-C/result.txt"
+
+pruned = TRUE
+confidence = 0.25
+instancesPerLeaf = 2

@@ -1,0 +1,16 @@
+Number of Rules: 7
+Rule[1]: IF  CellSize <= 2.0 AND  BareNuclei <= 2.0  THEN Class = 2 (345/346)
+Rule[2]: IF  CellSize <= 2.0 AND  BareNuclei > 2.0 AND  NormalNucleoli <= 2.0 AND  EpithelialSize <= 5.0  THEN Class = 2 (21/22)
+Rule[3]: IF  CellSize <= 2.0 AND  BareNuclei > 2.0 AND  NormalNucleoli <= 2.0 AND  EpithelialSize > 5.0  THEN Class = 4 (2/2)
+Rule[4]: IF  CellSize <= 2.0 AND  BareNuclei > 2.0 AND  NormalNucleoli > 2.0  THEN Class = 4 (7/7)
+Rule[5]: IF  CellSize > 2.0 AND  BareNuclei <= 2.0 AND  CellSize <= 3.0  THEN Class = 2 (22/23)
+Rule[6]: IF  CellSize > 2.0 AND  BareNuclei <= 2.0 AND  CellSize > 3.0  THEN Class = 4 (20/22)
+Rule[7]: IF  CellSize > 2.0 AND  BareNuclei > 2.0  THEN Class = 4 (183/192)
+
+Number of Rules: 3
+Rule[1]: IF  ClumpThickness > 3.0 AND  CellSize <= 3.0 AND  CellShape <= 8.0 AND  MarginalAdhesion <= 5.0 AND  EpithelialSize > 2.0 AND  BareNuclei > 4.0 AND  BlandChromatin > 2.0 AND  NormalNucleoli > 5.0 AND  Mitoses > 0.0  THEN Class = 4 (6/7)
+Rule[2]: IF  ClumpThickness > 4.0 AND  CellSize <= 4.0 AND  CellShape <= 6.0 AND  MarginalAdhesion > 3.0 AND  EpithelialSize > 1.0 AND  BareNuclei <= 10.0 AND  BlandChromatin <= 3.0 AND  NormalNucleoli > 1.0 AND  Mitoses <= 1.0  THEN Class = 4 (4/5)
+Rule[3]: IF  ClumpThickness <= 10.0 AND  CellSize > 0.0 AND  CellShape > 0.0 AND  MarginalAdhesion <= 1.0 AND  EpithelialSize > 1.0 AND  BareNuclei <= 10.0 AND  BlandChromatin > 4.0 AND  NormalNucleoli > 1.0 AND  Mitoses <= 1.0  THEN Class = 4 (3/3)
+
+Accuracy in training: 0.9771986970684039
+Accuracy in test: 0.927536231884058

@@ -1,0 +1,490 @@
+Experiment: C:/Projekty/rules/data/heart/heart-10dobscv-3tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 243
+Class 0: 135
+Class 1: 108
+Successes: 93.0
+Errors:  14.0
+Not classified: 136.0
+	Rule 0: 93 / 14
+Successes: 93.0
+Errors:  14.0
+Not classified: 136.0
+	Rule 0: 93 / 14
+Accuracy on training: 0.38271604938271603
+Number of examples: 150
+Class 0: 42
+Class 1: 108
+Successes: 153.0
+Errors:  21.0
+Not classified: 69.0
+	Rule 0: 93 / 14
+	Rule 1: 60 / 7
+Successes: 153.0
+Errors:  21.0
+Not classified: 69.0
+	Rule 0: 93 / 14
+	Rule 1: 60 / 7
+Accuracy on training: 0.6296296296296297
+Number of examples: 90
+Class 0: 42
+Class 1: 48
+Successes: 183.0
+Errors:  29.0
+Not classified: 31.0
+	Rule 0: 91 / 14
+	Rule 1: 60 / 7
+	Rule 2: 32 / 8
+Successes: 183.0
+Errors:  29.0
+Not classified: 31.0
+	Rule 0: 91 / 14
+	Rule 1: 60 / 7
+	Rule 2: 32 / 8
+Accuracy on training: 0.7530864197530864
+Number of examples: 60
+Class 0: 12
+Class 1: 48
+Successes: 207.0
+Errors:  27.0
+Not classified: 9.0
+	Rule 0: 91 / 13
+	Rule 1: 60 / 7
+	Rule 2: 32 / 6
+	Rule 3: 24 / 1
+Successes: 207.0
+Errors:  27.0
+Not classified: 9.0
+	Rule 0: 91 / 13
+	Rule 1: 60 / 7
+	Rule 2: 32 / 6
+	Rule 3: 24 / 1
+Accuracy on training: 0.8518518518518519
+Number of examples: 36
+Class 0: 12
+Class 1: 24
+Successes: 209.0
+Errors:  25.0
+Not classified: 9.0
+	Rule 0: 91 / 13
+	Rule 1: 58 / 7
+	Rule 2: 32 / 4
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+Successes: 209.0
+Errors:  25.0
+Not classified: 9.0
+	Rule 0: 91 / 13
+	Rule 1: 58 / 7
+	Rule 2: 32 / 4
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+Accuracy on training: 0.8600823045267489
+Number of examples: 34
+Class 0: 12
+Class 1: 22
+Successes: 211.0
+Errors:  25.0
+Not classified: 7.0
+	Rule 0: 55 / 13
+	Rule 1: 58 / 7
+	Rule 2: 29 / 4
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+Successes: 211.0
+Errors:  25.0
+Not classified: 7.0
+	Rule 0: 55 / 13
+	Rule 1: 58 / 7
+	Rule 2: 29 / 4
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+Accuracy on training: 0.8683127572016461
+Number of examples: 32
+Class 0: 10
+Class 1: 22
+Successes: 216.0
+Errors:  25.0
+Not classified: 2.0
+	Rule 0: 55 / 13
+	Rule 1: 58 / 7
+	Rule 2: 29 / 4
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+Successes: 216.0
+Errors:  25.0
+Not classified: 2.0
+	Rule 0: 55 / 13
+	Rule 1: 58 / 7
+	Rule 2: 29 / 4
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+Accuracy on training: 0.8888888888888888
+Number of examples: 27
+Class 0: 10
+Class 1: 17
+Successes: 218.0
+Errors:  24.0
+Not classified: 1.0
+	Rule 0: 53 / 13
+	Rule 1: 58 / 6
+	Rule 2: 26 / 4
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+Successes: 218.0
+Errors:  24.0
+Not classified: 1.0
+	Rule 0: 53 / 13
+	Rule 1: 58 / 6
+	Rule 2: 26 / 4
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+Accuracy on training: 0.897119341563786
+Number of examples: 25
+Class 0: 8
+Class 1: 17
+Successes: 219.0
+Errors:  23.0
+Not classified: 1.0
+	Rule 0: 53 / 12
+	Rule 1: 58 / 6
+	Rule 2: 26 / 4
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+Successes: 219.0
+Errors:  23.0
+Not classified: 1.0
+	Rule 0: 53 / 12
+	Rule 1: 58 / 6
+	Rule 2: 26 / 4
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+Accuracy on training: 0.9012345679012346
+Number of examples: 24
+Class 0: 8
+Class 1: 16
+Successes: 221.0
+Errors:  21.0
+Not classified: 1.0
+	Rule 0: 53 / 11
+	Rule 1: 58 / 6
+	Rule 2: 26 / 3
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+Successes: 221.0
+Errors:  21.0
+Not classified: 1.0
+	Rule 0: 53 / 11
+	Rule 1: 58 / 6
+	Rule 2: 26 / 3
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+Accuracy on training: 0.9094650205761317
+Number of examples: 22
+Class 0: 8
+Class 1: 14
+Successes: 222.0
+Errors:  20.0
+Not classified: 1.0
+	Rule 0: 53 / 10
+	Rule 1: 57 / 6
+	Rule 2: 26 / 3
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 0
+Successes: 222.0
+Errors:  20.0
+Not classified: 1.0
+	Rule 0: 53 / 10
+	Rule 1: 57 / 6
+	Rule 2: 26 / 3
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 0
+Accuracy on training: 0.9135802469135802
+Number of examples: 21
+Class 0: 8
+Class 1: 13
+Successes: 223.0
+Errors:  19.0
+Not classified: 1.0
+	Rule 0: 53 / 10
+	Rule 1: 57 / 6
+	Rule 2: 26 / 2
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 0
+	Rule 11: 1 / 0
+Successes: 223.0
+Errors:  19.0
+Not classified: 1.0
+	Rule 0: 53 / 10
+	Rule 1: 57 / 6
+	Rule 2: 26 / 2
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 0
+	Rule 11: 1 / 0
+Accuracy on training: 0.9176954732510288
+Number of examples: 20
+Class 0: 8
+Class 1: 12
+Successes: 224.0
+Errors:  19.0
+Not classified: 0.0
+	Rule 0: 53 / 10
+	Rule 1: 57 / 6
+	Rule 2: 26 / 2
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 0
+	Rule 11: 1 / 0
+	Rule 12: 1 / 0
+Successes: 224.0
+Errors:  19.0
+Not classified: 0.0
+	Rule 0: 53 / 10
+	Rule 1: 57 / 6
+	Rule 2: 26 / 2
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 0
+	Rule 11: 1 / 0
+	Rule 12: 1 / 0
+Accuracy on training: 0.9218106995884774
+Number of examples: 19
+Class 0: 7
+Class 1: 12
+Successes: 224.0
+Errors:  19.0
+Not classified: 0.0
+	Rule 0: 53 / 10
+	Rule 1: 57 / 6
+	Rule 2: 26 / 2
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 0
+	Rule 11: 1 / 0
+	Rule 12: 1 / 0
+	Rule 13: 0 / 0
+Successes: 224.0
+Errors:  19.0
+Not classified: 0.0
+	Rule 0: 53 / 10
+	Rule 1: 57 / 6
+	Rule 2: 26 / 2
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 0
+	Rule 11: 1 / 0
+	Rule 12: 1 / 0
+Successes: 224.0
+Errors:  19.0
+Not classified: 0.0
+	Rule 0: 53 / 10
+	Rule 1: 57 / 6
+	Rule 2: 26 / 2
+	Rule 3: 22 / 1
+	Rule 4: 6 / 0
+	Rule 5: 41 / 0
+	Rule 6: 5 / 0
+	Rule 7: 7 / 0
+	Rule 8: 1 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 0
+	Rule 11: 1 / 0
+	Rule 12: 1 / 0
+Successes: 19.0
+Errors:  8.0
+Not classified: 0.0
+	Rule 0: 5 / 2
+	Rule 1: 3 / 0
+	Rule 2: 3 / 3
+	Rule 3: 1 / 0
+	Rule 4: 0 / 0
+	Rule 5: 5 / 2
+	Rule 6: 1 / 1
+	Rule 7: 0 / 0
+	Rule 8: 0 / 0
+	Rule 9: 0 / 0
+	Rule 10: 0 / 0
+	Rule 11: 0 / 0
+	Rule 12: 1 / 0
+----------------------------------------------------
+Accuracy on training: 0.9218106995884774
+Accuracy on test: 0.7037037037037037
+Number of rules: 13.0
+Variables per rule: 3.230769230769231
+Variables used: 1.0
+Time: 2.266
+Iterations: 16763
+Conditions: 42
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	ExerciseInduced = { T0}
+	Oldpeak = { VeryLow Low}
+	Thal = { T0}
+THEN Class IS 1   W 0.8752364935883961
+
+IF
+	ChestPainType = { T3}
+	Thal = { T4}
+THEN Class IS 2   W 0.8970588235294118
+
+IF
+	SerumCholestoral = { Low High VeryHigh}
+	MajorVessels = { T0}
+THEN Class IS 1   W 0.7744697882165493
+
+IF
+	Age = { Medium High}
+	ChestPainType = { T1 T2 T3}
+	SerumCholestoral = { Low Medium High}
+	Slope = { T1 T2}
+THEN Class IS 2   W 0.7337542299705351
+
+IF
+	Sex = { T0}
+	ResElectrocardiographic = { T0 T1}
+	ExerciseInduced = { T1}
+	Slope = { T1 T2}
+THEN Class IS 2   W 1.0
+
+IF
+	Sex = { T0}
+	ChestPainType = { T1 T2}
+THEN Class IS 1   W 1.0
+
+IF
+	ResElectrocardiographic = { T1 T2}
+	Oldpeak = { VeryLow Medium}
+THEN Class IS 2   W 0.5665329906690411
+
+IF
+	Age = { Low Medium}
+	FastingBloodSugar = { T1}
+	ResElectrocardiographic = { T0}
+	Oldpeak = { VeryLow}
+THEN Class IS 1   W 0.9898448519040902
+
+IF
+	FastingBloodSugar = { T1}
+	ResElectrocardiographic = { T0 T1}
+	MaxHeartRate = { Low}
+	Slope = { T1 T2}
+THEN Class IS 2   W 1.0
+
+IF
+	Age = { Low Medium}
+	ChestPainType = { T0}
+	ResElectrocardiographic = { T0 T1}
+	Oldpeak = { Medium High}
+THEN Class IS 2   W 1.0
+
+IF
+	FastingBloodSugar = { T0}
+	MaxHeartRate = { VeryLow}
+THEN Class IS 2   W 1.0
+
+IF
+	Age = { Medium VeryHigh}
+	SerumCholestoral = { Medium High}
+	FastingBloodSugar = { T0}
+	Slope = { T1 T2}
+THEN Class IS 2   W 0.8429038262111549
+
+IF
+	ChestPainType = { T0 T2}
+	RestBloodPressure = { VeryLow Low Medium VeryHigh}
+	ResElectrocardiographic = { T0}
+	Oldpeak = { VeryLow}
+	Thal = { T3 T4}
+THEN Class IS 1   W 0.729594875179063
+
+	Accuracy on training set is: 0.9218106995884774
+	Accuracy on test set is: 0.7037037037037037
+	Number of rules is: 13.0
+	Variables per rule is: 3.230769230769231
+	Variables used is: 1.0
+	Time is: 2.266
+	Iterations is: 16763
+	Conditions is: 42
+

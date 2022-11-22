@@ -1,0 +1,184 @@
+@relation    saheart
+@attribute Sbp integer[101,218]
+@attribute Tobacco real[0.0,31.2]
+@attribute Ldl real[0.98,15.33]
+@attribute Adiposity real[6.74,42.49]
+@attribute Famhist{1,0}
+@attribute Typea integer[13,78]
+@attribute Obesity real[14.7,46.58]
+@attribute Alcohol real[0.0,147.19]
+@attribute Age integer[15,64]
+@attribute Chd{0,1}
+@inputs Sbp,Tobacco,Ldl,Adiposity,Famhist,Typea,Obesity,Alcohol,Age
+@outputs Chd
+@data
+
+@decisiontree
+
+if ( Age <= 31.000000 ) then
+{
+	if ( Tobacco <= 1.530000 ) then
+	{
+		Chd = "0"
+	}
+	elseif ( Tobacco > 1.530000 ) then
+	{
+		if ( Obesity <= 24.200000 ) then
+		{
+			if ( Alcohol <= 11.830000 ) then
+			{
+				Chd = "0"
+			}
+			elseif ( Alcohol > 11.830000 ) then
+			{
+				Chd = "1"
+			}
+		}
+		elseif ( Obesity > 24.200000 ) then
+		{
+			Chd = "0"
+		}
+	}
+}
+elseif ( Age > 31.000000 ) then
+{
+	if ( Tobacco <= 8.000000 ) then
+	{
+		if ( Famhist = 1 ) then
+		{
+			if ( Age <= 50.000000 ) then
+			{
+				if ( Typea <= 53.000000 ) then
+				{
+					if ( Ldl <= 5.350000 ) then
+					{
+						Chd = "0"
+					}
+					elseif ( Ldl > 5.350000 ) then
+					{
+						if ( Sbp <= 117.000000 ) then
+						{
+							Chd = "1"
+						}
+						elseif ( Sbp > 117.000000 ) then
+						{
+							if ( Sbp <= 129.000000 ) then
+							{
+								Chd = "0"
+							}
+							elseif ( Sbp > 129.000000 ) then
+							{
+								if ( Typea <= 50.000000 ) then
+								{
+									Chd = "1"
+								}
+								elseif ( Typea > 50.000000 ) then
+								{
+									Chd = "0"
+								}
+							}
+						}
+					}
+				}
+				elseif ( Typea > 53.000000 ) then
+				{
+					if ( Sbp <= 124.000000 ) then
+					{
+						Chd = "1"
+					}
+					elseif ( Sbp > 124.000000 ) then
+					{
+						Chd = "0"
+					}
+				}
+			}
+			elseif ( Age > 50.000000 ) then
+			{
+				Chd = "1"
+			}
+		}
+		elseif ( Famhist = 0 ) then
+		{
+			if ( Typea <= 42.000000 ) then
+			{
+				Chd = "0"
+			}
+			elseif ( Typea > 42.000000 ) then
+			{
+				if ( Sbp <= 134.000000 ) then
+				{
+					if ( Age <= 54.000000 ) then
+					{
+						Chd = "0"
+					}
+					elseif ( Age > 54.000000 ) then
+					{
+						if ( Sbp <= 124.000000 ) then
+						{
+							Chd = "1"
+						}
+						elseif ( Sbp > 124.000000 ) then
+						{
+							if ( Adiposity <= 32.570000 ) then
+							{
+								Chd = "0"
+							}
+							elseif ( Adiposity > 32.570000 ) then
+							{
+								Chd = "1"
+							}
+						}
+					}
+				}
+				elseif ( Sbp > 134.000000 ) then
+				{
+					if ( Alcohol <= 26.230000 ) then
+					{
+						if ( Age <= 61.000000 ) then
+						{
+							if ( Typea <= 65.000000 ) then
+							{
+								Chd = "0"
+							}
+							elseif ( Typea > 65.000000 ) then
+							{
+								Chd = "1"
+							}
+						}
+						elseif ( Age > 61.000000 ) then
+						{
+							Chd = "1"
+						}
+					}
+					elseif ( Alcohol > 26.230000 ) then
+					{
+						Chd = "0"
+					}
+				}
+			}
+		}
+	}
+	elseif ( Tobacco > 8.000000 ) then
+	{
+		Chd = "1"
+	}
+}
+
+@TotalNumberOfNodes 21
+@NumberOfLeafs 22
+@TotalNumberOfNodes 21
+@NumberOfAntecedentsByRule 6.0
+
+@NumberOfItemsetsTraining 415
+@NumberOfCorrectlyClassifiedTraining 343
+@PercentageOfCorrectlyClassifiedTraining 82.650604%
+@NumberOfInCorrectlyClassifiedTraining 72
+@PercentageOfInCorrectlyClassifiedTraining 17.349398%
+
+@NumberOfItemsetsTest 47
+@NumberOfCorrectlyClassifiedTest 32
+@PercentageOfCorrectlyClassifiedTest 68.085106%
+@NumberOfInCorrectlyClassifiedTest 15
+@PercentageOfInCorrectlyClassifiedTest 31.914894%
+
+@ElapsedTime 0:0:0

@@ -1,0 +1,4 @@
+IF Histology is Low THEN 1 | Support: 0.7049
+IF ProTime is High THEN 1 | Support: 0.6677
+IF Sgot is Low AND Bilirubin is Low AND Sex is very High THEN 1 | Support: 0.1070
+ELSE 0

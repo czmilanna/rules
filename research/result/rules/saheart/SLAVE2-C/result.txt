@@ -1,0 +1,442 @@
+Experiment: C:/Projekty/rules/data/saheart/saheart.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 462
+Class 0: 302
+Class 1: 160
+Accuracy on training: 0.6212121212121212
+Number of examples: 175
+Class 0: 53
+Class 1: 160
+Accuracy on training: 0.6493506493506493
+Number of examples: 162
+Class 0: 38
+Class 1: 160
+Accuracy on training: 0.6493506493506493
+Number of examples: 162
+Class 0: 32
+Class 1: 160
+Accuracy on training: 0.6493506493506493
+Number of examples: 162
+Class 0: 29
+Class 1: 160
+Accuracy on training: 0.6493506493506493
+Number of examples: 162
+Class 0: 27
+Class 1: 160
+Accuracy on training: 0.6493506493506493
+Number of examples: 162
+Class 0: 25
+Class 1: 160
+Accuracy on training: 0.6515151515151515
+Number of examples: 161
+Class 0: 22
+Class 1: 160
+Accuracy on training: 0.6515151515151515
+Number of examples: 161
+Class 0: 18
+Class 1: 160
+Accuracy on training: 0.6515151515151515
+Number of examples: 161
+Class 0: 16
+Class 1: 160
+Accuracy on training: 0.6515151515151515
+Number of examples: 161
+Class 0: 15
+Class 1: 160
+Accuracy on training: 0.6515151515151515
+Number of examples: 161
+Class 0: 14
+Class 1: 160
+Accuracy on training: 0.6515151515151515
+Number of examples: 161
+Class 0: 302
+Class 1: 160
+Accuracy on training: 0.7359307359307359
+Number of examples: 389
+Class 0: 302
+Class 1: 89
+Accuracy on training: 0.7510822510822511
+Number of examples: 382
+Class 0: 302
+Class 1: 82
+Accuracy on training: 0.7662337662337663
+Number of examples: 374
+Class 0: 302
+Class 1: 75
+Accuracy on training: 0.7727272727272727
+Number of examples: 371
+Class 0: 302
+Class 1: 74
+Accuracy on training: 0.7748917748917749
+Number of examples: 370
+Class 0: 302
+Class 1: 73
+Accuracy on training: 0.7857142857142857
+Number of examples: 365
+Class 0: 302
+Class 1: 71
+Accuracy on training: 0.79004329004329
+Number of examples: 363
+Class 0: 302
+Class 1: 69
+Accuracy on training: 0.7943722943722944
+Number of examples: 361
+Class 0: 302
+Class 1: 66
+Accuracy on training: 0.7965367965367965
+Number of examples: 360
+Class 0: 302
+Class 1: 64
+Accuracy on training: 0.7987012987012987
+Number of examples: 359
+Class 0: 302
+Class 1: 63
+Successes: 369.0
+Errors:  93.0
+Not classified: 0.0
+	Rule 0: 250 / 78
+	Rule 1: 17 / 4
+	Rule 2: 7 / 0
+	Rule 3: 3 / 0
+	Rule 4: 2 / 0
+	Rule 5: 2 / 0
+	Rule 6: 3 / 0
+	Rule 7: 4 / 1
+	Rule 8: 3 / 0
+	Rule 9: 0 / 0
+	Rule 10: 1 / 0
+	Rule 11: 0 / 0
+	Rule 12: 42 / 8
+	Rule 13: 8 / 1
+	Rule 14: 7 / 1
+	Rule 15: 4 / 0
+	Rule 16: 1 / 0
+	Rule 17: 4 / 0
+	Rule 18: 3 / 0
+	Rule 19: 3 / 0
+	Rule 20: 2 / 0
+	Rule 21: 2 / 0
+	Rule 22: 1 / 0
+Successes: 369.0
+Errors:  93.0
+Not classified: 0.0
+	Rule 0: 250 / 78
+	Rule 1: 17 / 4
+	Rule 2: 7 / 0
+	Rule 3: 3 / 0
+	Rule 4: 2 / 0
+	Rule 5: 2 / 0
+	Rule 6: 3 / 0
+	Rule 7: 4 / 1
+	Rule 8: 3 / 0
+	Rule 9: 0 / 0
+	Rule 10: 1 / 0
+	Rule 11: 0 / 0
+	Rule 12: 42 / 8
+	Rule 13: 8 / 1
+	Rule 14: 7 / 1
+	Rule 15: 4 / 0
+	Rule 16: 1 / 0
+	Rule 17: 4 / 0
+	Rule 18: 3 / 0
+	Rule 19: 3 / 0
+	Rule 20: 2 / 0
+	Rule 21: 2 / 0
+	Rule 22: 1 / 0
+----------------------------------------------------
+Accuracy on training: 0.7987012987012987
+Accuracy on test: 0.7987012987012987
+Number of rules: 23.0
+Variables per rule: 4.782608695652174
+Variables used: 1.0
+Time: 14.86
+Iterations: 312842
+Conditions: 110
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Sbp = { VeryLow Low Medium}
+	Tobacco = { VeryLow Low High}
+	Ldl = { VeryLow Low}
+	Adiposity = { VeryLow Low Medium High}
+	Famhist = { T1}
+	Typea = { VeryLow VeryHigh}
+	Obesity = { VeryLow Low Medium VeryHigh}
+	Alcohol = { VeryLow Low Medium VeryHigh}
+	Age = { VeryLow Medium VeryHigh}
+THEN Chd IS 0   W 0.7234893392551448
+
+IF
+	Sbp = { VeryLow Low High VeryHigh}
+	Tobacco = { VeryLow Low VeryHigh}
+	Ldl = { Medium High VeryHigh}
+	Adiposity = { Low Medium High}
+	Famhist = { T1}
+	Typea = { Medium High}
+	Obesity = { High VeryHigh}
+	Alcohol = { VeryLow Medium VeryHigh}
+	Age = { VeryLow Low High}
+THEN Chd IS 0   W 0.6783601438663872
+
+IF
+	Sbp = { Medium High}
+	Tobacco = { Medium}
+	Ldl = { Low VeryHigh}
+	Adiposity = { High}
+	Famhist = { T1}
+	Typea = { VeryLow Low Medium High}
+	Obesity = { Low Medium VeryHigh}
+	Alcohol = { Medium High VeryHigh}
+	Age = { VeryLow High}
+THEN Chd IS 0   W 0.91005632342371
+
+IF
+	Sbp = { High VeryHigh}
+	Tobacco = { VeryLow}
+	Ldl = { Low}
+	Adiposity = { VeryLow Low High}
+	Famhist = { T1}
+	Typea = { Low Medium High VeryHigh}
+	Obesity = { VeryLow Low Medium VeryHigh}
+	Alcohol = { Low Medium High}
+	Age = { VeryHigh}
+THEN Chd IS 0   W 0.8034325865161088
+
+IF
+	Sbp = { Low Medium High}
+	Tobacco = { VeryLow Low}
+	Ldl = { Medium}
+	Adiposity = { High}
+	Famhist = { T0}
+	Typea = { VeryLow Low Medium}
+	Obesity = { VeryLow Low}
+	Alcohol = { VeryLow Low Medium}
+	Age = { VeryLow Low}
+THEN Chd IS 0   W 0.7809669353996912
+
+IF
+	Sbp = { Low}
+	Tobacco = { Low}
+	Ldl = { Medium}
+	Adiposity = { High}
+	Famhist = { T0}
+	Typea = { High}
+	Alcohol = { Low}
+	Age = { VeryLow VeryHigh}
+THEN Chd IS 0   W 0.6282008915290819
+
+IF
+	Sbp = { High}
+	Tobacco = { VeryLow Low Medium High}
+	Ldl = { VeryLow}
+	Adiposity = { High VeryHigh}
+	Famhist = { T0}
+	Typea = { High}
+	Obesity = { Low Medium High}
+	Alcohol = { VeryLow Low}
+	Age = { Medium}
+THEN Chd IS 0   W 0.8844571802489734
+
+IF
+	Sbp = { Low Medium}
+	Tobacco = { VeryLow Medium}
+	Ldl = { VeryLow VeryHigh}
+	Adiposity = { VeryLow Low High VeryHigh}
+	Typea = { VeryLow Low Medium}
+	Obesity = { High}
+	Alcohol = { VeryLow Low}
+	Age = { Medium High}
+THEN Chd IS 0   W 0.7635589004855906
+
+IF
+	Sbp = { Medium High VeryHigh}
+	Tobacco = { VeryLow Low}
+	Ldl = { Medium High}
+	Adiposity = { VeryLow High VeryHigh}
+	Famhist = { T1}
+	Typea = { VeryLow Low}
+	Obesity = { Low High VeryHigh}
+	Alcohol = { Low VeryHigh}
+	Age = { VeryLow}
+THEN Chd IS 0   W 0.9176890475128262
+
+IF
+	Sbp = { Medium}
+	Tobacco = { VeryLow Medium High VeryHigh}
+	Ldl = { Low High}
+	Adiposity = { VeryLow Low}
+	Famhist = { T0}
+	Typea = { VeryLow High}
+	Obesity = { High VeryHigh}
+	Alcohol = { VeryLow Medium VeryHigh}
+	Age = { VeryHigh}
+THEN Chd IS 0   W 0.9012753458430403
+
+IF
+	Sbp = { Medium}
+	Tobacco = { Medium High}
+	Ldl = { VeryLow}
+	Adiposity = { Low Medium High VeryHigh}
+	Typea = { VeryLow Low Medium High}
+	Obesity = { Medium High VeryHigh}
+	Alcohol = { VeryLow}
+	Age = { VeryLow Low Medium}
+THEN Chd IS 0   W 0.9749960217539853
+
+IF
+	Sbp = { Medium High}
+	Tobacco = { High VeryHigh}
+	Ldl = { VeryLow Medium High}
+	Adiposity = { VeryLow Low Medium VeryHigh}
+	Typea = { Low Medium High VeryHigh}
+	Obesity = { VeryLow Low High}
+	Alcohol = { VeryHigh}
+	Age = { VeryLow Medium}
+THEN Chd IS 0   W 1.0
+
+IF
+	Sbp = { VeryLow Low High VeryHigh}
+	Tobacco = { Low Medium High}
+	Ldl = { Low Medium High VeryHigh}
+	Adiposity = { Medium High VeryHigh}
+	Famhist = { T0}
+	Typea = { VeryLow Low Medium High}
+	Obesity = { VeryLow Low Medium}
+	Alcohol = { Low Medium VeryHigh}
+	Age = { High VeryHigh}
+THEN Chd IS 1   W 0.6178470072719956
+
+IF
+	Sbp = { High VeryHigh}
+	Tobacco = { VeryHigh}
+	Ldl = { High VeryHigh}
+	Adiposity = { VeryLow Medium High}
+	Famhist = { T1}
+	Typea = { VeryLow Medium High VeryHigh}
+	Obesity = { VeryLow Low Medium}
+	Alcohol = { VeryLow Medium High VeryHigh}
+	Age = { VeryLow Medium}
+THEN Chd IS 1   W 0.7823549851133308
+
+IF
+	Sbp = { VeryLow Low VeryHigh}
+	Tobacco = { Medium High VeryHigh}
+	Ldl = { VeryLow Low Medium High}
+	Adiposity = { Low Medium}
+	Famhist = { T1}
+	Typea = { Medium High}
+	Obesity = { VeryLow Low}
+	Alcohol = { VeryLow Low Medium High}
+	Age = { VeryLow Low Medium VeryHigh}
+THEN Chd IS 1   W 0.8202561359885759
+
+IF
+	Sbp = { Low Medium High}
+	Tobacco = { VeryLow Low Medium High}
+	Ldl = { Medium}
+	Adiposity = { Medium}
+	Famhist = { T0}
+	Typea = { VeryLow High}
+	Obesity = { Medium High}
+	Alcohol = { VeryLow Low}
+	Age = { Medium}
+THEN Chd IS 1   W 0.829701317437645
+
+IF
+	Sbp = { VeryLow Low Medium}
+	Tobacco = { Low Medium High}
+	Ldl = { VeryLow Low VeryHigh}
+	Adiposity = { Low High VeryHigh}
+	Famhist = { T1}
+	Typea = { VeryLow Low VeryHigh}
+	Obesity = { VeryHigh}
+	Alcohol = { Low Medium High VeryHigh}
+	Age = { Low Medium High VeryHigh}
+THEN Chd IS 1   W 1.0
+
+IF
+	Sbp = { Low Medium}
+	Tobacco = { Low Medium}
+	Ldl = { VeryLow Low Medium VeryHigh}
+	Adiposity = { VeryHigh}
+	Famhist = { T1}
+	Typea = { High VeryHigh}
+	Obesity = { High VeryHigh}
+	Alcohol = { VeryLow VeryHigh}
+THEN Chd IS 1   W 0.8143580161562243
+
+IF
+	Sbp = { Low}
+	Tobacco = { VeryLow Low High VeryHigh}
+	Ldl = { VeryLow High}
+	Adiposity = { VeryLow Low VeryHigh}
+	Famhist = { T0}
+	Typea = { VeryLow Low Medium}
+	Obesity = { VeryLow VeryHigh}
+	Alcohol = { Medium High VeryHigh}
+	Age = { VeryLow Low Medium}
+THEN Chd IS 1   W 0.933494387074311
+
+IF
+	Sbp = { VeryHigh}
+	Tobacco = { VeryLow Low High VeryHigh}
+	Ldl = { Low}
+	Adiposity = { VeryLow Low High}
+	Famhist = { T1}
+	Typea = { VeryLow Low VeryHigh}
+	Obesity = { Low Medium VeryHigh}
+	Alcohol = { VeryLow}
+	Age = { High VeryHigh}
+THEN Chd IS 1   W 0.9410571402294017
+
+IF
+	Sbp = { VeryLow Medium High VeryHigh}
+	Tobacco = { Medium High VeryHigh}
+	Ldl = { VeryHigh}
+	Adiposity = { High}
+	Famhist = { T1}
+	Typea = { VeryLow High VeryHigh}
+	Obesity = { VeryLow Low High}
+	Alcohol = { VeryLow High VeryHigh}
+	Age = { VeryLow Low Medium High}
+THEN Chd IS 1   W 0.8182800518491946
+
+IF
+	Sbp = { Medium High VeryHigh}
+	Tobacco = { Medium High VeryHigh}
+	Ldl = { Low Medium High VeryHigh}
+	Adiposity = { VeryLow High VeryHigh}
+	Typea = { Low}
+	Obesity = { Low High}
+	Alcohol = { VeryLow VeryHigh}
+	Age = { VeryLow VeryHigh}
+THEN Chd IS 1   W 1.0
+
+IF
+	Sbp = { Medium}
+	Tobacco = { VeryLow Low Medium High}
+	Ldl = { High VeryHigh}
+	Adiposity = { VeryLow High VeryHigh}
+	Famhist = { T1}
+	Typea = { VeryLow Medium}
+	Obesity = { VeryLow Medium}
+	Alcohol = { VeryLow Low High VeryHigh}
+	Age = { Low Medium}
+THEN Chd IS 1   W 1.0
+
+	Accuracy on training set is: 0.7987012987012987
+	Accuracy on test set is: 0.7987012987012987
+	Number of rules is: 23.0
+	Variables per rule is: 4.782608695652174
+	Variables used is: 1.0
+	Time is: 14.86
+	Iterations is: 312842
+	Conditions is: 110
+

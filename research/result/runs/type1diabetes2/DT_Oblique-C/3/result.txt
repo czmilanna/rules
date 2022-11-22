@@ -1,0 +1,121 @@
+if ( -1.0*step_count + 60837.0 >= 0  ) then{
+	if ( -1.0*vigorious + 127.5 >= 0  ) then{
+		if ( -1.0*light + 531.833333333333 >= 0  ) then{
+			if ( -1.0*sedentary + 2962.916666666669 >= 0  ) then{
+				healthy = 0 (6) 
+			}
+			else{ 
+				if ( -1.0*height + 1.58 >= 0  ) then{
+					healthy = 0 (2) 
+				}
+				else{ 
+					healthy = 1 (5) 
+				}
+			}
+		}
+		else{ 
+			if ( -1.0*height + 1.87 >= 0  ) then{
+				if ( -1.0*moderate + 266.91666666666697 >= 0  ) then{
+					if ( -1.0*weight + 22.6 >= 0  ) then{
+						if ( -1.0*age + 7.0 >= 0  ) then{
+							healthy = 0 (2) 
+						}
+						else{ 
+							healthy = 1 (2) 
+						}
+					}
+					else{ 
+						if ( -1.0*height + 1.68 >= 0  ) then{
+							healthy = 0 (51) 
+						}
+						else{ 
+							if ( -1.0*height + 1.69 >= 0  ) then{
+								healthy = 1 (2) 
+							}
+							else{ 
+								healthy = 0 (11) 
+							}
+						}
+					}
+				}
+				else{ 
+					healthy = 1 (1) 
+				}
+			}
+			else{ 
+				healthy = 1 (1) 
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*vigorious + 309.91666666666697 >= 0  ) then{
+			if ( -1.0*step_count + 54547.0 >= 0  ) then{
+				if ( -1.0*height + 1.63 >= 0  ) then{
+					if ( -1.0*sedentary + 2854.583333333331 >= 0  ) then{
+						healthy = 1 (2) 
+					}
+					else{ 
+						healthy = 0 (13) 
+					}
+				}
+				else{ 
+					if ( -1.0*sedentary + 3993.416666666671 >= 0  ) then{
+						if ( -1.0*age + 13.0 >= 0  ) then{
+							healthy = 1 (2) 
+						}
+						else{ 
+							if ( -1.0*age + 17.0 >= 0  ) then{
+								healthy = 0 (5) 
+							}
+							else{ 
+								healthy = 1 (1) 
+							}
+						}
+					}
+					else{ 
+						if ( -1.0*age + 14.0 >= 0  ) then{
+							if ( -1.0*sex + 1.0 >= 0  ) then{
+								healthy = 1 (1) 
+							}
+							else{ 
+								healthy = 0 (1) 
+							}
+						}
+						else{ 
+							healthy = 1 (4) 
+						}
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*step_count + 59584.0 >= 0  ) then{
+					if ( -1.0*moderate + 205.833333333333 >= 0  ) then{
+						if ( -1.0*age + 14.0 >= 0  ) then{
+							healthy = 0 (1) 
+						}
+						else{ 
+							healthy = 1 (2) 
+						}
+					}
+					else{ 
+						healthy = 1 (9) 
+					}
+				}
+				else{ 
+					healthy = 0 (2) 
+				}
+			}
+		}
+		else{ 
+			healthy = 0 (9) 
+		}
+	}
+}
+else{ 
+	healthy = 1 (71) 
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.7916666666666666

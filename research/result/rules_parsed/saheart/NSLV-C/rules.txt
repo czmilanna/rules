@@ -1,0 +1,20 @@
+IF Tobacco = { VeryLow Low} AND Famhist = { T1} THEN 0
+IF Famhist = { T0} AND Age = { VeryHigh} THEN 1
+IF Tobacco = { VeryLow Low} AND Ldl = { VeryLow Low} AND Famhist = { T0} AND Obesity = { Low Medium} AND Age = { VeryLow Low Medium} THEN 0
+IF Ldl = { High VeryHigh} AND Typea = { Medium VeryHigh} THEN 1
+IF Adiposity = { VeryLow High} AND Typea = { VeryHigh} AND Age = { High VeryHigh} THEN 1
+IF Tobacco = { VeryHigh} THEN 1
+IF Sbp = { VeryLow High} AND Adiposity = { VeryLow Low Medium VeryHigh} AND Famhist = { T0} AND Typea = { High} AND Alcohol = { VeryLow High VeryHigh} AND Age = { Low Medium} THEN 1
+IF Tobacco = { High} AND Ldl = { VeryLow Low} AND Typea = { Medium} AND Alcohol = { VeryLow Medium High VeryHigh} AND Age = { VeryLow Low Medium VeryHigh} THEN 0
+IF Adiposity = { VeryLow Low VeryHigh} AND Famhist = { T0} AND Alcohol = { Medium High VeryHigh} AND Age = { Low Medium} THEN 1
+IF Sbp = { VeryLow Low High VeryHigh} AND Tobacco = { Medium High VeryHigh} AND Adiposity = { Medium} THEN 1
+IF Tobacco = { Medium} AND Famhist = { T0} AND Typea = { Medium High} AND Obesity = { High VeryHigh} AND Alcohol = { VeryLow High VeryHigh} THEN 0
+IF Tobacco = { Low High} AND Ldl = { Medium High} AND Adiposity = { VeryLow Medium VeryHigh} AND Obesity = { High VeryHigh} THEN 1
+IF Tobacco = { Low} AND Obesity = { VeryHigh} THEN 1
+IF Tobacco = { Medium} AND Famhist = { T0} AND Obesity = { Medium High VeryHigh} AND Alcohol = { VeryLow High VeryHigh} AND Age = { VeryLow Low Medium} THEN 0
+IF Tobacco = { Low Medium} AND Famhist = { T0} AND Alcohol = { High} THEN 1
+IF Tobacco = { VeryLow Low} AND Ldl = { Low Medium} AND Adiposity = { Medium} AND Typea = { Medium High} AND Alcohol = { VeryLow High VeryHigh} AND Age = { VeryLow Low Medium} THEN 1
+IF Sbp = { VeryLow Low} AND Tobacco = { VeryLow Low} AND Ldl = { Low} AND Adiposity = { Medium VeryHigh} AND Famhist = { T0} AND Typea = { High} AND Obesity = { High} THEN 0
+IF Tobacco = { VeryLow Low} AND Ldl = { VeryLow} AND Adiposity = { High VeryHigh} AND Famhist = { T0} AND Typea = { High} THEN 0
+IF Sbp = { High} AND Tobacco = { VeryLow Low} AND Ldl = { VeryLow} AND Adiposity = { High VeryHigh} AND Famhist = { T0} AND Alcohol = { VeryLow VeryHigh} THEN 0
+IF Sbp = { VeryHigh} AND Ldl = { VeryLow} THEN 1

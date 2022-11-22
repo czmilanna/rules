@@ -1,0 +1,89 @@
+Experiment: C:/Projekty/rules/data/haberman/haberman.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 306
+Class 0: 81
+Class 1: 225
+Successes: 213.0
+Errors:  63.0
+Not classified: 30.0
+	Rule 0: 213 / 63
+Successes: 213.0
+Errors:  63.0
+Not classified: 30.0
+	Rule 0: 213 / 63
+Accuracy on training: 0.696078431372549
+Number of examples: 93
+Class 0: 81
+Class 1: 12
+Successes: 233.0
+Errors:  66.0
+Not classified: 7.0
+	Rule 0: 210 / 55
+	Rule 1: 23 / 11
+Successes: 233.0
+Errors:  66.0
+Not classified: 7.0
+	Rule 0: 210 / 55
+	Rule 1: 23 / 11
+Accuracy on training: 0.761437908496732
+Number of examples: 73
+Class 0: 58
+Class 1: 15
+Successes: 233.0
+Errors:  66.0
+Not classified: 7.0
+	Rule 0: 210 / 55
+	Rule 1: 23 / 11
+	Rule 2: 0 / 0
+Successes: 233.0
+Errors:  66.0
+Not classified: 7.0
+	Rule 0: 210 / 55
+	Rule 1: 23 / 11
+Successes: 233.0
+Errors:  66.0
+Not classified: 7.0
+	Rule 0: 210 / 55
+	Rule 1: 23 / 11
+Successes: 233.0
+Errors:  66.0
+Not classified: 7.0
+	Rule 0: 210 / 55
+	Rule 1: 23 / 11
+----------------------------------------------------
+Accuracy on training: 0.761437908496732
+Accuracy on test: 0.761437908496732
+Number of rules: 2.0
+Variables per rule: 2.0
+Variables used: 1.0
+Time: 0.298
+Iterations: 2410
+Conditions: 4
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Positive = { VeryLow High}
+THEN Survival IS negative   W 0.7869621079541117
+
+IF
+	Age = { Medium High VeryHigh}
+	Year = { VeryLow Low Medium VeryHigh}
+	Positive = { Low High}
+THEN Survival IS positive   W 0.5396397928553919
+
+	Accuracy on training set is: 0.761437908496732
+	Accuracy on test set is: 0.761437908496732
+	Number of rules is: 2.0
+	Variables per rule is: 2.0
+	Variables used is: 1.0
+	Time is: 0.298
+	Iterations is: 2410
+	Conditions is: 4
+

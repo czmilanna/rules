@@ -1,0 +1,3 @@
+IF Concave_points3 is High THEN 1 | Support: 0.6280
+IF Compactness3 is Low AND Concavity1 is High AND Perimeter3 is Low AND Texture1 is High AND Smoothness1 is Low AND Concavity2 is Low THEN 1 | Support: 0.0226
+ELSE 0

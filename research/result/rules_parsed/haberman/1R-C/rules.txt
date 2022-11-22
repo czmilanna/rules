@@ -1,0 +1,3 @@
+IF Positive = [0.0 , 9.0) THEN negative
+IF Positive = [9.0 , 22.0) THEN positive
+IF Positive = [22.0 , 52.0] THEN negative

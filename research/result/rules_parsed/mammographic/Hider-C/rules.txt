@@ -1,0 +1,2 @@
+IF BI-RADS = [1.0, 4.5) AND Age = [_, 79.5) THEN 0
+IF Age = [32.5, _) THEN 1

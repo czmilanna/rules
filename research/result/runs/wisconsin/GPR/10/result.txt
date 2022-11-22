@@ -1,0 +1,5 @@
+IF BareNuclei is High THEN 1 | Support: 0.7428
+IF CellSize is High THEN 1 | Support: 0.6193
+IF EpithelialSize is Medium AND ClumpThickness is High THEN 1 | Support: 0.1190
+IF ClumpThickness is Low AND NormalNucleoli is Low AND CellShape is Low AND BlandChromatin is High AND CellSize is High AND Mitoses is High THEN 1 | Support: 0.0022
+ELSE 0

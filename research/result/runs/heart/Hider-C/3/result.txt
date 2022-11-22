@@ -1,0 +1,84 @@
+Error Training: 0.165
+Error Test: 0.37
+Rules (9):
+--------
+if Age = [36.0, 69.5) and
+   RestBloodPressure = [100.5, 157.0) and
+   SerumCholestoral = [156.5, 304.5) and
+   MaxHeartRate = [_, 198.5) and
+   Oldpeak = [_, 34.5) and
+   MajorVessels = [_, 0.5)
+then
+   Class = 1 (85|18)
+
+if Age = [38.5, 70.5) and
+   RestBloodPressure = [109.0, 171.0) and
+   SerumCholestoral = [156.5, 325.5) and
+   MaxHeartRate = [_, 177.5) and
+   Oldpeak = [0.5, _) and
+   Slope = [1.5, _)
+then
+   Class = 2 (50|6)
+
+if Age = [38.5, _) and
+   ChestPainType = [_, 3.5) and
+   RestBloodPressure = [100.5, 173.0) and
+   SerumCholestoral = [185.0, _) and
+   MaxHeartRate = [142.5, 183.0) and
+   Oldpeak = [_, 17.0)
+then
+   Class = 1 (22|1)
+
+if Age = [38.5, 70.5) and
+   RestBloodPressure = [109.0, _) and
+   SerumCholestoral = [187.0, 413.0) and
+   MaxHeartRate = [120.5, 194.5) and
+   Oldpeak = [_, 17.0)
+then
+   Class = 2 (22|4)
+
+if Age = [38.5, 76.5) and
+   RestBloodPressure = [100.5, 157.0) and
+   SerumCholestoral = [185.0, 306.5) and
+   MaxHeartRate = [114.5, 168.5) and
+   Oldpeak = [_, 23.5)
+then
+   Class = 1 (6|0)
+
+if Age = [37.5, 76.5) and
+   RestBloodPressure = [100.5, _) and
+   SerumCholestoral = [183.0, _) and
+   MaxHeartRate = [_, 176.0) and
+   ExerciseInduced = [0.5, _) and
+   Oldpeak = [_, 35.5)
+then
+   Class = 2 (7|0)
+
+if Age = [39.5, 76.5) and
+   RestBloodPressure = [100.5, 171.0) and
+   SerumCholestoral = [_, 340.5) and
+   ResElectrocardiographic = [_, 1.5) and
+   MaxHeartRate = [120.5, 198.5) and
+   Oldpeak = [1.5, 34.5)
+then
+   Class = 1 (4|0)
+
+if Age = [34.5, _) and
+   RestBloodPressure = [100.5, 157.0) and
+   SerumCholestoral = [167.5, 353.5) and
+   MaxHeartRate = [114.5, 183.0) and
+   Oldpeak = [_, 23.5)
+then
+   Class = 2 (4|0)
+
+if Age = [34.5, 63.5) and
+   RestBloodPressure = [116.0, 157.0) and
+   SerumCholestoral = [_, 246.5) and
+   MaxHeartRate = [114.5, 194.5) and
+   Oldpeak = [1.5, _)
+then
+   Class = 2 (3|0)
+
+if true
+then
+   Class = 1 (8|3)

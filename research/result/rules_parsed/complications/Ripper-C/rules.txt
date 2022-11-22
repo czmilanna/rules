@@ -1,0 +1,20 @@
+IF Height>163.0 AND Age<=54.0 AND Weight<=72.0 AND BMI>23.42 THEN yes
+IF Height>166.0 AND Age<=48.0 THEN yes
+IF Height<=161.0 AND FIGO=1 THEN yes
+IF Age>49.0 AND OM<=0.0 AND Height>164.0 THEN yes
+IF Weight<=78.0 AND Height<=155.0 THEN yes
+IF Height<=160.0 AND Weight>63.0 AND BMI<=32.03 THEN yes
+IF Weight<=61.0 AND Lymph<=2.0 THEN yes
+IF Lymph>2.0 AND Height>158.0 AND Age>55.0 AND Weight>47.0 AND BMI<=28.63 THEN yes
+IF Age<=50.0 AND BMI>22.86 AND Weight<=61.0 AND Height>158.0 THEN yes
+IF BMI<=24.17 AND Height<=154.0 THEN yes
+IF OM<=0.0 AND Height<=154.0 THEN yes
+IF Height>164.0 AND BMI>28.28 THEN yes
+IF BMI<=22.31 AND FIGO=3 THEN yes
+IF FIGO=1 THEN yes
+IF Height<=155.0 AND Weight<=60.0 THEN yes
+IF Age<=36.0 AND Weight>56.0 THEN yes
+IF RUM=0 AND Age>62.0 THEN yes
+IF BMI>29.41 AND Weight<=78.0 THEN yes
+IF FIGO=4 AND Age<=39.0 THEN yes
+ELSE no

@@ -1,0 +1,7 @@
+IF 'plas' is High AND 'mass' is High THEN 1 | Support: 0.3733
+IF 'pedi' is Low AND 'plas' is High AND 'mass' is High AND 'age' is Medium THEN 1 | Support: 0.0488
+IF 'pedi' is Low AND 'preg' is Low AND 'mass' is High AND 'age' is Medium THEN 1 | Support: 0.0450
+IF 'skin' is Low AND 'pedi' is High AND 'age' is High THEN 1 | Support: 0.0393
+IF 'plas' is High AND 'skin' is High AND 'preg' is Low AND 'insu' is High THEN 1 | Support: 0.0236
+IF 'skin' is Low AND 'pedi' is High AND 'mass' is Medium AND 'preg' is High THEN 1 | Support: 0.0099
+ELSE 0

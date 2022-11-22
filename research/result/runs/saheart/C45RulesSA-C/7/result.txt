@@ -1,0 +1,14 @@
+if(Age<=38.0 && Tobacco>0.5 && Typea<=58.0 && Adiposity>26.25 && Obesity<=30.25) (5/6)
+	output=1
+else if(Famhist=1 && Ldl<=7.67 && Tobacco<=1.36 && Age>58.0) (7/7)
+	output=0
+else if(Age<=38.0 && Tobacco<=0.5) (83/87)
+	output=0
+else if(Age<=38.0 && Sbp>112.0 && Sbp<=144.0) (114/128)
+	output=0
+else if(Tobacco<=0.5 && Age<=31.0) (70/71)
+	output=0
+else if(Age>38.0 && Typea>47.0 && Typea<=48.0) (7/8)
+	output=0
+else 
+	output=1

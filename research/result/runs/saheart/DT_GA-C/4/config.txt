@@ -1,0 +1,13 @@
+algorithm = Hybrid Decision Tree/Genetic Algorithm
+inputData = "C:/Projekty/rules/data/saheart/saheart-10dobscv-4tra.dat" "C:/Projekty/rules/data/saheart/saheart-10dobscv-4tra.dat" "C:/Projekty/rules/data/saheart/saheart-10dobscv-4tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/saheart/DT_GA-C/4/result.tra" "C:/Projekty/rules/research/result/runs/saheart/DT_GA-C/4/result.tst" "C:/Projekty/rules/research/result/runs/saheart/DT_GA-C/4/result.txt"
+
+seed = 1
+confidence = 0.25
+instancesPerLeaf = 2
+Genetic Algorithm Approach = GA-LARGE-SN
+Threshold S to consider a Small Disjunt = 10
+Number of Total Generations for the GA = 50
+Number of chromosomes in the population = 200
+Crossover Probability = 0.8
+Mutation Probability = 0.01

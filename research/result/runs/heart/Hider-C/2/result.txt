@@ -1,0 +1,92 @@
+Error Training: 0.169
+Error Test: 0.296
+Rules (10):
+--------
+if Age = [38.5, 70.5) and
+   ChestPainType = [_, 3.5) and
+   RestBloodPressure = [117.5, 173.0) and
+   SerumCholestoral = [_, 308.5) and
+   MaxHeartRate = [123.5, 198.5) and
+   Oldpeak = [_, 23.5)
+then
+   Class = 1 (66|13)
+
+if Age = [_, 75.5) and
+   RestBloodPressure = [100.5, 162.5) and
+   SerumCholestoral = [174.5, 486.5) and
+   Oldpeak = [0.5, _) and
+   MajorVessels = [0.5, _)
+then
+   Class = 2 (48|6)
+
+if Age = [37.5, 69.5) and
+   RestBloodPressure = [100.5, 147.0) and
+   MaxHeartRate = [136.5, 198.5) and
+   Oldpeak = [_, 20.0) and
+   MajorVessels = [_, 0.5)
+then
+   Class = 1 (36|9)
+
+if Age = [37.5, 75.5) and
+   RestBloodPressure = [116.0, _) and
+   SerumCholestoral = [162.0, _) and
+   MaxHeartRate = [120.5, 155.5) and
+   Oldpeak = [0.5, _) and
+   Slope = [1.5, _)
+then
+   Class = 2 (14|1)
+
+if Age = [37.5, 66.5) and
+   Sex = [0.5, _) and
+   RestBloodPressure = [100.5, 157.0) and
+   SerumCholestoral = [206.5, 337.5) and
+   MaxHeartRate = [114.5, 194.5) and
+   Oldpeak = [_, 14.5)
+then
+   Class = 2 (7|0)
+
+if Age = [_, 66.5) and
+   RestBloodPressure = [_, 153.5) and
+   SerumCholestoral = [177.5, 306.5) and
+   MaxHeartRate = [115.5, _) and
+   Oldpeak = [_, 20.0)
+then
+   Class = 1 (13|2)
+
+if Age = [56.5, 70.5) and
+   RestBloodPressure = [113.5, _) and
+   SerumCholestoral = [218.5, 321.5) and
+   MaxHeartRate = [_, 194.5) and
+   Oldpeak = [_, 22.5)
+then
+   Class = 2 (6|0)
+
+if Age = [38.5, 75.5) and
+   RestBloodPressure = [106.5, 162.5) and
+   SerumCholestoral = [174.5, 305.5) and
+   MaxHeartRate = [_, 171.5) and
+   ExerciseInduced = [_, 0.5) and
+   Oldpeak = [_, 34.5) and
+   Thal = [_, 4.5)
+then
+   Class = 1 (6|0)
+
+if RestBloodPressure = [122.5, _) and
+   SerumCholestoral = [167.0, 400.5) and
+   MaxHeartRate = [120.5, 172.5) and
+   MajorVessels = [_, 0.5)
+then
+   Class = 1 (3|0)
+
+if Age = [_, 70.5) and
+   RestBloodPressure = [100.5, 171.0) and
+   SerumCholestoral = [167.0, 340.5) and
+   MaxHeartRate = [_, 194.5) and
+   ExerciseInduced = [0.5, _) and
+   Oldpeak = [1.5, _)
+then
+   Class = 2 (3|0)
+
+if true
+then
+   Class = 2 (6|4)

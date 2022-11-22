@@ -1,0 +1,6 @@
+IF Age is High AND Shape is High THEN 1 | Support: 0.4816
+IF Margin is very High AND BI-RADS is very High AND Age is Low THEN 1 | Support: 0.1480
+IF Margin is Medium AND Age is very Low AND BI-RADS is High AND Density is Low THEN 1 | Support: 0.0077
+IF Margin is Medium AND Age is very Low AND BI-RADS is High AND Density is Low THEN 1 | Support: 0.0077
+IF BI-RADS is Medium AND Shape is Medium AND Age is High AND Margin is Low THEN 1 | Support: 0.0017
+ELSE 0

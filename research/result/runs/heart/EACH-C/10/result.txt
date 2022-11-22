@@ -1,0 +1,10 @@
+
+
+Rule 1: IF  Age in [35.0 , 77.0] AND ChestPainType in [1.0 , 4.0] AND RestBloodPressure in [100.0 , 192.0] AND SerumCholestoral in [149.0 , 407.0] AND ResElectrocardiographic in [0.0 , 2.0] AND MaxHeartRate in [71.0 , 195.0] AND Oldpeak in [0.0 , 62.0] AND Slope in [1.0 , 3.0] AND MajorVessels in [0.0 , 3.0] AND Thal in [3.0 , 7.0] THEN Class -> 2      [ Hyperrectangle weight = 1.8888888888888888 ]     [ Volumen = 0.4580003286476149 ] 
+
+Rule 2: IF  Age in [29.0 , 76.0] AND ChestPainType in [1.0 , 4.0] AND RestBloodPressure in [94.0 , 178.0] AND SerumCholestoral in [126.0 , 564.0] AND ResElectrocardiographic in [0.0 , 2.0] AND MaxHeartRate in [96.0 , 202.0] AND Oldpeak in [0.0 , 42.0] AND Slope in [1.0 , 3.0] AND MajorVessels in [0.0 , 3.0] AND Thal in [3.0 , 7.0] THEN Class -> 1      [ Hyperrectangle weight = 1.1333333333333333 ]     [ Volumen = 0.4600467865057867 ] 
+
+Attributes Weights: Age = 0.8   Sex = 1.2   ChestPainType = 1.2   RestBloodPressure = 0.8   SerumCholestoral = 0.8   FastingBloodSugar = 1.2   ResElectrocardiographic = 0.8   MaxHeartRate = 0.8   ExerciseInduced = 0.8   Oldpeak = 0.8   Slope = 0.8   MajorVessels = 1.2   Thal = 0.8   
+
+Accuracy Training: 0.48148148148148145
+Accuracy Test: 0.4074074074074074

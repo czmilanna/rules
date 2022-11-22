@@ -1,0 +1,7 @@
+algorithm = Each
+inputData = "C:/Projekty/rules/data/appendicitis/appendicitis.dat" "C:/Projekty/rules/data/appendicitis/appendicitis.dat" "C:/Projekty/rules/data/appendicitis/appendicitis.dat"
+outputData = "rules/appendicitis/EACH-C/result.tra" "rules/appendicitis/EACH-C/result.tst" "rules/appendicitis/EACH-C/result.txt"
+
+seed = 1
+FeatureAdjustmentRate = 0.2
+UseSecondChance = YES

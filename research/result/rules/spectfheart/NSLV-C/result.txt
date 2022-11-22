@@ -1,0 +1,93 @@
+Experiment: C:/Projekty/rules/data/spectfheart/spectfheart.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 267
+Class 0: 55
+Class 1: 212
+Successes: 212.0
+Errors:  55.0
+Not classified: 0.0
+	Rule 0: 212 / 55
+Successes: 212.0
+Errors:  55.0
+Not classified: 0.0
+	Rule 0: 212 / 55
+Accuracy on training: 0.7940074906367042
+Number of examples: 55
+Class 0: 55
+Class 1: 0
+Successes: 213.0
+Errors:  54.0
+Not classified: 0.0
+	Rule 0: 212 / 54
+	Rule 1: 1 / 0
+Successes: 213.0
+Errors:  54.0
+Not classified: 0.0
+	Rule 0: 212 / 54
+	Rule 1: 1 / 0
+Accuracy on training: 0.797752808988764
+Number of examples: 54
+Class 0: 54
+Class 1: 0
+Successes: 213.0
+Errors:  54.0
+Not classified: 0.0
+	Rule 0: 212 / 54
+	Rule 1: 1 / 0
+	Rule 2: 0 / 0
+Successes: 213.0
+Errors:  54.0
+Not classified: 0.0
+	Rule 0: 1 / 0
+	Rule 1: 212 / 54
+Successes: 213.0
+Errors:  54.0
+Not classified: 0.0
+	Rule 0: 1 / 0
+	Rule 1: 212 / 54
+Successes: 213.0
+Errors:  54.0
+Not classified: 0.0
+	Rule 0: 1 / 0
+	Rule 1: 212 / 54
+----------------------------------------------------
+Accuracy on training: 0.797752808988764
+Accuracy on test: 0.797752808988764
+Number of rules: 2.0
+Variables per rule: 4.0
+Variables used: 0.18181818181818182
+Time: 0.612
+Iterations: 2971
+Conditions: 8
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	F2S = { VeryHigh}
+	F4S = { High}
+	F7S = { VeryHigh}
+	F13R = { High}
+	F15R = { Medium}
+	F15S = { High}
+	F21S = { High}
+	F22S = { Medium}
+THEN OVERALL_DIAGNOSIS IS 0   W 1.0
+
+IF
+THEN OVERALL_DIAGNOSIS IS 1   W 0.7947761194029851
+
+	Accuracy on training set is: 0.797752808988764
+	Accuracy on test set is: 0.797752808988764
+	Number of rules is: 2.0
+	Variables per rule is: 4.0
+	Variables used is: 0.18181818181818182
+	Time is: 0.612
+	Iterations is: 2971
+	Conditions is: 8
+

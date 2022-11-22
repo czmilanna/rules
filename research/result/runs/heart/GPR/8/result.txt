@@ -1,0 +1,3 @@
+IF Thal is High THEN 1 | Support: 0.6944
+IF MaxHeartRate is Low AND Sex is High THEN 1 | Support: 0.4007
+ELSE 0

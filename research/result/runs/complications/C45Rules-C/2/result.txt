@@ -1,0 +1,8 @@
+if(OM>0.0) (16/21)
+	output=no
+else if(FIGO=2 && RUM=3) (26/42)
+	output=no
+else if(OM<=0.0) (38/75)
+	output=yes
+else 
+	output=no

@@ -1,0 +1,10 @@
+
+
+Rule 1: IF  BI-RADS in [0.0 , 6.0] AND Age in [31.0 , 93.0] AND Shape in [1.0 , 4.0] AND Margin in [1.0 , 5.0] AND Density in [1.0 , 4.0] THEN Severity -> 1      [ Hyperrectangle weight = 1.8975069252077563 ]     [ Volumen = 0.8266666666666667 ] 
+
+Rule 2: IF  BI-RADS in [0.0 , 6.0] AND Age in [18.0 , 84.0] AND Shape in [1.0 , 4.0] AND Margin in [1.0 , 5.0] AND Density in [1.0 , 4.0] THEN Severity -> 0      [ Hyperrectangle weight = 1.0286458333333333 ]     [ Volumen = 0.88 ] 
+
+Attributes Weights: BI-RADS = 0.8   Age = 0.8   Shape = 0.8   Margin = 0.8   Density = 1.2   
+
+Accuracy Training: 0.5328859060402684
+Accuracy Test: 0.5411764705882353

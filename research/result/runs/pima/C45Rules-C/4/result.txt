@@ -1,0 +1,16 @@
+if('plas'<=154.0 && 'age'<=28.0 && 'pres'>52.0 && 'age'>23.0 && 'mass'<=31.0) (54/54)
+	output=tested_negative
+else if('plas'<=99.0) (162/176)
+	output=tested_negative
+else if('plas'<=154.0 && 'mass'<=26.4) (136/141)
+	output=tested_negative
+else if('mass'>26.4 && 'age'>28.0 && 'pedi'<=0.527 && 'pres'>82.0 && 'mass'<=41.2 && 'plas'<=134.0 && 'preg'>3.0) (15/15)
+	output=tested_negative
+else if('plas'<=154.0 && 'age'<=28.0 && 'skin'>0.0) (216/242)
+	output=tested_negative
+else if('mass'>26.4 && 'plas'>99.0 && 'age'>28.0 && 'pedi'>0.527) (69/94)
+	output=tested_positive
+else if('plas'>154.0) (90/110)
+	output=tested_positive
+else 
+	output=tested_negative

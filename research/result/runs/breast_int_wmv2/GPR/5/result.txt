@@ -1,0 +1,4 @@
+IF Breast-quad is Medium THEN 1 | Support: 0.1284
+IF Menopause is Low AND Irradiated is High THEN 1 | Support: 0.0959
+IF Inv-nodes is High AND Tumor-size is Low AND Breast is High THEN 1 | Support: 0.0447
+ELSE 0

@@ -1,0 +1,7 @@
+algorithm = C4.5 Decision Tree
+inputData = "C:/Projekty/rules/data/pima/pima-10dobscv-5tra.dat" "C:/Projekty/rules/data/pima/pima-10dobscv-5tra.dat" "C:/Projekty/rules/data/pima/pima-10dobscv-5tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/pima/C45-C/5/result.tra" "C:/Projekty/rules/research/result/runs/pima/C45-C/5/result.tst" "C:/Projekty/rules/research/result/runs/pima/C45-C/5/result.txt"
+
+pruned = TRUE
+confidence = 0.25
+instancesPerLeaf = 2

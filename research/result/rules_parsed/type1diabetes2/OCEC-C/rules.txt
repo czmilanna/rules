@@ -1,0 +1,62 @@
+IF step_count = 3 THEN 1
+IF age = 2 AND sedentary = 1 THEN 1
+IF sex = 0 AND vigorious = 1 THEN 1
+IF sex = 0 AND step_count = 1 AND light = 1 THEN 0
+IF height = 2 AND step_count = 1 THEN 0
+IF age = 1 AND weight = 0 THEN 1
+IF weight = 2 AND moderate = 0 AND vigorious = 0 THEN 0
+IF height = 2 AND step_count = 2 AND sedentary = 1 THEN 1
+IF sex = 2 AND step_count = 2 AND moderate = 1 AND vigorious = 1 THEN 1
+IF age = 3 AND light = 0 AND moderate = 0 THEN 0
+IF age = 4 AND weight = 2 AND step_count = 1 THEN 0
+IF weight = 1 AND height = 2 AND moderate = 0 THEN 0
+IF step_count = 2 AND sedentary = 1 AND moderate = 2 AND vigorious = 1 THEN 1
+IF sex = 2 AND step_count = 1 AND sedentary = 1 AND light = 1 THEN 0
+IF sex = 0 AND step_count = 1 AND sedentary = 1 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 0 AND vigorious = 2 THEN 1
+IF age = 3 AND weight = 3 AND height = 4 THEN 0
+IF weight = 1 AND height = 1 AND light = 1 THEN 0
+IF height = 2 AND sedentary = 2 AND light = 0 AND vigorious = 0 THEN 0
+IF age = 4 AND height = 4 AND step_count = 1 THEN 0
+IF sex = 0 AND age = 4 AND height = 3 AND light = 0 AND vigorious = 0 THEN 0
+IF sex = 2 AND weight = 0 AND height = 0 AND vigorious = 0 THEN 0
+IF age = 2 AND weight = 0 AND step_count = 1 AND sedentary = 2 THEN 0
+IF age = 0 AND height = 0 AND step_count = 2 THEN 0
+IF sex = 2 AND weight = 0 AND height = 1 AND light = 1 AND moderate = 2 AND vigorious = 1 THEN 1
+IF sex = 0 AND age = 0 AND weight = 1 AND height = 1 AND step_count = 2 AND sedentary = 1 AND light = 2 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 0 AND age = 0 AND weight = 0 AND height = 0 AND step_count = 0 AND sedentary = 3 AND light = 1 AND moderate = 0 AND vigorious = 0 THEN 0
+IF sex = 0 AND age = 3 AND weight = 2 AND height = 3 AND step_count = 1 AND sedentary = 2 AND light = 0 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 0 AND age = 2 AND weight = 1 AND height = 2 AND step_count = 2 AND sedentary = 2 AND light = 1 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 0 AND age = 2 AND weight = 2 AND height = 3 AND step_count = 1 AND sedentary = 2 AND light = 0 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 0 AND age = 0 AND weight = 0 AND height = 0 AND step_count = 0 AND sedentary = 1 AND light = 0 AND moderate = 0 AND vigorious = 0 THEN 0
+IF age = 2 AND weight = 0 AND step_count = 2 AND sedentary = 2 AND vigorious = 0 THEN 0
+IF sex = 2 AND age = 2 AND weight = 1 AND height = 2 AND step_count = 2 AND sedentary = 0 AND light = 1 AND moderate = 2 AND vigorious = 3 THEN 0
+IF sex = 2 AND age = 1 AND weight = 1 AND height = 1 AND step_count = 2 AND sedentary = 1 AND light = 2 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 0 AND age = 4 AND weight = 3 AND height = 4 AND step_count = 0 AND sedentary = 1 AND light = 0 AND moderate = 0 AND vigorious = 0 THEN 0
+IF sex = 2 AND age = 2 AND weight = 2 AND height = 3 AND step_count = 1 AND sedentary = 3 AND light = 1 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 0 AND age = 18 AND weight = 3 AND height = 3 AND step_count = 1 AND sedentary = 1 AND light = 0 AND moderate = 0 AND vigorious = 0 THEN 0
+IF sex = 2 AND age = 2 AND weight = 2 AND height = 2 AND step_count = 2 AND sedentary = 2 AND light = 1 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 0 AND age = 0 AND weight = 0 AND height = 1 AND step_count = 2 AND sedentary = 1 AND light = 1 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 2 AND age = 4 AND weight = 3 AND height = 4 AND step_count = 0 AND sedentary = 0 AND light = 0 AND moderate = 0 AND vigorious = 0 THEN 0
+IF sex = 0 AND age = 0 AND weight = 0 AND height = 1 AND step_count = 0 AND sedentary = 0 AND light = 0 AND moderate = 0 AND vigorious = 0 THEN 0
+IF sex = 2 AND age = 0 AND weight = 0 AND height = 1 AND step_count = 1 AND sedentary = 2 AND light = 2 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 2 AND age = 1 AND weight = 1 AND height = 1 AND step_count = 1 AND sedentary = 2 AND light = 2 AND moderate = 0 AND vigorious = 0 THEN 0
+IF sex = 2 AND age = 4 AND weight = 3 AND height = 3 AND step_count = 1 AND sedentary = 4 AND light = 1 AND moderate = 0 AND vigorious = 0 THEN 0
+IF sex = 2 AND age = 18 AND weight = 2 AND height = 3 AND step_count = 2 AND sedentary = 1 AND light = 1 AND moderate = 1 AND vigorious = 0 THEN 0
+IF sex = 0 AND age = 2 AND weight = 2 AND height = 3 AND step_count = 2 AND sedentary = 0 AND light = 1 AND moderate = 3 AND vigorious = 4 THEN 0
+IF sex = 2 AND age = 4 AND weight = 3 AND height = 4 AND step_count = 0 AND sedentary = 4 AND light = 1 AND moderate = 0 AND vigorious = 0 THEN 0
+IF sex = 2 AND age = 18 AND weight = 3 AND height = 4 AND step_count = 1 AND sedentary = 0 AND light = 0 AND moderate = 0 AND vigorious = 0 THEN 1
+IF sex = 2 AND age = 2 AND weight = 1 AND height = 3 AND step_count = 2 AND sedentary = 2 AND light = 1 AND moderate = 1 AND vigorious = 0 THEN 1
+IF sex = 2 AND age = 2 AND weight = 2 AND height = 3 AND step_count = 2 AND sedentary = 2 AND light = 0 AND moderate = 1 AND vigorious = 0 THEN 1
+IF sex = 2 AND age = 4 AND weight = 1 AND height = 3 AND step_count = 1 AND sedentary = 2 AND light = 0 AND moderate = 0 AND vigorious = 1 THEN 1
+IF sex = 0 AND age = 1 AND weight = 1 AND height = 1 AND step_count = 2 AND sedentary = 2 AND light = 2 AND moderate = 1 AND vigorious = 0 THEN 1
+IF sex = 2 AND age = 2 AND weight = 3 AND height = 3 AND step_count = 1 AND sedentary = 2 AND light = 1 AND moderate = 2 AND vigorious = 0 THEN 1
+IF sex = 2 AND age = 3 AND weight = 2 AND height = 3 AND step_count = 2 AND sedentary = 1 AND light = 1 AND moderate = 2 AND vigorious = 0 THEN 1
+IF sex = 2 AND age = 3 AND weight = 3 AND height = 3 AND step_count = 2 AND sedentary = 2 AND light = 1 AND moderate = 1 AND vigorious = 0 THEN 1
+IF sex = 2 AND age = 2 AND weight = 2 AND height = 3 AND step_count = 1 AND sedentary = 2 AND light = 1 AND moderate = 1 AND vigorious = 0 THEN 1
+IF sex = 0 AND age = 3 AND weight = 2 AND height = 3 AND step_count = 2 AND sedentary = 3 AND light = 1 AND moderate = 1 AND vigorious = 0 THEN 1
+IF sex = 2 AND age = 3 AND weight = 3 AND height = 3 AND step_count = 2 AND sedentary = 3 AND light = 1 AND moderate = 2 AND vigorious = 1 THEN 1
+IF sex = 0 AND age = 2 AND weight = 1 AND height = 3 AND step_count = 2 AND sedentary = 0 AND light = 1 AND moderate = 1 AND vigorious = 0 THEN 1
+IF sex = 2 AND age = 2 AND weight = 2 AND height = 3 AND step_count = 1 AND sedentary = 2 AND light = 1 AND moderate = 1 AND vigorious = 1 THEN 1
+IF sex = 2 AND age = 3 AND weight = 1 AND height = 3 AND step_count = 1 AND sedentary = 0 AND light = 0 AND moderate = 1 AND vigorious = 0 THEN 1
+IF sex = 2 AND age = 2 AND weight = 0 AND height = 2 AND step_count = 2 AND sedentary = 0 AND light = 0 AND moderate = 1 AND vigorious = 0 THEN 1

@@ -1,0 +1,6 @@
+algorithm = Evolutionary Oblique DT Induction
+inputData = "C:/Projekty/rules/data/hepatitis/hepatitis.dat" "C:/Projekty/rules/data/hepatitis/hepatitis.dat" "C:/Projekty/rules/data/hepatitis/hepatitis.dat"
+outputData = "rules/hepatitis/DT_Oblique-C/result.tra" "rules/hepatitis/DT_Oblique-C/result.tst" "rules/hepatitis/DT_Oblique-C/result.txt"
+
+seed = 1
+Number of Total Generations for the GA = 25

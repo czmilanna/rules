@@ -1,0 +1,5 @@
+IF Famhist is High AND Ldl is High THEN 1 
+IF Adiposity is High AND Tobacco is High THEN 1 
+IF Sbp is High AND Tobacco is High THEN 1 
+IF Famhist is High AND Adiposity is High AND Typea is High AND Obesity is High AND Ldl is Low THEN 1 
+ELSE 0

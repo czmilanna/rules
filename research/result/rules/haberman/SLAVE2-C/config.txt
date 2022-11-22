@@ -1,0 +1,12 @@
+algorithm = Fuzzy Rule Learning, SLAVE2 Algorithm
+inputData = "C:/Projekty/rules/data/haberman/haberman.dat" "C:/Projekty/rules/data/haberman/haberman.dat" "C:/Projekty/rules/data/haberman/haberman.dat"
+outputData = "rules/haberman/SLAVE2-C/result.tra" "rules/haberman/SLAVE2-C/result.tst" "rules/haberman/SLAVE2-C/result.txt"
+
+seed = 1
+Population Size = 20
+Number of Iterations Allowed without Change = 500
+Binary Mutation Probability = 0.5
+Binary Crossover Probability = 0.1
+Real Mutation Probability = 1
+Real Crossover Probability = 0.2
+Lambda = 0.8

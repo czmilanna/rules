@@ -1,0 +1,7 @@
+algorithm = Each
+inputData = "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat"
+outputData = "rules/wdbc/EACH-C/result.tra" "rules/wdbc/EACH-C/result.tst" "rules/wdbc/EACH-C/result.txt"
+
+seed = 1
+FeatureAdjustmentRate = 0.2
+UseSecondChance = YES

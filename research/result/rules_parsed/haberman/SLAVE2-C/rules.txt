@@ -1,0 +1,9 @@
+IF Age = { Low Medium High} AND Year = { VeryLow Medium} AND Positive = { Medium High VeryHigh} THEN positive
+IF Age = { Medium} AND Year = { VeryLow High} AND Positive = { Low} THEN positive
+IF Age = { Low} AND Year = { VeryHigh} AND Positive = { Medium} THEN positive
+IF Age = { VeryHigh} AND Year = { VeryLow} AND Positive = { Low} THEN positive
+IF Age = { VeryLow Low Medium High} AND Year = { Medium High VeryHigh} AND Positive = { VeryLow High} THEN negative
+IF Age = { VeryLow} AND Year = { VeryLow Low Medium} AND Positive = { Low Medium High} THEN negative
+IF Age = { Medium} AND Year = { VeryHigh} AND Positive = { Medium VeryHigh} THEN negative
+IF Age = { High VeryHigh} AND Year = { High VeryHigh} AND Positive = { Medium High VeryHigh} THEN negative
+IF Age = { VeryHigh} AND Year = { Low} AND Positive = { Low Medium High} THEN negative

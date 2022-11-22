@@ -1,0 +1,5 @@
+IF Perimeter3 is High THEN 1 | Support: 0.4529
+IF Radius1 is Low AND Concavity3 is High THEN 1 | Support: 0.1793
+IF Area2 is High AND Perimeter2 is Low THEN 1 | Support: 0.0903
+IF Symmetry3 is Low AND Area2 is High AND Radius1 is Low AND Compactness2 is Low AND Area1 is Low AND Perimeter3 is Low THEN 1 | Support: 0.0090
+ELSE 0

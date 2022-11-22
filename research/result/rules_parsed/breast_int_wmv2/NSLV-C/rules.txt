@@ -1,0 +1,19 @@
+IF Deg-malig = { T0 T1} THEN 0
+IF Inv-nodes = { Low Medium High} AND Node-caps = { T1} AND Deg-malig = { T2} THEN 1
+IF Age = { T4 T6} AND Deg-malig = { T2} AND Breast-quad = { T0 T1 T4} AND Irradiated = { T0} THEN 0
+IF Menopause = { T2} AND Deg-malig = { T2} AND Breast-quad = { T0 T1 T2} AND Irradiated = { T0} THEN 1
+IF Inv-nodes = { VeryLow Medium} AND Node-caps = { T1} AND Breast-quad = { T2 T3} THEN 1
+IF Age = { T1 T2 T3 T4 T6 T8} AND Tumor-size = { VeryLow Low High VeryHigh} AND Inv-nodes = { VeryLow Medium} AND Deg-malig = { T2} THEN 0
+IF Age = { T1 T2 T4 T5 T6 T8} AND Deg-malig = { T2} AND Irradiated = { T1} THEN 1
+IF Age = { T1 T4 T5 T8} AND Breast-quad = { T2 T3} AND Irradiated = { T1} THEN 1
+IF Age = { T1 T3 T5 T6 T8} AND Tumor-size = { Low} AND Node-caps = { T1} THEN 1
+IF Menopause = { T1} AND Tumor-size = { Low} AND Breast-quad = { T1 T2 T3} AND Irradiated = { T1} THEN 1
+IF Age = { T5 T6} AND Node-caps = { T1} AND Irradiated = { T1} THEN 1
+IF Age = { T1 T2 T5 T8} AND Tumor-size = { Low} AND Node-caps = { T1} AND Breast-quad = { T1 T2 T3} THEN 1
+IF Age = { T5 T6 T7} AND Inv-nodes = { VeryLow} AND Deg-malig = { T0 T2} AND Breast = { T1} AND Breast-quad = { T1 T2 T4} THEN 0
+IF Age = { T0 T1 T2 T5 T6 T8} AND Tumor-size = { Low} AND Deg-malig = { T2} AND Breast-quad = { T1 T2 T3} THEN 1
+IF Age = { T0 T1 T2 T5 T6 T8} AND Tumor-size = { VeryHigh} AND Deg-malig = { T0 T2} THEN 1
+IF Age = { T0 T1 T2 T3 T5 T6 T7 T8} AND Menopause = { T0 T1} AND Tumor-size = { Low Medium} AND Deg-malig = { T2} AND Breast = { T1} THEN 1
+IF Menopause = { T0 T1} AND Tumor-size = { Low Medium} AND Deg-malig = { T2} AND Breast-quad = { T4} THEN 1
+IF Deg-malig = { T2} AND Breast = { T1} AND Breast-quad = { T4} THEN 0
+IF Age = { T0 T1 T5 T6 T8} AND Tumor-size = { Medium} AND Deg-malig = { T2} AND Irradiated = { T0} THEN 0

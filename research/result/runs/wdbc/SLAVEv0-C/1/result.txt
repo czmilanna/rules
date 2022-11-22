@@ -1,0 +1,263 @@
+Experiment: C:/Projekty/rules/data/wdbc/wdbc-10dobscv-1tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 511
+Class 0: 190
+Class 1: 321
+Accuracy on training: 0.35812133072407043
+Number of examples: 328
+Class 0: 55
+Class 1: 321
+Accuracy on training: 0.3679060665362035
+Number of examples: 323
+Class 0: 32
+Class 1: 321
+Accuracy on training: 0.3679060665362035
+Number of examples: 323
+Class 0: 31
+Class 1: 321
+Accuracy on training: 0.3679060665362035
+Number of examples: 323
+Class 0: 29
+Class 1: 321
+Accuracy on training: 0.3679060665362035
+Number of examples: 323
+Class 0: 190
+Class 1: 321
+Accuracy on training: 0.9569471624266145
+Number of examples: 191
+Class 0: 190
+Class 1: 38
+Accuracy on training: 0.9530332681017613
+Number of examples: 190
+Class 0: 190
+Class 1: 16
+Successes: 487.0
+Errors:  24.0
+Not classified: 0.0
+	Rule 0: 136 / 3
+	Rule 1: 29 / 0
+	Rule 2: 1 / 0
+	Rule 3: 3 / 0
+	Rule 4: 0 / 0
+	Rule 5: 282 / 19
+	Rule 6: 36 / 2
+Successes: 56.0
+Errors:  2.0
+Not classified: 0.0
+	Rule 0: 18 / 0
+	Rule 1: 2 / 0
+	Rule 2: 0 / 0
+	Rule 3: 0 / 0
+	Rule 4: 0 / 0
+	Rule 5: 30 / 2
+	Rule 6: 6 / 0
+----------------------------------------------------
+Accuracy on training: 0.9530332681017613
+Accuracy on test: 0.9655172413793104
+Number of rules: 7.0
+Variables per rule: 23.142857142857142
+Variables used: 1.0
+Time: 17.223
+Iterations: 57634
+Conditions: 162
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Radius1 = { Low Medium High VeryHigh}
+	Area1 = { Low Medium High VeryHigh}
+	Symmetry1 = { Low Medium High VeryHigh}
+	Fractal_dimension1 = { VeryLow Low Medium High}
+	Radius2 = { VeryLow Low Medium VeryHigh}
+	Concave_points2 = { VeryLow Low Medium High}
+	Fractal_dimension2 = { VeryLow Low VeryHigh}
+	Radius3 = { Low Medium High VeryHigh}
+	Perimeter3 = { Medium High VeryHigh}
+	Area3 = { Low Medium High VeryHigh}
+	Fractal_dimension3 = { VeryLow Low Medium VeryHigh}
+THEN Class IS M   W 0.9450204090784935
+
+IF
+	Radius1 = { Low Medium}
+	Texture1 = { Low Medium}
+	Area1 = { VeryLow Low High VeryHigh}
+	Compactness1 = { VeryLow Low Medium High}
+	Concavity1 = { Low Medium High}
+	Concave_points1 = { Low Medium}
+	Symmetry1 = { VeryLow Low Medium High}
+	Fractal_dimension1 = { Low Medium High VeryHigh}
+	Radius2 = { VeryLow Low Medium}
+	Texture2 = { VeryLow Low Medium}
+	Perimeter2 = { VeryLow Low High}
+	Area2 = { VeryLow Low Medium High}
+	Concave_points2 = { VeryLow Low Medium High}
+	Symmetry2 = { VeryLow Low Medium High}
+	Fractal_dimension2 = { VeryLow Low High}
+	Radius3 = { VeryLow Low Medium VeryHigh}
+	Texture3 = { VeryLow Low Medium High}
+	Perimeter3 = { Low High VeryHigh}
+	Area3 = { VeryLow Low}
+	Smoothness3 = { Medium High VeryHigh}
+	Compactness3 = { Low Medium High VeryHigh}
+	Concave_points3 = { High VeryHigh}
+THEN Class IS M   W 0.9482075544245084
+
+IF
+	Radius1 = { Medium}
+	Texture1 = { Low Medium}
+	Perimeter1 = { Low}
+	Area1 = { Low Medium High VeryHigh}
+	Smoothness1 = { Low Medium High VeryHigh}
+	Compactness1 = { VeryLow Low}
+	Concavity1 = { Low}
+	Concave_points1 = { VeryLow Low Medium}
+	Symmetry1 = { Medium High}
+	Fractal_dimension1 = { Low}
+	Radius2 = { VeryLow Medium}
+	Texture2 = { VeryLow Low VeryHigh}
+	Perimeter2 = { VeryLow Low Medium}
+	Area2 = { VeryLow Low Medium VeryHigh}
+	Smoothness2 = { VeryLow Low Medium High}
+	Compactness2 = { VeryLow Low Medium}
+	Concave_points2 = { VeryLow Low Medium High}
+	Symmetry2 = { Medium VeryHigh}
+	Fractal_dimension2 = { VeryLow High VeryHigh}
+	Radius3 = { Medium High VeryHigh}
+	Texture3 = { Low Medium High}
+	Perimeter3 = { Low VeryHigh}
+	Area3 = { Low}
+	Smoothness3 = { VeryLow Low Medium}
+	Compactness3 = { Low VeryHigh}
+	Concavity3 = { Low Medium}
+	Concave_points3 = { Low Medium High}
+	Symmetry3 = { Low}
+	Fractal_dimension3 = { VeryLow}
+THEN Class IS M   W 0.9667998770365814
+
+IF
+	Radius1 = { Low Medium VeryHigh}
+	Texture1 = { Medium High VeryHigh}
+	Perimeter1 = { VeryLow Low Medium}
+	Area1 = { Low Medium High}
+	Smoothness1 = { Low}
+	Compactness1 = { VeryLow Low Medium High}
+	Concavity1 = { Low High}
+	Concave_points1 = { Low High VeryHigh}
+	Symmetry1 = { Low Medium High VeryHigh}
+	Fractal_dimension1 = { VeryLow}
+	Radius2 = { VeryLow Low Medium}
+	Texture2 = { Low Medium High VeryHigh}
+	Perimeter2 = { VeryLow}
+	Smoothness2 = { Low Medium High}
+	Compactness2 = { VeryLow Low High}
+	Concavity2 = { VeryLow Low Medium VeryHigh}
+	Concave_points2 = { Medium High}
+	Symmetry2 = { VeryLow Low High VeryHigh}
+	Fractal_dimension2 = { VeryLow Low Medium High}
+	Radius3 = { Low Medium High}
+	Texture3 = { Medium High}
+	Perimeter3 = { Low VeryHigh}
+	Area3 = { Low Medium High VeryHigh}
+	Smoothness3 = { VeryLow Low Medium}
+	Compactness3 = { VeryLow Low High VeryHigh}
+	Concavity3 = { VeryLow Low High}
+	Concave_points3 = { Medium High}
+	Symmetry3 = { VeryLow Low}
+	Fractal_dimension3 = { VeryLow VeryHigh}
+THEN Class IS M   W 0.7418587482569106
+
+IF
+	Radius1 = { VeryLow Low}
+	Texture1 = { VeryLow Low Medium}
+	Perimeter1 = { Low Medium}
+	Area1 = { Low Medium}
+	Smoothness1 = { Medium}
+	Compactness1 = { Low Medium VeryHigh}
+	Concavity1 = { Low}
+	Concave_points1 = { Low VeryHigh}
+	Symmetry1 = { Medium}
+	Radius2 = { VeryLow High VeryHigh}
+	Texture2 = { VeryLow Low Medium}
+	Perimeter2 = { VeryLow Low Medium VeryHigh}
+	Area2 = { VeryLow High}
+	Smoothness2 = { VeryLow Medium VeryHigh}
+	Compactness2 = { Low Medium High}
+	Concavity2 = { VeryLow Low}
+	Concave_points2 = { Low}
+	Symmetry2 = { VeryLow High}
+	Fractal_dimension2 = { VeryLow}
+	Radius3 = { Medium High}
+	Perimeter3 = { VeryLow Low High VeryHigh}
+	Area3 = { VeryLow Low VeryHigh}
+	Smoothness3 = { VeryLow Low Medium}
+	Compactness3 = { VeryLow Low}
+	Concavity3 = { Low High}
+	Concave_points3 = { VeryLow Low Medium}
+	Symmetry3 = { VeryLow Low High}
+	Fractal_dimension3 = { Medium High VeryHigh}
+THEN Class IS M   W 0.901861716085414
+
+IF
+	Radius1 = { VeryLow Low Medium VeryHigh}
+	Texture1 = { VeryLow Low Medium High}
+	Perimeter1 = { VeryLow Low High VeryHigh}
+	Area1 = { VeryLow Low VeryHigh}
+	Concave_points1 = { VeryLow Low Medium VeryHigh}
+	Radius2 = { VeryLow Low High VeryHigh}
+	Perimeter2 = { VeryLow Low High}
+	Area2 = { VeryLow Medium}
+	Smoothness2 = { VeryLow Low Medium VeryHigh}
+	Concavity2 = { VeryLow Low High VeryHigh}
+	Symmetry2 = { VeryLow Low Medium High}
+	Radius3 = { VeryLow Low VeryHigh}
+	Texture3 = { VeryLow Low Medium High}
+	Perimeter3 = { VeryLow Low Medium High}
+	Area3 = { VeryLow High VeryHigh}
+	Smoothness3 = { VeryLow Low Medium High}
+	Compactness3 = { VeryLow Low Medium}
+	Concave_points3 = { VeryLow Low Medium}
+	Symmetry3 = { VeryLow Low Medium}
+	Fractal_dimension3 = { VeryLow Low Medium}
+THEN Class IS B   W 0.9340231265658466
+
+IF
+	Texture1 = { VeryLow Low VeryHigh}
+	Perimeter1 = { VeryLow Low}
+	Area1 = { VeryLow Low}
+	Smoothness1 = { VeryLow Low Medium VeryHigh}
+	Concavity1 = { VeryLow Low}
+	Concave_points1 = { VeryLow Low High}
+	Symmetry1 = { Low Medium VeryHigh}
+	Fractal_dimension1 = { VeryLow Low Medium}
+	Texture2 = { VeryLow Low Medium High}
+	Perimeter2 = { VeryLow Low VeryHigh}
+	Area2 = { VeryLow Low Medium}
+	Concavity2 = { VeryLow Low High VeryHigh}
+	Fractal_dimension2 = { VeryLow Low Medium}
+	Radius3 = { Low}
+	Texture3 = { VeryLow Low VeryHigh}
+	Perimeter3 = { VeryLow Low Medium High}
+	Area3 = { Low Medium High VeryHigh}
+	Smoothness3 = { Low}
+	Compactness3 = { VeryLow Low}
+	Concavity3 = { VeryLow Low High VeryHigh}
+	Concave_points3 = { VeryLow Low Medium VeryHigh}
+	Symmetry3 = { VeryLow Low}
+	Fractal_dimension3 = { VeryLow Low High}
+THEN Class IS B   W 0.8674568290197019
+
+	Accuracy on training set is: 0.9530332681017613
+	Accuracy on test set is: 0.9655172413793104
+	Number of rules is: 7.0
+	Variables per rule is: 23.142857142857142
+	Variables used is: 1.0
+	Time is: 17.223
+	Iterations is: 57634
+	Conditions is: 162
+

@@ -1,0 +1,46 @@
+if ( -1.0*ProTime + 46.0 >= 0  ) then{
+	if ( -1.0*Age + 38.0 >= 0  ) then{
+		if ( -1.0*AlkPhosphate + 63.0 >= 0  ) then{
+			Class = 1 (1) 
+		}
+		else{ 
+			Class = 2 (6) 
+		}
+	}
+	else{ 
+		if ( -1.0*Fatigue + 1.0 >= 0  ) then{
+			if ( -1.0*Sex + 1.0 >= 0  ) then{
+				Class = 1 (9) 
+			}
+			else{ 
+				Class = 2 (1) 
+			}
+		}
+		else{ 
+			Class = 2 (2) 
+		}
+	}
+}
+else{ 
+	if ( -1.0*AlkPhosphate + 215.0 >= 0  ) then{
+		if ( -1.0*Varices + 1.0 >= 0  ) then{
+			if ( -1.0*AlbuMin + 4.1 >= 0  ) then{
+				Class = 2 (3) 
+			}
+			else{ 
+				Class = 1 (1) 
+			}
+		}
+		else{ 
+			Class = 2 (48) 
+		}
+	}
+	else{ 
+		Class = 1 (1) 
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.75

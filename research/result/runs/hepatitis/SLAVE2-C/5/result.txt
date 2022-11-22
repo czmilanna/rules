@@ -1,0 +1,189 @@
+Experiment: C:/Projekty/rules/data/hepatitis/hepatitis-10dobscv-5tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 72
+Class 0: 12
+Class 1: 60
+Accuracy on training: 0.08333333333333333
+Number of examples: 66
+Class 0: 6
+Class 1: 60
+Accuracy on training: 0.1111111111111111
+Number of examples: 64
+Class 0: 4
+Class 1: 60
+Accuracy on training: 0.125
+Number of examples: 63
+Class 0: 3
+Class 1: 60
+Accuracy on training: 0.16666666666666666
+Number of examples: 60
+Class 0: 12
+Class 1: 60
+Accuracy on training: 0.9305555555555556
+Number of examples: 16
+Class 0: 12
+Class 1: 4
+Successes: 71.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 5 / 0
+	Rule 1: 1 / 0
+	Rule 2: 1 / 0
+	Rule 3: 4 / 0
+	Rule 4: 56 / 1
+	Rule 5: 4 / 0
+Successes: 7.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 0 / 1
+	Rule 1: 0 / 0
+	Rule 2: 0 / 0
+	Rule 3: 1 / 0
+	Rule 4: 6 / 0
+	Rule 5: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.9861111111111112
+Accuracy on test: 0.875
+Number of rules: 6.0
+Variables per rule: 3.1666666666666665
+Variables used: 0.631578947368421
+Time: 1.4200000000000002
+Iterations: 59682
+Conditions: 19
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Age = { VeryLow Low Medium}
+	Steroid = { T1}
+	Antivirals = { T1}
+	Fatigue = { T0}
+	Malaise = { T1}
+	Anorexia = { T1}
+	LiverBig = { T1}
+	LiverFirm = { T1}
+	SpleenPalpable = { T0}
+	Spiders = { T0}
+	Ascites = { T0}
+	Bilirubin = { VeryLow}
+	AlkPhosphate = { Low}
+	Sgot = { VeryLow VeryHigh}
+	AlbuMin = { Low}
+	ProTime = { Low Medium}
+	Histology = { T1}
+THEN Class IS 1   W 0.9279538904899135
+
+IF
+	Age = { Low Medium}
+	Sex = { T0}
+	Steroid = { T0}
+	Fatigue = { T1}
+	Malaise = { T1}
+	LiverBig = { T1}
+	SpleenPalpable = { T1}
+	Spiders = { T1}
+	Ascites = { T1}
+	Varices = { T1}
+	Bilirubin = { VeryLow High}
+	AlkPhosphate = { High VeryHigh}
+	Sgot = { VeryLow VeryHigh}
+	AlbuMin = { Medium High}
+	ProTime = { Low High VeryHigh}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { VeryLow Low Medium}
+	Steroid = { T1}
+	Antivirals = { T0}
+	Fatigue = { T0}
+	Malaise = { T1}
+	LiverBig = { T1}
+	LiverFirm = { T1}
+	SpleenPalpable = { T1}
+	Spiders = { T0}
+	Ascites = { T1}
+	Varices = { T0}
+	Bilirubin = { VeryLow Medium}
+	AlkPhosphate = { VeryLow Medium High VeryHigh}
+	Sgot = { VeryLow Low VeryHigh}
+	AlbuMin = { VeryLow High VeryHigh}
+	ProTime = { VeryLow High}
+	Histology = { T0}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { Low Medium}
+	Sex = { T0}
+	Steroid = { T0}
+	Fatigue = { T0}
+	Malaise = { T0}
+	Anorexia = { T1}
+	LiverBig = { T1}
+	LiverFirm = { T1}
+	SpleenPalpable = { T1}
+	Spiders = { T0}
+	Ascites = { T1}
+	Varices = { T1}
+	Bilirubin = { VeryLow}
+	AlkPhosphate = { VeryLow Low}
+	Sgot = { VeryLow Low}
+	AlbuMin = { Medium}
+	ProTime = { Low Medium}
+	Histology = { T1}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { VeryLow Medium}
+	Sex = { T0}
+	Steroid = { T1}
+	Fatigue = { T0}
+	Malaise = { T0}
+	Anorexia = { T1}
+	LiverBig = { T1}
+	LiverFirm = { T1}
+	SpleenPalpable = { T1}
+	Spiders = { T1}
+	Ascites = { T1}
+	Bilirubin = { VeryLow VeryHigh}
+	AlkPhosphate = { Low}
+	Sgot = { VeryLow}
+	AlbuMin = { Low Medium}
+	ProTime = { High}
+	Histology = { T0}
+THEN Class IS 2   W 0.9047619047619048
+
+IF
+	Age = { Low Medium}
+	Sex = { T0}
+	Steroid = { T0}
+	Fatigue = { T0}
+	Malaise = { T0}
+	Anorexia = { T1}
+	LiverBig = { T1}
+	LiverFirm = { T1}
+	SpleenPalpable = { T1}
+	Spiders = { T1}
+	Ascites = { T0}
+	Varices = { T1}
+	Bilirubin = { Low Medium VeryHigh}
+	Sgot = { VeryLow Medium}
+	AlbuMin = { VeryLow Low}
+	ProTime = { Medium VeryHigh}
+	Histology = { T0}
+THEN Class IS 2   W 0.8333333333333334
+
+	Accuracy on training set is: 0.9861111111111112
+	Accuracy on test set is: 0.875
+	Number of rules is: 6.0
+	Variables per rule is: 3.1666666666666665
+	Variables used is: 0.631578947368421
+	Time is: 1.4200000000000002
+	Iterations is: 59682
+	Conditions is: 19
+

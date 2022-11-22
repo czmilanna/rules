@@ -1,0 +1,2 @@
+IF Node-caps is High AND Deg-malig is High THEN 1 | Support: 0.3151
+ELSE 0

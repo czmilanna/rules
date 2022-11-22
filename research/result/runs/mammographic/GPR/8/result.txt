@@ -1,0 +1,2 @@
+IF BI-RADS is very High THEN 1 | Support: 0.6283
+ELSE 0

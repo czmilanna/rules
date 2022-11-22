@@ -1,0 +1,181 @@
+if ( -1.0*ChestPainType + 3.0 >= 0  ) then{
+	if ( -1.0*Thal + 3.0 >= 0  ) then{
+		if ( -1.0*MaxHeartRate + 160.0 >= 0  ) then{
+			if ( -184.56246610371454*Age + -52.57282477164941*Sex + 81.97630855300844*ChestPainType + -144.59702129117144*RestBloodPressure + 165.8733817669268*SerumCholestoral + 199.2504458872719*FastingBloodSugar + -117.27210951905514*ResElectrocardiographic + -29.896970891835394*ExerciseInduced + 43.34230754602291*Oldpeak + 135.43762479336874*Slope + -172.2008418227082*MajorVessels + -71.50667763117391*Thal + -106.29408599489697 >= 0  ) then{
+				if ( -54.465609568745265*ChestPainType + -1.0*SerumCholestoral + 45.37426555654366*ResElectrocardiographic + 11.268867787734791*ExerciseInduced + 192.19243526276955*Oldpeak + 199.29065033776936*Slope + 100.48036433301871*MajorVessels + 188.31849842991642 >= 0  ) then{
+					if ( -1.0*Oldpeak + 16.0 >= 0  ) then{
+						if ( -1.0*MajorVessels + 1.0 >= 0  ) then{
+							if ( -1.0*ChestPainType + -128.70097261124778*ExerciseInduced + 1.0 >= 0  ) then{
+								Class = 2 (1) 
+							}
+							else{ 
+								Class = 1 (31) 
+							}
+						}
+						else{ 
+							Class = 2 (1) 
+						}
+					}
+					else{ 
+						if ( -1.0*Age + 62.0 >= 0  ) then{
+							Class = 2 (3) 
+						}
+						else{ 
+							Class = 1 (3) 
+						}
+					}
+				}
+				else{ 
+					Class = 2 (2) 
+				}
+			}
+			else{ 
+				Class = 2 (2) 
+			}
+		}
+		else{ 
+			if ( -1.0*Age + 64.0 >= 0  ) then{
+				Class = 1 (47) 
+			}
+			else{ 
+				if ( -1.0*Age + 66.0 >= 0  ) then{
+					Class = 2 (1) 
+				}
+				else{ 
+					Class = 1 (2) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*MajorVessels + 0.0 >= 0  ) then{
+			if ( -1.0*MaxHeartRate + 143.0 >= 0  ) then{
+				if ( -1.0*Age + 43.0 >= 0  ) then{
+					Class = 1 (1) 
+				}
+				else{ 
+					Class = 2 (2) 
+				}
+			}
+			else{ 
+				if ( -1.0*Age + 39.0 >= 0  ) then{
+					Class = 2 (1) 
+				}
+				else{ 
+					if ( -1.0*Oldpeak + 2.0 >= 0  ) then{
+						if ( -1.0*Oldpeak + 0.0 >= 0  ) then{
+							Class = 1 (3) 
+						}
+						else{ 
+							Class = 2 (2) 
+						}
+					}
+					else{ 
+						Class = 1 (11) 
+					}
+				}
+			}
+		}
+		else{ 
+			if ( -1.0*Slope + 1.0 >= 0  ) then{
+				if ( -1.0*ResElectrocardiographic + 0.0 >= 0  ) then{
+					Class = 1 (3) 
+				}
+				else{ 
+					Class = 2 (2) 
+				}
+			}
+			else{ 
+				if ( -1.0*MajorVessels + 2.0 >= 0  ) then{
+					Class = 2 (8) 
+				}
+				else{ 
+					if ( -1.0*Oldpeak + 12.0 >= 0  ) then{
+						Class = 2 (2) 
+					}
+					else{ 
+						Class = 1 (1) 
+					}
+				}
+			}
+		}
+	}
+}
+else{ 
+	if ( -1.0*MajorVessels + 0.0 >= 0  ) then{
+		if ( -98.12637872484662*ChestPainType + 151.24901708943048*RestBloodPressure + 183.89406166595734*ResElectrocardiographic + -139.9376652063657*MaxHeartRate + 27.73048491862849*Oldpeak + 140.28266415472206*MajorVessels + -42.11077798207077*Thal + 6.0 >= 0  ) then{
+			if ( -1.0*Slope + 1.0 >= 0  ) then{
+				if ( -1.0*Age + 62.0 >= 0  ) then{
+					if ( -1.0*Age + 57.0 >= 0  ) then{
+						Class = 1 (1) 
+					}
+					else{ 
+						Class = 2 (2) 
+					}
+				}
+				else{ 
+					Class = 1 (2) 
+				}
+			}
+			else{ 
+				Class = 2 (14) 
+			}
+		}
+		else{ 
+			if ( -1.0*Thal + 6.0 >= 0  ) then{
+				Class = 1 (22) 
+			}
+			else{ 
+				if ( -1.0*Age + 51.0 >= 0  ) then{
+					if ( -1.0*RestBloodPressure + 115.0 >= 0  ) then{
+						if ( -1.0*Age + 41.0 >= 0  ) then{
+							Class = 2 (1) 
+						}
+						else{ 
+							Class = 1 (1) 
+						}
+					}
+					else{ 
+						Class = 2 (5) 
+					}
+				}
+				else{ 
+					Class = 1 (3) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -110.77240582340686*Sex + -188.47786569699596*ResElectrocardiographic + 15.30569647795187*ExerciseInduced + -69.82537309402258*Oldpeak + 71.83137784521824*MajorVessels + 2.0 >= 0  ) then{
+			if ( -1.0*Age + 64.0 >= 0  ) then{
+				Class = 1 (2) 
+			}
+			else{ 
+				Class = 2 (1) 
+			}
+		}
+		else{ 
+			if ( -155.0421032018592*Age + -92.95332811143093*Sex + -177.02852123813437*ChestPainType + -118.55466559495653*RestBloodPressure + 150.84162558215712*SerumCholestoral + 189.13473877802835*FastingBloodSugar + -106.04564005184119*ResElectrocardiographic + -117.40281775533288*MaxHeartRate + -100.1938884845455*ExerciseInduced + -183.16968185435275*Oldpeak + 177.4761740997145*Slope + 69.58590388986886*MajorVessels + -193.98426441335684*Thal + 125.98843312030385 >= 0  ) then{
+				if ( -1.0*SerumCholestoral + 271.0 >= 0  ) then{
+					Class = 1 (1) 
+				}
+				else{ 
+					if ( -1.0*MaxHeartRate + 158.0 >= 0  ) then{
+						Class = 2 (13) 
+					}
+					else{ 
+						Class = 1 (1) 
+					}
+				}
+			}
+			else{ 
+				Class = 2 (45) 
+			}
+		}
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.7777777777777778

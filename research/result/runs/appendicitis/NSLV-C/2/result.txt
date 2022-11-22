@@ -1,0 +1,144 @@
+Experiment: C:/Projekty/rules/data/appendicitis/appendicitis-10dobscv-2tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 95
+Class 0: 76
+Class 1: 19
+Successes: 70.0
+Errors:  5.0
+Not classified: 20.0
+	Rule 0: 70 / 5
+Successes: 70.0
+Errors:  5.0
+Not classified: 20.0
+	Rule 0: 70 / 5
+Accuracy on training: 0.7368421052631579
+Number of examples: 25
+Class 0: 6
+Class 1: 19
+Successes: 83.0
+Errors:  7.0
+Not classified: 5.0
+	Rule 0: 70 / 5
+	Rule 1: 13 / 2
+Successes: 83.0
+Errors:  7.0
+Not classified: 5.0
+	Rule 0: 70 / 5
+	Rule 1: 13 / 2
+Accuracy on training: 0.8736842105263158
+Number of examples: 12
+Class 0: 6
+Class 1: 6
+Successes: 87.0
+Errors:  7.0
+Not classified: 1.0
+	Rule 0: 57 / 5
+	Rule 1: 13 / 2
+	Rule 2: 17 / 0
+Successes: 87.0
+Errors:  7.0
+Not classified: 1.0
+	Rule 0: 57 / 5
+	Rule 1: 13 / 2
+	Rule 2: 17 / 0
+Accuracy on training: 0.9157894736842105
+Number of examples: 8
+Class 0: 2
+Class 1: 6
+Successes: 88.0
+Errors:  7.0
+Not classified: 0.0
+	Rule 0: 57 / 5
+	Rule 1: 13 / 2
+	Rule 2: 17 / 0
+	Rule 3: 1 / 0
+Successes: 88.0
+Errors:  7.0
+Not classified: 0.0
+	Rule 0: 57 / 5
+	Rule 1: 13 / 2
+	Rule 2: 17 / 0
+	Rule 3: 1 / 0
+Accuracy on training: 0.9263157894736842
+Number of examples: 7
+Class 0: 2
+Class 1: 5
+Successes: 88.0
+Errors:  7.0
+Not classified: 0.0
+	Rule 0: 18 / 4
+	Rule 1: 13 / 2
+	Rule 2: 16 / 0
+	Rule 3: 1 / 0
+	Rule 4: 40 / 1
+Successes: 88.0
+Errors:  7.0
+Not classified: 0.0
+	Rule 0: 57 / 5
+	Rule 1: 13 / 2
+	Rule 2: 17 / 0
+	Rule 3: 1 / 0
+Successes: 88.0
+Errors:  7.0
+Not classified: 0.0
+	Rule 0: 57 / 5
+	Rule 1: 13 / 2
+	Rule 2: 17 / 0
+	Rule 3: 1 / 0
+Successes: 9.0
+Errors:  2.0
+Not classified: 0.0
+	Rule 0: 5 / 0
+	Rule 1: 2 / 2
+	Rule 2: 2 / 0
+	Rule 3: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.9263157894736842
+Accuracy on test: 0.8181818181818182
+Number of rules: 4.0
+Variables per rule: 2.75
+Variables used: 1.0
+Time: 0.671
+Iterations: 6242
+Conditions: 11
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	At3 = { Medium High}
+THEN Class IS 0   W 0.9388863019282697
+
+IF
+	At2 = { Low Medium}
+	At4 = { VeryLow Medium High VeryHigh}
+	At5 = { VeryLow}
+	At7 = { VeryLow}
+THEN Class IS 1   W 0.976526495190331
+
+IF
+	At2 = { VeryLow Medium High VeryHigh}
+	At3 = { VeryLow Low Medium High}
+	At6 = { VeryLow VeryHigh}
+THEN Class IS 0   W 0.9550873160426776
+
+IF
+	At1 = { VeryHigh}
+	At4 = { VeryLow}
+	At6 = { VeryHigh}
+THEN Class IS 1   W 0.9361702127659574
+
+	Accuracy on training set is: 0.9263157894736842
+	Accuracy on test set is: 0.8181818181818182
+	Number of rules is: 4.0
+	Variables per rule is: 2.75
+	Variables used is: 1.0
+	Time is: 0.671
+	Iterations is: 6242
+	Conditions is: 11
+

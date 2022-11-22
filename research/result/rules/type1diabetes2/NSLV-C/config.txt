@@ -1,0 +1,11 @@
+algorithm = Fuzzy Rule Learning, NSLV Algorithm
+inputData = "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat"
+outputData = "rules/type1diabetes2/NSLV-C/result.tra" "rules/type1diabetes2/NSLV-C/result.tst" "rules/type1diabetes2/NSLV-C/result.txt"
+
+seed = 1
+Population Size = 100
+Number of Iterations Allowed without Change = 500
+Binary Mutation Probability = 0.01
+Integer Mutation Probability = 0.01
+Real Mutation Probability = 1
+Crossover Probability = 1

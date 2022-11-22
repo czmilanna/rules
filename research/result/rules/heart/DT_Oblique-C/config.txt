@@ -1,0 +1,6 @@
+algorithm = Evolutionary Oblique DT Induction
+inputData = "C:/Projekty/rules/data/heart/heart.dat" "C:/Projekty/rules/data/heart/heart.dat" "C:/Projekty/rules/data/heart/heart.dat"
+outputData = "rules/heart/DT_Oblique-C/result.tra" "rules/heart/DT_Oblique-C/result.tst" "rules/heart/DT_Oblique-C/result.txt"
+
+seed = 1
+Number of Total Generations for the GA = 25

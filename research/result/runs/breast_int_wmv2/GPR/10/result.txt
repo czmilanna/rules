@@ -1,0 +1,2 @@
+IF Irradiated is High AND Deg-malig is High AND Breast is High THEN 1 | Support: 0.1849
+ELSE 0

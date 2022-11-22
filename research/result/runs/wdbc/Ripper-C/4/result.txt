@@ -1,0 +1,15 @@
+@Number of Rules: 7
+if(Perimeter3>114.3 && Radius3>15.44) (154/157)
+	output=M
+else if(Concave_points1>0.049 && Texture3>23.73 && Radius2>0.193) (154/160)
+	output=M
+else if(Area3>782.1 && Area1<=602.4) (14/15)
+	output=M
+else if(Area3>928.2 && Texture1>12.91) (146/149)
+	output=M
+else if(Radius2>0.641 && Compactness1<=0.059) (2/2)
+	output=M
+else if(Texture3>33.33 && Concave_points3>0.087 && Radius1>11.51) (39/39)
+	output=M
+else 
+	output=B

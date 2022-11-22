@@ -1,0 +1,6 @@
+algorithm = Evolutionary Oblique DT Induction
+inputData = "C:/Projekty/rules/data/complications/complications-10dobscv-10tra.dat" "C:/Projekty/rules/data/complications/complications-10dobscv-10tra.dat" "C:/Projekty/rules/data/complications/complications-10dobscv-10tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/complications/DT_Oblique-C/10/result.tra" "C:/Projekty/rules/research/result/runs/complications/DT_Oblique-C/10/result.tst" "C:/Projekty/rules/research/result/runs/complications/DT_Oblique-C/10/result.txt"
+
+seed = 1
+Number of Total Generations for the GA = 25

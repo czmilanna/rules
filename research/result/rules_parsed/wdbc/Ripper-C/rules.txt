@@ -1,0 +1,8 @@
+IF Perimeter3>105.0 AND Radius3>18.22 THEN M
+IF Concave_points3>0.145 AND Texture3>23.73 AND Concave_points1>0.048 THEN M
+IF Perimeter3>103.9 AND Smoothness3>0.135 AND Texture1>11.28 THEN M
+IF Area1>690.2 AND Texture1>18.29 AND Smoothness1>0.074 THEN M
+IF Texture3>29.15 AND Concave_points3>0.091 AND Texture1<=21.58 AND Symmetry3>0.281 THEN M
+IF Texture3>31.45 AND Concavity3>0.2 AND Symmetry1>0.157 AND Concave_points1>0.02 AND Smoothness2>0.004 THEN M
+IF Radius2>0.641 AND Compactness1<=0.059 THEN M
+ELSE B

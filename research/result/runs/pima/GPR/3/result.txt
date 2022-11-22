@@ -1,0 +1,5 @@
+IF 'plas' is very High THEN 1 | Support: 0.5291
+IF 'pedi' is Medium AND 'plas' is very High AND 'skin' is Low THEN 1 | Support: 0.0539
+IF 'pedi' is Medium AND 'plas' is very High THEN 1 | Support: 0.0527
+IF 'preg' is Low AND 'insu' is High AND 'plas' is Medium THEN 1 | Support: 0.0133
+ELSE 0

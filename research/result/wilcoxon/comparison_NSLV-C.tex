@@ -1,0 +1,26 @@
+\begin{table}
+\footnotesize
+\caption{Comparison of classifiers and NSLV-C using Wilcoxon signed-rank test}
+\label{tab:wilcoxon comparison}
+\begin{tabular}{lllllllll}
+\hline
+ & Algorithm & MCC p-value & Specificity p-value & AUC p-value & Accuracy p-value & Precision p-value & Recall p-value & Mixed p-value \\
+\hline
+1 & 1R-C & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 \\
+2 & C45-C & \textbf{0.5801} & \textbf{0.9183} & \textbf{0.5947} & \textbf{0.1638} & \textbf{0.3782} & \textbf{0.1638} & \textbf{0.8615} \\
+3 & C45Rules-C & \textbf{0.4346} & 0.0003 & \textbf{0.0678} & 0.0010 & \textbf{0.1596} & 0.0010 & \textbf{0.2703} \\
+4 & C45RulesSA-C & \textbf{0.5765} & 0.0004 & \textbf{0.0716} & 0.0023 & \textbf{0.3570} & 0.0023 & \textbf{0.2352} \\
+5 & DT GA-C & \textbf{0.9989} & \textbf{0.3746} & \textbf{0.9247} & \textbf{0.0649} & \textbf{0.6747} & \textbf{0.0649} & \textbf{0.3004} \\
+6 & DT Oblique-C & 0.0045 & 0.0000 & 0.0425 & 0.0000 & 0.0183 & 0.0000 & 0.0000 \\
+7 & EACH-C & 0.0000 & 0.0032 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 \\
+8 & GPR & \textbf{0.5980} & \textbf{0.1441} & \textbf{0.8152} & \textbf{0.7802} & \textbf{0.5164} & \textbf{0.7802} & \textbf{0.8134} \\
+9 & Hider-C & \textbf{0.0907} & \textbf{0.2738} & 0.0164 & 0.0065 & \textbf{0.2732} & 0.0065 & 0.0175 \\
+10 & OCEC-C & \textbf{0.4975} & 0.0000 & \textbf{0.9277} & 0.0000 & \textbf{0.5155} & 0.0000 & 0.0161 \\
+11 & OIGA-C & \textbf{0.7462} & 0.0000 & \textbf{0.4291} & \textbf{0.9747} & \textbf{0.2982} & \textbf{0.9747} & \textbf{0.7721} \\
+12 & PGIRLA-C & 0.0008 & \textbf{0.4734} & 0.0008 & 0.0001 & 0.0000 & 0.0001 & 0.0000 \\
+13 & Ripper-C & \textbf{0.6956} & 0.0000 & \textbf{0.3664} & 0.0000 & \textbf{0.5497} & 0.0000 & 0.0001 \\
+14 & SLAVE2-C & \textbf{0.3259} & \textbf{0.7493} & \textbf{0.2118} & \textbf{0.1546} & \textbf{0.6297} & \textbf{0.1546} & \textbf{0.2437} \\
+15 & SLAVEv0-C & 0.0014 & \textbf{0.2651} & 0.0006 & 0.0006 & 0.0058 & 0.0006 & 0.0009 \\
+\hline
+\end{tabular}
+\end{table}

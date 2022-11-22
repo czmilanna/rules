@@ -1,0 +1,2 @@
+IF Age is Low AND Height is Low THEN 1 | Support: 0.3146
+ELSE 0

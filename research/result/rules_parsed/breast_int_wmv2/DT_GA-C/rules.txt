@@ -1,0 +1,15 @@
+IF Deg-malig <= 2.0 THEN 0
+IF Deg-malig > 2.0 AND Node-caps <= 0.0 AND Tumor-size <= 3.0 THEN 0
+IF Deg-malig > 2.0 AND Node-caps <= 0.0 AND Tumor-size > 3.0 AND Irradiated = {0} AND Inv-nodes <= 0.0 THEN 0
+IF Deg-malig > 2.0 AND Node-caps <= 0.0 AND Tumor-size > 3.0 AND Irradiated = {0} AND Inv-nodes > 0.0 THEN 1
+IF Deg-malig > 2.0 AND Node-caps <= 0.0 AND Tumor-size > 3.0 AND Irradiated = {1} THEN 1
+IF Deg-malig > 2.0 AND Node-caps > 0.0 AND Breast = {0} AND Irradiated = {0} AND Menopause <= 1.0 AND Breast-quad <= 0.0 THEN 0
+IF Deg-malig > 2.0 AND Node-caps > 0.0 AND Breast = {0} AND Irradiated = {0} AND Menopause <= 1.0 AND Breast-quad > 0.0 THEN 1
+IF Deg-malig > 2.0 AND Node-caps > 0.0 AND Breast = {0} AND Irradiated = {0} AND Menopause > 1.0 THEN 1
+IF Deg-malig > 2.0 AND Node-caps > 0.0 AND Breast = {0} AND Irradiated = {1} THEN 0
+IF Deg-malig > 2.0 AND Node-caps > 0.0 AND Breast = {1} THEN 1
+IF Tumor-size > 1.0 AND Irradiated = {0, 1} THEN 0
+IF Age = {60, 20, 90, 10, 80, 70, 40, 50} AND Menopause <= 2.0 AND Tumor-size <= 5.0 AND Inv-nodes <= 1.0 AND Node-caps <= 1.0 AND Deg-malig > 1.0 AND Breast = {0, 1} AND Breast-quad > 0.0 AND Irradiated = {0} THEN 0
+IF Age = {80, 30, 60} AND Menopause > 0.0 AND Tumor-size > 6.0 AND Inv-nodes <= 1.0 AND Node-caps > 0.0 AND Deg-malig > 2.0 AND Breast = {1, 0} AND Breast-quad > 0.0 AND Irradiated = {1, 0} THEN 1
+IF Age = {50, 80, 40, 10, 60, 70} AND Menopause > 1.0 AND Tumor-size <= 5.0 AND Inv-nodes > -1.0 AND Node-caps <= 1.0 AND Deg-malig <= 3.0 AND Breast = {0, 1} AND Breast-quad > -1.0 AND Irradiated = {1, 0} THEN 1
+IF Age = {80, 30, 10, 20, 70, 50, 40} AND Menopause <= 2.0 AND Tumor-size <= 6.0 AND Inv-nodes <= 2.0 AND Node-caps <= 1.0 AND Deg-malig > 2.0 AND Breast = {0} AND Breast-quad <= 1.0 AND Irradiated = {1, 0} THEN 1

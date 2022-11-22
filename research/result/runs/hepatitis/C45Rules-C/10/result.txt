@@ -1,0 +1,10 @@
+if(Histology>1.0 && LiverBig>1.0 && Antivirals>1.0 && AlbuMin<=3.8) (10/14)
+	output=1
+else if(Anorexia<=1.0) (11/11)
+	output=2
+else if(ProTime>51.0) (46/48)
+	output=2
+else if(Ascites>1.0) (56/61)
+	output=2
+else 
+	output=1

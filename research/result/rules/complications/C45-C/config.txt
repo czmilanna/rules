@@ -1,0 +1,7 @@
+algorithm = C4.5 Decision Tree
+inputData = "C:/Projekty/rules/data/complications/complications.dat" "C:/Projekty/rules/data/complications/complications.dat" "C:/Projekty/rules/data/complications/complications.dat"
+outputData = "rules/complications/C45-C/result.tra" "rules/complications/C45-C/result.tst" "rules/complications/C45-C/result.txt"
+
+pruned = TRUE
+confidence = 0.25
+instancesPerLeaf = 2

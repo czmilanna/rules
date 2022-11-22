@@ -1,0 +1,15 @@
+
+Rule 1: IF  Deg-malig in [1.0 , 3.0] THEN Class -> 0     [ 176 73]
+
+####Average results for test data####
+Avg. Rule length: 1
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 1.0
+Avg. Support: 0.7142857142857143
+Avg. Significance: 0.0
+Avg. Unusualness: 53.357142857142854
+
+Accuracy Training: 0.7068273092369478
+Accuracy Test: 0.7142857142857143
+
+  Time (seconds); 

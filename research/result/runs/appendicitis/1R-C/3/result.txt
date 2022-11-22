@@ -1,0 +1,17 @@
+
+Rule 1: IF  At1 in [0.0 , 0.2) THEN Class -> 1     [ 2 10]
+Rule 2: IF  At1 in [0.2 , 1.0) THEN Class -> 0     [ 17 4]
+Rule 3: IF  At1 = 1.0 THEN Class -> 1     [ 0 1]
+
+####Average results for test data####
+Avg. Rule length: 5
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.18181818181818182
+Avg. Support: 0.7272727272727273
+Avg. Significance: 0.6404967386053387
+Avg. Unusualness: 2.6
+
+Accuracy Training: 0.8947368421052632
+Accuracy Test: 0.7272727272727273
+
+  Time (seconds); 

@@ -1,0 +1,13 @@
+algorithm = Hider
+inputData = "C:/Projekty/rules/data/spectfheart/spectfheart.dat" "C:/Projekty/rules/data/spectfheart/spectfheart.dat" "C:/Projekty/rules/data/spectfheart/spectfheart.dat"
+outputData = "rules/spectfheart/Hider-C/result.tra" "rules/spectfheart/Hider-C/result.tst" "rules/spectfheart/Hider-C/result.txt"
+
+seed = 1
+populationSize = 100
+nGenerations = 100
+mutationProbability = 0.5
+crossPercent = 80
+extremeMutationProbability = 0.05
+pruneExamplesFactor = 0.05
+penaltyFactor = 1
+errorCoeficient = 0

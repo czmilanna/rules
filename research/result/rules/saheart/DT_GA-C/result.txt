@@ -1,0 +1,26 @@
+Number of Rules: 13
+Rule[1]: IF  Age <= 31.0 AND  Tobacco <= 0.5  THEN Class = 0 (80/81)
+Rule[2]: IF  Age <= 31.0 AND  Tobacco > 0.5 AND  Alcohol <= 11.1  THEN Class = 0 (16/16)
+Rule[3]: IF  Age <= 31.0 AND  Tobacco > 0.5 AND  Alcohol > 11.1 AND  Famhist = {1} AND  Tobacco <= 2.4  THEN Class = 0 (3/4)
+Rule[4]: IF  Age <= 31.0 AND  Tobacco > 0.5 AND  Alcohol > 11.1 AND  Famhist = {1} AND  Tobacco > 2.4  THEN Class = 1 (3/3)
+Rule[5]: IF  Age <= 31.0 AND  Tobacco > 0.5 AND  Alcohol > 11.1 AND  Famhist = {0} AND  Obesity <= 25.39 AND  Alcohol <= 21.19  THEN Class = 1 (3/3)
+Rule[6]: IF  Age <= 31.0 AND  Tobacco > 0.5 AND  Alcohol > 11.1 AND  Famhist = {0} AND  Obesity <= 25.39 AND  Alcohol > 21.19 AND  Sbp <= 118.0  THEN Class = 0 (2/2)
+Rule[7]: IF  Age <= 31.0 AND  Tobacco > 0.5 AND  Alcohol > 11.1 AND  Famhist = {0} AND  Obesity <= 25.39 AND  Alcohol > 21.19 AND  Sbp > 118.0  THEN Class = 1 (2/3)
+Rule[8]: IF  Age <= 31.0 AND  Tobacco > 0.5 AND  Alcohol > 11.1 AND  Famhist = {0} AND  Obesity > 25.39  THEN Class = 0 (5/5)
+Rule[9]: IF  Age > 31.0 AND  Famhist = {1} AND  Age <= 50.0 AND  Typea <= 68.0  THEN Class = 0 (45/67)
+Rule[10]: IF  Age > 31.0 AND  Famhist = {1} AND  Age <= 50.0 AND  Typea > 68.0  THEN Class = 1 (7/8)
+Rule[11]: IF  Age > 31.0 AND  Famhist = {1} AND  Age > 50.0  THEN Class = 1 (63/90)
+Rule[12]: IF  Age > 31.0 AND  Famhist = {0} AND  Tobacco <= 7.6  THEN Class = 0 (109/146)
+Rule[13]: IF  Age > 31.0 AND  Famhist = {0} AND  Tobacco > 7.6  THEN Class = 1 (21/34)
+
+Number of Rules: 7
+Rule[1]: IF  Obesity <= 30.57 AND  Age > 17.0  THEN Class = 0 (230/367)
+Rule[2]: IF  Sbp <= 140.0 AND  Tobacco > 0.48 AND  Ldl > 3.95 AND  Adiposity <= 25.71 AND  Famhist = {1} AND  Typea <= 59.0 AND  Obesity <= 37.41 AND  Alcohol > 12.86 AND  Age > 16.0  THEN Class = 1 (1/2)
+Rule[3]: IF  Sbp > 133.0 AND  Tobacco > 0.5 AND  Ldl <= 3.73 AND  Adiposity > 15.96 AND  Famhist = {1, 0} AND  Typea > 40.0 AND  Obesity <= 32.91 AND  Alcohol > 2.57 AND  Age > 29.0  THEN Class = 1 (13/31)
+Rule[4]: IF  Sbp <= 130.0 AND  Tobacco <= 15.0 AND  Ldl > 3.4400000000000004 AND  Adiposity <= 13.04 AND  Famhist = {1, 0} AND  Typea <= 67.0 AND  Obesity <= 20.74 AND  Alcohol > 7.61 AND  Age <= 38.0  THEN Class = 1 (2/2)
+Rule[5]: IF  Sbp > 111.0 AND  Tobacco <= 4.5 AND  Ldl <= 7.18 AND  Adiposity > 25.25 AND  Famhist = {0, 1} AND  Typea > 59.0 AND  Obesity > 21.59 AND  Alcohol > -1.0 AND  Age > 31.0  THEN Class = 1 (13/29)
+Rule[6]: IF  Sbp <= 128.0 AND  Tobacco <= 2.24 AND  Ldl > 1.83 AND  Adiposity <= 26.48 AND  Famhist = {1, 0} AND  Typea <= 48.0 AND  Obesity <= 23.96 AND  Alcohol <= 47.42 AND  Age > 26.0  THEN Class = 1 (2/7)
+Rule[7]: IF  Sbp > 105.0 AND  Tobacco > 0.18 AND  Ldl <= 4.37 AND  Adiposity <= 39.35 AND  Famhist = {0, 1} AND  Typea > 57.0 AND  Obesity > 22.51 AND  Alcohol > 11.52 AND  Age <= 61.0  THEN Class = 1 (8/22)
+
+Accuracy in training: 0.7575757575757576
+Accuracy in test: 0.7575757575757576

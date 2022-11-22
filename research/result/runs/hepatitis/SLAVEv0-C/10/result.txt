@@ -1,0 +1,191 @@
+Experiment: C:/Projekty/rules/data/hepatitis/hepatitis-10dobscv-10tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 73
+Class 0: 12
+Class 1: 61
+Accuracy on training: 0.1506849315068493
+Number of examples: 62
+Class 0: 2
+Class 1: 61
+Accuracy on training: 0.1506849315068493
+Number of examples: 62
+Class 0: 1
+Class 1: 61
+Accuracy on training: 0.1643835616438356
+Number of examples: 61
+Class 0: 12
+Class 1: 61
+Accuracy on training: 0.8767123287671232
+Number of examples: 17
+Class 0: 12
+Class 1: 5
+Accuracy on training: 0.9041095890410958
+Number of examples: 15
+Class 0: 12
+Class 1: 3
+Accuracy on training: 0.9315068493150684
+Number of examples: 13
+Class 0: 12
+Class 1: 1
+Successes: 69.0
+Errors:  4.0
+Not classified: 0.0
+	Rule 0: 6 / 0
+	Rule 1: 1 / 0
+	Rule 2: 1 / 0
+	Rule 3: 52 / 4
+	Rule 4: 6 / 0
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+Successes: 5.0
+Errors:  2.0
+Not classified: 0.0
+	Rule 0: 0 / 1
+	Rule 1: 0 / 0
+	Rule 2: 0 / 0
+	Rule 3: 5 / 1
+	Rule 4: 0 / 0
+	Rule 5: 0 / 0
+	Rule 6: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.9452054794520548
+Accuracy on test: 0.7142857142857143
+Number of rules: 7.0
+Variables per rule: 13.428571428571429
+Variables used: 1.0
+Time: 1.146
+Iterations: 37130
+Conditions: 94
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Age = { Medium High}
+	Sex = { T0}
+	Antivirals = { T1}
+	Anorexia = { T1}
+	LiverBig = { T1}
+	Bilirubin = { VeryLow Low Medium High}
+	AlkPhosphate = { Low Medium High VeryHigh}
+	Sgot = { VeryLow Low Medium}
+	AlbuMin = { VeryLow Low Medium High}
+	ProTime = { Low Medium VeryHigh}
+	Histology = { T1}
+THEN Class IS 1   W 0.860756235240222
+
+IF
+	Age = { Medium}
+	Sex = { T0}
+	Steroid = { T1}
+	Antivirals = { T1}
+	Fatigue = { T1}
+	Malaise = { T1}
+	Anorexia = { T1}
+	LiverBig = { T1}
+	LiverFirm = { T1}
+	SpleenPalpable = { T1}
+	Spiders = { T0}
+	Ascites = { T1}
+	Varices = { T0}
+	Bilirubin = { Low}
+	AlkPhosphate = { Low}
+	Sgot = { VeryLow}
+	AlbuMin = { Medium}
+	ProTime = { High}
+	Histology = { T1}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { Medium}
+	Sex = { T0}
+	Steroid = { T0}
+	Antivirals = { T0}
+	Fatigue = { T0}
+	Malaise = { T0}
+	Anorexia = { T1}
+	LiverBig = { T1}
+	LiverFirm = { T0}
+	SpleenPalpable = { T1}
+	Spiders = { T1}
+	Ascites = { T1}
+	Varices = { T1}
+	Bilirubin = { Low}
+	AlkPhosphate = { VeryHigh}
+	Sgot = { Low}
+	AlbuMin = { Medium}
+	ProTime = { Medium}
+	Histology = { T0}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { Low Medium High VeryHigh}
+	Varices = { T1}
+	Bilirubin = { VeryLow Low}
+	AlkPhosphate = { VeryLow Low Medium}
+	AlbuMin = { Low Medium High}
+THEN Class IS 2   W 0.9344262295081968
+
+IF
+	Age = { VeryLow Low}
+	Sex = { T0}
+	Steroid = { T1}
+	Bilirubin = { VeryLow Low Medium High}
+	AlkPhosphate = { VeryLow Medium High}
+	AlbuMin = { Low Medium High}
+	ProTime = { Low Medium}
+THEN Class IS 2   W 1.0
+
+IF
+	Sex = { T1}
+	Steroid = { T0}
+	Antivirals = { T1}
+	Fatigue = { T0}
+	Malaise = { T1}
+	SpleenPalpable = { T0}
+	Spiders = { T0}
+	Ascites = { T1}
+	Bilirubin = { VeryLow Low}
+	AlkPhosphate = { Low High VeryHigh}
+	Sgot = { VeryLow Low High}
+	AlbuMin = { Low Medium High}
+	ProTime = { VeryLow Medium VeryHigh}
+	Histology = { T1}
+THEN Class IS 2   W 1.0
+
+IF
+	Age = { Medium}
+	Sex = { T0}
+	Steroid = { T0}
+	Antivirals = { T1}
+	Fatigue = { T0}
+	Malaise = { T0}
+	Anorexia = { T0}
+	LiverBig = { T1}
+	LiverFirm = { T0}
+	SpleenPalpable = { T0}
+	Spiders = { T0}
+	Ascites = { T1}
+	Varices = { T0}
+	Bilirubin = { Medium}
+	AlkPhosphate = { High}
+	Sgot = { Medium}
+	AlbuMin = { Medium}
+	ProTime = { Medium}
+	Histology = { T1}
+THEN Class IS 2   W 1.0
+
+	Accuracy on training set is: 0.9452054794520548
+	Accuracy on test set is: 0.7142857142857143
+	Number of rules is: 7.0
+	Variables per rule is: 13.428571428571429
+	Variables used is: 1.0
+	Time is: 1.146
+	Iterations is: 37130
+	Conditions is: 94
+

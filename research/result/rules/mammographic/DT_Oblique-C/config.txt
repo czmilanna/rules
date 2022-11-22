@@ -1,0 +1,6 @@
+algorithm = Evolutionary Oblique DT Induction
+inputData = "C:/Projekty/rules/data/mammographic/mammographic.dat" "C:/Projekty/rules/data/mammographic/mammographic.dat" "C:/Projekty/rules/data/mammographic/mammographic.dat"
+outputData = "rules/mammographic/DT_Oblique-C/result.tra" "rules/mammographic/DT_Oblique-C/result.tst" "rules/mammographic/DT_Oblique-C/result.txt"
+
+seed = 1
+Number of Total Generations for the GA = 25

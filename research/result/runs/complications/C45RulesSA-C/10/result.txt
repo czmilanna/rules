@@ -1,0 +1,16 @@
+if(OM<=0.0 && Height>163.0) (21/37)
+	output=yes
+else if(FIGO=1) (6/8)
+	output=yes
+else if(OM>0.0) (15/19)
+	output=no
+else if(Height<=163.0) (31/51)
+	output=no
+else if(OM<=0.0 && FIGO=2 && RUM=1) (0/0)
+	output=no
+else if(FIGO=2 && RUM=3) (24/41)
+	output=no
+else if(OM>0.0 && Lymph>2.0 && FIGO=4) (0/0)
+	output=no
+else 
+	output=yes

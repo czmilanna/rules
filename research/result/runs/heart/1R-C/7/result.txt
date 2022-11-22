@@ -1,0 +1,17 @@
+
+Rule 1: IF  MaxHeartRate in [88.0 , 148.0) THEN Class -> 2     [ 3 20]
+Rule 2: IF  MaxHeartRate in [148.0 , 195.0) THEN Class -> 1     [ 26 12]
+Rule 3: IF  MaxHeartRate in [195.0 , 202.0] THEN Class -> 2     [ 1 1]
+
+####Average results for test data####
+Avg. Rule length: 8
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.11574074074074074
+Avg. Support: 0.5925925925925926
+Avg. Significance: 0.7757130014091559
+Avg. Unusualness: 0.6111111111111112
+
+Accuracy Training: 0.7160493827160493
+Accuracy Test: 0.6296296296296297
+
+  Time (seconds); 

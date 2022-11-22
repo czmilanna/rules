@@ -1,0 +1,3 @@
+IF Age = [_, 77.5) AND Positive = [_, 10.5) THEN negative
+IF Age = [45.5, _) AND Positive = [_, 24.5) THEN positive
+IF Positive = [_, 49.0) THEN negative

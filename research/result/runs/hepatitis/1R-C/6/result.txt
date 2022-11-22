@@ -1,0 +1,16 @@
+
+Rule 1: IF  ProTime in [0.0 , 41.0) THEN Class -> 1     [ 9 5]
+Rule 2: IF  ProTime in [41.0 , 100.0] THEN Class -> 2     [ 3 55]
+
+####Average results for test data####
+Avg. Rule length: 2
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.5
+Avg. Support: 0.75
+Avg. Significance: 0.14334706203263092
+Avg. Unusualness: 22.625
+
+Accuracy Training: 0.8888888888888888
+Accuracy Test: 0.75
+
+  Time (seconds); 

@@ -1,0 +1,143 @@
+Error Training: 0.136
+Error Test: 0.25
+Rules (13):
+--------
+if age = [7.5, _) and
+   weight = [26.05, 72.8) and
+   height = [1.385, _) and
+   step_count = [23751.5, 57693.0) and
+   sedentary = [2455.791666666665, 4964.916666666664) and
+   light = [355.9166666666665, 1364.41666666667) and
+   moderate = [_, 347.416666666667) and
+   vigorious = [_, 472.1666666666665)
+then
+   healthy = 0 (53|12)
+
+if age = [8.5, 15.5) and
+   weight = [25.3, 76.4) and
+   step_count = [56018.0, 106693.0) and
+   sedentary = [1937.45833333333, 4958.083333333336) and
+   light = [715.8333333333335, 2165.125) and
+   moderate = [121.541666666667, 449.125) and
+   vigorious = [_, 554.5)
+then
+   healthy = 1 (51|5)
+
+if age = [_, 15.5) and
+   weight = [21.95, 68.55) and
+   height = [_, 1.695) and
+   step_count = [_, 58823.5) and
+   sedentary = [2381.25, _) and
+   moderate = [122.5, 225.541666666667) and
+   vigorious = [_, 167.916666666667)
+then
+   healthy = 0 (14|2)
+
+if age = [8.5, _) and
+   weight = [29.15, 77.25) and
+   height = [1.245, _) and
+   step_count = [43022.0, 106693.0) and
+   sedentary = [2381.25, 6949.291666666665) and
+   light = [538.958333333333, 1403.458333333335) and
+   moderate = [129.333333333333, 348.75) and
+   vigorious = [76.125, 651.75)
+then
+   healthy = 1 (11|1)
+
+if age = [6.5, 14.5) and
+   weight = [20.3, 58.4) and
+   height = [_, 1.555) and
+   step_count = [47395.5, 106693.0) and
+   sedentary = [2601.0, 6949.291666666665) and
+   moderate = [129.333333333333, _) and
+   vigorious = [136.6666666666665, 440.8333333333335)
+then
+   healthy = 1 (16|0)
+
+if age = [7.5, 17.5) and
+   weight = [26.05, 76.4) and
+   height = [1.33, 1.735) and
+   step_count = [_, 106693.0) and
+   sedentary = [1937.45833333333, 4155.875) and
+   light = [529.041666666667, 1403.458333333335) and
+   moderate = [_, 409.75)
+then
+   healthy = 0 (8|0)
+
+if age = [_, 15.5) and
+   weight = [23.05, 92.5) and
+   height = [1.385, 1.735) and
+   step_count = [23751.5, 106693.0) and
+   sedentary = [2543.583333333335, 3918.1666666666647) and
+   light = [_, 1310.583333333335) and
+   moderate = [119.0416666666665, 409.75) and
+   vigorious = [_, 554.5)
+then
+   healthy = 1 (3|0)
+
+if age = [6.5, 17.5) and
+   weight = [21.295, 90.7) and
+   height = [1.29, _) and
+   step_count = [_, 59831.0) and
+   sedentary = [1937.45833333333, 5301.208333333336) and
+   light = [_, 1310.583333333335) and
+   moderate = [_, 389.5416666666665) and
+   vigorious = [_, 651.75)
+then
+   healthy = 0 (6|0)
+
+if age = [8.5, 17.5) and
+   weight = [34.05, 65.75) and
+   height = [1.385, 1.675) and
+   step_count = [_, 106693.0) and
+   sedentary = [_, 3233.75) and
+   light = [738.875, 1154.833333333335) and
+   moderate = [150.208333333333, 449.125)
+then
+   healthy = 0 (4|0)
+
+if age = [7.5, 15.5) and
+   weight = [18.15, 92.5) and
+   height = [1.265, 1.695) and
+   step_count = [40234.5, 106693.0) and
+   sedentary = [1482.16666666667, 3396.5) and
+   light = [748.5416666666665, _) and
+   moderate = [121.541666666667, 347.416666666667) and
+   vigorious = [77.7083333333333, 167.916666666667)
+then
+   healthy = 1 (3|0)
+
+if age = [_, 17.5) and
+   weight = [18.15, 77.25) and
+   step_count = [33785.0, 106693.0) and
+   sedentary = [2221.291666666665, 4964.916666666664) and
+   light = [738.875, _) and
+   moderate = [209.625, 347.416666666667) and
+   vigorious = [49.625, 651.75)
+then
+   healthy = 0 (4|0)
+
+if age = [_, 17.5) and
+   weight = [_, 82.05) and
+   height = [1.575, _) and
+   step_count = [23751.5, 61056.5) and
+   sedentary = [1937.45833333333, _) and
+   light = [761.9166666666665, _) and
+   moderate = [_, 348.75) and
+   vigorious = [48.33333333333335, 554.5)
+then
+   healthy = 0 (2|0)
+
+if weight = [25.3, 69.2) and
+   height = [1.22, 1.635) and
+   step_count = [40446.5, 106693.0) and
+   sedentary = [_, 3233.75) and
+   light = [355.9166666666665, _) and
+   moderate = [193.333333333333, _) and
+   vigorious = [122.0, _)
+then
+   healthy = 1 (3|0)
+
+if true
+then
+   healthy = 0 (6|2)

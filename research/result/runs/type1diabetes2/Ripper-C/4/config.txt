@@ -1,0 +1,7 @@
+algorithm = Ripper
+inputData = "C:/Projekty/rules/data/type1diabetes2/type1diabetes2-10dobscv-4tra.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2-10dobscv-4tra.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2-10dobscv-4tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/type1diabetes2/Ripper-C/4/result.tra" "C:/Projekty/rules/research/result/runs/type1diabetes2/Ripper-C/4/result.tst" "C:/Projekty/rules/research/result/runs/type1diabetes2/Ripper-C/4/result.txt"
+
+seed = 1
+grow_pct = 0.66
+K = 2

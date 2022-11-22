@@ -1,0 +1,10 @@
+IF 'plas'<=127.0 AND 'mass'>26.4 AND 'plas'>99.0 AND 'pedi'>0.56 AND 'age'>34.0 AND 'mass'<=33.1 THEN tested_positive
+IF 'plas'>127.0 AND 'preg'>7.0 AND 'insu'>142.0 THEN tested_positive
+IF 'plas'>127.0 AND 'mass'>29.9 AND 'pres'<=61.0 THEN tested_positive
+IF 'plas'>145.0 AND 'age'>25.0 AND 'age'<=61.0 AND 'mass'<=27.1 THEN tested_positive
+IF 'mass'>29.9 AND 'plas'>157.0 THEN tested_positive
+IF 'plas'<=127.0 AND 'mass'<=26.4 THEN tested_negative
+IF 'plas'<=127.0 AND 'pedi'<=0.56 THEN tested_negative
+IF 'plas'<=127.0 AND 'age'<=28.0 THEN tested_negative
+IF 'mass'<=29.9 AND 'plas'<=145.0 THEN tested_negative
+ELSE tested_positive

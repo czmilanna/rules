@@ -1,0 +1,6 @@
+if(At7<=0.145 && At4<=0.458) (11/13)
+	output=1
+else if(At7>0.145) (72/80)
+	output=0
+else 
+	output=1

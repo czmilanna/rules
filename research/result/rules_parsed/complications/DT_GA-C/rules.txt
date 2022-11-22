@@ -1,0 +1,18 @@
+IF RUM = {3} AND FIGO = {0} AND BMI <= 26.23 THEN no
+IF RUM = {3} AND FIGO = {0} AND BMI > 26.23 THEN yes
+IF RUM = {3} AND FIGO = {1} THEN yes
+IF RUM = {3} AND FIGO = {2} THEN no
+IF RUM = {3} AND FIGO = {3} AND Weight <= 80.0 AND Height <= 161.0 THEN no
+IF RUM = {3} AND FIGO = {3} AND Weight <= 80.0 AND Height > 161.0 THEN yes
+IF RUM = {3} AND FIGO = {3} AND Weight > 80.0 THEN no
+IF RUM = {3} AND FIGO = {4} AND Weight <= 72.0 THEN yes
+IF RUM = {3} AND FIGO = {4} AND Weight > 72.0 THEN no
+IF RUM = {3} AND FIGO = {5} THEN no
+IF RUM = {2} AND Lymph <= 1.0 THEN no
+IF RUM = {2} AND Lymph > 1.0 THEN yes
+IF RUM = {0} THEN no
+IF RUM = {1} THEN yes
+IF Lymph > 1.0 THEN yes
+IF Weight <= 87.0 AND FIGO = {5, 3, 4, 1, 0} THEN no
+IF Age > 42.0 AND Lymph > -1.0 THEN yes
+IF Age <= 42.0 AND Height <= 164.0 AND Weight <= 93.0 AND BMI > 24.97 AND OM > -1.0 AND RUM = {3, 1, 2} AND Lymph <= 3.0 AND FIGO = {3, 4, 0, 2} THEN no

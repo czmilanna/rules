@@ -1,0 +1,56 @@
+@relation    appendicitis
+@attribute At1 real[0.0,1.0]
+@attribute At2 real[0.0,1.0]
+@attribute At3 real[0.0,1.0]
+@attribute At4 real[0.0,1.0]
+@attribute At5 real[0.0,1.0]
+@attribute At6 real[0.0,1.0]
+@attribute At7 real[0.0,1.0]
+@attribute Class{0,1}
+@inputs At1,At2,At3,At4,At5,At6,At7
+@outputs Class
+@data
+
+@decisiontree
+
+if ( At3 <= 0.222000 ) then
+{
+	if ( At4 <= 0.153000 ) then
+	{
+		Class = "1"
+	}
+	elseif ( At4 > 0.153000 ) then
+	{
+		if ( At3 <= 0.087000 ) then
+		{
+			Class = "1"
+		}
+		elseif ( At3 > 0.087000 ) then
+		{
+			Class = "0"
+		}
+	}
+}
+elseif ( At3 > 0.222000 ) then
+{
+	Class = "0"
+}
+
+@TotalNumberOfNodes 3
+@NumberOfLeafs 4
+@TotalNumberOfNodes 3
+@NumberOfAntecedentsByRule 2.25
+
+@NumberOfItemsetsTraining 95
+@NumberOfCorrectlyClassifiedTraining 87
+@PercentageOfCorrectlyClassifiedTraining 91.57895%
+@NumberOfInCorrectlyClassifiedTraining 8
+@PercentageOfInCorrectlyClassifiedTraining 8.421053%
+
+@NumberOfItemsetsTest 11
+@NumberOfCorrectlyClassifiedTest 11
+@PercentageOfCorrectlyClassifiedTest 100.0%
+@NumberOfInCorrectlyClassifiedTest 0
+@PercentageOfInCorrectlyClassifiedTest 0.0%
+
+@ElapsedTime 0:0:0

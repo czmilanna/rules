@@ -1,0 +1,3 @@
+IF 'mass' is High AND 'plas' is High THEN 1 | Support: 0.3724
+IF 'plas' is very High AND 'preg' is High THEN 1 | Support: 0.1126
+ELSE 0

@@ -1,0 +1,11 @@
+IF OM = { T1} THEN no
+IF Height = { VeryLow High} AND OM = { T0} THEN yes
+IF Age = { Low Medium High} AND OM = { T0} AND RUM = { T0} AND Lymph = { T3} AND FIGO = { T2 T3 T5} THEN no
+IF Height = { Low} AND Weight = { Low} AND Lymph = { T3} AND FIGO = { T1 T4} THEN yes
+IF Height = { Medium} AND FIGO = { T4 T5} THEN no
+IF BMI = { Low} AND OM = { T0} AND RUM = { T0} AND FIGO = { T2 T3 T4} THEN yes
+IF BMI = { High VeryHigh} AND RUM = { T0 T2} THEN no
+IF Age = { Low Medium} AND OM = { T0} AND Lymph = { T0 T1} THEN no
+IF Age = { VeryHigh} AND Height = { VeryHigh} AND Lymph = { T2 T3} THEN yes
+IF Age = { VeryLow High} AND Height = { Low VeryHigh} AND BMI = { VeryLow Low VeryHigh} AND FIGO = { T0 T2 T5} THEN no
+IF Age = { Low} AND Weight = { VeryLow Low} AND Lymph = { T2} THEN yes

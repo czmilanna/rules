@@ -1,0 +1,5 @@
+IF RUM = 3 THEN no
+IF RUM = 2 AND Lymph <= 1.000000 THEN no
+IF RUM = 2 AND Lymph > 1.000000 THEN yes
+IF RUM = 0 THEN no
+IF RUM = 1 THEN yes

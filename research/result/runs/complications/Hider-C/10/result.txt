@@ -1,0 +1,44 @@
+Error Training: 0.286
+Error Test: 0.444
+Rules (5):
+--------
+if Age = [38.5, 68.5) and
+   Height = [154.5, 164.5) and
+   Weight = [_, 99.5) and
+   BMI = [_, 35.145) and
+   RUM = [_, 2.5)
+then
+   Complication = no (33|19)
+
+if Age = [30.0, 72.5) and
+   Height = [154.5, 169.5) and
+   Weight = [48.0, 99.5) and
+   BMI = [22.785, 34.765) and
+   Lymph = [1.5, _) and
+   FIGO = [0.5, _)
+then
+   Complication = yes (12|1)
+
+if Age = [30.0, _) and
+   Height = [154.5, _) and
+   Weight = [_, 103.0) and
+   BMI = [20.71, _)
+then
+   Complication = no (16|5)
+
+if Age = [42.5, 68.5) and
+   Height = [_, 169.5) and
+   Weight = [45.0, 111.0) and
+   BMI = [20.2, _)
+then
+   Complication = yes (6|0)
+
+if Age = [30.0, 52.0) and
+   Weight = [_, 88.5) and
+   RUM = [_, 2.5)
+then
+   Complication = no (3|0)
+
+if true
+then
+   Complication = yes (2|1)

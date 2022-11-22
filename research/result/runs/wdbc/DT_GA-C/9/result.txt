@@ -1,0 +1,20 @@
+Number of Rules: 10
+Rule[1]: IF  Perimeter3 <= 115.0 AND  Concave_points1 <= 0.048  THEN Class = B (290/296)
+Rule[2]: IF  Perimeter3 <= 115.0 AND  Concave_points1 > 0.048 AND  Texture3 <= 25.62 AND  Concave_points1 <= 0.079  THEN Class = B (24/25)
+Rule[3]: IF  Perimeter3 <= 115.0 AND  Concave_points1 > 0.048 AND  Texture3 <= 25.62 AND  Concave_points1 > 0.079  THEN Class = M (3/4)
+Rule[4]: IF  Perimeter3 <= 115.0 AND  Concave_points1 > 0.048 AND  Texture3 > 25.62 AND  Concavity1 <= 0.09 AND  Texture3 <= 29.51  THEN Class = B (3/3)
+Rule[5]: IF  Perimeter3 <= 115.0 AND  Concave_points1 > 0.048 AND  Texture3 > 25.62 AND  Concavity1 <= 0.09 AND  Texture3 > 29.51  THEN Class = M (2/2)
+Rule[6]: IF  Perimeter3 <= 115.0 AND  Concave_points1 > 0.048 AND  Texture3 > 25.62 AND  Concavity1 > 0.09  THEN Class = M (24/24)
+Rule[7]: IF  Perimeter3 > 115.0 AND  Fractal_dimension3 <= 0.072 AND  Concave_points1 <= 0.051 AND  Concavity1 <= 0.043  THEN Class = M (2/2)
+Rule[8]: IF  Perimeter3 > 115.0 AND  Fractal_dimension3 <= 0.072 AND  Concave_points1 <= 0.051 AND  Concavity1 > 0.043  THEN Class = B (4/4)
+Rule[9]: IF  Perimeter3 > 115.0 AND  Fractal_dimension3 <= 0.072 AND  Concave_points1 > 0.051  THEN Class = M (20/20)
+Rule[10]: IF  Perimeter3 > 115.0 AND  Fractal_dimension3 > 0.072  THEN Class = M (133/133)
+
+Number of Rules: 4
+Rule[1]: IF  Symmetry3 > 0.231 AND  Fractal_dimension3 > -0.92  THEN Class = M (179/447)
+Rule[2]: IF  Radius1 <= 16.14 AND  Texture1 <= 24.91 AND  Perimeter1 > 83.51 AND  Area1 <= 1223.0 AND  Smoothness1 <= 0.095 AND  Compactness1 > 0.056 AND  Concavity1 > -0.945 AND  Concave_points1 <= 0.09 AND  Symmetry1 > 0.156 AND  Fractal_dimension1 > -0.9410000000000001 AND  Radius2 > 0.173 AND  Texture2 > -0.363 AND  Perimeter2 <= 2.097 AND  Area2 > 20.83 AND  Smoothness2 <= 0.005 AND  Compactness2 > -0.988 AND  Concavity2 <= 0.019 AND  Concave_points2 > 0.006 AND  Symmetry2 <= 0.016 AND  Fractal_dimension2 <= 0.005 AND  Radius3 <= 17.71 AND  Texture3 <= 20.49 AND  Perimeter3 > 66.61 AND  Area3 <= 947.9 AND  Smoothness3 > -0.879 AND  Compactness3 <= 0.255 AND  Concavity3 <= 1.105 AND  Concave_points3 <= 0.149 AND  Symmetry3 <= 0.311 AND  Fractal_dimension3 > 0.063  THEN Class = B (1/1)
+Rule[3]: IF  Radius1 > 14.42 AND  Texture1 > 17.29 AND  Perimeter1 <= 106.6 AND  Area1 > 837.1 AND  Smoothness1 <= 0.097 AND  Compactness1 > 0.078 AND  Concavity1 <= 0.059 AND  Concave_points1 > 0.021 AND  Symmetry1 > -0.85 AND  Fractal_dimension1 <= 0.065 AND  Radius2 > -0.661 AND  Texture2 <= 1.439 AND  Perimeter2 > 1.3439999999999999 AND  Area2 <= 33.58 AND  Smoothness2 > -0.993 AND  Compactness2 <= 0.018 AND  Concavity2 > -0.982 AND  Concave_points2 > 0.008 AND  Symmetry2 <= 0.023 AND  Fractal_dimension2 <= 0.003 AND  Radius3 <= 18.13 AND  Texture3 <= 33.22 AND  Perimeter3 <= 117.2 AND  Area3 > 491.8 AND  Smoothness3 <= 0.134 AND  Compactness3 > -0.832 AND  Concavity3 <= 0.166 AND  Concave_points3 > 0.079 AND  Symmetry3 <= 0.285 AND  Fractal_dimension3 <= 0.071  THEN Class = B (1/1)
+Rule[4]: IF  Radius1 <= 17.85 AND  Texture1 > 12.23 AND  Perimeter1 > 67.41 AND  Area1 <= 992.1 AND  Smoothness1 > 0.075 AND  Compactness1 <= 0.067 AND  Concavity1 <= 0.205 AND  Concave_points1 <= 0.089 AND  Symmetry1 > -0.878 AND  Fractal_dimension1 <= 0.059 AND  Radius2 > -0.517 AND  Texture2 <= 1.046 AND  Perimeter2 <= 8.867 AND  Area2 <= 50.95 AND  Smoothness2 > -0.996 AND  Compactness2 <= 0.026 AND  Concavity2 > -0.988 AND  Concave_points2 <= 0.008 AND  Symmetry2 > -0.987 AND  Fractal_dimension2 <= 0.003 AND  Radius3 <= 19.82 AND  Texture3 <= 30.38 AND  Perimeter3 > 126.1 AND  Area3 <= 1210.0 AND  Smoothness3 > -0.901 AND  Compactness3 > -0.9 AND  Concavity3 > -0.895 AND  Concave_points3 > -0.917 AND  Symmetry3 <= 0.25 AND  Fractal_dimension3 <= 0.074  THEN Class = B (1/1)
+
+Accuracy in training: 0.9727095516569201
+Accuracy in test: 0.9107142857142857

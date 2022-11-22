@@ -1,0 +1,13 @@
+algorithm = Hybrid Decision Tree/Genetic Algorithm
+inputData = "C:/Projekty/rules/data/haberman/haberman-10dobscv-2tra.dat" "C:/Projekty/rules/data/haberman/haberman-10dobscv-2tra.dat" "C:/Projekty/rules/data/haberman/haberman-10dobscv-2tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/haberman/DT_GA-C/2/result.tra" "C:/Projekty/rules/research/result/runs/haberman/DT_GA-C/2/result.tst" "C:/Projekty/rules/research/result/runs/haberman/DT_GA-C/2/result.txt"
+
+seed = 1
+confidence = 0.25
+instancesPerLeaf = 2
+Genetic Algorithm Approach = GA-LARGE-SN
+Threshold S to consider a Small Disjunt = 10
+Number of Total Generations for the GA = 50
+Number of chromosomes in the population = 200
+Crossover Probability = 0.8
+Mutation Probability = 0.01

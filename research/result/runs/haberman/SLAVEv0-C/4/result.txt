@@ -1,0 +1,145 @@
+Experiment: C:/Projekty/rules/data/haberman/haberman-10dobscv-4tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 275
+Class 0: 73
+Class 1: 202
+Accuracy on training: 0.09818181818181818
+Number of examples: 248
+Class 0: 67
+Class 1: 202
+Accuracy on training: 0.11636363636363636
+Number of examples: 243
+Class 0: 62
+Class 1: 202
+Accuracy on training: 0.12
+Number of examples: 242
+Class 0: 61
+Class 1: 202
+Accuracy on training: 0.12363636363636364
+Number of examples: 241
+Class 0: 58
+Class 1: 202
+Accuracy on training: 0.1781818181818182
+Number of examples: 226
+Class 0: 56
+Class 1: 202
+Accuracy on training: 0.1781818181818182
+Number of examples: 226
+Class 0: 73
+Class 1: 202
+Accuracy on training: 0.7672727272727272
+Number of examples: 83
+Class 0: 73
+Class 1: 22
+Accuracy on training: 0.7709090909090909
+Number of examples: 81
+Class 0: 73
+Class 1: 18
+Accuracy on training: 0.7781818181818182
+Number of examples: 76
+Class 0: 73
+Class 1: 16
+Successes: 214.0
+Errors:  61.0
+Not classified: 0.0
+	Rule 0: 9 / 2
+	Rule 1: 5 / 2
+	Rule 2: 1 / 0
+	Rule 3: 2 / 2
+	Rule 4: 4 / 3
+	Rule 5: 185 / 51
+	Rule 6: 4 / 0
+	Rule 7: 4 / 1
+	Rule 8: 0 / 0
+Successes: 23.0
+Errors:  8.0
+Not classified: 0.0
+	Rule 0: 1 / 1
+	Rule 1: 0 / 1
+	Rule 2: 0 / 0
+	Rule 3: 0 / 0
+	Rule 4: 1 / 0
+	Rule 5: 20 / 5
+	Rule 6: 1 / 0
+	Rule 7: 0 / 0
+	Rule 8: 0 / 1
+----------------------------------------------------
+Accuracy on training: 0.7781818181818182
+Accuracy on test: 0.7419354838709677
+Number of rules: 9.0
+Variables per rule: 2.888888888888889
+Variables used: 1.0
+Time: 1.847
+Iterations: 52261
+Conditions: 26
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Age = { Medium VeryHigh}
+	Year = { VeryLow Low}
+	Positive = { Low High}
+THEN Survival IS positive   W 0.5816120967668655
+
+IF
+	Age = { Low}
+	Year = { VeryLow Low Medium VeryHigh}
+	Positive = { Medium VeryHigh}
+THEN Survival IS positive   W 0.8051133632110318
+
+IF
+	Age = { VeryHigh}
+	Year = { VeryLow}
+	Positive = { VeryLow}
+THEN Survival IS positive   W 0.9002338269680437
+
+IF
+	Age = { Medium High VeryHigh}
+	Year = { Medium}
+	Positive = { Medium}
+THEN Survival IS positive   W 0.6449245821443131
+
+IF
+	Age = { Medium}
+	Year = { High}
+	Positive = { Low}
+THEN Survival IS positive   W 0.5521578658522609
+
+IF
+	Age = { VeryLow Low Medium High}
+	Positive = { VeryLow High}
+THEN Survival IS negative   W 0.7898232468239227
+
+IF
+	Age = { VeryLow}
+	Year = { VeryLow Low Medium}
+	Positive = { Low Medium High}
+THEN Survival IS negative   W 0.9426696384348687
+
+IF
+	Age = { Medium High VeryHigh}
+	Year = { High VeryHigh}
+	Positive = { Medium High VeryHigh}
+THEN Survival IS negative   W 0.7342859673466977
+
+IF
+	Age = { VeryLow Low VeryHigh}
+	Year = { High}
+	Positive = { Medium VeryHigh}
+THEN Survival IS negative   W 0.8006662011893891
+
+	Accuracy on training set is: 0.7781818181818182
+	Accuracy on test set is: 0.7419354838709677
+	Number of rules is: 9.0
+	Variables per rule is: 2.888888888888889
+	Variables used is: 1.0
+	Time is: 1.847
+	Iterations is: 52261
+	Conditions is: 26
+

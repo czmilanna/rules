@@ -1,0 +1,406 @@
+if ( -1.0*Age + 50.0 >= 0  ) then{
+	if ( -110.83390868986815*Sbp + -140.0277547398647*Tobacco + -154.70131653237652*Ldl + 29.224827752733773*Adiposity + -8.03235708922901*Famhist + 149.86316141436419*Typea + -79.50808943237833*Obesity + -19.75480583956343*Alcohol + 168.28517289093816*Age + -63.62146657510229 >= 0  ) then{
+		if ( -1.0*Age + 41.0 >= 0  ) then{
+			Chd = 1 (7) 
+		}
+		else{ 
+			if ( -1.0*Ldl + 3.91 >= 0  ) then{
+				Chd = 0 (4) 
+			}
+			else{ 
+				if ( -1.0*Age + 42.0 >= 0  ) then{
+					Chd = 0 (1) 
+				}
+				else{ 
+					Chd = 1 (5) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( 30.001533085015012*Sbp + -127.45965289125677*Ldl + -107.93854405822664*Adiposity + 43.610443976617034*Famhist + 91.30890758040107*Obesity + -35.979116576718894*Alcohol + -92.20074524455721*Age + 4.15 >= 0  ) then{
+			if ( -1.0*Age + 44.0 >= 0  ) then{
+				if ( -13.903753974918203*Sbp + 158.32071582747642*Tobacco + 185.942084990894*Ldl + -122.55134264066614*Adiposity + -186.2993831714381*Famhist + 29.010039248738906*Typea + 11.838871010541652*Obesity + -86.69387220560895 >= 0  ) then{
+					Chd = 1 (2) 
+				}
+				else{ 
+					if ( -1.0*Obesity + 18.46 >= 0  ) then{
+						if ( -1.0*Ldl + 2.43 >= 0  ) then{
+							Chd = 1 (1) 
+						}
+						else{ 
+							Chd = 0 (3) 
+						}
+					}
+					else{ 
+						if ( 174.1800864166999*Tobacco + -197.03862983664465*Adiposity + 53.968698590520916*Famhist + 78.48364056052725*Typea + 63.0585260370417*Obesity + -43.50560871965848*Alcohol + -17.408641664639276*Age + 60.8706082824782 >= 0  ) then{
+							Chd = 0 (90) 
+						}
+						else{ 
+							if ( -1.0*Tobacco + 0.96 >= 0  ) then{
+								if ( -1.0*Age + 31.0 >= 0  ) then{
+									Chd = 0 (8) 
+								}
+								else{ 
+									Chd = 1 (1) 
+								}
+							}
+							else{ 
+								Chd = 1 (1) 
+							}
+						}
+					}
+				}
+			}
+			else{ 
+				Chd = 1 (1) 
+			}
+		}
+		else{ 
+			if ( -1.0*Typea + 68.0 >= 0  ) then{
+				if ( -36.99141625244903*Sbp + -102.5419751886609*Tobacco + -33.38665315727391*Adiposity + 102.14470278055978*Famhist + -10.239041459336647*Typea + -19.86582098059958*Obesity + 153.09182516138344*Age + 85.33639728215906 >= 0  ) then{
+					Chd = 0 (20) 
+				}
+				else{ 
+					if ( -1.0*Obesity + 25.63 >= 0  ) then{
+						if ( -48.40881671952289*Sbp + -1.0*Tobacco + 80.01641870476686*Ldl + 27.352896851336794*Adiposity + 173.41823800779372*Age + 4.2 >= 0  ) then{
+							if ( -194.15078880129167*Tobacco + -101.98168612597084*Ldl + 152.62054427355076*Adiposity + -0.9528761266155357*Famhist + 52.501960064401345*Typea + -153.58408865369486*Obesity + -190.28123784584022*Alcohol + 83.42604597178894*Age + 42.44901999888219 >= 0  ) then{
+								if ( -1.0*Obesity + 21.66 >= 0  ) then{
+									Chd = 0 (2) 
+								}
+								else{ 
+									if ( -1.0*Sbp + 146.0 >= 0  ) then{
+										if ( -1.0*Ldl + 2.69 >= 0  ) then{
+											Chd = 0 (1) 
+										}
+										else{ 
+											Chd = 1 (9) 
+										}
+									}
+									else{ 
+										if ( -1.0*Sbp + 154.0 >= 0  ) then{
+											Chd = 0 (2) 
+										}
+										else{ 
+											Chd = 1 (1) 
+										}
+									}
+								}
+							}
+							else{ 
+								if ( -1.0*Alcohol + 145.29 >= 0  ) then{
+									if ( -1.0*Tobacco + 1.16 >= 0  ) then{
+										if ( -1.0*Sbp + 132.0 >= 0  ) then{
+											Chd = 0 (2) 
+										}
+										else{ 
+											Chd = 1 (1) 
+										}
+									}
+									else{ 
+										Chd = 0 (8) 
+									}
+								}
+								else{ 
+									Chd = 1 (1) 
+								}
+							}
+						}
+						else{ 
+							Chd = 1 (5) 
+						}
+					}
+					else{ 
+						if ( -1.0*Ldl + 6.03 >= 0  ) then{
+							if ( -182.31457843964793*Sbp + 22.31022776623962*Tobacco + -24.87251139825034*Ldl + 48.579345328868214*Adiposity + 147.16050642243601*Famhist + 194.17221713675474*Typea + -168.82198340464896*Obesity + 123.43749905085133*Alcohol + 187.12298422752013*Age + -96.72831387648553 >= 0  ) then{
+								Chd = 1 (3) 
+							}
+							else{ 
+								if ( -1.0*Adiposity + 37.05 >= 0  ) then{
+									if ( -1.0*Sbp + 112.0 >= 0  ) then{
+										if ( -1.0*Tobacco + 3.0 >= 0  ) then{
+											Chd = 1 (1) 
+										}
+										else{ 
+											Chd = 0 (1) 
+										}
+									}
+									else{ 
+										if ( -1.0*Sbp + 121.92424748137694*Tobacco + 143.72526499063827*Ldl + -62.76459299557948*Typea + 130.5763303140589*Alcohol + 47.52154030080922*Age + 142.0 >= 0  ) then{
+											Chd = 0 (32) 
+										}
+										else{ 
+											if ( -1.0*Sbp + 138.0 >= 0  ) then{
+												Chd = 0 (8) 
+											}
+											else{ 
+												Chd = 1 (1) 
+											}
+										}
+									}
+								}
+								else{ 
+									if ( -1.0*Sbp + 134.0 >= 0  ) then{
+										Chd = 0 (1) 
+									}
+									else{ 
+										Chd = 1 (2) 
+									}
+								}
+							}
+						}
+						else{ 
+							if ( -78.46013584138363*Sbp + 88.83764508386088*Ldl + 152.02025453374262*Adiposity + -2.935652388943282*Famhist + 157.00364801031623*Typea + -170.0319820013903*Obesity + 154.79177961936028*Alcohol + -1.0*Age + 47.0 >= 0  ) then{
+								if ( -1.0*Famhist + 0.0 >= 0  ) then{
+									if ( -1.0*Ldl + 7.63 >= 0  ) then{
+										if ( -1.0*Adiposity + 27.68 >= 0  ) then{
+											Chd = 1 (1) 
+										}
+										else{ 
+											Chd = 0 (4) 
+										}
+									}
+									else{ 
+										Chd = 1 (2) 
+									}
+								}
+								else{ 
+									Chd = 0 (9) 
+								}
+							}
+							else{ 
+								if ( -1.0*Age + 47.0 >= 0  ) then{
+									Chd = 1 (8) 
+								}
+								else{ 
+									Chd = 0 (3) 
+								}
+							}
+						}
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*Ldl + 3.02 >= 0  ) then{
+					Chd = 0 (1) 
+				}
+				else{ 
+					Chd = 1 (5) 
+				}
+			}
+		}
+	}
+}
+else{ 
+	if ( -1.0*Tobacco + 1.7 >= 0  ) then{
+		if ( -158.85971643935417*Tobacco + -1.0*Typea + 167.27484817786024*Alcohol + 62.0 >= 0  ) then{
+			if ( -1.0*Ldl + 5.91 >= 0  ) then{
+				if ( -76.8344647895625*Tobacco + -1.0*Adiposity + 47.37760840155593*Alcohol + 37.89 >= 0  ) then{
+					if ( 10.816249579846897*Sbp + 0.9120623117573814*Tobacco + 89.34592732445941*Ldl + 106.25821359135637*Adiposity + -97.93060223989436*Famhist + 88.27412144473618*Typea + 25.148649473010693*Obesity + -177.19275773903186*Alcohol + -82.25793155894101*Age + 138.35476961414207 >= 0  ) then{
+						Chd = 0 (17) 
+					}
+					else{ 
+						if ( -1.0*Sbp + 138.0 >= 0  ) then{
+							Chd = 1 (1) 
+						}
+						else{ 
+							Chd = 0 (3) 
+						}
+					}
+				}
+				else{ 
+					Chd = 1 (1) 
+				}
+			}
+			else{ 
+				if ( -1.0*Obesity + 28.69 >= 0  ) then{
+					if ( -1.0*Tobacco + 0.0 >= 0  ) then{
+						Chd = 1 (3) 
+					}
+					else{ 
+						if ( -1.0*Sbp + 166.0 >= 0  ) then{
+							Chd = 0 (2) 
+						}
+						else{ 
+							Chd = 1 (1) 
+						}
+					}
+				}
+				else{ 
+					Chd = 0 (3) 
+				}
+			}
+		}
+		else{ 
+			if ( -1.0*Sbp + 126.0 >= 0  ) then{
+				if ( -1.0*Sbp + 108.0 >= 0  ) then{
+					Chd = 1 (1) 
+				}
+				else{ 
+					if ( -1.0*Ldl + 6.32 >= 0  ) then{
+						Chd = 0 (5) 
+					}
+					else{ 
+						Chd = 1 (1) 
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*Tobacco + 1.5 >= 0  ) then{
+					Chd = 1 (7) 
+				}
+				else{ 
+					Chd = 0 (1) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*Famhist + 0.0 >= 0  ) then{
+			if ( -1.0*Ldl + 2.69 >= 0  ) then{
+				Chd = 0 (2) 
+			}
+			else{ 
+				if ( -85.16549837895798*Adiposity + -114.5615757244084*Famhist + 175.45048370385786*Typea + -107.37426902804856*Obesity + 49.06737689139956*Alcohol + 24.38 >= 0  ) then{
+					if ( -100.21338022784641*Sbp + 80.90987621827747*Tobacco + 73.70736344570929*Ldl + -128.91186148135733*Famhist + 163.09057240446344*Typea + 49.33579737537909*Obesity + -33.13736082826213*Alcohol + 63.44603036144889*Age + -68.97392512042398 >= 0  ) then{
+						if ( -1.0*Alcohol + 22.73 >= 0  ) then{
+							if ( -1.0*Age + 62.0 >= 0  ) then{
+								if ( -1.0*Tobacco + 3.0 >= 0  ) then{
+									Chd = 0 (1) 
+								}
+								else{ 
+									if ( -1.0*Sbp + 138.0 >= 0  ) then{
+										Chd = 1 (11) 
+									}
+									else{ 
+										if ( -1.0*Sbp + 144.0 >= 0  ) then{
+											Chd = 0 (1) 
+										}
+										else{ 
+											Chd = 1 (3) 
+										}
+									}
+								}
+							}
+							else{ 
+								Chd = 0 (2) 
+							}
+						}
+						else{ 
+							Chd = 0 (4) 
+						}
+					}
+					else{ 
+						if ( -4.509405373714259*Sbp + -55.79495352129334*Tobacco + -49.20894760852889*Ldl + 124.66110641245291*Famhist + -1.0*Typea + 45.60757508631971*Obesity + -137.40184538471556*Alcohol + 46.0 >= 0  ) then{
+							Chd = 0 (1) 
+						}
+						else{ 
+							if ( -1.0*Sbp + 124.0 >= 0  ) then{
+								if ( -1.0*Adiposity + 23.07 >= 0  ) then{
+									Chd = 0 (1) 
+								}
+								else{ 
+									Chd = 1 (2) 
+								}
+							}
+							else{ 
+								if ( -1.0*Sbp + 174.0 >= 0  ) then{
+									Chd = 1 (24) 
+								}
+								else{ 
+									if ( -1.0*Age + 57.0 >= 0  ) then{
+										Chd = 0 (1) 
+									}
+									else{ 
+										Chd = 1 (5) 
+									}
+								}
+							}
+						}
+					}
+				}
+				else{ 
+					Chd = 0 (2) 
+				}
+			}
+		}
+		else{ 
+			if ( -1.0*Tobacco + 7.5 >= 0  ) then{
+				if ( -1.0*Obesity + 29.29 >= 0  ) then{
+					if ( 105.98778424458294*Sbp + -114.9831994238736*Tobacco + -193.8214535810569*Ldl + -151.31983048080463*Famhist + -141.33269226675216*Obesity + -65.50856145692723*Alcohol + -191.3958660306865*Age + 90.41967640873503 >= 0  ) then{
+						if ( -1.0*Sbp + 206.0 >= 0  ) then{
+							if ( -1.0*Adiposity + 34.71 >= 0  ) then{
+								Chd = 1 (4) 
+							}
+							else{ 
+								Chd = 0 (1) 
+							}
+						}
+						else{ 
+							Chd = 0 (1) 
+						}
+					}
+					else{ 
+						if ( -1.0*Ldl + 9.05 >= 0  ) then{
+							if ( -1.0*Ldl + 2.85 >= 0  ) then{
+								if ( -1.0*Tobacco + 3.0 >= 0  ) then{
+									Chd = 0 (2) 
+								}
+								else{ 
+									Chd = 1 (1) 
+								}
+							}
+							else{ 
+								Chd = 0 (14) 
+							}
+						}
+						else{ 
+							Chd = 1 (1) 
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*Ldl + 5.47 >= 0  ) then{
+						Chd = 1 (4) 
+					}
+					else{ 
+						Chd = 0 (1) 
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*Adiposity + 29.3 >= 0  ) then{
+					Chd = 1 (8) 
+				}
+				else{ 
+					if ( -1.0*Alcohol + 6.72 >= 0  ) then{
+						if ( -1.0*Sbp + 138.0 >= 0  ) then{
+							Chd = 0 (1) 
+						}
+						else{ 
+							Chd = 1 (5) 
+						}
+					}
+					else{ 
+						if ( -1.0*Ldl + 4.37 >= 0  ) then{
+							Chd = 1 (2) 
+						}
+						else{ 
+							if ( -1.0*Tobacco + 8.8 >= 0  ) then{
+								Chd = 1 (1) 
+							}
+							else{ 
+								Chd = 0 (6) 
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.6956521739130435

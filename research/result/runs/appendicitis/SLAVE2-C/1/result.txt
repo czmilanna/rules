@@ -1,0 +1,90 @@
+Experiment: C:/Projekty/rules/data/appendicitis/appendicitis-10dobscv-1tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 94
+Class 0: 76
+Class 1: 18
+Accuracy on training: 0.7978723404255319
+Number of examples: 19
+Class 0: 3
+Class 1: 18
+Accuracy on training: 0.7978723404255319
+Number of examples: 19
+Class 0: 2
+Class 1: 18
+Accuracy on training: 0.7978723404255319
+Number of examples: 19
+Class 0: 76
+Class 1: 18
+Accuracy on training: 0.9042553191489362
+Number of examples: 84
+Class 0: 76
+Class 1: 8
+Successes: 85.0
+Errors:  8.0
+Not classified: 1.0
+	Rule 0: 74 / 7
+	Rule 1: 1 / 1
+	Rule 2: 10 / 0
+Successes: 8.0
+Errors:  2.0
+Not classified: 2.0
+	Rule 0: 7 / 2
+	Rule 1: 1 / 0
+	Rule 2: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.9042553191489362
+Accuracy on test: 0.6666666666666666
+Number of rules: 3.0
+Variables per rule: 2.6666666666666665
+Variables used: 0.7142857142857143
+Time: 1.083
+Iterations: 51967
+Conditions: 8
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	At1 = { Low Medium High VeryHigh}
+	At2 = { Medium High VeryHigh}
+	At3 = { VeryLow Medium High VeryHigh}
+	At4 = { VeryLow}
+	At5 = { Low VeryHigh}
+	At6 = { Low Medium High VeryHigh}
+	At7 = { Low Medium High VeryHigh}
+THEN Class IS 0   W 0.887130976996101
+
+IF
+	At1 = { VeryLow}
+	At2 = { VeryLow}
+	At3 = { VeryLow Low}
+	At4 = { High}
+	At5 = { VeryLow Low}
+	At6 = { VeryLow High VeryHigh}
+	At7 = { VeryLow Low}
+THEN Class IS 0   W 0.8207547169811322
+
+IF
+	At1 = { Medium High}
+	At2 = { VeryLow Low VeryHigh}
+	At3 = { Low High}
+	At4 = { VeryLow}
+	At5 = { VeryLow Medium High VeryHigh}
+	At6 = { Low Medium High}
+	At7 = { VeryLow}
+THEN Class IS 1   W 0.952387401555094
+
+	Accuracy on training set is: 0.9042553191489362
+	Accuracy on test set is: 0.6666666666666666
+	Number of rules is: 3.0
+	Variables per rule is: 2.6666666666666665
+	Variables used is: 0.7142857142857143
+	Time is: 1.083
+	Iterations is: 51967
+	Conditions is: 8
+

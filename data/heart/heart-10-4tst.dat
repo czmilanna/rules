@@ -1,0 +1,45 @@
+@relation  heart
+@attribute Age integer[29,77]
+@attribute Sex integer[0,1]
+@attribute ChestPainType integer[1,4]
+@attribute RestBloodPressure integer[94,200]
+@attribute SerumCholestoral integer[126,564]
+@attribute FastingBloodSugar integer[0,1]
+@attribute ResElectrocardiographic integer[0,2]
+@attribute MaxHeartRate integer[71,202]
+@attribute ExerciseInduced integer[0,1]
+@attribute Oldpeak real[0.0,62.0]
+@attribute Slope integer[1,3]
+@attribute MajorVessels integer[0,3]
+@attribute Thal integer[3,7]
+@attribute Class{1,2}
+@inputs Age,Sex,ChestPainType,RestBloodPressure,SerumCholestoral,FastingBloodSugar,ResElectrocardiographic,MaxHeartRate,ExerciseInduced,Oldpeak,Slope,MajorVessels,Thal
+@outputs Class
+@data
+60, 0, 3, 102, 318, 0, 0, 160, 0, 0.0, 1, 1, 3, 1
+64, 1, 1, 110, 211, 0, 2, 144, 1, 18.0, 2, 0, 3, 1
+53, 1, 3, 130, 246, 1, 2, 173, 0, 0.0, 1, 3, 3, 1
+51, 0, 3, 130, 256, 0, 2, 149, 0, 5.0, 1, 0, 3, 1
+41, 0, 3, 112, 268, 0, 2, 172, 1, 0.0, 1, 0, 3, 1
+50, 1, 3, 129, 196, 0, 0, 163, 0, 0.0, 1, 0, 3, 1
+37, 0, 3, 120, 215, 0, 0, 170, 0, 0.0, 1, 0, 3, 1
+50, 0, 3, 120, 219, 0, 0, 158, 0, 16.0, 2, 0, 3, 1
+56, 1, 2, 120, 236, 0, 0, 178, 0, 8.0, 1, 0, 3, 1
+69, 1, 1, 160, 234, 1, 2, 131, 0, 1.0, 2, 1, 3, 1
+58, 0, 4, 100, 248, 0, 2, 122, 0, 1.0, 2, 0, 3, 1
+71, 0, 4, 112, 149, 0, 0, 125, 0, 16.0, 2, 0, 3, 1
+66, 1, 4, 120, 302, 0, 2, 151, 0, 4.0, 2, 0, 3, 1
+57, 1, 4, 140, 192, 0, 0, 148, 0, 4.0, 2, 0, 6, 1
+57, 0, 4, 120, 354, 0, 0, 163, 1, 6.0, 1, 0, 3, 1
+53, 1, 4, 140, 203, 1, 2, 155, 1, 31.0, 3, 0, 7, 2
+43, 0, 4, 132, 341, 1, 2, 136, 1, 3.0, 2, 0, 7, 2
+60, 1, 4, 145, 282, 0, 2, 142, 1, 28.0, 2, 2, 7, 2
+56, 1, 4, 125, 249, 1, 2, 144, 1, 12.0, 2, 1, 3, 2
+51, 0, 4, 130, 305, 0, 0, 142, 1, 12.0, 2, 0, 7, 2
+35, 1, 4, 126, 282, 0, 2, 156, 1, 0.0, 1, 0, 7, 2
+57, 1, 4, 150, 276, 0, 2, 112, 1, 6.0, 2, 1, 6, 2
+64, 1, 4, 145, 212, 0, 2, 132, 0, 2.0, 2, 2, 6, 2
+48, 1, 2, 110, 229, 0, 0, 168, 0, 1.0, 3, 0, 7, 2
+65, 1, 4, 135, 254, 0, 2, 127, 0, 28.0, 2, 1, 7, 2
+70, 1, 3, 160, 269, 0, 0, 112, 1, 29.0, 2, 1, 7, 2
+44, 1, 4, 110, 197, 0, 2, 177, 0, 0.0, 1, 1, 3, 2

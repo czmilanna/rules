@@ -1,0 +1,6 @@
+IF CellShape is High THEN 1 | Support: 0.6160
+IF EpithelialSize is High THEN 1 | Support: 0.4868
+IF NormalNucleoli is High AND ClumpThickness is High THEN 1 | Support: 0.3730
+IF BareNuclei is Low AND CellSize is High AND CellShape is High THEN 1 | Support: 0.1169
+IF CellSize is High AND CellShape is High AND BareNuclei is Low AND BlandChromatin is Low AND EpithelialSize is Low AND MarginalAdhesion is High THEN 1 | Support: 0.0081
+ELSE 0

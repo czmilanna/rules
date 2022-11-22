@@ -1,0 +1,13 @@
+IF Thal>3.0 AND ExerciseInduced<=0.0 AND FastingBloodSugar<=0.0 AND Sex>0.0 AND Oldpeak<=3.0 AND Oldpeak>0.0 THEN 2
+IF MajorVessels>0.0 AND ChestPainType>3.0 AND Oldpeak>9.0 THEN 2
+IF Thal>3.0 AND ExerciseInduced>0.0 AND Oldpeak>15.0 THEN 2
+IF Age>54.0 AND Slope>1.0 AND ExerciseInduced>0.0 THEN 2
+IF Thal>3.0 AND ChestPainType>3.0 AND MajorVessels>0.0 THEN 2
+IF ChestPainType<=3.0 AND MajorVessels<=0.0 AND ExerciseInduced<=0.0 AND Oldpeak>3.0 THEN 1
+IF Thal<=3.0 AND MajorVessels<=0.0 AND Age<=54.0 THEN 1
+IF Thal<=3.0 AND ChestPainType<=3.0 AND Slope<=1.0 AND ResElectrocardiographic<=1.0 THEN 1
+IF MajorVessels<=0.0 AND FastingBloodSugar<=0.0 AND ResElectrocardiographic>1.0 AND Age>62.0 THEN 1
+IF Thal<=3.0 AND MajorVessels<=0.0 AND Slope<=1.0 AND ResElectrocardiographic<=1.0 THEN 1
+IF ChestPainType<=3.0 AND MajorVessels<=0.0 AND Oldpeak<=15.0 THEN 1
+IF Thal<=3.0 AND MajorVessels<=0.0 THEN 1
+ELSE 2

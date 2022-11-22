@@ -1,0 +1,16 @@
+
+Rule 1: IF  AlkPhosphate in [26.0 , 243.0) THEN Class -> 2     [ 1 29]
+Rule 2: IF  AlkPhosphate in [243.0 , 280.0] THEN Class -> 1     [ 2 0]
+
+####Average results for test data####
+Avg. Rule length: 4
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.25
+Avg. Support: 0.7777777777777778
+Avg. Significance: 0.4395246563540302
+Avg. Unusualness: 4.138888888888889
+
+Accuracy Training: 0.8732394366197183
+Accuracy Test: 0.7777777777777778
+
+  Time (seconds); 

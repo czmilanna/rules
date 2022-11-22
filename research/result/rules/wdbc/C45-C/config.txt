@@ -1,0 +1,7 @@
+algorithm = C4.5 Decision Tree
+inputData = "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat"
+outputData = "rules/wdbc/C45-C/result.tra" "rules/wdbc/C45-C/result.tst" "rules/wdbc/C45-C/result.txt"
+
+pruned = TRUE
+confidence = 0.25
+instancesPerLeaf = 2

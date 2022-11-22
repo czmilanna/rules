@@ -1,0 +1,114 @@
+@relation   type1diabetes2
+@attribute sex integer[1,2]
+@attribute age integer[6,18]
+@attribute weight real[17.0,98.8]
+@attribute height real[1.15,1.88]
+@attribute step_count integer[13072,114655]
+@attribute sedentary real[1343.16666666667,7813.33333333333]
+@attribute light real[345.0,2557.0]
+@attribute moderate real[53.9166666666667,630.916666666667]
+@attribute vigorious real[18.5,710.5]
+@attribute healthy{0,1}
+@inputs sex,age,weight,height,step_count,sedentary,light,moderate,vigorious
+@outputs healthy
+@data
+
+@decisiontree
+
+if ( step_count <= 60837.000000 ) then
+{
+	if ( height <= 1.560000 ) then
+	{
+		healthy = "0"
+	}
+	elseif ( height > 1.560000 ) then
+	{
+		if ( moderate <= 119.000000 ) then
+		{
+			healthy = "0"
+		}
+		elseif ( moderate > 119.000000 ) then
+		{
+			if ( sex <= 1.000000 ) then
+			{
+				if ( moderate <= 123.916667 ) then
+				{
+					healthy = "1"
+				}
+				elseif ( moderate > 123.916667 ) then
+				{
+					if ( step_count <= 55333.000000 ) then
+					{
+						healthy = "0"
+					}
+					elseif ( step_count > 55333.000000 ) then
+					{
+						if ( light <= 964.250000 ) then
+						{
+							healthy = "1"
+						}
+						elseif ( light > 964.250000 ) then
+						{
+							healthy = "0"
+						}
+					}
+				}
+			}
+			elseif ( sex > 1.000000 ) then
+			{
+				if ( light <= 586.333333 ) then
+				{
+					healthy = "1"
+				}
+				elseif ( light > 586.333333 ) then
+				{
+					if ( step_count <= 48701.000000 ) then
+					{
+						healthy = "0"
+					}
+					elseif ( step_count > 48701.000000 ) then
+					{
+						if ( age <= 13.000000 ) then
+						{
+							healthy = "1"
+						}
+						elseif ( age > 13.000000 ) then
+						{
+							if ( sedentary <= 4580.833333 ) then
+							{
+								healthy = "0"
+							}
+							elseif ( sedentary > 4580.833333 ) then
+							{
+								healthy = "1"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+elseif ( step_count > 60837.000000 ) then
+{
+	healthy = "1"
+}
+
+@TotalNumberOfNodes 11
+@NumberOfLeafs 12
+@TotalNumberOfNodes 11
+@NumberOfAntecedentsByRule 5.416666666666667
+
+@NumberOfItemsetsTraining 208
+@NumberOfCorrectlyClassifiedTraining 200
+@PercentageOfCorrectlyClassifiedTraining 96.15385%
+@NumberOfInCorrectlyClassifiedTraining 8
+@PercentageOfInCorrectlyClassifiedTraining 3.8461537%
+
+@NumberOfItemsetsTest 22
+@NumberOfCorrectlyClassifiedTest 17
+@PercentageOfCorrectlyClassifiedTest 77.27273%
+@NumberOfInCorrectlyClassifiedTest 5
+@PercentageOfInCorrectlyClassifiedTest 22.727272%
+
+@ElapsedTime 0:0:0

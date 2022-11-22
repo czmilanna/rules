@@ -1,0 +1,210 @@
+Experiment: C:/Projekty/rules/data/hepatitis/hepatitis-10dobscv-8tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 73
+Class 0: 12
+Class 1: 61
+Accuracy on training: 0.0958904109589041
+Number of examples: 66
+Class 0: 5
+Class 1: 61
+Accuracy on training: 0.1095890410958904
+Number of examples: 65
+Class 0: 4
+Class 1: 61
+Accuracy on training: 0.1506849315068493
+Number of examples: 62
+Class 0: 2
+Class 1: 61
+Accuracy on training: 0.1643835616438356
+Number of examples: 61
+Class 0: 12
+Class 1: 61
+Accuracy on training: 0.9452054794520548
+Number of examples: 15
+Class 0: 12
+Class 1: 3
+Accuracy on training: 0.958904109589041
+Number of examples: 14
+Class 0: 12
+Class 1: 2
+Successes: 72.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 3 / 0
+	Rule 1: 1 / 0
+	Rule 2: 5 / 0
+	Rule 3: 2 / 0
+	Rule 4: 48 / 1
+	Rule 5: 10 / 0
+	Rule 6: 3 / 0
+Successes: 6.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 0 / 1
+	Rule 1: 0 / 0
+	Rule 2: 1 / 0
+	Rule 3: 0 / 0
+	Rule 4: 3 / 0
+	Rule 5: 2 / 0
+	Rule 6: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.9863013698630136
+Accuracy on test: 0.8571428571428571
+Number of rules: 7.0
+Variables per rule: 3.2857142857142856
+Variables used: 0.8421052631578947
+Time: 1.4600000000000002
+Iterations: 70617
+Conditions: 23
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Age = { VeryLow Low Medium High}
+	Sex = { T0}
+	Steroid = { T0}
+	Antivirals = { T1}
+	Fatigue = { T0}
+	Malaise = { T0}
+	LiverBig = { T1}
+	LiverFirm = { T1}
+	SpleenPalpable = { T0}
+	Ascites = { T0}
+	Varices = { T1}
+	Bilirubin = { Medium High}
+	AlkPhosphate = { Low}
+	Sgot = { VeryLow}
+	AlbuMin = { Low Medium High VeryHigh}
+	ProTime = { VeryLow Low Medium VeryHigh}
+	Histology = { T1}
+THEN Class IS 1   W 0.9948186528497408
+
+IF
+	Age = { Low Medium}
+	Sex = { T0}
+	Steroid = { T1}
+	Antivirals = { T1}
+	Fatigue = { T1}
+	Malaise = { T1}
+	LiverBig = { T1}
+	LiverFirm = { T1}
+	Spiders = { T0}
+	Ascites = { T1}
+	Varices = { T0}
+	Bilirubin = { Low}
+	Sgot = { VeryLow}
+	AlbuMin = { Low Medium High}
+	ProTime = { High}
+	Histology = { T1}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { VeryLow Low Medium High}
+	Sex = { T0}
+	Steroid = { T0}
+	Antivirals = { T1}
+	Fatigue = { T0}
+	Malaise = { T0}
+	Anorexia = { T1}
+	LiverBig = { T1}
+	LiverFirm = { T1}
+	SpleenPalpable = { T1}
+	Spiders = { T0}
+	Ascites = { T1}
+	Varices = { T1}
+	Bilirubin = { Medium VeryHigh}
+	AlkPhosphate = { Low High VeryHigh}
+	Sgot = { VeryLow VeryHigh}
+	AlbuMin = { VeryLow High}
+	ProTime = { Low}
+	Histology = { T1}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { VeryLow Medium High VeryHigh}
+	Sex = { T0}
+	Antivirals = { T1}
+	Malaise = { T1}
+	Anorexia = { T1}
+	LiverBig = { T1}
+	SpleenPalpable = { T1}
+	Spiders = { T1}
+	Ascites = { T1}
+	Bilirubin = { VeryLow}
+	AlkPhosphate = { High VeryHigh}
+	Sgot = { VeryLow Low}
+	AlbuMin = { Medium}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { VeryLow}
+	Antivirals = { T0}
+	Malaise = { T0}
+	LiverBig = { T1}
+	LiverFirm = { T0}
+	Spiders = { T1}
+	Ascites = { T1}
+	Varices = { T1}
+	Bilirubin = { Low High VeryHigh}
+	AlkPhosphate = { VeryLow Low Medium High}
+	Sgot = { Low Medium VeryHigh}
+	AlbuMin = { Medium High}
+	ProTime = { Medium High VeryHigh}
+THEN Class IS 2   W 0.9322597716791411
+
+IF
+	Age = { Low Medium VeryHigh}
+	Sex = { T0}
+	Steroid = { T0}
+	Antivirals = { T1}
+	Fatigue = { T0}
+	Malaise = { T0}
+	Anorexia = { T0}
+	LiverBig = { T1}
+	LiverFirm = { T1}
+	SpleenPalpable = { T1}
+	Spiders = { T0}
+	Ascites = { T0}
+	Varices = { T1}
+	Bilirubin = { VeryLow Low VeryHigh}
+	AlkPhosphate = { VeryLow Low VeryHigh}
+	Sgot = { Low}
+	AlbuMin = { VeryHigh}
+	ProTime = { VeryLow High}
+	Histology = { T0}
+THEN Class IS 2   W 1.0
+
+IF
+	Age = { Low Medium High}
+	Sex = { T0}
+	Steroid = { T1}
+	Antivirals = { T1}
+	Malaise = { T0}
+	Anorexia = { T1}
+	LiverBig = { T1}
+	LiverFirm = { T0}
+	SpleenPalpable = { T0}
+	Spiders = { T0}
+	Bilirubin = { VeryLow}
+	AlkPhosphate = { VeryLow Low Medium}
+	Sgot = { VeryLow}
+	AlbuMin = { VeryLow Low}
+	ProTime = { Medium High VeryHigh}
+	Histology = { T1}
+THEN Class IS 2   W 1.0
+
+	Accuracy on training set is: 0.9863013698630136
+	Accuracy on test set is: 0.8571428571428571
+	Number of rules is: 7.0
+	Variables per rule is: 3.2857142857142856
+	Variables used is: 0.8421052631578947
+	Time is: 1.4600000000000002
+	Iterations is: 70617
+	Conditions is: 23
+

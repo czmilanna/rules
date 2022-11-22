@@ -1,0 +1,14 @@
+Error Training: 0.028
+Error Test: 0.029
+Rules (2):
+--------
+if ClumpThickness = [_, 8.5) and
+   CellSize = [_, 4.5) and
+   BareNuclei = [_, 5.5) and
+   NormalNucleoli = [_, 8.5)
+then
+   Class = 2 (394|12)
+
+if true
+then
+   Class = 4 (203|5)

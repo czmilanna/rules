@@ -1,0 +1,20 @@
+
+Rule 1: IF  step_count in [13072.0 , 47624.0) THEN healthy -> 0     [ 21 2]
+Rule 2: IF  step_count in [47624.0 , 51189.0) THEN healthy -> 1     [ 6 7]
+Rule 3: IF  step_count in [51189.0 , 56548.0) THEN healthy -> 0     [ 10 1]
+Rule 4: IF  step_count in [56548.0 , 59516.0) THEN healthy -> 1     [ 6 8]
+Rule 5: IF  step_count in [59516.0 , 61276.0) THEN healthy -> 0     [ 7 3]
+Rule 6: IF  step_count in [61276.0 , 114655.0] THEN healthy -> 1     [ 0 71]
+
+####Average results for test data####
+Avg. Rule length: 10
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.09583333333333334
+Avg. Support: 0.75
+Avg. Significance: 1.9747919129269262
+Avg. Unusualness: 0.5916666666666667
+
+Accuracy Training: 0.8592233009708737
+Accuracy Test: 0.7916666666666666
+
+  Time (seconds); 

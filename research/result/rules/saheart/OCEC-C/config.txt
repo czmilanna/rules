@@ -1,0 +1,7 @@
+algorithm = Organizational Coevolutionary Algorithm (OCEC)
+inputData = "C:/Projekty/rules/data/saheart/saheart.dat" "C:/Projekty/rules/data/saheart/saheart.dat" "C:/Projekty/rules/data/saheart/saheart.dat"
+outputData = "rules/saheart/OCEC-C/result.tra" "rules/saheart/OCEC-C/result.tst" "rules/saheart/OCEC-C/result.txt"
+
+seed = 1
+Number of Total Generations = 500
+Number of migrating/exchanging members = 1

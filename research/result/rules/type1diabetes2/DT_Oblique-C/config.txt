@@ -1,0 +1,6 @@
+algorithm = Evolutionary Oblique DT Induction
+inputData = "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat"
+outputData = "rules/type1diabetes2/DT_Oblique-C/result.tra" "rules/type1diabetes2/DT_Oblique-C/result.tst" "rules/type1diabetes2/DT_Oblique-C/result.txt"
+
+seed = 1
+Number of Total Generations for the GA = 25

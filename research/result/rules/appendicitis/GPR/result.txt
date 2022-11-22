@@ -1,0 +1,3 @@
+IF At7 is very Low AND At5 is Low AND At6 is Low THEN 1 | Support: 0.3949
+IF At2 is Low AND At7 is Low AND At5 is Low AND At1 is Low THEN 1 | Support: 0.3634
+ELSE 0

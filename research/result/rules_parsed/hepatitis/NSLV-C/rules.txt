@@ -1,0 +1,3 @@
+IF Ascites = { T1} THEN 2
+IF Sex = { T0} AND Anorexia = { T1} AND ProTime = { Low} AND Histology = { T1} THEN 1
+IF Sgot = { Low Medium High} THEN 2

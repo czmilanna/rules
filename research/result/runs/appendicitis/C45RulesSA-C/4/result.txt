@@ -1,0 +1,6 @@
+if(At3>0.222) (70/76)
+	output=0
+else if(At3<=0.222) (13/19)
+	output=1
+else 
+	output=0

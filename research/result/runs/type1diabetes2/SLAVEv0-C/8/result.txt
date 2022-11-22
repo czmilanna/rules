@@ -1,0 +1,177 @@
+Experiment: C:/Projekty/rules/data/type1diabetes2/type1diabetes2-10dobscv-8tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 208
+Class 0: 104
+Class 1: 104
+Accuracy on training: 0.5
+Number of examples: 104
+Class 0: 28
+Class 1: 104
+Accuracy on training: 0.5
+Number of examples: 104
+Class 0: 23
+Class 1: 104
+Accuracy on training: 0.5
+Number of examples: 104
+Class 0: 20
+Class 1: 104
+Accuracy on training: 0.5
+Number of examples: 104
+Class 0: 17
+Class 1: 104
+Accuracy on training: 0.5
+Number of examples: 104
+Class 0: 104
+Class 1: 104
+Accuracy on training: 0.8413461538461539
+Number of examples: 122
+Class 0: 104
+Class 1: 44
+Accuracy on training: 0.8653846153846154
+Number of examples: 115
+Class 0: 104
+Class 1: 39
+Accuracy on training: 0.8798076923076923
+Number of examples: 115
+Class 0: 104
+Class 1: 33
+Successes: 183.0
+Errors:  25.0
+Not classified: 0.0
+	Rule 0: 83 / 21
+	Rule 1: 10 / 0
+	Rule 2: 5 / 0
+	Rule 3: 2 / 0
+	Rule 4: 0 / 0
+	Rule 5: 66 / 4
+	Rule 6: 10 / 0
+	Rule 7: 7 / 0
+	Rule 8: 0 / 0
+Successes: 17.0
+Errors:  5.0
+Not classified: 0.0
+	Rule 0: 8 / 4
+	Rule 1: 1 / 0
+	Rule 2: 0 / 0
+	Rule 3: 1 / 0
+	Rule 4: 0 / 0
+	Rule 5: 5 / 1
+	Rule 6: 2 / 0
+	Rule 7: 0 / 0
+	Rule 8: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.8798076923076923
+Accuracy on test: 0.7727272727272727
+Number of rules: 9.0
+Variables per rule: 6.888888888888889
+Variables used: 1.0
+Time: 2.5919999999999996
+Iterations: 50917
+Conditions: 62
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	step_count = { VeryLow Low}
+THEN healthy IS 0   W 0.7928628394118612
+
+IF
+	age = { VeryLow Low Medium VeryHigh}
+	weight = { VeryLow Low Medium High}
+	height = { VeryLow Low Medium VeryHigh}
+	step_count = { Medium}
+	sedentary = { Medium}
+	moderate = { Low Medium VeryHigh}
+	vigorious = { VeryLow High}
+THEN healthy IS 0   W 0.6853801587739904
+
+IF
+	age = { VeryLow Low High}
+	weight = { VeryLow Medium High VeryHigh}
+	height = { VeryLow}
+	step_count = { Medium}
+	sedentary = { Low Medium VeryHigh}
+	light = { VeryLow Low Medium VeryHigh}
+	moderate = { Low}
+	vigorious = { Low Medium High VeryHigh}
+THEN healthy IS 0   W 0.7893436429029204
+
+IF
+	age = { VeryLow High VeryHigh}
+	weight = { Medium High}
+	height = { VeryLow Low Medium High}
+	step_count = { Medium}
+	sedentary = { Low}
+	light = { Low Medium High}
+	moderate = { VeryLow Low Medium High}
+	vigorious = { VeryLow High}
+THEN healthy IS 0   W 0.7837039548866475
+
+IF
+	age = { Medium High VeryHigh}
+	weight = { Low High}
+	height = { Low High VeryHigh}
+	step_count = { VeryLow Low}
+	sedentary = { VeryLow Low High VeryHigh}
+	light = { Medium High VeryHigh}
+	moderate = { VeryLow Low High}
+	vigorious = { VeryLow Low Medium High}
+THEN healthy IS 0   W 0.7903964282826108
+
+IF
+	age = { VeryLow Low Medium High}
+	height = { Low Medium High VeryHigh}
+	step_count = { Medium High VeryHigh}
+	sedentary = { VeryLow Low Medium High}
+	light = { Low Medium High}
+	moderate = { Medium High VeryHigh}
+THEN healthy IS 1   W 0.8813027298256263
+
+IF
+	age = { Low Medium High VeryHigh}
+	height = { Low Medium High VeryHigh}
+	step_count = { Medium High}
+	sedentary = { Low Medium}
+	light = { Low Medium High}
+	moderate = { Low VeryHigh}
+	vigorious = { Medium High}
+THEN healthy IS 1   W 0.8653548370030644
+
+IF
+	sex = { T1}
+	age = { Low Medium High}
+	weight = { VeryLow Low VeryHigh}
+	height = { Low Medium High VeryHigh}
+	step_count = { Medium}
+	sedentary = { VeryLow Medium High VeryHigh}
+	light = { VeryLow Low High}
+	moderate = { VeryLow Low Medium}
+	vigorious = { Low}
+THEN healthy IS 1   W 0.7362318968422226
+
+IF
+	age = { VeryLow Low Medium High}
+	weight = { VeryLow Low High}
+	height = { Low Medium High VeryHigh}
+	step_count = { Medium High VeryHigh}
+	sedentary = { VeryLow Low}
+	light = { Low Medium VeryHigh}
+	moderate = { Medium}
+	vigorious = { Low}
+THEN healthy IS 1   W 0.7103671268820662
+
+	Accuracy on training set is: 0.8798076923076923
+	Accuracy on test set is: 0.7727272727272727
+	Number of rules is: 9.0
+	Variables per rule is: 6.888888888888889
+	Variables used is: 1.0
+	Time is: 2.5919999999999996
+	Iterations is: 50917
+	Conditions is: 62
+

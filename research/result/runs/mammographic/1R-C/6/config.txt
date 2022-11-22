@@ -1,0 +1,6 @@
+algorithm = UnoR
+inputData = "C:/Projekty/rules/data/mammographic/mammographic-10dobscv-6tra.dat" "C:/Projekty/rules/data/mammographic/mammographic-10dobscv-6tra.dat" "C:/Projekty/rules/data/mammographic/mammographic-10dobscv-6tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/mammographic/1R-C/6/result.tra" "C:/Projekty/rules/research/result/runs/mammographic/1R-C/6/result.tst" "C:/Projekty/rules/research/result/runs/mammographic/1R-C/6/result.txt"
+
+seed = 1
+SMALL = 6

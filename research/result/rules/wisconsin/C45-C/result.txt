@@ -1,0 +1,121 @@
+@relation   wisconsin
+@attribute ClumpThickness integer[1,10]
+@attribute CellSize integer[1,10]
+@attribute CellShape integer[1,10]
+@attribute MarginalAdhesion integer[1,10]
+@attribute EpithelialSize integer[1,10]
+@attribute BareNuclei integer[1,10]
+@attribute BlandChromatin integer[1,10]
+@attribute NormalNucleoli integer[1,10]
+@attribute Mitoses integer[1,10]
+@attribute Class{2,4}
+@inputs ClumpThickness,CellSize,CellShape,MarginalAdhesion,EpithelialSize,BareNuclei,BlandChromatin,NormalNucleoli,Mitoses
+@outputs Class
+@data
+
+@decisiontree
+
+if ( CellSize <= 2.000000 ) then
+{
+	if ( BareNuclei <= 3.000000 ) then
+	{
+		if ( EpithelialSize <= 2.000000 ) then
+		{
+			Class = "2"
+		}
+		elseif ( EpithelialSize > 2.000000 ) then
+		{
+			if ( CellShape <= 2.000000 ) then
+			{
+				Class = "2"
+			}
+			elseif ( CellShape > 2.000000 ) then
+			{
+				Class = "4"
+			}
+		}
+	}
+	elseif ( BareNuclei > 3.000000 ) then
+	{
+		if ( ClumpThickness <= 3.000000 ) then
+		{
+			Class = "2"
+		}
+		elseif ( ClumpThickness > 3.000000 ) then
+		{
+			if ( BlandChromatin <= 2.000000 ) then
+			{
+				if ( MarginalAdhesion <= 3.000000 ) then
+				{
+					Class = "4"
+				}
+				elseif ( MarginalAdhesion > 3.000000 ) then
+				{
+					Class = "2"
+				}
+			}
+			elseif ( BlandChromatin > 2.000000 ) then
+			{
+				Class = "4"
+			}
+		}
+	}
+}
+elseif ( CellSize > 2.000000 ) then
+{
+	if ( CellShape <= 2.000000 ) then
+	{
+		if ( ClumpThickness <= 5.000000 ) then
+		{
+			Class = "2"
+		}
+		elseif ( ClumpThickness > 5.000000 ) then
+		{
+			Class = "4"
+		}
+	}
+	elseif ( CellShape > 2.000000 ) then
+	{
+		if ( CellSize <= 4.000000 ) then
+		{
+			if ( BareNuclei <= 2.000000 ) then
+			{
+				if ( MarginalAdhesion <= 3.000000 ) then
+				{
+					Class = "2"
+				}
+				elseif ( MarginalAdhesion > 3.000000 ) then
+				{
+					Class = "4"
+				}
+			}
+			elseif ( BareNuclei > 2.000000 ) then
+			{
+				Class = "4"
+			}
+		}
+		elseif ( CellSize > 4.000000 ) then
+		{
+			Class = "4"
+		}
+	}
+}
+
+@TotalNumberOfNodes 12
+@NumberOfLeafs 13
+@TotalNumberOfNodes 12
+@NumberOfAntecedentsByRule 3.923076923076923
+
+@NumberOfItemsetsTraining 683
+@NumberOfCorrectlyClassifiedTraining 671
+@PercentageOfCorrectlyClassifiedTraining 98.24304%
+@NumberOfInCorrectlyClassifiedTraining 12
+@PercentageOfInCorrectlyClassifiedTraining 1.7569547%
+
+@NumberOfItemsetsTest 683
+@NumberOfCorrectlyClassifiedTest 671
+@PercentageOfCorrectlyClassifiedTest 98.24304%
+@NumberOfInCorrectlyClassifiedTest 12
+@PercentageOfInCorrectlyClassifiedTest 1.7569547%
+
+@ElapsedTime 0:0:0

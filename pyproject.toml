@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rules"
+version = "0.1.0"
+description = ""
+authors = ["czmilanna <czmilanna@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+cacp = "0.3.0-alpha.0"
+gpr-algorithm = "1.0.0"
+graphviz = "0.20.1"
+
+[tool.poetry.dev-dependencies]
+setuptools = "57.5.0"
+pytest = "7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

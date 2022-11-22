@@ -1,0 +1,5 @@
+IF Famhist=1 AND Age>50.0 THEN 1
+IF Tobacco>7.6 THEN 1
+IF Age<=50.0 AND Typea<=68.0 THEN 0
+IF Famhist=0 AND Tobacco<=7.6 THEN 0
+ELSE 1

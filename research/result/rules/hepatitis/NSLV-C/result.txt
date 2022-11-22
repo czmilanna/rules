@@ -1,0 +1,114 @@
+Experiment: C:/Projekty/rules/data/hepatitis/hepatitis.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 80
+Class 0: 13
+Class 1: 67
+Successes: 62.0
+Errors:  6.0
+Not classified: 12.0
+	Rule 0: 62 / 6
+Successes: 62.0
+Errors:  6.0
+Not classified: 12.0
+	Rule 0: 62 / 6
+Accuracy on training: 0.775
+Number of examples: 18
+Class 0: 13
+Class 1: 5
+Successes: 72.0
+Errors:  3.0
+Not classified: 5.0
+	Rule 0: 62 / 3
+	Rule 1: 10 / 0
+Successes: 72.0
+Errors:  3.0
+Not classified: 5.0
+	Rule 0: 62 / 3
+	Rule 1: 10 / 0
+Accuracy on training: 0.9
+Number of examples: 8
+Class 0: 3
+Class 1: 5
+Successes: 77.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 62 / 3
+	Rule 1: 10 / 0
+	Rule 2: 5 / 0
+Successes: 77.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 62 / 3
+	Rule 1: 10 / 0
+	Rule 2: 5 / 0
+Accuracy on training: 0.9625
+Number of examples: 3
+Class 0: 3
+Class 1: 0
+Successes: 77.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 62 / 3
+	Rule 1: 10 / 0
+	Rule 2: 0 / 0
+	Rule 3: 5 / 0
+Successes: 77.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 62 / 3
+	Rule 1: 10 / 0
+	Rule 2: 5 / 0
+Successes: 77.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 62 / 3
+	Rule 1: 10 / 0
+	Rule 2: 5 / 0
+Successes: 77.0
+Errors:  3.0
+Not classified: 0.0
+	Rule 0: 62 / 3
+	Rule 1: 10 / 0
+	Rule 2: 5 / 0
+----------------------------------------------------
+Accuracy on training: 0.9625
+Accuracy on test: 0.9625
+Number of rules: 3.0
+Variables per rule: 2.0
+Variables used: 0.3157894736842105
+Time: 0.283
+Iterations: 4397
+Conditions: 6
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Ascites = { T1}
+THEN Class IS 2   W 0.9130434782608695
+
+IF
+	Sex = { T0}
+	Anorexia = { T1}
+	ProTime = { Low}
+	Histology = { T1}
+THEN Class IS 1   W 1.0
+
+IF
+	Sgot = { Low Medium High}
+THEN Class IS 2   W 0.8452653574186697
+
+	Accuracy on training set is: 0.9625
+	Accuracy on test set is: 0.9625
+	Number of rules is: 3.0
+	Variables per rule is: 2.0
+	Variables used is: 0.3157894736842105
+	Time is: 0.283
+	Iterations is: 4397
+	Conditions is: 6
+

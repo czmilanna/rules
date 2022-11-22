@@ -1,0 +1,11 @@
+@Number of Rules: 5
+if(step_count<=54860.0 && height<=1.58 && weight>21.0) (45/46)
+	output=0
+else if(step_count<=60837.0 && vigorious<=75.6666666666667 && sedentary>3047.666666666669) (24/24)
+	output=0
+else if(step_count<=60837.0 && sedentary<=3627.8333333333294) (50/62)
+	output=0
+else if(step_count<=60231.0) (101/133)
+	output=0
+else 
+	output=1

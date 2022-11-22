@@ -1,0 +1,12 @@
+Error Training: 0.165
+Error Test: 0.169
+Rules (2):
+--------
+if BI-RADS = [_, 4.5) and
+   Shape = [_, 3.5)
+then
+   Severity = 0 (303|42)
+
+if true
+then
+   Severity = 1 (321|81)

@@ -1,0 +1,8 @@
+Number of Rules: 2
+Rule[1]: IF  At7 <= 0.145  THEN Class = 1 (11/13)
+Rule[2]: IF  At7 > 0.145  THEN Class = 0 (74/82)
+
+Number of Rules: 0
+
+Accuracy in training: 0.8947368421052632
+Accuracy in test: 0.8181818181818182

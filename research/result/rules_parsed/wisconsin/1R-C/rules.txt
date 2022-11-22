@@ -1,0 +1,1 @@
+IF EpithelialSize = [1.0 , 10.0] THEN 4

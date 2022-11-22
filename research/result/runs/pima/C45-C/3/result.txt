@@ -1,0 +1,204 @@
+@relation   pima
+@attribute 'preg' real[0.0,17.0]
+@attribute 'plas' real[0.0,199.0]
+@attribute 'pres' real[0.0,122.0]
+@attribute 'skin' real[0.0,99.0]
+@attribute 'insu' real[0.0,846.0]
+@attribute 'mass' real[0.0,67.1]
+@attribute 'pedi' real[0.078,2.42]
+@attribute 'age' real[21.0,81.0]
+@attribute 'class'{tested_negative,tested_positive}
+@inputs 'preg','plas','pres','skin','insu','mass','pedi','age'
+@outputs 'class'
+@data
+
+@decisiontree
+
+if ( 'plas' <= 127.000000 ) then
+{
+	if ( 'mass' <= 26.400000 ) then
+	{
+		'class' = "tested_negative"
+	}
+	elseif ( 'mass' > 26.400000 ) then
+	{
+		if ( 'age' <= 28.000000 ) then
+		{
+			if ( 'skin' <= 0.000000 ) then
+			{
+				if ( 'plas' <= 110.000000 ) then
+				{
+					'class' = "tested_negative"
+				}
+				elseif ( 'plas' > 110.000000 ) then
+				{
+					if ( 'pres' <= 72.000000 ) then
+					{
+						if ( 'pres' <= 52.000000 ) then
+						{
+							'class' = "tested_positive"
+						}
+						elseif ( 'pres' > 52.000000 ) then
+						{
+							'class' = "tested_negative"
+						}
+					}
+					elseif ( 'pres' > 72.000000 ) then
+					{
+						'class' = "tested_positive"
+					}
+				}
+			}
+			elseif ( 'skin' > 0.000000 ) then
+			{
+				'class' = "tested_negative"
+			}
+		}
+		elseif ( 'age' > 28.000000 ) then
+		{
+			if ( 'plas' <= 99.000000 ) then
+			{
+				if ( 'preg' <= 3.000000 ) then
+				{
+					'class' = "tested_negative"
+				}
+				elseif ( 'preg' > 3.000000 ) then
+				{
+					if ( 'pedi' <= 0.787000 ) then
+					{
+						if ( 'plas' <= 0.000000 ) then
+						{
+							'class' = "tested_positive"
+						}
+						elseif ( 'plas' > 0.000000 ) then
+						{
+							'class' = "tested_negative"
+						}
+					}
+					elseif ( 'pedi' > 0.787000 ) then
+					{
+						'class' = "tested_positive"
+					}
+				}
+			}
+			elseif ( 'plas' > 99.000000 ) then
+			{
+				if ( 'pedi' <= 0.560000 ) then
+				{
+					'class' = "tested_negative"
+				}
+				elseif ( 'pedi' > 0.560000 ) then
+				{
+					if ( 'pres' <= 86.000000 ) then
+					{
+						'class' = "tested_positive"
+					}
+					elseif ( 'pres' > 86.000000 ) then
+					{
+						'class' = "tested_negative"
+					}
+				}
+			}
+		}
+	}
+}
+elseif ( 'plas' > 127.000000 ) then
+{
+	if ( 'mass' <= 29.900000 ) then
+	{
+		if ( 'plas' <= 145.000000 ) then
+		{
+			'class' = "tested_negative"
+		}
+		elseif ( 'plas' > 145.000000 ) then
+		{
+			if ( 'age' <= 25.000000 ) then
+			{
+				'class' = "tested_negative"
+			}
+			elseif ( 'age' > 25.000000 ) then
+			{
+				'class' = "tested_positive"
+			}
+		}
+	}
+	elseif ( 'mass' > 29.900000 ) then
+	{
+		if ( 'plas' <= 157.000000 ) then
+		{
+			if ( 'mass' <= 42.900000 ) then
+			{
+				if ( 'age' <= 42.000000 ) then
+				{
+					if ( 'pres' <= 61.000000 ) then
+					{
+						'class' = "tested_positive"
+					}
+					elseif ( 'pres' > 61.000000 ) then
+					{
+						if ( 'insu' <= 277.000000 ) then
+						{
+							if ( 'pedi' <= 0.722000 ) then
+							{
+								'class' = "tested_negative"
+							}
+							elseif ( 'pedi' > 0.722000 ) then
+							{
+								'class' = "tested_positive"
+							}
+						}
+						elseif ( 'insu' > 277.000000 ) then
+						{
+							'class' = "tested_negative"
+						}
+					}
+				}
+				elseif ( 'age' > 42.000000 ) then
+				{
+					if ( 'pedi' <= 0.226000 ) then
+					{
+						if ( 'insu' <= 105.000000 ) then
+						{
+							'class' = "tested_negative"
+						}
+						elseif ( 'insu' > 105.000000 ) then
+						{
+							'class' = "tested_positive"
+						}
+					}
+					elseif ( 'pedi' > 0.226000 ) then
+					{
+						'class' = "tested_positive"
+					}
+				}
+			}
+			elseif ( 'mass' > 42.900000 ) then
+			{
+				'class' = "tested_positive"
+			}
+		}
+		elseif ( 'plas' > 157.000000 ) then
+		{
+			'class' = "tested_positive"
+		}
+	}
+}
+
+@TotalNumberOfNodes 24
+@NumberOfLeafs 25
+@TotalNumberOfNodes 24
+@NumberOfAntecedentsByRule 5.6
+
+@NumberOfItemsetsTraining 691
+@NumberOfCorrectlyClassifiedTraining 596
+@PercentageOfCorrectlyClassifiedTraining 86.25181%
+@NumberOfInCorrectlyClassifiedTraining 95
+@PercentageOfInCorrectlyClassifiedTraining 13.748191%
+
+@NumberOfItemsetsTest 77
+@NumberOfCorrectlyClassifiedTest 55
+@PercentageOfCorrectlyClassifiedTest 71.42857%
+@NumberOfInCorrectlyClassifiedTest 22
+@PercentageOfInCorrectlyClassifiedTest 28.571428%
+
+@ElapsedTime 0:0:0

@@ -1,0 +1,6 @@
+algorithm = UnoR
+inputData = "C:/Projekty/rules/data/complications/complications.dat" "C:/Projekty/rules/data/complications/complications.dat" "C:/Projekty/rules/data/complications/complications.dat"
+outputData = "rules/complications/1R-C/result.tra" "rules/complications/1R-C/result.tst" "rules/complications/1R-C/result.txt"
+
+seed = 1
+SMALL = 6

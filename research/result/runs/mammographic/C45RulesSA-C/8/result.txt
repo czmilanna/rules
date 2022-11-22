@@ -1,0 +1,16 @@
+if(Margin>3.0 && Age>64.0) (126/142)
+	output=1
+else if(BI-RADS>4.0 && BI-RADS<=5.0) (259/286)
+	output=1
+else if(BI-RADS>4.0 && Shape>2.0 && Margin>1.0) (240/261)
+	output=1
+else if(BI-RADS<=4.0 && Age<=69.0 && Margin<=4.0) (329/391)
+	output=0
+else if(BI-RADS<=4.0 && Shape<=3.0 && Age<=52.0) (187/196)
+	output=0
+else if(BI-RADS<=4.0 && Shape<=3.0 && Density<=2.0) (38/40)
+	output=0
+else if(BI-RADS<=4.0 && Shape<=3.0 && Margin<=1.0 && Age<=67.0) (231/246)
+	output=0
+else 
+	output=1

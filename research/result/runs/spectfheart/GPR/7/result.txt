@@ -1,0 +1,5 @@
+IF F22R is Low THEN 1 | Support: 0.4459
+IF F2R is Low THEN 1 | Support: 0.3159
+IF F21R is Low AND F15S is High THEN 1 | Support: 0.1870
+IF F5R is Low AND F4R is Low AND F9R is Low AND F16R is High THEN 1 | Support: 0.0161
+ELSE 0

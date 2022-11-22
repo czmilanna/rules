@@ -1,0 +1,31 @@
+IF EpithelialSize = 0 AND BareNuclei = 0 THEN 2
+IF CellSize = 0 AND CellShape = 0 AND Mitoses = 0 THEN 2
+IF CellShape = 0 AND BareNuclei = 0 THEN 2
+IF CellSize = 0 AND CellShape = 0 AND NormalNucleoli = 0 THEN 2
+IF CellSize = 0 AND MarginalAdhesion = 0 AND BareNuclei = 0 THEN 2
+IF CellShape = 0 AND MarginalAdhesion = 0 AND EpithelialSize = 0 AND NormalNucleoli = 0 THEN 2
+IF BareNuclei = 0 AND BlandChromatin = 0 THEN 2
+IF MarginalAdhesion = 0 AND BlandChromatin = 0 AND NormalNucleoli = 0 THEN 2
+IF BareNuclei = 10 THEN 4
+IF EpithelialSize = 2 THEN 4
+IF ClumpThickness = 10 THEN 4
+IF CellSize = 10 THEN 4
+IF CellSize = 2 THEN 4
+IF NormalNucleoli = 1 THEN 4
+IF ClumpThickness = 2 AND MarginalAdhesion = 0 AND BareNuclei = 0 AND Mitoses = 0 THEN 2
+IF MarginalAdhesion = 2 THEN 4
+IF EpithelialSize = 3 THEN 4
+IF BlandChromatin = 3 AND NormalNucleoli = 10 THEN 4
+IF MarginalAdhesion = 1 AND BlandChromatin = 3 THEN 4
+IF ClumpThickness = 3 AND BlandChromatin = 1 THEN 4
+IF ClumpThickness = 3 AND CellShape = 3 AND EpithelialSize = 1 THEN 4
+IF ClumpThickness = 1 AND CellShape = 3 THEN 4
+IF CellSize = 3 AND EpithelialSize = 1 AND BlandChromatin = 3 THEN 4
+IF CellSize = 3 AND CellShape = 3 AND EpithelialSize = 1 AND BareNuclei = 1 AND NormalNucleoli = 3 THEN 4
+IF ClumpThickness = 1 AND CellSize = 3 AND CellShape = 2 AND MarginalAdhesion = 1 AND EpithelialSize = 1 AND BareNuclei = 1 AND BlandChromatin = 10 AND NormalNucleoli = 2 AND Mitoses = 0 THEN 4
+IF ClumpThickness = 2 AND CellSize = 1 AND CellShape = 0 AND MarginalAdhesion = 0 AND EpithelialSize = 1 AND BareNuclei = 1 AND BlandChromatin = 1 AND NormalNucleoli = 0 AND Mitoses = 0 THEN 4
+IF ClumpThickness = 2 AND CellSize = 0 AND CellShape = 1 AND MarginalAdhesion = 1 AND EpithelialSize = 0 AND BareNuclei = 3 AND BlandChromatin = 1 AND NormalNucleoli = 2 AND Mitoses = 0 THEN 4
+IF ClumpThickness = 0 AND CellSize = 1 AND CellShape = 1 AND MarginalAdhesion = 1 AND EpithelialSize = 0 AND BareNuclei = 2 AND BlandChromatin = 0 AND NormalNucleoli = 2 AND Mitoses = 0 THEN 4
+IF ClumpThickness = 2 AND CellSize = 0 AND CellShape = 1 AND MarginalAdhesion = 0 AND EpithelialSize = 1 AND BareNuclei = 2 AND BlandChromatin = 2 AND NormalNucleoli = 10 AND Mitoses = 0 THEN 4
+IF ClumpThickness = 2 AND CellSize = 1 AND CellShape = 1 AND MarginalAdhesion = 1 AND EpithelialSize = 1 AND BareNuclei = 2 AND BlandChromatin = 1 AND NormalNucleoli = 3 AND Mitoses = 0 THEN 2
+IF ClumpThickness = 2 AND CellSize = 1 AND CellShape = 1 AND MarginalAdhesion = 1 AND EpithelialSize = 1 AND BareNuclei = 0 AND BlandChromatin = 2 AND NormalNucleoli = 0 AND Mitoses = 0 THEN 2

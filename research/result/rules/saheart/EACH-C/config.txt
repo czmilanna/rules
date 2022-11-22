@@ -1,0 +1,7 @@
+algorithm = Each
+inputData = "C:/Projekty/rules/data/saheart/saheart.dat" "C:/Projekty/rules/data/saheart/saheart.dat" "C:/Projekty/rules/data/saheart/saheart.dat"
+outputData = "rules/saheart/EACH-C/result.tra" "rules/saheart/EACH-C/result.tst" "rules/saheart/EACH-C/result.txt"
+
+seed = 1
+FeatureAdjustmentRate = 0.2
+UseSecondChance = YES

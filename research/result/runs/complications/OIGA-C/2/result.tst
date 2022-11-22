@@ -1,0 +1,11 @@
+no no
+no no
+no no
+no no
+no no
+no no
+yes yes
+yes no
+yes no
+yes ?
+yes ?

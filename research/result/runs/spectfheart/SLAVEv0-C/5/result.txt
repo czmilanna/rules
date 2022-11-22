@@ -1,0 +1,448 @@
+Experiment: C:/Projekty/rules/data/spectfheart/spectfheart-10dobscv-5tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 240
+Class 0: 49
+Class 1: 191
+Accuracy on training: 0.15
+Number of examples: 204
+Class 0: 47
+Class 1: 191
+Accuracy on training: 0.18333333333333332
+Number of examples: 196
+Class 0: 37
+Class 1: 191
+Accuracy on training: 0.19583333333333333
+Number of examples: 193
+Class 0: 36
+Class 1: 191
+Accuracy on training: 0.19583333333333333
+Number of examples: 193
+Class 0: 34
+Class 1: 191
+Accuracy on training: 0.20416666666666666
+Number of examples: 191
+Class 0: 33
+Class 1: 191
+Accuracy on training: 0.20416666666666666
+Number of examples: 191
+Class 0: 32
+Class 1: 191
+Accuracy on training: 0.20416666666666666
+Number of examples: 191
+Class 0: 31
+Class 1: 191
+Accuracy on training: 0.20416666666666666
+Number of examples: 191
+Class 0: 30
+Class 1: 191
+Accuracy on training: 0.20416666666666666
+Number of examples: 191
+Class 0: 49
+Class 1: 191
+Successes: 195.0
+Errors:  45.0
+Not classified: 0.0
+	Rule 0: 0 / 0
+	Rule 1: 0 / 0
+	Rule 2: 1 / 0
+	Rule 3: 2 / 0
+	Rule 4: 0 / 0
+	Rule 5: 0 / 0
+	Rule 6: 1 / 0
+	Rule 7: 0 / 0
+	Rule 8: 191 / 45
+Successes: 21.0
+Errors:  6.0
+Not classified: 0.0
+	Rule 0: 0 / 0
+	Rule 1: 0 / 0
+	Rule 2: 0 / 0
+	Rule 3: 0 / 0
+	Rule 4: 0 / 0
+	Rule 5: 0 / 0
+	Rule 6: 0 / 0
+	Rule 7: 0 / 0
+	Rule 8: 21 / 6
+----------------------------------------------------
+Accuracy on training: 0.8125
+Accuracy on test: 0.7777777777777778
+Number of rules: 9.0
+Variables per rule: 36.55555555555556
+Variables used: 1.0
+Time: 16.488999999999997
+Iterations: 93354
+Conditions: 329
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	F1R = { High VeryHigh}
+	F1S = { Medium VeryHigh}
+	F2R = { Low High}
+	F2S = { VeryLow High VeryHigh}
+	F3R = { Medium High VeryHigh}
+	F3S = { Medium High}
+	F4R = { Low High VeryHigh}
+	F5R = { High VeryHigh}
+	F5S = { Medium High VeryHigh}
+	F6S = { High VeryHigh}
+	F7R = { VeryLow Medium High VeryHigh}
+	F7S = { VeryLow High VeryHigh}
+	F8R = { VeryLow Medium High VeryHigh}
+	F8S = { VeryLow VeryHigh}
+	F9R = { High VeryHigh}
+	F9S = { High VeryHigh}
+	F10R = { VeryLow Low Medium High}
+	F10S = { High VeryHigh}
+	F11R = { Low High}
+	F11S = { Medium High}
+	F12R = { Medium High VeryHigh}
+	F12S = { VeryLow High}
+	F13R = { High}
+	F13S = { VeryLow Low High}
+	F14R = { Low Medium High VeryHigh}
+	F14S = { VeryLow High VeryHigh}
+	F15R = { VeryHigh}
+	F15S = { High VeryHigh}
+	F16R = { High}
+	F17R = { High VeryHigh}
+	F18S = { Low High}
+	F19R = { Medium High VeryHigh}
+	F19S = { VeryLow High VeryHigh}
+	F20R = { High VeryHigh}
+	F20S = { VeryHigh}
+	F21R = { VeryLow High VeryHigh}
+	F21S = { High}
+	F22R = { VeryLow High VeryHigh}
+	F22S = { Medium High VeryHigh}
+THEN OVERALL_DIAGNOSIS IS 0   W 0.7655466024369402
+
+IF
+	F1R = { VeryLow Medium High VeryHigh}
+	F1S = { Low Medium High VeryHigh}
+	F2R = { VeryLow Low High}
+	F2S = { Medium High VeryHigh}
+	F3R = { VeryLow Low Medium High}
+	F3S = { VeryLow High VeryHigh}
+	F4R = { Low High VeryHigh}
+	F4S = { VeryLow Low High VeryHigh}
+	F5R = { High VeryHigh}
+	F5S = { VeryLow Medium High VeryHigh}
+	F6S = { VeryLow Low High VeryHigh}
+	F7R = { Low Medium High VeryHigh}
+	F7S = { VeryLow VeryHigh}
+	F8R = { VeryLow Medium High VeryHigh}
+	F8S = { Low Medium High VeryHigh}
+	F9R = { Low Medium High VeryHigh}
+	F9S = { VeryLow Low High VeryHigh}
+	F10R = { VeryLow Medium High VeryHigh}
+	F10S = { VeryLow High}
+	F11R = { Medium High VeryHigh}
+	F11S = { Low Medium High}
+	F12R = { Medium High VeryHigh}
+	F12S = { VeryLow Medium High VeryHigh}
+	F13R = { VeryLow Medium High VeryHigh}
+	F13S = { High VeryHigh}
+	F14S = { High VeryHigh}
+	F15R = { High VeryHigh}
+	F15S = { Low High VeryHigh}
+	F16R = { Low Medium High VeryHigh}
+	F16S = { VeryLow VeryHigh}
+	F17R = { High VeryHigh}
+	F17S = { Low High}
+	F18R = { VeryLow Medium High VeryHigh}
+	F18S = { Low Medium High VeryHigh}
+	F19R = { VeryLow Medium High}
+	F19S = { High VeryHigh}
+	F20R = { VeryLow High VeryHigh}
+	F20S = { VeryHigh}
+	F22R = { VeryLow Low High}
+	F22S = { VeryLow High VeryHigh}
+THEN OVERALL_DIAGNOSIS IS 0   W 0.7041556837650677
+
+IF
+	F1R = { Medium High}
+	F1S = { High}
+	F2R = { Low Medium High}
+	F2S = { High}
+	F3R = { Medium High VeryHigh}
+	F3S = { High VeryHigh}
+	F4R = { VeryLow Low Medium High}
+	F4S = { Medium High VeryHigh}
+	F5R = { VeryLow Low High VeryHigh}
+	F5S = { Medium High VeryHigh}
+	F6S = { High}
+	F7R = { High}
+	F7S = { High}
+	F8R = { Low VeryHigh}
+	F8S = { High}
+	F9R = { VeryHigh}
+	F9S = { High}
+	F10R = { Medium}
+	F10S = { High}
+	F11R = { VeryLow High VeryHigh}
+	F11S = { Low Medium High}
+	F12R = { Medium High VeryHigh}
+	F12S = { Low High}
+	F13R = { High VeryHigh}
+	F13S = { High}
+	F14R = { Medium High}
+	F14S = { High}
+	F15R = { High}
+	F15S = { Medium VeryHigh}
+	F16R = { High}
+	F16S = { Low High}
+	F17R = { Medium High VeryHigh}
+	F17S = { High}
+	F18R = { High}
+	F19R = { High}
+	F19S = { VeryLow Medium High VeryHigh}
+	F20R = { Medium High VeryHigh}
+	F20S = { VeryHigh}
+	F21R = { Medium High VeryHigh}
+	F21S = { VeryHigh}
+	F22R = { VeryLow High}
+	F22S = { VeryHigh}
+THEN OVERALL_DIAGNOSIS IS 0   W 0.870540929381405
+
+IF
+	F1R = { High VeryHigh}
+	F1S = { VeryLow Low High}
+	F2R = { Low Medium High}
+	F2S = { High}
+	F3R = { Low High}
+	F3S = { VeryLow High}
+	F4R = { VeryLow High}
+	F4S = { VeryLow Medium VeryHigh}
+	F5R = { Low Medium High}
+	F5S = { Low High VeryHigh}
+	F6R = { Medium High VeryHigh}
+	F6S = { Low High}
+	F7R = { Medium}
+	F7S = { Low High VeryHigh}
+	F8R = { VeryLow Low High}
+	F8S = { Low High VeryHigh}
+	F9R = { VeryLow Low Medium VeryHigh}
+	F9S = { VeryLow Low VeryHigh}
+	F10R = { VeryLow Medium High}
+	F10S = { Low High VeryHigh}
+	F11S = { VeryLow Medium High}
+	F12R = { VeryLow Medium High VeryHigh}
+	F12S = { Medium High}
+	F13R = { VeryLow High}
+	F13S = { High}
+	F14R = { Low High VeryHigh}
+	F14S = { Low Medium High VeryHigh}
+	F15R = { High}
+	F15S = { VeryLow High VeryHigh}
+	F16R = { High}
+	F16S = { Low Medium High}
+	F17R = { Medium VeryHigh}
+	F17S = { High}
+	F18R = { VeryLow High VeryHigh}
+	F18S = { Medium VeryHigh}
+	F19R = { VeryLow VeryHigh}
+	F19S = { Low VeryHigh}
+	F20R = { VeryLow High VeryHigh}
+	F20S = { VeryHigh}
+	F21R = { High}
+	F21S = { VeryLow Low High VeryHigh}
+	F22R = { VeryLow High}
+	F22S = { Low High}
+THEN OVERALL_DIAGNOSIS IS 0   W 0.9504976988119448
+
+IF
+	F1R = { VeryLow Medium High}
+	F1S = { VeryLow High VeryHigh}
+	F2R = { VeryLow Medium}
+	F2S = { Low High}
+	F3R = { Low Medium}
+	F3S = { Medium}
+	F4R = { VeryLow Low High}
+	F4S = { Medium High}
+	F5R = { VeryLow High}
+	F5S = { Low High VeryHigh}
+	F6R = { High VeryHigh}
+	F6S = { Low Medium High}
+	F7R = { Low VeryHigh}
+	F7S = { Medium High}
+	F8R = { Low High}
+	F8S = { VeryLow Low High}
+	F9R = { High}
+	F9S = { High}
+	F10R = { VeryLow Low Medium}
+	F10S = { High}
+	F11R = { High}
+	F11S = { VeryLow High}
+	F12R = { High VeryHigh}
+	F12S = { Medium High}
+	F13R = { High}
+	F13S = { VeryLow High}
+	F14R = { High}
+	F14S = { High VeryHigh}
+	F15R = { VeryLow Low High VeryHigh}
+	F15S = { VeryLow High}
+	F16R = { VeryLow Low VeryHigh}
+	F16S = { VeryLow Low High VeryHigh}
+	F17R = { VeryLow Medium High}
+	F17S = { Medium High VeryHigh}
+	F18R = { Low High}
+	F18S = { High}
+	F19R = { VeryLow Low Medium High}
+	F19S = { Medium High VeryHigh}
+	F20R = { Low Medium High}
+	F20S = { High VeryHigh}
+	F21R = { Medium High}
+	F21S = { Low High}
+	F22R = { VeryLow High}
+	F22S = { Medium High VeryHigh}
+THEN OVERALL_DIAGNOSIS IS 0   W 0.8275176366040241
+
+IF
+	F1R = { VeryLow Low Medium}
+	F1S = { High}
+	F2R = { Low Medium High}
+	F3R = { Medium High}
+	F3S = { VeryLow High}
+	F4R = { VeryLow Low Medium High}
+	F4S = { VeryLow Low Medium High}
+	F5R = { Low High}
+	F5S = { Low Medium High VeryHigh}
+	F6R = { Low Medium High}
+	F6S = { Medium High VeryHigh}
+	F7R = { Low High}
+	F7S = { Low High}
+	F8R = { VeryLow High VeryHigh}
+	F8S = { Low Medium High VeryHigh}
+	F9R = { VeryHigh}
+	F9S = { VeryLow Medium High VeryHigh}
+	F10R = { Low Medium High VeryHigh}
+	F11R = { VeryLow Low Medium High}
+	F11S = { Low High VeryHigh}
+	F12R = { VeryLow Low High VeryHigh}
+	F12S = { High}
+	F13R = { High VeryHigh}
+	F13S = { Low VeryHigh}
+	F14R = { Medium High}
+	F14S = { VeryLow High VeryHigh}
+	F15R = { VeryLow Medium High}
+	F15S = { VeryLow High VeryHigh}
+	F16R = { Low High VeryHigh}
+	F16S = { VeryLow VeryHigh}
+	F17R = { VeryLow High VeryHigh}
+	F17S = { Low Medium High}
+	F18R = { VeryLow Medium High VeryHigh}
+	F18S = { VeryLow Low VeryHigh}
+	F19S = { VeryLow High}
+	F20R = { Low Medium High VeryHigh}
+	F20S = { VeryLow Low VeryHigh}
+	F21S = { Low Medium High}
+	F22R = { Medium High VeryHigh}
+THEN OVERALL_DIAGNOSIS IS 0   W 0.8387228544616727
+
+IF
+	F1R = { Low High}
+	F1S = { Low High VeryHigh}
+	F2R = { Medium High}
+	F2S = { VeryLow Low High}
+	F3R = { VeryLow VeryHigh}
+	F3S = { High}
+	F4R = { Low High VeryHigh}
+	F4S = { Low High VeryHigh}
+	F5R = { Low High VeryHigh}
+	F5S = { VeryLow Medium High VeryHigh}
+	F6R = { Low High VeryHigh}
+	F6S = { Low High VeryHigh}
+	F7R = { VeryLow Low Medium High}
+	F7S = { Low Medium High VeryHigh}
+	F8R = { VeryLow Low Medium High}
+	F8S = { VeryLow Low VeryHigh}
+	F9R = { VeryLow Medium High VeryHigh}
+	F9S = { VeryLow Medium High}
+	F10R = { VeryLow High}
+	F10S = { Low Medium High VeryHigh}
+	F11R = { VeryLow Low Medium High}
+	F11S = { VeryLow Low High}
+	F12R = { Medium}
+	F12S = { Low Medium High VeryHigh}
+	F13R = { VeryLow Medium High VeryHigh}
+	F13S = { VeryLow High VeryHigh}
+	F14R = { Low High}
+	F14S = { High VeryHigh}
+	F15R = { VeryLow Low High VeryHigh}
+	F15S = { Low Medium High}
+	F16R = { Low High}
+	F16S = { Low Medium VeryHigh}
+	F17R = { High}
+	F17S = { High}
+	F18R = { High}
+	F18S = { High}
+	F19R = { VeryLow Medium High}
+	F19S = { Medium High VeryHigh}
+	F20S = { VeryHigh}
+	F21R = { Low High VeryHigh}
+	F21S = { VeryHigh}
+	F22R = { VeryLow Medium High VeryHigh}
+THEN OVERALL_DIAGNOSIS IS 0   W 0.9604066290498543
+
+IF
+	F1R = { VeryLow High VeryHigh}
+	F1S = { VeryLow VeryHigh}
+	F2R = { High}
+	F2S = { VeryLow High}
+	F3R = { VeryLow Medium High}
+	F3S = { High VeryHigh}
+	F4R = { VeryLow Low High}
+	F4S = { VeryLow Low Medium High}
+	F5R = { VeryLow VeryHigh}
+	F5S = { VeryHigh}
+	F6R = { VeryLow Medium VeryHigh}
+	F6S = { VeryLow Low Medium VeryHigh}
+	F7R = { VeryHigh}
+	F8S = { VeryLow Low Medium High}
+	F9R = { High}
+	F9S = { High VeryHigh}
+	F10R = { High}
+	F10S = { VeryLow High VeryHigh}
+	F11R = { Low High}
+	F11S = { VeryLow High VeryHigh}
+	F12R = { VeryLow High}
+	F12S = { VeryLow High VeryHigh}
+	F13R = { VeryLow Low Medium High}
+	F13S = { VeryLow Low Medium High}
+	F14R = { Medium High}
+	F14S = { High VeryHigh}
+	F15R = { VeryLow Medium High}
+	F16R = { Low VeryHigh}
+	F16S = { VeryLow Low High VeryHigh}
+	F17R = { VeryLow Medium High}
+	F17S = { VeryLow High VeryHigh}
+	F18R = { VeryLow Low Medium High}
+	F18S = { Low High VeryHigh}
+	F19R = { VeryLow Low Medium VeryHigh}
+	F20R = { High}
+	F20S = { High VeryHigh}
+	F21R = { VeryLow High VeryHigh}
+	F21S = { Medium High VeryHigh}
+	F22R = { VeryLow High}
+	F22S = { Low Medium High}
+THEN OVERALL_DIAGNOSIS IS 0   W 0.7700056828555901
+
+IF
+THEN OVERALL_DIAGNOSIS IS 1   W 0.7966804979253111
+
+	Accuracy on training set is: 0.8125
+	Accuracy on test set is: 0.7777777777777778
+	Number of rules is: 9.0
+	Variables per rule is: 36.55555555555556
+	Variables used is: 1.0
+	Time is: 16.488999999999997
+	Iterations is: 93354
+	Conditions is: 329
+

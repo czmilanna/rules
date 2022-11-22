@@ -1,0 +1,15 @@
+
+Rule 1: IF  EpithelialSize in [1.0 , 10.0] THEN Class -> 4     [ 399 215]
+
+####Average results for test data####
+Avg. Rule length: 1
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 1.0
+Avg. Support: 0.34782608695652173
+Avg. Significance: 0.0
+Avg. Unusualness: 26.695652173913047
+
+Accuracy Training: 0.3501628664495114
+Accuracy Test: 0.34782608695652173
+
+  Time (seconds); 

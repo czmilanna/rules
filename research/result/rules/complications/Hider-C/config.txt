@@ -1,0 +1,13 @@
+algorithm = Hider
+inputData = "C:/Projekty/rules/data/complications/complications.dat" "C:/Projekty/rules/data/complications/complications.dat" "C:/Projekty/rules/data/complications/complications.dat"
+outputData = "rules/complications/Hider-C/result.tra" "rules/complications/Hider-C/result.tst" "rules/complications/Hider-C/result.txt"
+
+seed = 1
+populationSize = 100
+nGenerations = 100
+mutationProbability = 0.5
+crossPercent = 80
+extremeMutationProbability = 0.05
+pruneExamplesFactor = 0.05
+penaltyFactor = 1
+errorCoeficient = 0

@@ -1,0 +1,10 @@
+if(Shape>2.0 && Age>62.0) (168/195)
+	output=1
+else if(BI-RADS>4.0) (268/300)
+	output=1
+else if(BI-RADS<=4.0 && Shape<=2.0) (271/301)
+	output=0
+else if(BI-RADS<=4.0 && Age<=62.0) (291/338)
+	output=0
+else 
+	output=1

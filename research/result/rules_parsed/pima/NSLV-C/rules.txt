@@ -1,0 +1,8 @@
+IF 'plas' = { Low Medium} THEN tested_negative
+IF 'plas' = { VeryHigh} AND 'pres' = { VeryLow Medium High} THEN tested_positive
+IF 'pedi' = { VeryLow Low} AND 'age' = { Medium} THEN tested_positive
+IF 'insu' = { High} AND 'age' = { Medium} THEN tested_positive
+IF 'pres' = { High} AND 'insu' = { High} AND 'pedi' = { Low} AND 'age' = { VeryLow Low} THEN tested_negative
+IF 'plas' = { High} AND 'pres' = { VeryLow VeryHigh} THEN tested_positive
+IF 'preg' = { VeryLow} AND 'plas' = { VeryLow} THEN tested_negative
+IF 'plas' = { VeryLow Low VeryHigh} AND 'pres' = { VeryLow VeryHigh} AND 'skin' = { Low} AND 'insu' = { VeryLow} AND 'mass' = { Medium} THEN tested_negative

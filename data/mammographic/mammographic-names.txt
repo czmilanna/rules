@@ -1,0 +1,27 @@
+Mammographic Mass data set
+
+1: Description.
+
+This data set can be used to predict the severity (benign or malignant) of a mammographic mass lesion from BI-RADS attributes and the patient's age.
+It contains a BI-RADS assessment, the patient's age and three BI-RADS attributes together with the ground truth (the severity field, which is the target attribute).
+
+The data was collected at the Institute of Radiology of the University Erlangen-Nuremberg between 2003 and 2006.
+
+2: Type.			Classification
+3: Origin.			Real world
+4: Instances.		830 (961)
+5: Features.		5
+6: Classes.			2
+7: Missing values.	Si
+
+8: Header.
+
+@relation mammographic
+@attribute BI-RADS integer [0,6]
+@attribute Age integer [18,96]
+@attribute Shape integer [1,4]
+@attribute Margin integer [1,5]
+@attribute Density integer [1,4]
+@attribute Severity {0, 1}
+@inputs BI-RADS, Age, Shape, Margin, Density
+@outputs Severity

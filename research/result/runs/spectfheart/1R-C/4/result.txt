@@ -1,0 +1,16 @@
+
+Rule 1: IF  F12S in [32.0 , 81.0) THEN OVERALL_DIAGNOSIS -> 1     [ 46 190]
+Rule 2: IF  F12S in [81.0 , 85.0] THEN OVERALL_DIAGNOSIS -> 0     [ 3 1]
+
+####Average results for test data####
+Avg. Rule length: 2
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.5
+Avg. Support: 0.7777777777777778
+Avg. Significance: 0.0
+Avg. Unusualness: 30.59259259259259
+
+Accuracy Training: 0.8041666666666667
+Accuracy Test: 0.7777777777777778
+
+  Time (seconds); 

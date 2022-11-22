@@ -1,0 +1,13 @@
+algorithm = OIGA
+inputData = "C:/Projekty/rules/data/haberman/haberman.dat" "C:/Projekty/rules/data/haberman/haberman.dat" "C:/Projekty/rules/data/haberman/haberman.dat"
+outputData = "rules/haberman/OIGA-C/result.tra" "rules/haberman/OIGA-C/result.tst" "rules/haberman/OIGA-C/result.txt"
+
+seed = 1
+ProbMutation = 0.01
+CrossoverRate = 1
+popSize = 200
+ruleNumber = 30
+stagnationLimit = 30
+generationLimit = 200
+SurvivorsPercent = 0.5
+AttributeOrder = descendent

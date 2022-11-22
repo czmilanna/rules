@@ -1,0 +1,260 @@
+Experiment: C:/Projekty/rules/data/type1diabetes2/type1diabetes2-10dobscv-4tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 206
+Class 0: 103
+Class 1: 103
+Accuracy on training: 0.5
+Number of examples: 103
+Class 0: 26
+Class 1: 103
+Accuracy on training: 0.5
+Number of examples: 103
+Class 0: 21
+Class 1: 103
+Accuracy on training: 0.5
+Number of examples: 103
+Class 0: 17
+Class 1: 103
+Accuracy on training: 0.5
+Number of examples: 103
+Class 0: 15
+Class 1: 103
+Accuracy on training: 0.5
+Number of examples: 103
+Class 0: 11
+Class 1: 103
+Accuracy on training: 0.5
+Number of examples: 103
+Class 0: 103
+Class 1: 103
+Accuracy on training: 0.8349514563106796
+Number of examples: 134
+Class 0: 103
+Class 1: 47
+Accuracy on training: 0.8737864077669902
+Number of examples: 126
+Class 0: 103
+Class 1: 36
+Accuracy on training: 0.8786407766990292
+Number of examples: 125
+Class 0: 103
+Class 1: 34
+Accuracy on training: 0.8786407766990292
+Number of examples: 125
+Class 0: 103
+Class 1: 32
+Accuracy on training: 0.8883495145631068
+Number of examples: 123
+Class 0: 103
+Class 1: 30
+Accuracy on training: 0.8932038834951457
+Number of examples: 119
+Class 0: 103
+Class 1: 25
+Successes: 184.0
+Errors:  22.0
+Not classified: 0.0
+	Rule 0: 78 / 19
+	Rule 1: 7 / 0
+	Rule 2: 6 / 0
+	Rule 3: 4 / 0
+	Rule 4: 4 / 0
+	Rule 5: 1 / 0
+	Rule 6: 42 / 2
+	Rule 7: 12 / 1
+	Rule 8: 23 / 0
+	Rule 9: 2 / 0
+	Rule 10: 3 / 0
+	Rule 11: 2 / 0
+	Rule 12: 0 / 0
+Successes: 19.0
+Errors:  5.0
+Not classified: 0.0
+	Rule 0: 10 / 3
+	Rule 1: 0 / 0
+	Rule 2: 0 / 1
+	Rule 3: 0 / 0
+	Rule 4: 1 / 0
+	Rule 5: 0 / 0
+	Rule 6: 3 / 0
+	Rule 7: 1 / 1
+	Rule 8: 2 / 0
+	Rule 9: 1 / 0
+	Rule 10: 1 / 0
+	Rule 11: 0 / 0
+	Rule 12: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.8932038834951457
+Accuracy on test: 0.7916666666666666
+Number of rules: 13.0
+Variables per rule: 4.384615384615385
+Variables used: 1.0
+Time: 4.442
+Iterations: 142458
+Conditions: 57
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	sex = { T1}
+	age = { VeryLow Low Medium}
+	weight = { Low High VeryHigh}
+	height = { Medium VeryHigh}
+	step_count = { VeryLow Low}
+	sedentary = { VeryLow Low Medium}
+	light = { VeryLow Medium}
+	moderate = { High}
+	vigorious = { VeryLow}
+THEN healthy IS 0   W 0.7927350882793067
+
+IF
+	sex = { T0}
+	age = { VeryLow Low Medium VeryHigh}
+	weight = { VeryLow Low Medium}
+	height = { VeryLow Low Medium}
+	step_count = { Medium}
+	sedentary = { Medium High}
+	light = { Low}
+	moderate = { VeryLow Low Medium}
+	vigorious = { VeryLow High}
+THEN healthy IS 0   W 0.8058404783978337
+
+IF
+	sex = { T1}
+	age = { VeryLow High VeryHigh}
+	weight = { VeryLow Low Medium}
+	height = { VeryLow Medium High VeryHigh}
+	step_count = { Medium}
+	sedentary = { Low VeryHigh}
+	light = { VeryLow Low VeryHigh}
+	moderate = { VeryLow Low High}
+	vigorious = { VeryLow Low High}
+THEN healthy IS 0   W 0.8003538891300112
+
+IF
+	age = { VeryLow Low High}
+	weight = { VeryLow Medium}
+	height = { VeryLow}
+	step_count = { Medium}
+	sedentary = { Medium}
+	light = { Low Medium}
+	moderate = { Low}
+	vigorious = { Low}
+THEN healthy IS 0   W 0.7593762181808741
+
+IF
+	sex = { T0}
+	age = { VeryLow Low Medium}
+	weight = { Medium}
+	height = { Low High}
+	step_count = { Medium}
+	sedentary = { Low}
+	light = { Low High VeryHigh}
+	moderate = { Medium High}
+	vigorious = { High}
+THEN healthy IS 0   W 0.8916904881931991
+
+IF
+	sex = { T0}
+	age = { VeryLow Low}
+	weight = { Medium High}
+	height = { Low High VeryHigh}
+	step_count = { Medium}
+	sedentary = { VeryLow Low}
+	light = { Low}
+	moderate = { Low}
+	vigorious = { Low High VeryHigh}
+THEN healthy IS 0   W 0.9415160508899326
+
+IF
+	age = { VeryLow Low Medium High}
+	weight = { Low VeryHigh}
+	height = { Low Medium High VeryHigh}
+	step_count = { Medium High VeryHigh}
+	sedentary = { Medium VeryHigh}
+	light = { Low Medium High}
+	moderate = { Medium High VeryHigh}
+	vigorious = { Low Medium High VeryHigh}
+THEN healthy IS 1   W 0.8899063357079321
+
+IF
+	sex = { T1}
+	weight = { Low Medium}
+	height = { Low High}
+	step_count = { Medium High}
+	sedentary = { Medium}
+	light = { Low High VeryHigh}
+	moderate = { VeryLow Low}
+	vigorious = { Low Medium High VeryHigh}
+THEN healthy IS 1   W 0.7593980222630045
+
+IF
+	age = { VeryLow Low Medium}
+	weight = { Low}
+	height = { Low Medium}
+	step_count = { High}
+	sedentary = { Low VeryHigh}
+	light = { Low}
+	moderate = { Low}
+	vigorious = { Low}
+THEN healthy IS 1   W 1.0
+
+IF
+	age = { VeryLow Low Medium}
+	height = { Medium High}
+	step_count = { Medium}
+	sedentary = { VeryLow Low}
+	light = { Low High VeryHigh}
+	moderate = { Medium High VeryHigh}
+	vigorious = { VeryLow Low}
+THEN healthy IS 1   W 0.8422418053343956
+
+IF
+	sex = { T0}
+	age = { VeryLow Low Medium High}
+	weight = { Low High VeryHigh}
+	height = { VeryLow}
+	step_count = { VeryLow Medium High VeryHigh}
+	sedentary = { Low Medium High VeryHigh}
+	light = { VeryLow Low High}
+	moderate = { VeryLow Low VeryHigh}
+	vigorious = { Medium}
+THEN healthy IS 1   W 0.9212775902468371
+
+IF
+	sex = { T1}
+	weight = { VeryLow High}
+	height = { Medium High}
+	step_count = { VeryLow Medium High VeryHigh}
+	sedentary = { VeryLow Low}
+	light = { VeryLow Low High VeryHigh}
+	moderate = { Low High VeryHigh}
+	vigorious = { Low}
+THEN healthy IS 1   W 0.7607524012437948
+
+IF
+	age = { High}
+	weight = { Medium}
+	height = { Medium High}
+	step_count = { High}
+	sedentary = { VeryLow Medium}
+	light = { Low Medium}
+	moderate = { Low}
+	vigorious = { Low Medium VeryHigh}
+THEN healthy IS 1   W 1.0
+
+	Accuracy on training set is: 0.8932038834951457
+	Accuracy on test set is: 0.7916666666666666
+	Number of rules is: 13.0
+	Variables per rule is: 4.384615384615385
+	Variables used is: 1.0
+	Time is: 4.442
+	Iterations is: 142458
+	Conditions is: 57
+

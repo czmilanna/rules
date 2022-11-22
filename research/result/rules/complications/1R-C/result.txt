@@ -1,0 +1,20 @@
+
+Rule 1: IF  FIGO = 0 THEN Complication -> no     [ 5 3]
+Rule 2: IF  FIGO = 1 THEN Complication -> yes     [ 2 6]
+Rule 3: IF  FIGO = 2 THEN Complication -> no     [ 30 22]
+Rule 4: IF  FIGO = 3 THEN Complication -> no     [ 12 10]
+Rule 5: IF  FIGO = 4 THEN Complication -> yes     [ 4 4]
+Rule 6: IF  FIGO = 5 THEN Complication -> no     [ 6 3]
+
+####Average results for test data####
+Avg. Rule length: 6
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.16666666666666666
+Avg. Support: 0.5887850467289719
+Avg. Significance: 0.6504381210291542
+Avg. Unusualness: 0.0
+
+Accuracy Training: 0.5887850467289719
+Accuracy Test: 0.5887850467289719
+
+  Time (seconds); 

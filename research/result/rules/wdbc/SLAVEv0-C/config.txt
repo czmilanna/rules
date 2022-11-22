@@ -1,0 +1,10 @@
+algorithm = Fuzzy Rule Learning, SLAVEv0 Algorithm
+inputData = "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat"
+outputData = "rules/wdbc/SLAVEv0-C/result.tra" "rules/wdbc/SLAVEv0-C/result.tst" "rules/wdbc/SLAVEv0-C/result.txt"
+
+seed = 1
+Population Size = 20
+Number of Iterations Allowed without Change = 500
+Mutation Probability = 0.5
+Crossover Probability = 0.1
+Lambda = 0.8

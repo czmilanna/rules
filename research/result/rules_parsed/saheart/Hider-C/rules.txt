@@ -1,0 +1,15 @@
+IF Sbp = [101.5, 196.0) AND Tobacco = [_, 10.3) AND Ldl = [1.73, 6.625) AND Typea = [22.5, 68.5) AND Obesity = [20.995, 30.085) AND Alcohol = [_, 89.33) AND Age = [_, 55.5) THEN 0
+IF Tobacco = [_, 10.05) AND Ldl = [_, 5.7) AND Typea = [34.5, 77.5) AND Obesity = [18.95, 33.225) AND Alcohol = [_, 50.62) AND Age = [_, 60.5) THEN 0
+IF Sbp = [101.5, 177.0) AND Tobacco = [_, 9.775) AND Ldl = [4.025, 10.555) AND Adiposity = [24.535, 40.825) AND Famhist = [_, 0.5) AND Typea = [16.5, 69.5) AND Obesity = [23.93, 32.53) AND Alcohol = [_, 27.72) AND Age = [44.5, _) THEN 1
+IF Sbp = [102.5, 189.0) AND Tobacco = [0.51, 18.7) AND Ldl = [2.725, 7.595) AND Adiposity = [25.81, 36.72) AND Typea = [37.5, 77.5) AND Obesity = [19.39, 32.75) AND Alcohol = [13.955, 81.335) AND Age = [28.5, _) THEN 1
+IF Sbp = [107.0, _) AND Tobacco = [_, 10.05) AND Ldl = [3.895, 9.715) AND Adiposity = [21.08, 37.135) AND Typea = [22.5, 68.5) AND Obesity = [21.9, 36.26) AND Alcohol = [_, 108.9) AND Age = [43.5, 60.5) THEN 0
+IF Sbp = [102.5, 215.0) AND Tobacco = [0.78, 19.8) AND Ldl = [1.755, 7.845) AND Adiposity = [15.05, 42.115) AND Famhist = [_, 0.5) AND Typea = [38.5, 63.5) AND Obesity = [16.225, 28.635) AND Alcohol = [2.59, 132.015) AND Age = [29.5, _) THEN 1
+IF Sbp = [102.5, 177.0) AND Tobacco = [0.015, 14.25) AND Ldl = [5.335, 14.745) AND Adiposity = [12.31, _) AND Typea = [38.5, _) AND Obesity = [22.535, 46.15) AND Alcohol = [_, 20.88) AND Age = [28.5, 57.5) THEN 1
+IF Sbp = [104.5, 165.0) AND Tobacco = [_, 13.55) AND Ldl = [_, 9.985) AND Adiposity = [15.05, 32.41) AND Typea = [22.5, 70.5) AND Obesity = [22.755, 36.26) AND Alcohol = [_, 98.76) AND Age = [_, 57.5) THEN 0
+IF Sbp = [101.5, 196.0) AND Tobacco = [_, 13.55) AND Ldl = [1.57, 9.985) AND Adiposity = [9.38, 39.39) AND Typea = [28.5, 63.5) AND Obesity = [18.95, 37.56) AND Alcohol = [_, 65.055) THEN 0
+IF Sbp = [104.5, 215.0) AND Tobacco = [0.78, 18.1) AND Ldl = [3.295, 6.665) AND Adiposity = [20.235, 42.115) AND Typea = [27.0, 76.0) AND Obesity = [20.475, 35.76) AND Alcohol = [_, 40.785) AND Age = [29.5, _) THEN 1
+IF Sbp = [107.0, 196.0) AND Tobacco = [0.015, 19.8) AND Ldl = [3.565, 8.25) AND Typea = [_, 70.5) AND Obesity = [19.375, 33.225) AND Alcohol = [_, 91.775) AND Age = [29.5, 60.5) THEN 0
+IF Sbp = [102.5, 196.0) AND Tobacco = [_, 19.525) AND Ldl = [2.395, 14.745) AND Adiposity = [9.38, 38.73) AND Typea = [22.5, 62.5) AND Obesity = [16.225, 46.15) AND Alcohol = [_, 90.62) THEN 0
+IF Sbp = [101.5, 177.0) AND Tobacco = [1.025, 13.55) AND Ldl = [3.475, 5.935) AND Typea = [16.5, 70.5) AND Obesity = [16.225, 29.415) AND Age = [28.5, _) THEN 1
+IF Sbp = [_, 163.0) AND Tobacco = [0.005, 13.55) AND Ldl = [3.555, _) AND Adiposity = [9.38, 39.39) AND Typea = [28.5, _) AND Obesity = [19.39, 33.12) AND Alcohol = [2.83, 146.24) AND Age = [_, 60.5) THEN 0
+IF Sbp = [107.0, 172.0) AND Tobacco = [_, 6.675) AND Ldl = [1.73, 11.75) AND Adiposity = [_, 33.035) AND Typea = [22.5, 76.0) AND Obesity = [_, 33.61) AND Alcohol = [3.155, _) THEN 0

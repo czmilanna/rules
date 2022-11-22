@@ -1,0 +1,81 @@
+if ( -1.0*Radius3 + 16.77 >= 0  ) then{
+	if ( -1.0*Concave_points3 + 0.134 >= 0  ) then{
+		if ( -91.39092971836004*Concavity1 + -1.0*Area2 + 49.0 >= 0  ) then{
+			if ( -85.79765564897043*Radius1 + -57.135021373893835*Texture1 + 19.720764509337215*Perimeter1 + 150.80377905415457*Area1 + -29.217996129118376*Smoothness1 + -6.716324250846242*Concavity1 + -177.7973106079263*Concave_points1 + -2.447793121088239*Symmetry1 + 124.25188113102968*Fractal_dimension1 + 12.050665871251994*Radius2 + 112.01661003567665*Texture2 + 186.9534632160686*Perimeter2 + 195.57172777028097*Area2 + -187.4876264453604*Smoothness2 + -87.2398230915982*Compactness2 + -90.62266598702936*Concavity2 + -179.82959988988694*Concave_points2 + 141.45495741196322*Symmetry2 + 156.7541581477863*Fractal_dimension2 + -60.140328262965284*Radius3 + 135.533230736743*Texture3 + 58.58347058728884*Perimeter3 + -124.78672823048818*Area3 + 145.31029442914536*Smoothness3 + 54.017030413732186*Compactness3 + -190.36235622837262*Concavity3 + 134.66817483647452*Concave_points3 + 35.13624962306028*Symmetry3 + 138.82433006978226*Fractal_dimension3 + 16.540743833533668 >= 0  ) then{
+				Class = B (289) 
+			}
+			else{ 
+				if ( -1.0*Radius1 + 13.27 >= 0  ) then{
+					Class = B (1) 
+				}
+				else{ 
+					Class = M (1) 
+				}
+			}
+		}
+		else{ 
+			if ( -1.0*Texture3 + 22.82 >= 0  ) then{
+				Class = B (4) 
+			}
+			else{ 
+				if ( -1.0*Smoothness1 + 0.09 >= 0  ) then{
+					Class = B (1) 
+				}
+				else{ 
+					Class = M (2) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*Texture3 + 25.82 >= 0  ) then{
+			if ( -1.0*Area3 + 808.9 >= 0  ) then{
+				if ( -1.0*Smoothness1 + 0.118 >= 0  ) then{
+					Class = B (13) 
+				}
+				else{ 
+					Class = M (1) 
+				}
+			}
+			else{ 
+				if ( -1.0*Radius1 + 14.27 >= 0  ) then{
+					Class = M (3) 
+				}
+				else{ 
+					Class = B (1) 
+				}
+			}
+		}
+		else{ 
+			if ( -1.0*Concavity1 + 0.098 >= 0  ) then{
+				if ( -1.0*Texture1 + 19.76 >= 0  ) then{
+					Class = B (3) 
+				}
+				else{ 
+					Class = M (3) 
+				}
+			}
+			else{ 
+				Class = M (19) 
+			}
+		}
+	}
+}
+else{ 
+	if ( -1.0*Concavity1 + 0.071 >= 0  ) then{
+		if ( -1.0*Texture3 + 29.41 >= 0  ) then{
+			Class = B (9) 
+		}
+		else{ 
+			Class = M (9) 
+		}
+	}
+	else{ 
+		Class = M (153) 
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.9122807017543859

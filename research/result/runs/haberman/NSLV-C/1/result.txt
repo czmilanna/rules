@@ -1,0 +1,307 @@
+Experiment: C:/Projekty/rules/data/haberman/haberman-10dobscv-1tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 274
+Class 0: 72
+Class 1: 202
+Successes: 189.0
+Errors:  57.0
+Not classified: 28.0
+	Rule 0: 189 / 57
+Successes: 189.0
+Errors:  57.0
+Not classified: 28.0
+	Rule 0: 189 / 57
+Accuracy on training: 0.6897810218978102
+Number of examples: 85
+Class 0: 72
+Class 1: 13
+Successes: 207.0
+Errors:  60.0
+Not classified: 7.0
+	Rule 0: 186 / 49
+	Rule 1: 21 / 11
+Successes: 207.0
+Errors:  60.0
+Not classified: 7.0
+	Rule 0: 186 / 49
+	Rule 1: 21 / 11
+Accuracy on training: 0.7554744525547445
+Number of examples: 67
+Class 0: 51
+Class 1: 16
+Successes: 208.0
+Errors:  60.0
+Not classified: 6.0
+	Rule 0: 186 / 49
+	Rule 1: 21 / 11
+	Rule 2: 1 / 0
+Successes: 208.0
+Errors:  60.0
+Not classified: 6.0
+	Rule 0: 186 / 49
+	Rule 1: 21 / 11
+	Rule 2: 1 / 0
+Accuracy on training: 0.7591240875912408
+Number of examples: 66
+Class 0: 50
+Class 1: 16
+Successes: 213.0
+Errors:  60.0
+Not classified: 1.0
+	Rule 0: 186 / 49
+	Rule 1: 19 / 8
+	Rule 2: 1 / 0
+	Rule 3: 7 / 3
+Successes: 213.0
+Errors:  60.0
+Not classified: 1.0
+	Rule 0: 186 / 49
+	Rule 1: 19 / 8
+	Rule 2: 1 / 0
+	Rule 3: 7 / 3
+Accuracy on training: 0.7773722627737226
+Number of examples: 61
+Class 0: 52
+Class 1: 9
+Successes: 214.0
+Errors:  59.0
+Not classified: 1.0
+	Rule 0: 186 / 49
+	Rule 1: 19 / 8
+	Rule 2: 1 / 0
+	Rule 3: 7 / 2
+	Rule 4: 1 / 0
+Successes: 214.0
+Errors:  59.0
+Not classified: 1.0
+	Rule 0: 186 / 49
+	Rule 1: 19 / 8
+	Rule 2: 1 / 0
+	Rule 3: 7 / 2
+	Rule 4: 1 / 0
+Accuracy on training: 0.781021897810219
+Number of examples: 60
+Class 0: 51
+Class 1: 9
+Successes: 215.0
+Errors:  58.0
+Not classified: 1.0
+	Rule 0: 186 / 49
+	Rule 1: 19 / 7
+	Rule 2: 1 / 0
+	Rule 3: 7 / 2
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+Successes: 215.0
+Errors:  58.0
+Not classified: 1.0
+	Rule 0: 186 / 49
+	Rule 1: 19 / 7
+	Rule 2: 1 / 0
+	Rule 3: 7 / 2
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+Accuracy on training: 0.7846715328467153
+Number of examples: 59
+Class 0: 51
+Class 1: 8
+Successes: 216.0
+Errors:  57.0
+Not classified: 1.0
+	Rule 0: 186 / 49
+	Rule 1: 17 / 6
+	Rule 2: 1 / 0
+	Rule 3: 7 / 1
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+	Rule 6: 3 / 1
+Successes: 216.0
+Errors:  57.0
+Not classified: 1.0
+	Rule 0: 186 / 49
+	Rule 1: 17 / 6
+	Rule 2: 1 / 0
+	Rule 3: 7 / 1
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+	Rule 6: 3 / 1
+Accuracy on training: 0.7883211678832117
+Number of examples: 58
+Class 0: 50
+Class 1: 8
+Successes: 217.0
+Errors:  57.0
+Not classified: 0.0
+	Rule 0: 183 / 49
+	Rule 1: 17 / 6
+	Rule 2: 1 / 0
+	Rule 3: 5 / 1
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+	Rule 6: 3 / 1
+	Rule 7: 6 / 0
+Successes: 217.0
+Errors:  57.0
+Not classified: 0.0
+	Rule 0: 183 / 49
+	Rule 1: 17 / 6
+	Rule 2: 1 / 0
+	Rule 3: 5 / 1
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+	Rule 6: 3 / 1
+	Rule 7: 6 / 0
+Accuracy on training: 0.791970802919708
+Number of examples: 57
+Class 0: 50
+Class 1: 7
+Successes: 218.0
+Errors:  56.0
+Not classified: 0.0
+	Rule 0: 183 / 49
+	Rule 1: 17 / 6
+	Rule 2: 1 / 0
+	Rule 3: 5 / 1
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+	Rule 6: 3 / 0
+	Rule 7: 6 / 0
+	Rule 8: 1 / 0
+Successes: 218.0
+Errors:  56.0
+Not classified: 0.0
+	Rule 0: 183 / 49
+	Rule 1: 17 / 6
+	Rule 2: 1 / 0
+	Rule 3: 5 / 1
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+	Rule 6: 3 / 0
+	Rule 7: 6 / 0
+	Rule 8: 1 / 0
+Accuracy on training: 0.7956204379562044
+Number of examples: 56
+Class 0: 50
+Class 1: 6
+Successes: 218.0
+Errors:  56.0
+Not classified: 0.0
+	Rule 0: 169 / 48
+	Rule 1: 17 / 6
+	Rule 2: 1 / 0
+	Rule 3: 5 / 1
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+	Rule 6: 3 / 0
+	Rule 7: 6 / 0
+	Rule 8: 1 / 0
+	Rule 9: 14 / 1
+Successes: 218.0
+Errors:  56.0
+Not classified: 0.0
+	Rule 0: 169 / 48
+	Rule 1: 17 / 6
+	Rule 2: 1 / 0
+	Rule 3: 5 / 1
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+	Rule 6: 3 / 0
+	Rule 7: 1 / 0
+	Rule 8: 20 / 1
+Successes: 218.0
+Errors:  56.0
+Not classified: 0.0
+	Rule 0: 169 / 48
+	Rule 1: 17 / 6
+	Rule 2: 1 / 0
+	Rule 3: 5 / 1
+	Rule 4: 1 / 0
+	Rule 5: 1 / 0
+	Rule 6: 3 / 0
+	Rule 7: 1 / 0
+	Rule 8: 20 / 1
+Successes: 24.0
+Errors:  8.0
+Not classified: 0.0
+	Rule 0: 18 / 4
+	Rule 1: 1 / 0
+	Rule 2: 0 / 1
+	Rule 3: 1 / 1
+	Rule 4: 0 / 0
+	Rule 5: 0 / 1
+	Rule 6: 1 / 0
+	Rule 7: 0 / 0
+	Rule 8: 3 / 1
+----------------------------------------------------
+Accuracy on training: 0.7956204379562044
+Accuracy on test: 0.75
+Number of rules: 9.0
+Variables per rule: 2.111111111111111
+Variables used: 1.0
+Time: 1.24
+Iterations: 8777
+Conditions: 19
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Positive = { VeryLow}
+THEN Survival IS negative   W 0.7878869947458406
+
+IF
+	Age = { Medium High VeryHigh}
+	Year = { VeryLow Low Medium VeryHigh}
+	Positive = { Low High}
+THEN Survival IS positive   W 0.54341287411877
+
+IF
+	Positive = { VeryHigh}
+THEN Survival IS positive   W 1.0
+
+IF
+	Age = { VeryLow Low Medium}
+	Year = { VeryLow Low VeryHigh}
+	Positive = { Medium}
+THEN Survival IS negative   W 0.6502765867126493
+
+IF
+	Age = { VeryLow Low High VeryHigh}
+	Year = { Low VeryHigh}
+	Positive = { Medium High VeryHigh}
+THEN Survival IS positive   W 0.6406598206086057
+
+IF
+	Age = { VeryLow High VeryHigh}
+	Positive = { Medium High}
+THEN Survival IS negative   W 0.5955544956320955
+
+IF
+	Age = { VeryLow Low}
+	Year = { VeryLow Low Medium VeryHigh}
+	Positive = { Medium High}
+THEN Survival IS positive   W 0.6190033692965787
+
+IF
+	Age = { VeryLow Low}
+	Positive = { Medium High}
+THEN Survival IS negative   W 0.4951519557794654
+
+IF
+	Age = { VeryLow}
+THEN Survival IS negative   W 0.9280087988075708
+
+	Accuracy on training set is: 0.7956204379562044
+	Accuracy on test set is: 0.75
+	Number of rules is: 9.0
+	Variables per rule is: 2.111111111111111
+	Variables used is: 1.0
+	Time is: 1.24
+	Iterations is: 8777
+	Conditions is: 19
+

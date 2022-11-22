@@ -1,0 +1,5 @@
+IF Slope is High THEN 1 | Support: 0.4120
+IF SerumCholestoral is Low AND ResElectrocardiographic is High AND Thal is High THEN 1 | Support: 0.2757
+IF MaxHeartRate is Low AND ExerciseInduced is High AND ChestPainType is High THEN 1 | Support: 0.2712
+IF MajorVessels is High AND Oldpeak is High THEN 1 | Support: 0.0894
+ELSE 0

@@ -1,0 +1,36 @@
+if ( 151.9993148632346*Age + 37.74905173055575*Steroid + -148.5946324534236*Antivirals + -177.21423888048488*Fatigue + -182.0653644348647*Malaise + 13.266115778420641*Anorexia + 33.5839153811298*LiverBig + -16.566474693027885*LiverFirm + -87.4092937184985*SpleenPalpable + 176.04299475812422*Spiders + -113.00031242729172*Ascites + 179.53451349854805*Varices + -189.08511008813164*AlbuMin + -127.95341534725237*ProTime + -21.560197747675744 >= 0  ) then{
+	if ( -1.0*Age + 49.0 >= 0  ) then{
+		Class = 1 (7) 
+	}
+	else{ 
+		if ( -1.0*Ascites + 1.0 >= 0  ) then{
+			Class = 1 (2) 
+		}
+		else{ 
+			Class = 2 (8) 
+		}
+	}
+}
+else{ 
+	if ( -1.0*AlkPhosphate + 215.0 >= 0  ) then{
+		if ( 178.52802583447846*Spiders + -192.7621774358587*Ascites + 153.1892982202557*Varices + -38.2711085114328*Bilirubin + 28.087287914959546*AlbuMin + 1.0 >= 0  ) then{
+			Class = 2 (50) 
+		}
+		else{ 
+			if ( -1.0*Age + 38.0 >= 0  ) then{
+				Class = 2 (2) 
+			}
+			else{ 
+				Class = 1 (1) 
+			}
+		}
+	}
+	else{ 
+		Class = 1 (1) 
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.7777777777777778

@@ -1,0 +1,2 @@
+IF Height is very Low THEN 1 | Support: 0.2203
+ELSE 0

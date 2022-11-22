@@ -1,0 +1,396 @@
+if ( -1.0*Positive + 4.0 >= 0  ) then{
+	if ( -1.0*Age + 77.0 >= 0  ) then{
+		if ( -1.0*Year + 59.0 >= 0  ) then{
+			if ( -1.0*Positive + 3.0 >= 0  ) then{
+				if ( -85.97694334713206*Age + 100.59244462768373*Year + 153.6516550820441*Positive + -176.12250735427313 >= 0  ) then{
+					if ( -1.0*Positive + 1.0 >= 0  ) then{
+						if ( -1.0*Age + 61.0 >= 0  ) then{
+							if ( -169.09170569132354*Age + 121.06852864871468*Year + -72.52098914993019*Positive + 12.756758232777173 >= 0  ) then{
+								if ( -1.0*Age + 41.0 >= 0  ) then{
+									Survival = negative (4) 
+								}
+								else{ 
+									Survival = positive (1) 
+								}
+							}
+							else{ 
+								Survival = negative (12) 
+							}
+						}
+						else{ 
+							if ( -1.0*Age + 65.0 >= 0  ) then{
+								if ( -1.0*Age + 64.0 >= 0  ) then{
+									if ( -1.0*Age + 63.0 >= 0  ) then{
+										Survival = positive (2) 
+									}
+									else{ 
+										Survival = negative (1) 
+									}
+								}
+								else{ 
+									Survival = positive (2) 
+								}
+							}
+							else{ 
+								Survival = negative (1) 
+							}
+						}
+					}
+					else{ 
+						if ( -1.0*Age + 42.0 >= 0  ) then{
+							Survival = negative (4) 
+						}
+						else{ 
+							if ( -1.0*Age + 57.0 >= 0  ) then{
+								if ( -1.0*Age + 50.0 >= 0  ) then{
+									if ( -1.0*Age + 46.0 >= 0  ) then{
+										if ( -1.0*Positive + 2.0 >= 0  ) then{
+											Survival = positive (2) 
+										}
+										else{ 
+											Survival = negative (1) 
+										}
+									}
+									else{ 
+										Survival = negative (2) 
+									}
+								}
+								else{ 
+									Survival = positive (3) 
+								}
+							}
+							else{ 
+								Survival = negative (2) 
+							}
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*Age + 70.0 >= 0  ) then{
+						Survival = positive (2) 
+					}
+					else{ 
+						Survival = negative (1) 
+					}
+				}
+			}
+			else{ 
+				Survival = positive (2) 
+			}
+		}
+		else{ 
+			if ( -1.0*Year + 68.0 >= 0  ) then{
+				if ( -1.0*Year + 62.0 >= 0  ) then{
+					if ( -100.1311492873661*Age + 103.42756349207542*Year + 61.0 >= 0  ) then{
+						if ( -1.0*Year + 42.15042373215559*Positive + 61.0 >= 0  ) then{
+							Survival = negative (39) 
+						}
+						else{ 
+							if ( -1.0*Age + 48.0 >= 0  ) then{
+								if ( -1.0*Age + 46.0 >= 0  ) then{
+									Survival = negative (1) 
+								}
+								else{ 
+									Survival = positive (1) 
+								}
+							}
+							else{ 
+								Survival = negative (6) 
+							}
+						}
+					}
+					else{ 
+						if ( -1.0*Age + 66.0 >= 0  ) then{
+							if ( -1.0*Positive + 0.0 >= 0  ) then{
+								Survival = negative (1) 
+							}
+							else{ 
+								Survival = positive (2) 
+							}
+						}
+						else{ 
+							Survival = negative (4) 
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*Age + 167.89114427936522*Positive + 61.0 >= 0  ) then{
+						if ( -1.0*Age + 38.0 >= 0  ) then{
+							Survival = negative (8) 
+						}
+						else{ 
+							if ( -153.43965067375444*Age + 104.4858551361798*Year + -183.72367564209821*Positive + 36.25826636242175 >= 0  ) then{
+								if ( -1.0*Year + 64.0 >= 0  ) then{
+									if ( -1.0*Age + 41.0 >= 0  ) then{
+										Survival = positive (2) 
+									}
+									else{ 
+										Survival = positive (2) 
+									}
+								}
+								else{ 
+									if ( -1.0*Year + 65.0 >= 0  ) then{
+										Survival = negative (4) 
+									}
+									else{ 
+										if ( -1.0*Age + 41.0 >= 0  ) then{
+											if ( -1.0*Age + 39.0 >= 0  ) then{
+												if ( -1.0*Year + 66.0 >= 0  ) then{
+													Survival = positive (1) 
+												}
+												else{ 
+													Survival = negative (1) 
+												}
+											}
+											else{ 
+												Survival = positive (1) 
+											}
+										}
+										else{ 
+											Survival = negative (1) 
+										}
+									}
+								}
+							}
+							else{ 
+								if ( -42.386148926426216*Age + 38.58179753613234*Year + -165.18893855744716*Positive + 74.34062321538585 >= 0  ) then{
+									if ( -1.0*Year + -127.8874429706222*Positive + 65.0 >= 0  ) then{
+										if ( -1.0*Age + 50.0 >= 0  ) then{
+											if ( -1.0*Age + 46.0 >= 0  ) then{
+												Survival = negative (2) 
+											}
+											else{ 
+												if ( -1.0*Age + 49.0 >= 0  ) then{
+													Survival = positive (2) 
+												}
+												else{ 
+													Survival = positive (2) 
+												}
+											}
+										}
+										else{ 
+											if ( -1.0*Age + 59.0 >= 0  ) then{
+												Survival = negative (9) 
+											}
+											else{ 
+												if ( -1.0*Year + 64.0 >= 0  ) then{
+													Survival = negative (1) 
+												}
+												else{ 
+													Survival = positive (1) 
+												}
+											}
+										}
+									}
+									else{ 
+										if ( -1.0*Positive + 0.0 >= 0  ) then{
+											Survival = negative (9) 
+										}
+										else{ 
+											if ( -1.0*Age + 52.0 >= 0  ) then{
+												if ( -1.0*Year + 66.0 >= 0  ) then{
+													Survival = negative (10) 
+												}
+												else{ 
+													if ( -1.0*Age + 45.0 >= 0  ) then{
+														Survival = positive (2) 
+													}
+													else{ 
+														Survival = negative (2) 
+													}
+												}
+											}
+											else{ 
+												if ( -1.0*Age + 54.0 >= 0  ) then{
+													Survival = positive (1) 
+												}
+												else{ 
+													Survival = negative (2) 
+												}
+											}
+										}
+									}
+								}
+								else{ 
+									if ( -1.0*Year + 66.0 >= 0  ) then{
+										if ( -1.0*Positive + 1.0 >= 0  ) then{
+											if ( -1.0*Age + 59.0 >= 0  ) then{
+												if ( -1.0*Age + 57.0 >= 0  ) then{
+													Survival = positive (1) 
+												}
+												else{ 
+													Survival = negative (1) 
+												}
+											}
+											else{ 
+												Survival = positive (2) 
+											}
+										}
+										else{ 
+											if ( -1.0*Year + 65.0 >= 0  ) then{
+												Survival = negative (4) 
+											}
+											else{ 
+												if ( -1.0*Positive + 2.0 >= 0  ) then{
+													Survival = negative (1) 
+												}
+												else{ 
+													Survival = positive (2) 
+												}
+											}
+										}
+									}
+									else{ 
+										Survival = negative (5) 
+									}
+								}
+							}
+						}
+					}
+					else{ 
+						if ( 137.3225073184172*Age + -156.716621657069*Year + 28.22591295191691*Positive + 42.35053170527112 >= 0  ) then{
+							Survival = positive (1) 
+						}
+						else{ 
+							Survival = negative (22) 
+						}
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*Positive + 0.0 >= 0  ) then{
+					Survival = negative (3) 
+				}
+				else{ 
+					if ( -1.0*Age + 52.0 >= 0  ) then{
+						Survival = positive (3) 
+					}
+					else{ 
+						Survival = negative (1) 
+					}
+				}
+			}
+		}
+	}
+	else{ 
+		Survival = positive (2) 
+	}
+}
+else{ 
+	if ( -1.0*Age + 42.0 >= 0  ) then{
+		if ( -1.0*Positive + 22.0 >= 0  ) then{
+			if ( -1.0*Age + 34.0 >= 0  ) then{
+				if ( -1.0*Year + 63.0 >= 0  ) then{
+					Survival = negative (2) 
+				}
+				else{ 
+					if ( -1.0*Year + 66.0 >= 0  ) then{
+						Survival = positive (1) 
+					}
+					else{ 
+						Survival = negative (1) 
+					}
+				}
+			}
+			else{ 
+				Survival = negative (6) 
+			}
+		}
+		else{ 
+			if ( -1.0*Age + 38.0 >= 0  ) then{
+				Survival = negative (1) 
+			}
+			else{ 
+				Survival = positive (1) 
+			}
+		}
+	}
+	else{ 
+		if ( 44.98488461714817*Age + -12.015727677386195*Year + -69.99396436614776*Positive + 98.06430262934049 >= 0  ) then{
+			if ( 97.85920351228191*Age + -41.294976752552884*Year + -172.09133439978848*Positive + 69.0 >= 0  ) then{
+				if ( -1.0*Positive + 9.0 >= 0  ) then{
+					if ( -1.0*Age + 46.0 >= 0  ) then{
+						Survival = positive (4) 
+					}
+					else{ 
+						if ( -1.0*Year + 64.0 >= 0  ) then{
+							if ( -1.0*Age + 52.0 >= 0  ) then{
+								Survival = negative (5) 
+							}
+							else{ 
+								if ( -1.0*Positive + 5.0 >= 0  ) then{
+									Survival = positive (2) 
+								}
+								else{ 
+									if ( -1.0*Age + 55.0 >= 0  ) then{
+										if ( -1.0*Year + 59.0 >= 0  ) then{
+											Survival = negative (1) 
+										}
+										else{ 
+											Survival = positive (2) 
+										}
+									}
+									else{ 
+										if ( -1.0*Age + 66.0 >= 0  ) then{
+											Survival = negative (4) 
+										}
+										else{ 
+											if ( -1.0*Age + 69.0 >= 0  ) then{
+												Survival = positive (1) 
+											}
+											else{ 
+												Survival = negative (1) 
+											}
+										}
+									}
+								}
+							}
+						}
+						else{ 
+							if ( -1.0*Age + 59.0 >= 0  ) then{
+								Survival = positive (4) 
+							}
+							else{ 
+								if ( -1.0*Age + 61.0 >= 0  ) then{
+									Survival = negative (1) 
+								}
+								else{ 
+									Survival = positive (1) 
+								}
+							}
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*Age + 66.0 >= 0  ) then{
+						Survival = positive (13) 
+					}
+					else{ 
+						Survival = negative (1) 
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*Positive + 22.0 >= 0  ) then{
+					Survival = negative (8) 
+				}
+				else{ 
+					if ( -1.0*Age + 59.0 >= 0  ) then{
+						Survival = positive (1) 
+					}
+					else{ 
+						Survival = negative (1) 
+					}
+				}
+			}
+		}
+		else{ 
+			Survival = positive (5) 
+		}
+	}
+}
+}
+
+
+Accuracy in training: 0.9817518248175182
+Accuracy in test: 0.59375

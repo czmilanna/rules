@@ -1,0 +1,12 @@
+Number of Rules: 4
+Rule[1]: IF  Ascites <= 1.0 AND  Anorexia <= 1.0  THEN Class = 2 (2/2)
+Rule[2]: IF  Ascites <= 1.0 AND  Anorexia > 1.0 AND  ProTime <= 50.0  THEN Class = 1 (7/7)
+Rule[3]: IF  Ascites <= 1.0 AND  Anorexia > 1.0 AND  ProTime > 50.0  THEN Class = 2 (3/3)
+Rule[4]: IF  Ascites > 1.0  THEN Class = 2 (55/59)
+
+Number of Rules: 2
+Rule[1]: IF  SpleenPalpable > 1.0 AND  AlkPhosphate > 84.0  THEN Class = 1 (4/27)
+Rule[2]: IF  Age > 19.0 AND  Sex <= 1.0 AND  Steroid > 0.0 AND  Antivirals <= 2.0 AND  Fatigue <= 1.0 AND  Malaise <= 2.0 AND  Anorexia <= 2.0 AND  LiverBig <= 2.0 AND  LiverFirm <= 2.0 AND  SpleenPalpable <= 2.0 AND  Spiders > 0.0 AND  Ascites > 0.0 AND  Varices <= 2.0 AND  Bilirubin <= 4.6 AND  AlkPhosphate <= 160.0 AND  Sgot <= 123.0 AND  AlbuMin <= 3.4 AND  ProTime <= 66.0 AND  Histology > 1.0  THEN Class = 1 (5/8)
+
+Accuracy in training: 0.9154929577464789
+Accuracy in test: 0.7777777777777778

@@ -1,0 +1,17 @@
+IF Positive>4.0 AND Age>42.0 AND Year<=65.0 THEN positive
+IF Positive>1.0 AND Age>50.0 THEN positive
+IF Year<=59.0 AND Age>61.0 AND Positive=null THEN positive
+IF Year>62.0 AND Age<=46.0 AND Positive>13.0 THEN positive
+IF Year>62.0 AND Age<=49.0 THEN positive
+IF Year>62.0 AND Positive>0.0 AND Age>65.0 THEN positive
+IF Age>59.0 AND Positive>0.0 AND Year>67.0 THEN positive
+IF Age<=47.0 AND Positive>15.0 THEN positive
+IF Year>62.0 AND Age<=61.0 AND Positive>0.0 THEN positive
+IF Age>59.0 AND Year<=65.0 AND Positive>0.0 THEN positive
+IF Age<=47.0 AND Year<=59.0 AND Positive<=2.0 THEN positive
+IF Positive>4.0 AND Age>43.0 AND Year>61.0 THEN positive
+IF Year>63.0 AND Age<=50.0 THEN positive
+IF Year>61.0 AND Age<=47.0 AND Positive<=0.0 THEN positive
+IF Age>60.0 AND Year<=65.0 AND Positive=null THEN positive
+IF Age>59.0 AND Year<=65.0 AND Positive=null THEN positive
+ELSE negative

@@ -1,0 +1,6 @@
+IF Age = [38.5, 64.5) AND Height = [155.5, 166.5) AND Weight = [53.0, _) AND BMI = [20.71, _) AND RUM = [_, 2.5) AND Lymph = [1.5, _) AND FIGO = [1.5, _) THEN no
+IF Age = [34.0, 54.5) AND Height = [_, 173.5) AND Weight = [_, 103.0) AND BMI = [18.21, 32.595) AND RUM = [_, 2.5) AND FIGO = [0.5, _) THEN yes
+IF Weight = [48.0, 99.5) AND BMI = [23.33, 37.62) AND Lymph = [_, 2.5) THEN no
+IF Age = [29.5, 64.5) AND Height = [155.5, 169.5) AND Weight = [46.5, 111.0) AND RUM = [_, 2.5) THEN no
+IF Age = [_, 65.5) AND Height = [155.5, 171.0) AND Weight = [46.5, 91.0) AND BMI = [18.21, 35.145) THEN yes
+IF Age = [_, 72.5) AND Weight = [46.5, 101.5) AND BMI = [_, 36.525) AND RUM = [_, 2.5) THEN no

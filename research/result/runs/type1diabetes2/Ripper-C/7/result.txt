@@ -1,0 +1,11 @@
+@Number of Rules: 5
+if(step_count<=54860.0) (89/110)
+	output=0
+else if(step_count<=60837.0 && sedentary<=3445.5 && light>937.333333333333) (18/20)
+	output=0
+else if(step_count<=60577.0 && moderate<=235.25 && age<=13.0 && light>764.166666666667) (38/42)
+	output=0
+else if(light<=519.166666666667) (7/9)
+	output=0
+else 
+	output=1

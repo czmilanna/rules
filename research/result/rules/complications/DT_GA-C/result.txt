@@ -1,0 +1,24 @@
+Number of Rules: 14
+Rule[1]: IF  RUM = {3} AND  FIGO = {0} AND  BMI <= 26.23  THEN Class = no (3/3)
+Rule[2]: IF  RUM = {3} AND  FIGO = {0} AND  BMI > 26.23  THEN Class = yes (2/2)
+Rule[3]: IF  RUM = {3} AND  FIGO = {1}  THEN Class = yes (5/7)
+Rule[4]: IF  RUM = {3} AND  FIGO = {2}  THEN Class = no (27/45)
+Rule[5]: IF  RUM = {3} AND  FIGO = {3} AND  Weight <= 80.0 AND  Height <= 161.0  THEN Class = no (4/6)
+Rule[6]: IF  RUM = {3} AND  FIGO = {3} AND  Weight <= 80.0 AND  Height > 161.0  THEN Class = yes (6/7)
+Rule[7]: IF  RUM = {3} AND  FIGO = {3} AND  Weight > 80.0  THEN Class = no (3/3)
+Rule[8]: IF  RUM = {3} AND  FIGO = {4} AND  Weight <= 72.0  THEN Class = yes (4/5)
+Rule[9]: IF  RUM = {3} AND  FIGO = {4} AND  Weight > 72.0  THEN Class = no (2/2)
+Rule[10]: IF  RUM = {3} AND  FIGO = {5}  THEN Class = no (4/4)
+Rule[11]: IF  RUM = {2} AND  Lymph <= 1.0  THEN Class = no (6/7)
+Rule[12]: IF  RUM = {2} AND  Lymph > 1.0  THEN Class = yes (7/7)
+Rule[13]: IF  RUM = {0}  THEN Class = no (5/6)
+Rule[14]: IF  RUM = {1}  THEN Class = yes (2/3)
+
+Number of Rules: 4
+Rule[1]: IF  Lymph > 1.0  THEN Class = yes (41/86)
+Rule[2]: IF  Weight <= 87.0 AND  FIGO = {5, 3, 4, 1, 0}  THEN Class = no (25/50)
+Rule[3]: IF  Age > 42.0 AND  Lymph > -1.0  THEN Class = yes (37/78)
+Rule[4]: IF  Age <= 42.0 AND  Height <= 164.0 AND  Weight <= 93.0 AND  BMI > 24.97 AND  OM > -1.0 AND  RUM = {3, 1, 2} AND  Lymph <= 3.0 AND  FIGO = {3, 4, 0, 2}  THEN Class = no (7/9)
+
+Accuracy in training: 0.5887850467289719
+Accuracy in test: 0.5887850467289719

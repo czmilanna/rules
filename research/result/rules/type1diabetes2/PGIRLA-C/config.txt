@@ -1,0 +1,10 @@
+algorithm = Genetic Algorithm with real-valued genes
+inputData = "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat"
+outputData = "rules/type1diabetes2/PGIRLA-C/result.tra" "rules/type1diabetes2/PGIRLA-C/result.tst" "rules/type1diabetes2/PGIRLA-C/result.txt"
+
+seed = 1
+Number_of_Generations = 5000
+Population_Size = 61
+Cross_Probability = 0.7
+Mutation_Probability = 0.5
+Number_of_Rules = 20

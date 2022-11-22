@@ -1,0 +1,6 @@
+if(OM<=0.0 && Weight>59.0) (28/54)
+	output=yes
+else if(RUM=3) (42/74)
+	output=no
+else 
+	output=yes

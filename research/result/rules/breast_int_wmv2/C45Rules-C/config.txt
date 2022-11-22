@@ -1,0 +1,8 @@
+algorithm = C45Rules
+inputData = "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2.dat" "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2.dat" "C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2.dat"
+outputData = "rules/breast_int_wmv2/C45Rules-C/result.tra" "rules/breast_int_wmv2/C45Rules-C/result.tst" "rules/breast_int_wmv2/C45Rules-C/result.txt"
+
+seed = 1
+confidence = 0.25
+itemsetsPerLeaf = 2
+threshold = 10

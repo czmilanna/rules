@@ -1,0 +1,7 @@
+IF FIGO is Low AND Height is Low THEN 1 | Support: 0.2750
+IF FIGO is Low AND BMI is Low AND Height is High AND Age is High AND OM is Low THEN 1 | Support: 0.0585
+IF Weight is High AND RUM is Low THEN 1 | Support: 0.0449
+IF RUM is Low AND BMI is Low AND Weight is Low AND Lymph is High AND FIGO is Low THEN 1 | Support: 0.0088
+IF Weight is very Low AND Age is Low AND OM is Medium THEN 1 | Support: 0.0000
+IF RUM is Low AND BMI is Low AND OM is Medium AND Age is Low THEN 1 | Support: 0.0000
+ELSE 0

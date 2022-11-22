@@ -1,0 +1,5 @@
+IF Ascites<=1.0 AND Anorexia>1.0 AND ProTime<=51.0 THEN 1
+IF Anorexia<=1.0 THEN 2
+IF ProTime>51.0 THEN 2
+IF Histology<=1.0 THEN 2
+ELSE 1

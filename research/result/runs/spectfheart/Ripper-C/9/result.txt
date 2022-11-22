@@ -1,0 +1,17 @@
+@Number of Rules: 8
+if(F15S>67.0 && F3R>64.0) (28/51)
+	output=0
+else if(F20R>72.0 && F21S>71.0 && F3R>59.0) (15/23)
+	output=0
+else if(F20S>71.0 && F3S>67.0 && F2R>67.0) (17/26)
+	output=0
+else if(F13R>68.0 && F18S<=65.0 && F21S<=73.0 && F5R>64.0) (3/5)
+	output=0
+else if(F4R>77.0 && F2R>73.0) (2/6)
+	output=0
+else if(F5R>70.0 && F9R<=65.0 && F1R>57.0) (2/2)
+	output=0
+else if(F12R>78.0 && F1R>62.0 && F6R<=66.0) (2/2)
+	output=0
+else 
+	output=1

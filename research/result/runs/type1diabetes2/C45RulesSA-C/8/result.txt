@@ -1,0 +1,12 @@
+if(vigorious>128.75 && light<=820.916666666667 && light>703.666666666667) (18/18)
+	output=1
+else if(step_count>60837.0) (72/72)
+	output=1
+else if(step_count<=60837.0 && vigorious<=128.75) (74/83)
+	output=0
+else if(step_count<=60837.0 && light>820.916666666667 && moderate<=237.666666666667 && sedentary<=4938.3333333333285) (45/46)
+	output=0
+else if(step_count<=60837.0 && vigorious>319.5) (8/8)
+	output=0
+else 
+	output=1

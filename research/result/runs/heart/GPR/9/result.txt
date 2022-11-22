@@ -1,0 +1,5 @@
+IF MajorVessels is High THEN 1 | Support: 0.3673
+IF SerumCholestoral is High AND Thal is very High THEN 1 | Support: 0.2026
+IF RestBloodPressure is Low AND SerumCholestoral is very Low AND Slope is High AND ExerciseInduced is High THEN 1 | Support: 0.0774
+IF Slope is Medium AND RestBloodPressure is Low AND SerumCholestoral is Low THEN 1 | Support: 0.0359
+ELSE 0

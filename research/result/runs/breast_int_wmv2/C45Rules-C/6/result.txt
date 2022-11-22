@@ -1,0 +1,14 @@
+if(Inv-nodes<=0.0 && Tumor-size>2.0 && Menopause>1.0 && Breast-quad<=2.0 && Deg-malig>2.0 && Age=70) (0/0)
+	output=1
+else if(Menopause>1.0 && Breast-quad<=2.0 && Age=50 && Breast-quad>1.0) (3/3)
+	output=1
+else if(Inv-nodes>0.0 && Deg-malig>2.0 && Node-caps>0.0) (21/24)
+	output=1
+else if(Deg-malig<=1.0) (50/57)
+	output=0
+else if(Inv-nodes<=0.0) (151/189)
+	output=0
+else if(Inv-nodes<=0.0 && Tumor-size<=2.0) (31/31)
+	output=0
+else 
+	output=1

@@ -1,0 +1,16 @@
+
+Rule 1: IF  F16S in [9.0 , 79.0) THEN OVERALL_DIAGNOSIS -> 1     [ 42 186]
+Rule 2: IF  F16S in [79.0 , 81.0] THEN OVERALL_DIAGNOSIS -> 0     [ 7 4]
+
+####Average results for test data####
+Avg. Rule length: 2
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.48214285714285715
+Avg. Support: 0.7142857142857143
+Avg. Significance: 0.2617657367271603
+Avg. Unusualness: 24.428571428571427
+
+Accuracy Training: 0.8075313807531381
+Accuracy Test: 0.75
+
+  Time (seconds); 

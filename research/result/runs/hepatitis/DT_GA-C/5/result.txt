@@ -1,0 +1,15 @@
+Number of Rules: 6
+Rule[1]: IF  Ascites <= 1.0 AND  Anorexia <= 1.0  THEN Class = 2 (2/2)
+Rule[2]: IF  Ascites <= 1.0 AND  Anorexia > 1.0 AND  Age <= 52.0  THEN Class = 1 (6/6)
+Rule[3]: IF  Ascites <= 1.0 AND  Anorexia > 1.0 AND  Age > 52.0  THEN Class = 2 (2/2)
+Rule[4]: IF  Ascites > 1.0 AND  ProTime <= 40.0 AND  Steroid <= 1.0  THEN Class = 1 (4/5)
+Rule[5]: IF  Ascites > 1.0 AND  ProTime <= 40.0 AND  Steroid > 1.0  THEN Class = 2 (3/3)
+Rule[6]: IF  Ascites > 1.0 AND  ProTime > 40.0  THEN Class = 2 (52/54)
+
+Number of Rules: 3
+Rule[1]: IF  Age <= 49.0 AND  Histology <= 2.0  THEN Class = 1 (10/56)
+Rule[2]: IF  AlbuMin > 1.9 AND  ProTime > 29.0  THEN Class = 2 (56/67)
+Rule[3]: IF  Age <= 54.0 AND  Sex <= 1.0 AND  Steroid <= 2.0 AND  Antivirals <= 2.0 AND  Fatigue > 0.0 AND  Malaise <= 2.0 AND  Anorexia <= 2.0 AND  LiverBig > 1.0 AND  LiverFirm > 0.0 AND  SpleenPalpable > 0.0 AND  Spiders > 1.0 AND  Ascites <= 2.0 AND  Varices > 0.0 AND  Bilirubin > 0.6 AND  AlkPhosphate <= 155.0 AND  Sgot > 15.0 AND  AlbuMin <= 4.2 AND  ProTime <= 100.0 AND  Histology <= 2.0  THEN Class = 1 (3/21)
+
+Accuracy in training: 0.875
+Accuracy in test: 0.75

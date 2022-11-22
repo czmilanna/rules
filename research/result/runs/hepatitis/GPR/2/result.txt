@@ -1,0 +1,6 @@
+IF Ascites is High THEN 1 | Support: 0.9167
+IF Histology is Low THEN 1 | Support: 0.6833
+IF Histology is Low THEN 1 | Support: 0.6833
+IF ProTime is High AND Steroid is High THEN 1 | Support: 0.3727
+IF LiverBig is very Low AND Ascites is High AND Anorexia is High AND Varices is High THEN 1 | Support: 0.1167
+ELSE 0

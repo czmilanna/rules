@@ -1,0 +1,2 @@
+IF F2S = { VeryHigh} AND F4S = { High} AND F7S = { VeryHigh} AND F13R = { High} AND F15R = { Medium} AND F15S = { High} AND F21S = { High} AND F22S = { Medium} THEN 0
+IF  THEN 1

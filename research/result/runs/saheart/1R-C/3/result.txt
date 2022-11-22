@@ -1,0 +1,18 @@
+
+Rule 1: IF  Tobacco in [0.0 , 4.4) THEN Chd -> 0     [ 91 13]
+Rule 2: IF  Tobacco in [4.4 , 5.15) THEN Chd -> 1     [ 5 11]
+Rule 3: IF  Tobacco in [5.15 , 6.3) THEN Chd -> 0     [ 26 6]
+Rule 4: IF  Tobacco in [6.3 , 31.2] THEN Chd -> 1     [ 11 9]
+
+####Average results for test data####
+Avg. Rule length: 16
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.059782608695652176
+Avg. Support: 0.6086956521739131
+Avg. Significance: 1.0085014897135
+Avg. Unusualness: 0.14130434782608695
+
+Accuracy Training: 0.7115384615384616
+Accuracy Test: 0.6521739130434783
+
+  Time (seconds); 

@@ -1,0 +1,49 @@
+IF Weight = 2 AND RUM = 0 THEN no
+IF Weight = 1 AND FIGO = 3 THEN yes
+IF Age = 1 AND Height = 1 THEN no
+IF Lymph = 3 AND FIGO = 1 THEN yes
+IF Height = 1 AND Weight = 0 AND RUM = 0 THEN no
+IF Age = 1 AND Height = 0 AND Lymph = 3 THEN yes
+IF Age = 2 AND Height = 1 THEN no
+IF Height = 0 AND OM = 0 AND FIGO = 2 THEN yes
+IF Age = 0 AND Weight = 0 AND BMI = 0 AND RUM = 0 AND Lymph = 3 THEN no
+IF Age = 2 AND Height = 3 AND Weight = 2 AND BMI = 2 AND OM = 0 AND RUM = 1 AND Lymph = 3 AND FIGO = 2 THEN yes
+IF Height = 3 AND Weight = 3 AND OM = 0 THEN yes
+IF Age = 0 AND Height = 2 AND Weight = 1 AND BMI = 1 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN yes
+IF BMI = 2 AND OM = 1 AND FIGO = 2 THEN no
+IF Age = 1 AND Height = 2 AND Weight = 0 AND BMI = 0 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN no
+IF Age = 2 AND Height = 3 AND Weight = 4 AND BMI = 3 AND OM = 0 AND RUM = 1 AND Lymph = 3 AND FIGO = 2 THEN yes
+IF Age = 0 AND Height = 1 AND Weight = 1 AND BMI = 1 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 4 THEN yes
+IF Age = 1 AND Height = 0 AND Weight = 0 AND BMI = 0 AND OM = 0 AND RUM = 3 AND Lymph = 1 AND FIGO = 5 THEN yes
+IF Age = 3 AND Height = 1 AND Weight = 1 AND BMI = 1 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 4 THEN yes
+IF Age = 2 AND Height = 4 AND Weight = 1 AND BMI = 1 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 4 THEN yes
+IF Age = 2 AND Height = 2 AND Weight = 1 AND BMI = 1 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 0 THEN yes
+IF Age = 1 AND Height = 2 AND Weight = 0 AND BMI = 0 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 3 THEN yes
+IF Age = 73 AND Height = 4 AND Weight = 2 AND BMI = 1 AND OM = 1 AND RUM = 1 AND Lymph = 3 AND FIGO = 2 THEN yes
+IF Age = 1 AND Height = 2 AND Weight = 1 AND BMI = 1 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN yes
+IF Age = 4 AND Height = 3 AND Weight = 2 AND BMI = 1 AND OM = 0 AND RUM = 1 AND Lymph = 1 AND FIGO = 5 THEN yes
+IF Age = 1 AND Height = 3 AND Weight = 1 AND BMI = 0 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN yes
+IF Age = 2 AND Height = 2 AND Weight = 1 AND BMI = 1 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN yes
+IF Age = 3 AND Height = 2 AND Weight = 2 AND BMI = 2 AND OM = 0 AND RUM = 2 AND Lymph = 0 AND FIGO = 3 THEN yes
+IF Age = 3 AND Height = 2 AND Weight = 3 AND BMI = 3 AND OM = 1 AND RUM = 0 AND Lymph = 3 AND FIGO = 3 THEN no
+IF Age = 3 AND Height = 2 AND Weight = 1 AND BMI = 1 AND OM = 1 AND RUM = 0 AND Lymph = 3 AND FIGO = 0 THEN no
+IF Age = 0 AND Height = 2 AND Weight = 1 AND BMI = 1 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 5 THEN no
+IF Age = 3 AND Height = 2 AND Weight = 2 AND BMI = 2 AND OM = 1 AND RUM = 2 AND Lymph = 1 AND FIGO = 3 THEN no
+IF Age = 3 AND Height = 1 AND Weight = 3 AND BMI = 3 AND OM = 1 AND RUM = 2 AND Lymph = 1 AND FIGO = 2 THEN no
+IF Age = 2 AND Height = 3 AND Weight = 1 AND BMI = 0 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN no
+IF Age = 3 AND Height = 0 AND Weight = 1 AND BMI = 1 AND OM = 1 AND RUM = 0 AND Lymph = 3 AND FIGO = 5 THEN no
+IF Age = 3 AND Height = 2 AND Weight = 3 AND BMI = 3 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN no
+IF Age = 1 AND Height = 2 AND Weight = 1 AND BMI = 1 AND OM = 0 AND RUM = 1 AND Lymph = 1 AND FIGO = 2 THEN no
+IF Age = 1 AND Height = 2 AND Weight = 1 AND BMI = 0 AND OM = 1 AND RUM = 0 AND Lymph = 3 AND FIGO = 5 THEN no
+IF Age = 3 AND Height = 3 AND Weight = 2 AND BMI = 2 AND OM = 1 AND RUM = 2 AND Lymph = 1 AND FIGO = 3 THEN no
+IF Age = 2 AND Height = 2 AND Weight = 1 AND BMI = 0 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN no
+IF Age = 2 AND Height = 4 AND Weight = 3 AND BMI = 2 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN no
+IF Age = 2 AND Height = 2 AND Weight = 0 AND BMI = 0 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN no
+IF Age = 0 AND Height = 3 AND Weight = 1 AND BMI = 0 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN no
+IF Age = 4 AND Height = 3 AND Weight = 2 AND BMI = 2 AND OM = 1 AND RUM = 1 AND Lymph = 1 AND FIGO = 3 THEN no
+IF Age = 1 AND Height = 2 AND Weight = 2 AND BMI = 1 AND OM = 0 AND RUM = 2 AND Lymph = 1 AND FIGO = 0 THEN no
+IF Age = 1 AND Height = 3 AND Weight = 1 AND BMI = 1 AND OM = 0 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN no
+IF Age = 3 AND Height = 2 AND Weight = 0 AND BMI = 0 AND OM = 1 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN no
+IF Age = 2 AND Height = 2 AND Weight = 3 AND BMI = 3 AND OM = 0 AND RUM = 2 AND Lymph = 0 AND FIGO = 0 THEN no
+IF Age = 3 AND Height = 2 AND Weight = 2 AND BMI = 2 AND OM = 0 AND RUM = 1 AND Lymph = 0 AND FIGO = 5 THEN no
+IF Age = 2 AND Height = 2 AND Weight = 1 AND BMI = 1 AND OM = 1 AND RUM = 0 AND Lymph = 3 AND FIGO = 2 THEN no

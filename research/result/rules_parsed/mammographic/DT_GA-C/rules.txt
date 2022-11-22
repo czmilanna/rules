@@ -1,0 +1,5 @@
+IF BI-RADS <= 4.0 AND Shape <= 2.0 THEN 0
+IF BI-RADS <= 4.0 AND Shape > 2.0 AND Age <= 69.0 AND Margin <= 4.0 THEN 0
+IF BI-RADS <= 4.0 AND Shape > 2.0 AND Age <= 69.0 AND Margin > 4.0 THEN 1
+IF BI-RADS <= 4.0 AND Shape > 2.0 AND Age > 69.0 THEN 1
+IF BI-RADS > 4.0 THEN 1

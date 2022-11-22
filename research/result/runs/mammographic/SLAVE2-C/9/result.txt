@@ -1,0 +1,193 @@
+Experiment: C:/Projekty/rules/data/mammographic/mammographic-10dobscv-9tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 748
+Class 0: 385
+Class 1: 363
+Accuracy on training: 0.45454545454545453
+Number of examples: 408
+Class 0: 66
+Class 1: 363
+Accuracy on training: 0.4585561497326203
+Number of examples: 405
+Class 0: 58
+Class 1: 363
+Accuracy on training: 0.4612299465240642
+Number of examples: 403
+Class 0: 56
+Class 1: 363
+Accuracy on training: 0.46390374331550804
+Number of examples: 401
+Class 0: 54
+Class 1: 363
+Accuracy on training: 0.46390374331550804
+Number of examples: 401
+Class 0: 53
+Class 1: 363
+Accuracy on training: 0.46657754010695185
+Number of examples: 399
+Class 0: 51
+Class 1: 363
+Accuracy on training: 0.4692513368983957
+Number of examples: 397
+Class 0: 44
+Class 1: 363
+Accuracy on training: 0.4692513368983957
+Number of examples: 397
+Class 0: 385
+Class 1: 363
+Accuracy on training: 0.8221925133689839
+Number of examples: 482
+Class 0: 385
+Class 1: 97
+Accuracy on training: 0.856951871657754
+Number of examples: 435
+Class 0: 385
+Class 1: 50
+Accuracy on training: 0.8596256684491979
+Number of examples: 433
+Class 0: 385
+Class 1: 48
+Accuracy on training: 0.8622994652406417
+Number of examples: 431
+Class 0: 385
+Class 1: 46
+Successes: 645.0
+Errors:  101.0
+Not classified: 2.0
+	Rule 0: 278 / 57
+	Rule 1: 29 / 1
+	Rule 2: 3 / 0
+	Rule 3: 12 / 0
+	Rule 4: 8 / 0
+	Rule 5: 7 / 0
+	Rule 6: 7 / 3
+	Rule 7: 264 / 27
+	Rule 8: 31 / 13
+	Rule 9: 2 / 0
+	Rule 10: 4 / 0
+Successes: 64.0
+Errors:  18.0
+Not classified: 0.0
+	Rule 0: 30 / 10
+	Rule 1: 5 / 1
+	Rule 2: 0 / 0
+	Rule 3: 1 / 0
+	Rule 4: 0 / 1
+	Rule 5: 1 / 2
+	Rule 6: 1 / 0
+	Rule 7: 25 / 2
+	Rule 8: 1 / 2
+	Rule 9: 0 / 0
+	Rule 10: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.8622994652406417
+Accuracy on test: 0.7804878048780488
+Number of rules: 11.0
+Variables per rule: 2.727272727272727
+Variables used: 1.0
+Time: 9.704000000000002
+Iterations: 143147
+Conditions: 30
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	BI-RADS = { T0 T1 T2 T3 T4}
+	Age = { VeryLow Low Medium}
+	Margin = { T0 T1 T2 T3}
+	Density = { T2}
+THEN Severity IS 0   W 0.8382169435276123
+
+IF
+	BI-RADS = { T2 T3 T4}
+	Age = { VeryLow Medium High VeryHigh}
+	Shape = { T0 T1 T2}
+	Margin = { T0 T3 T4}
+	Density = { T0 T1}
+THEN Severity IS 0   W 0.9
+
+IF
+	BI-RADS = { T2 T3 T4 T5 T6}
+	Age = { VeryLow Low High VeryHigh}
+	Shape = { T1 T2}
+	Margin = { T1 T2 T3 T4}
+	Density = { T0 T3}
+THEN Severity IS 0   W 1.0
+
+IF
+	BI-RADS = { T0 T1 T2 T3 T4 T6}
+	Age = { VeryLow Low Medium}
+	Shape = { T1}
+	Margin = { T2 T4}
+	Density = { T2 T3}
+THEN Severity IS 0   W 1.0
+
+IF
+	BI-RADS = { T2 T3}
+	Age = { VeryLow Medium VeryHigh}
+	Shape = { T3}
+	Margin = { T1 T2 T3}
+	Density = { T2}
+THEN Severity IS 0   W 1.0
+
+IF
+	BI-RADS = { T1 T2 T6}
+	Age = { VeryLow Low High VeryHigh}
+	Margin = { T0 T1 T3}
+	Density = { T1}
+THEN Severity IS 0   W 1.0
+
+IF
+	BI-RADS = { T2 T3 T4 T5}
+	Age = { High VeryHigh}
+	Shape = { T1 T2}
+	Margin = { T0}
+	Density = { T1 T2 T3}
+THEN Severity IS 0   W 0.7099391480730223
+
+IF
+	BI-RADS = { T5 T6}
+	Age = { VeryLow Low}
+	Shape = { T2 T3}
+	Margin = { T0 T3}
+	Density = { T0 T2}
+THEN Severity IS 1   W 0.8959731543624161
+
+IF
+	BI-RADS = { T3 T4}
+	Age = { Medium High VeryHigh}
+	Shape = { T3}
+	Margin = { T0 T1 T3 T4}
+	Density = { T1 T2 T3}
+THEN Severity IS 1   W 0.6123629001857784
+
+IF
+	BI-RADS = { T0 T3}
+	Age = { High VeryHigh}
+	Margin = { T0 T1 T4}
+	Density = { T1 T2}
+THEN Severity IS 1   W 1.0
+
+IF
+	BI-RADS = { T1 T2 T3 T4 T5}
+	Age = { VeryLow High VeryHigh}
+	Shape = { T0 T1}
+	Margin = { T1 T4}
+	Density = { T2 T3}
+THEN Severity IS 1   W 1.0
+
+	Accuracy on training set is: 0.8622994652406417
+	Accuracy on test set is: 0.7804878048780488
+	Number of rules is: 11.0
+	Variables per rule is: 2.727272727272727
+	Variables used is: 1.0
+	Time is: 9.704000000000002
+	Iterations is: 143147
+	Conditions is: 30
+

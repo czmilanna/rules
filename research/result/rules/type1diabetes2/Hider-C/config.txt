@@ -1,0 +1,13 @@
+algorithm = Hider
+inputData = "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat"
+outputData = "rules/type1diabetes2/Hider-C/result.tra" "rules/type1diabetes2/Hider-C/result.tst" "rules/type1diabetes2/Hider-C/result.txt"
+
+seed = 1
+populationSize = 100
+nGenerations = 100
+mutationProbability = 0.5
+crossPercent = 80
+extremeMutationProbability = 0.05
+pruneExamplesFactor = 0.05
+penaltyFactor = 1
+errorCoeficient = 0

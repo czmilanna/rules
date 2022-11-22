@@ -1,0 +1,3 @@
+IF Age is very High AND Famhist is very High THEN 1 | Support: 0.3568
+IF Ldl is High AND Famhist is very High AND Obesity is High THEN 1 | Support: 0.0788
+ELSE 0

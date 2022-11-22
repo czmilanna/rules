@@ -1,0 +1,402 @@
+Experiment: C:/Projekty/rules/data/wdbc/wdbc-10dobscv-9tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 513
+Class 0: 191
+Class 1: 322
+Successes: 304.0
+Errors:  22.0
+Not classified: 187.0
+	Rule 0: 304 / 22
+Successes: 304.0
+Errors:  22.0
+Not classified: 187.0
+	Rule 0: 304 / 22
+Accuracy on training: 0.5925925925925926
+Number of examples: 209
+Class 0: 191
+Class 1: 18
+Successes: 470.0
+Errors:  31.0
+Not classified: 12.0
+	Rule 0: 294 / 10
+	Rule 1: 176 / 21
+Successes: 470.0
+Errors:  31.0
+Not classified: 12.0
+	Rule 0: 294 / 10
+	Rule 1: 176 / 21
+Accuracy on training: 0.9161793372319688
+Number of examples: 43
+Class 0: 15
+Class 1: 28
+Successes: 486.0
+Errors:  19.0
+Not classified: 8.0
+	Rule 0: 273 / 10
+	Rule 1: 172 / 5
+	Rule 2: 41 / 4
+Successes: 486.0
+Errors:  19.0
+Not classified: 8.0
+	Rule 0: 273 / 10
+	Rule 1: 172 / 5
+	Rule 2: 41 / 4
+Accuracy on training: 0.9473684210526315
+Number of examples: 27
+Class 0: 19
+Class 1: 8
+Successes: 492.0
+Errors:  20.0
+Not classified: 1.0
+	Rule 0: 273 / 10
+	Rule 1: 127 / 4
+	Rule 2: 41 / 3
+	Rule 3: 51 / 3
+Successes: 492.0
+Errors:  20.0
+Not classified: 1.0
+	Rule 0: 273 / 10
+	Rule 1: 127 / 4
+	Rule 2: 41 / 3
+	Rule 3: 51 / 3
+Accuracy on training: 0.9590643274853801
+Number of examples: 21
+Class 0: 13
+Class 1: 8
+Successes: 493.0
+Errors:  19.0
+Not classified: 1.0
+	Rule 0: 273 / 9
+	Rule 1: 125 / 4
+	Rule 2: 41 / 3
+	Rule 3: 51 / 3
+	Rule 4: 3 / 0
+Successes: 493.0
+Errors:  19.0
+Not classified: 1.0
+	Rule 0: 273 / 9
+	Rule 1: 125 / 4
+	Rule 2: 41 / 3
+	Rule 3: 51 / 3
+	Rule 4: 3 / 0
+Accuracy on training: 0.9610136452241715
+Number of examples: 20
+Class 0: 12
+Class 1: 8
+Successes: 495.0
+Errors:  18.0
+Not classified: 0.0
+	Rule 0: 271 / 9
+	Rule 1: 125 / 4
+	Rule 2: 40 / 3
+	Rule 3: 51 / 2
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+Successes: 495.0
+Errors:  18.0
+Not classified: 0.0
+	Rule 0: 271 / 9
+	Rule 1: 125 / 4
+	Rule 2: 40 / 3
+	Rule 3: 51 / 2
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+Accuracy on training: 0.9649122807017544
+Number of examples: 18
+Class 0: 12
+Class 1: 6
+Successes: 499.0
+Errors:  14.0
+Not classified: 0.0
+	Rule 0: 271 / 6
+	Rule 1: 124 / 4
+	Rule 2: 40 / 2
+	Rule 3: 51 / 2
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 5 / 0
+Successes: 499.0
+Errors:  14.0
+Not classified: 0.0
+	Rule 0: 271 / 6
+	Rule 1: 124 / 4
+	Rule 2: 40 / 2
+	Rule 3: 51 / 2
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 5 / 0
+Accuracy on training: 0.9727095516569201
+Number of examples: 14
+Class 0: 8
+Class 1: 6
+Successes: 501.0
+Errors:  12.0
+Not classified: 0.0
+	Rule 0: 252 / 6
+	Rule 1: 124 / 2
+	Rule 2: 35 / 2
+	Rule 3: 51 / 2
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 5 / 0
+	Rule 7: 26 / 0
+Successes: 501.0
+Errors:  12.0
+Not classified: 0.0
+	Rule 0: 252 / 6
+	Rule 1: 124 / 2
+	Rule 2: 35 / 2
+	Rule 3: 51 / 2
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 5 / 0
+	Rule 7: 26 / 0
+Accuracy on training: 0.9766081871345029
+Number of examples: 12
+Class 0: 8
+Class 1: 4
+Successes: 503.0
+Errors:  10.0
+Not classified: 0.0
+	Rule 0: 251 / 6
+	Rule 1: 124 / 1
+	Rule 2: 35 / 2
+	Rule 3: 51 / 1
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 5 / 0
+	Rule 7: 26 / 0
+	Rule 8: 3 / 0
+Successes: 503.0
+Errors:  10.0
+Not classified: 0.0
+	Rule 0: 251 / 6
+	Rule 1: 124 / 1
+	Rule 2: 35 / 2
+	Rule 3: 51 / 1
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 5 / 0
+	Rule 7: 26 / 0
+	Rule 8: 3 / 0
+Accuracy on training: 0.9805068226120858
+Number of examples: 10
+Class 0: 8
+Class 1: 2
+Successes: 506.0
+Errors:  7.0
+Not classified: 0.0
+	Rule 0: 251 / 4
+	Rule 1: 115 / 1
+	Rule 2: 35 / 1
+	Rule 3: 51 / 1
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 5 / 0
+	Rule 7: 26 / 0
+	Rule 8: 3 / 0
+	Rule 9: 12 / 0
+Successes: 506.0
+Errors:  7.0
+Not classified: 0.0
+	Rule 0: 251 / 4
+	Rule 1: 115 / 1
+	Rule 2: 35 / 1
+	Rule 3: 51 / 1
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 5 / 0
+	Rule 7: 26 / 0
+	Rule 8: 3 / 0
+	Rule 9: 12 / 0
+Accuracy on training: 0.98635477582846
+Number of examples: 7
+Class 0: 5
+Class 1: 2
+Successes: 507.0
+Errors:  6.0
+Not classified: 0.0
+	Rule 0: 251 / 4
+	Rule 1: 115 / 0
+	Rule 2: 34 / 1
+	Rule 3: 51 / 1
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 5 / 0
+	Rule 7: 26 / 0
+	Rule 8: 3 / 0
+	Rule 9: 12 / 0
+	Rule 10: 2 / 0
+Successes: 507.0
+Errors:  6.0
+Not classified: 0.0
+	Rule 0: 251 / 4
+	Rule 1: 115 / 0
+	Rule 2: 34 / 1
+	Rule 3: 51 / 1
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 5 / 0
+	Rule 7: 26 / 0
+	Rule 8: 3 / 0
+	Rule 9: 12 / 0
+	Rule 10: 2 / 0
+Accuracy on training: 0.9883040935672515
+Number of examples: 6
+Class 0: 5
+Class 1: 1
+Successes: 507.0
+Errors:  6.0
+Not classified: 0.0
+	Rule 0: 251 / 4
+	Rule 1: 115 / 0
+	Rule 2: 34 / 0
+	Rule 3: 50 / 1
+	Rule 4: 3 / 0
+	Rule 5: 4 / 0
+	Rule 6: 5 / 0
+	Rule 7: 26 / 0
+	Rule 8: 3 / 0
+	Rule 9: 12 / 0
+	Rule 10: 2 / 0
+	Rule 11: 2 / 1
+Successes: 507.0
+Errors:  6.0
+Not classified: 0.0
+	Rule 0: 253 / 4
+	Rule 1: 115 / 0
+	Rule 2: 35 / 0
+	Rule 3: 50 / 1
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 26 / 0
+	Rule 7: 4 / 0
+	Rule 8: 12 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 1
+Successes: 507.0
+Errors:  6.0
+Not classified: 0.0
+	Rule 0: 253 / 4
+	Rule 1: 115 / 0
+	Rule 2: 35 / 0
+	Rule 3: 50 / 1
+	Rule 4: 3 / 0
+	Rule 5: 5 / 0
+	Rule 6: 26 / 0
+	Rule 7: 4 / 0
+	Rule 8: 12 / 0
+	Rule 9: 2 / 0
+	Rule 10: 2 / 1
+Successes: 51.0
+Errors:  5.0
+Not classified: 0.0
+	Rule 0: 28 / 2
+	Rule 1: 12 / 0
+	Rule 2: 1 / 0
+	Rule 3: 4 / 0
+	Rule 4: 0 / 0
+	Rule 5: 0 / 0
+	Rule 6: 3 / 0
+	Rule 7: 1 / 1
+	Rule 8: 1 / 0
+	Rule 9: 0 / 0
+	Rule 10: 1 / 2
+----------------------------------------------------
+Accuracy on training: 0.9883040935672515
+Accuracy on test: 0.9107142857142857
+Number of rules: 11.0
+Variables per rule: 3.4545454545454546
+Variables used: 0.8333333333333334
+Time: 8.348
+Iterations: 23524
+Conditions: 38
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Radius1 = { VeryLow Low}
+	Area2 = { VeryLow}
+	Concave_points3 = { VeryLow Low}
+THEN Class IS B   W 0.973184449182847
+
+IF
+	Perimeter3 = { Medium High VeryHigh}
+THEN Class IS M   W 0.9411826158859781
+
+IF
+	Texture1 = { VeryLow Low VeryHigh}
+	Radius3 = { VeryLow Low}
+	Texture3 = { VeryLow Low VeryHigh}
+	Smoothness3 = { VeryLow Low VeryHigh}
+	Symmetry3 = { Low}
+THEN Class IS B   W 0.9513829184479384
+
+IF
+	Compactness1 = { VeryLow Medium High VeryHigh}
+	Concave_points2 = { Low Medium}
+	Compactness3 = { VeryLow Low High VeryHigh}
+	Concave_points3 = { High VeryHigh}
+THEN Class IS M   W 0.984141983108801
+
+IF
+	Radius2 = { Medium}
+	Compactness2 = { VeryLow}
+THEN Class IS M   W 1.0
+
+IF
+	Perimeter1 = { Medium High VeryHigh}
+	Symmetry1 = { VeryLow Low Medium}
+	Symmetry2 = { Low Medium High VeryHigh}
+	Smoothness3 = { VeryLow Low}
+	Concavity3 = { Low}
+	Symmetry3 = { VeryLow Low High}
+	Fractal_dimension3 = { VeryLow Medium VeryHigh}
+THEN Class IS M   W 0.580068839358134
+
+IF
+	Texture1 = { VeryLow}
+	Concavity1 = { VeryLow Low}
+	Symmetry1 = { VeryLow Low}
+	Perimeter2 = { VeryLow}
+	Fractal_dimension3 = { VeryLow Low}
+THEN Class IS B   W 0.9758093449549726
+
+IF
+	Concave_points1 = { VeryLow}
+	Area3 = { VeryLow}
+	Symmetry3 = { Medium High}
+THEN Class IS B   W 0.9702275312748864
+
+IF
+	Compactness2 = { VeryLow High VeryHigh}
+	Fractal_dimension2 = { VeryLow Low}
+	Radius3 = { Medium High}
+THEN Class IS M   W 0.8359685995316474
+
+IF
+	Texture1 = { VeryLow Low VeryHigh}
+	Concavity1 = { VeryLow High VeryHigh}
+	Smoothness3 = { VeryLow}
+THEN Class IS B   W 0.9703795395038147
+
+IF
+	Symmetry1 = { VeryLow Low}
+	Fractal_dimension1 = { VeryLow Medium}
+THEN Class IS M   W 0.3289460311380155
+
+	Accuracy on training set is: 0.9883040935672515
+	Accuracy on test set is: 0.9107142857142857
+	Number of rules is: 11.0
+	Variables per rule is: 3.4545454545454546
+	Variables used is: 0.8333333333333334
+	Time is: 8.348
+	Iterations is: 23524
+	Conditions is: 38
+

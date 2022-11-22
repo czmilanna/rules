@@ -1,0 +1,10 @@
+
+
+Rule 1: IF  Age in [29.0 , 73.0] AND Height in [150.0 , 173.0] AND Weight in [46.0 , 104.0] AND BMI in [18.73 , 36.85] AND RUM in [3 , 1]  AND Lymph in [0.0 , 3.0] AND FIGO in [0 , 5]  THEN Complication -> yes      [ Hyperrectangle weight = 1.9069767441860466 ]     [ Volumen = 0.45701895756461053 ] 
+
+Rule 2: IF  Age in [30.0 , 72.0] AND Height in [155.0 , 176.0] AND Weight in [44.0 , 118.0] AND BMI in [17.47 , 44.96] AND RUM in [3 , 1]  AND Lymph in [0.0 , 3.0] AND FIGO in [0 , 5]  THEN Complication -> no      [ Hyperrectangle weight = 1.2452830188679245 ]     [ Volumen = 0.770979020979021 ] 
+
+Attributes Weights: Age = 0.8   Height = 0.8   Weight = 0.8   BMI = 0.8   OM = 0.8   RUM = 1.2   Lymph = 1.2   FIGO = 0.8   
+
+Accuracy Training: 0.5208333333333334
+Accuracy Test: 0.5454545454545454

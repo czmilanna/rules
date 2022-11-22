@@ -1,0 +1,161 @@
+if ( -1.0*Height + 155.0 >= 0  ) then{
+	if ( -1.0*Age + 42.0 >= 0  ) then{
+		Complication = no (1) 
+	}
+	else{ 
+		if ( -1.0*OM + 0.0 >= 0  ) then{
+			Complication = yes (8) 
+		}
+		else{ 
+			Complication = no (1) 
+		}
+	}
+}
+else{ 
+	if ( -1.0*Height + 158.0 >= 0  ) then{
+		if ( -1.0*Lymph + 2.0 >= 0  ) then{
+			if ( -1.0*Age + 44.0 >= 0  ) then{
+				Complication = yes (1) 
+			}
+			else{ 
+				Complication = no (1) 
+			}
+		}
+		else{ 
+			if ( -1.0*Weight + 63.0 >= 0  ) then{
+				Complication = no (9) 
+			}
+			else{ 
+				if ( -1.0*Age + 47.0 >= 0  ) then{
+					Complication = no (3) 
+				}
+				else{ 
+					Complication = yes (1) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*BMI + -14.037081649069904*OM + 30.09 >= 0  ) then{
+			if ( -1.0*Age + -107.64658467556504*Height + 154.3940279526622*Weight + 197.46702508941922*BMI + -173.706578084665*OM + 67.62964405762722*Lymph + -45.805736967782906*FIGO + 155.46587695262065 >= 0  ) then{
+				Complication = yes (5) 
+			}
+			else{ 
+				if ( -1.0*BMI + -134.8120599833345*RUM + 28.13 >= 0  ) then{
+					if ( -1.0*BMI + 24.97 >= 0  ) then{
+						if ( -1.0*Height + 160.0 >= 0  ) then{
+							Complication = yes (3) 
+						}
+						else{ 
+							if ( -1.0*Age + 30.0 >= 0  ) then{
+								Complication = yes (2) 
+							}
+							else{ 
+								if ( -1.0*Age + 37.0 >= 0  ) then{
+									Complication = no (3) 
+								}
+								else{ 
+									if ( -1.0*Age + 40.0 >= 0  ) then{
+										Complication = yes (2) 
+									}
+									else{ 
+										if ( -1.0*FIGO + 2.0 >= 0  ) then{
+											if ( -1.0*FIGO + 1.0 >= 0  ) then{
+												if ( -1.0*Age + 48.0 >= 0  ) then{
+													Complication = yes (2) 
+												}
+												else{ 
+													Complication = no (1) 
+												}
+											}
+											else{ 
+												Complication = no (7) 
+											}
+										}
+										else{ 
+											if ( -1.0*Age + 50.0 >= 0  ) then{
+												Complication = yes (3) 
+											}
+											else{ 
+												Complication = no (1) 
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					else{ 
+						if ( -1.0*Age + 40.0 >= 0  ) then{
+							if ( -1.0*Age + 38.0 >= 0  ) then{
+								Complication = yes (1) 
+							}
+							else{ 
+								Complication = no (1) 
+							}
+						}
+						else{ 
+							Complication = yes (6) 
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*Age + 64.0 >= 0  ) then{
+						Complication = no (6) 
+					}
+					else{ 
+						Complication = yes (1) 
+					}
+				}
+			}
+		}
+		else{ 
+			if ( -196.0339301256542*Age + 52.429945453170205*Height + 33.74872548360116*Weight + -110.0857136561735*BMI + 158.47624306531537*OM + 27.14285203887684*RUM + -18.771385545556285*Lymph + -7.673497360123662 >= 0  ) then{
+				Complication = yes (3) 
+			}
+			else{ 
+				if ( -191.42714775899125*Age + 167.73204364993887*Weight + 137.82903392282992*OM + -18.26589438558227*FIGO + 71.0 >= 0  ) then{
+					if ( -1.0*Weight + 102.0 >= 0  ) then{
+						if ( -1.0*Height + 161.0 >= 0  ) then{
+							if ( -1.0*Age + 50.0 >= 0  ) then{
+								Complication = yes (1) 
+							}
+							else{ 
+								Complication = no (2) 
+							}
+						}
+						else{ 
+							Complication = no (14) 
+						}
+					}
+					else{ 
+						if ( -1.0*Age + 50.0 >= 0  ) then{
+							Complication = no (1) 
+						}
+						else{ 
+							Complication = yes (1) 
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*Weight + 71.0 >= 0  ) then{
+						if ( -1.0*Age + 62.0 >= 0  ) then{
+							Complication = yes (1) 
+						}
+						else{ 
+							Complication = no (2) 
+						}
+					}
+					else{ 
+						Complication = yes (2) 
+					}
+				}
+			}
+		}
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.5454545454545454

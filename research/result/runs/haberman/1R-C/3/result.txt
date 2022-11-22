@@ -1,0 +1,16 @@
+
+Rule 1: IF  Age in [30.0 , 83.0) THEN Survival -> negative     [ 18 62]
+Rule 2: IF  Age = 83.0 THEN Survival -> positive     [ 1 0]
+
+####Average results for test data####
+Avg. Rule length: 3
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.3225806451612903
+Avg. Support: 0.7419354838709677
+Avg. Significance: 0.42933876903160445
+Avg. Unusualness: 10.064516129032258
+
+Accuracy Training: 0.7381818181818182
+Accuracy Test: 0.7419354838709677
+
+  Time (seconds); 

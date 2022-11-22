@@ -1,0 +1,12 @@
+if(F20S<=67.0 && F14S<=60.0) (56/56)
+	output=1
+else if(F20S>67.0 && F13S>55.0 && F1R>58.0 && F17R>64.0) (14/15)
+	output=0
+else if(F16S>74.0 && F3S>67.0 && F14S>60.0 && F20S>61.0 && F20R<=69.0) (10/11)
+	output=0
+else if(F20S>67.0 && F16R>75.0 && F8R>58.0) (12/21)
+	output=0
+else if(F21R>77.0) (6/7)
+	output=0
+else 
+	output=1

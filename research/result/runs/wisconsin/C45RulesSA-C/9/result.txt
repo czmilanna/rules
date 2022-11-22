@@ -1,0 +1,16 @@
+if(CellSize<=2.0 && BareNuclei<=5.0 && ClumpThickness<=5.0) (354/354)
+	output=2
+else if(CellShape<=3.0 && BareNuclei<=1.0) (341/341)
+	output=2
+else if(BlandChromatin<=3.0 && CellShape<=2.0) (348/349)
+	output=2
+else if(CellSize>4.0) (153/156)
+	output=4
+else if(BareNuclei>2.0 && ClumpThickness>5.0) (131/135)
+	output=4
+else if(CellSize>2.0 && BareNuclei>1.0 && CellShape>2.0) (188/200)
+	output=4
+else if(BareNuclei>5.0) (151/156)
+	output=4
+else 
+	output=2

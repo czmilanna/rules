@@ -1,0 +1,7 @@
+algorithm = Each
+inputData = "C:/Projekty/rules/data/wisconsin/wisconsin.dat" "C:/Projekty/rules/data/wisconsin/wisconsin.dat" "C:/Projekty/rules/data/wisconsin/wisconsin.dat"
+outputData = "rules/wisconsin/EACH-C/result.tra" "rules/wisconsin/EACH-C/result.tst" "rules/wisconsin/EACH-C/result.txt"
+
+seed = 1
+FeatureAdjustmentRate = 0.2
+UseSecondChance = YES

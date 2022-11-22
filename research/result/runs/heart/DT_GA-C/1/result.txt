@@ -1,0 +1,26 @@
+Number of Rules: 12
+Rule[1]: IF  ChestPainType <= 3.0 AND  Thal <= 3.0  THEN Class = 1 (84/90)
+Rule[2]: IF  ChestPainType <= 3.0 AND  Thal > 3.0 AND  MajorVessels <= 0.0 AND  ExerciseInduced <= 0.0  THEN Class = 1 (14/17)
+Rule[3]: IF  ChestPainType <= 3.0 AND  Thal > 3.0 AND  MajorVessels <= 0.0 AND  ExerciseInduced > 0.0 AND  Oldpeak <= 15.0  THEN Class = 1 (2/2)
+Rule[4]: IF  ChestPainType <= 3.0 AND  Thal > 3.0 AND  MajorVessels <= 0.0 AND  ExerciseInduced > 0.0 AND  Oldpeak > 15.0  THEN Class = 2 (2/2)
+Rule[5]: IF  ChestPainType <= 3.0 AND  Thal > 3.0 AND  MajorVessels > 0.0 AND  Slope <= 1.0  THEN Class = 1 (3/4)
+Rule[6]: IF  ChestPainType <= 3.0 AND  Thal > 3.0 AND  MajorVessels > 0.0 AND  Slope > 1.0  THEN Class = 2 (11/12)
+Rule[7]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal <= 6.0 AND  Oldpeak <= 16.0  THEN Class = 1 (22/27)
+Rule[8]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal <= 6.0 AND  Oldpeak > 16.0  THEN Class = 2 (2/2)
+Rule[9]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal > 6.0 AND  Oldpeak <= 6.0 AND  ResElectrocardiographic <= 1.0  THEN Class = 1 (4/5)
+Rule[10]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal > 6.0 AND  Oldpeak <= 6.0 AND  ResElectrocardiographic > 1.0  THEN Class = 2 (6/7)
+Rule[11]: IF  ChestPainType > 3.0 AND  MajorVessels <= 0.0 AND  Thal > 6.0 AND  Oldpeak > 6.0  THEN Class = 2 (12/12)
+Rule[12]: IF  ChestPainType > 3.0 AND  MajorVessels > 0.0  THEN Class = 2 (59/63)
+
+Number of Rules: 8
+Rule[1]: IF  MaxHeartRate <= 181.0 AND  Thal > 3.0  THEN Class = 1 (26/106)
+Rule[2]: IF  Age > 40.0 AND  Sex <= 1.0 AND  ChestPainType <= 4.0 AND  RestBloodPressure > 109.0 AND  SerumCholestoral <= 224.0 AND  FastingBloodSugar <= 0.0 AND  ResElectrocardiographic > 0.0 AND  MaxHeartRate > 124.0 AND  ExerciseInduced > -1.0 AND  Oldpeak <= 23.0 AND  Slope > 0.0 AND  MajorVessels > -1.0 AND  Thal <= 7.0  THEN Class = 2 (6/16)
+Rule[3]: IF  Age <= 74.0 AND  Sex > 0.0 AND  ChestPainType > 3.0 AND  RestBloodPressure <= 125.0 AND  SerumCholestoral > 231.0 AND  FastingBloodSugar > -1.0 AND  ResElectrocardiographic > 0.0 AND  MaxHeartRate > 165.0 AND  ExerciseInduced > -1.0 AND  Oldpeak <= 8.0 AND  Slope <= 2.0 AND  MajorVessels <= 0.0 AND  Thal <= 7.0  THEN Class = 2 (1/2)
+Rule[4]: IF  Age <= 55.0 AND  Sex > 0.0 AND  ChestPainType <= 4.0 AND  RestBloodPressure > 109.0 AND  SerumCholestoral <= 240.0 AND  FastingBloodSugar > -1.0 AND  ResElectrocardiographic > 1.0 AND  MaxHeartRate > 113.0 AND  ExerciseInduced <= 1.0 AND  Oldpeak <= 2.0 AND  Slope <= 2.0 AND  MajorVessels > -1.0 AND  Thal <= 7.0  THEN Class = 2 (2/7)
+Rule[5]: IF  Age <= 58.0 AND  Sex <= 1.0 AND  ChestPainType <= 4.0 AND  RestBloodPressure > 108.0 AND  SerumCholestoral <= 226.0 AND  FastingBloodSugar > -1.0 AND  ResElectrocardiographic <= 2.0 AND  MaxHeartRate <= 181.0 AND  ExerciseInduced <= 0.0 AND  Oldpeak <= 14.0 AND  Slope > 0.0 AND  MajorVessels <= 1.0 AND  Thal <= 7.0  THEN Class = 2 (5/26)
+Rule[6]: IF  Age <= 68.0 AND  Sex <= 1.0 AND  ChestPainType > 2.0 AND  RestBloodPressure <= 180.0 AND  SerumCholestoral <= 274.0 AND  FastingBloodSugar > 0.0 AND  ResElectrocardiographic <= 2.0 AND  MaxHeartRate <= 163.0 AND  ExerciseInduced > 0.0 AND  Oldpeak > 15.0 AND  Slope <= 2.0 AND  MajorVessels <= 0.0 AND  Thal <= 7.0  THEN Class = 2 (1/1)
+Rule[7]: IF  Age <= 68.0 AND  Sex <= 1.0 AND  ChestPainType > 1.0 AND  RestBloodPressure > 131.0 AND  SerumCholestoral <= 341.0 AND  FastingBloodSugar > 0.0 AND  ResElectrocardiographic > 1.0 AND  MaxHeartRate <= 162.0 AND  ExerciseInduced > 0.0 AND  Oldpeak <= 3.0 AND  Slope <= 2.0 AND  MajorVessels <= 0.0 AND  Thal <= 7.0  THEN Class = 2 (1/1)
+Rule[8]: IF  Age > 37.0 AND  Sex > 0.0 AND  ChestPainType > 0.0 AND  RestBloodPressure <= 122.0 AND  SerumCholestoral > 205.0 AND  FastingBloodSugar <= 1.0 AND  ResElectrocardiographic > -1.0 AND  MaxHeartRate <= 182.0 AND  ExerciseInduced <= 1.0 AND  Oldpeak > 0.0 AND  Slope > 1.0 AND  MajorVessels <= 0.0 AND  Thal > 3.0  THEN Class = 2 (3/5)
+
+Accuracy in training: 0.8806584362139918
+Accuracy in test: 0.7407407407407407

@@ -1,0 +1,5 @@
+IF Concave_points3 is High THEN 1 | Support: 0.6220
+IF Radius3 is High AND Area1 is Medium AND Radius2 is Low AND Symmetry2 is Low THEN 1 | Support: 0.0666
+IF Area2 is High AND Area1 is Low THEN 1 | Support: 0.0643
+IF Area1 is High AND Perimeter2 is Low AND Area2 is High AND Radius1 is High AND Smoothness1 is Low THEN 1 | Support: 0.0122
+ELSE 0

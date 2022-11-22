@@ -1,0 +1,16 @@
+
+Rule 1: IF  F21R in [5.0 , 79.0) THEN OVERALL_DIAGNOSIS -> 1     [ 45 191]
+Rule 2: IF  F21R in [79.0 , 82.0] THEN OVERALL_DIAGNOSIS -> 0     [ 5 0]
+
+####Average results for test data####
+Avg. Rule length: 2
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.5
+Avg. Support: 0.8076923076923077
+Avg. Significance: 0.0
+Avg. Unusualness: 31.769230769230766
+
+Accuracy Training: 0.8132780082987552
+Accuracy Test: 0.8076923076923077
+
+  Time (seconds); 

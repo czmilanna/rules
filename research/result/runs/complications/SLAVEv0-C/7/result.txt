@@ -1,0 +1,304 @@
+Experiment: C:/Projekty/rules/data/complications/complications-10dobscv-7tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 96
+Class 0: 53
+Class 1: 43
+Accuracy on training: 0.4791666666666667
+Number of examples: 50
+Class 0: 16
+Class 1: 43
+Accuracy on training: 0.5208333333333334
+Number of examples: 46
+Class 0: 12
+Class 1: 43
+Accuracy on training: 0.5208333333333334
+Number of examples: 46
+Class 0: 10
+Class 1: 43
+Accuracy on training: 0.5416666666666666
+Number of examples: 44
+Class 0: 8
+Class 1: 43
+Accuracy on training: 0.5416666666666666
+Number of examples: 44
+Class 0: 7
+Class 1: 43
+Accuracy on training: 0.5416666666666666
+Number of examples: 44
+Class 0: 6
+Class 1: 43
+Accuracy on training: 0.5416666666666666
+Number of examples: 44
+Class 0: 5
+Class 1: 43
+Accuracy on training: 0.5416666666666666
+Number of examples: 44
+Class 0: 4
+Class 1: 43
+Accuracy on training: 0.5416666666666666
+Number of examples: 44
+Class 0: 3
+Class 1: 43
+Accuracy on training: 0.5520833333333334
+Number of examples: 43
+Class 0: 2
+Class 1: 43
+Accuracy on training: 0.5520833333333334
+Number of examples: 43
+Class 0: 53
+Class 1: 43
+Accuracy on training: 0.71875
+Number of examples: 68
+Class 0: 53
+Class 1: 26
+Accuracy on training: 0.7916666666666666
+Number of examples: 57
+Class 0: 53
+Class 1: 17
+Accuracy on training: 0.8125
+Number of examples: 56
+Class 0: 53
+Class 1: 14
+Accuracy on training: 0.8125
+Number of examples: 56
+Class 0: 53
+Class 1: 12
+Accuracy on training: 0.8229166666666666
+Number of examples: 55
+Class 0: 53
+Class 1: 11
+Successes: 79.0
+Errors:  17.0
+Not classified: 0.0
+	Rule 0: 27 / 10
+	Rule 1: 8 / 0
+	Rule 2: 2 / 0
+	Rule 3: 2 / 0
+	Rule 4: 1 / 0
+	Rule 5: 2 / 0
+	Rule 6: 2 / 0
+	Rule 7: 1 / 0
+	Rule 8: 1 / 0
+	Rule 9: 1 / 0
+	Rule 10: 0 / 1
+	Rule 11: 13 / 4
+	Rule 12: 10 / 2
+	Rule 13: 3 / 0
+	Rule 14: 2 / 0
+	Rule 15: 1 / 0
+	Rule 16: 3 / 0
+Successes: 5.0
+Errors:  6.0
+Not classified: 0.0
+	Rule 0: 3 / 3
+	Rule 1: 0 / 1
+	Rule 2: 1 / 0
+	Rule 3: 0 / 0
+	Rule 4: 0 / 0
+	Rule 5: 0 / 0
+	Rule 6: 0 / 0
+	Rule 7: 0 / 0
+	Rule 8: 0 / 0
+	Rule 9: 0 / 0
+	Rule 10: 0 / 0
+	Rule 11: 0 / 1
+	Rule 12: 1 / 0
+	Rule 13: 0 / 1
+	Rule 14: 0 / 0
+	Rule 15: 0 / 0
+	Rule 16: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.8229166666666666
+Accuracy on test: 0.45454545454545453
+Number of rules: 17.0
+Variables per rule: 6.882352941176471
+Variables used: 1.0
+Time: 2.2449999999999997
+Iterations: 98776
+Conditions: 117
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Age = { Low Medium High}
+	Height = { Low Medium VeryHigh}
+	BMI = { VeryLow Low Medium High}
+	RUM = { T0 T1 T2}
+	Lymph = { T0 T1 T3}
+	FIGO = { T0 T2 T3 T5}
+THEN Complication IS no   W 0.6776494099002073
+
+IF
+	Age = { Low Medium High}
+	Weight = { Medium High VeryHigh}
+	BMI = { Low Medium High VeryHigh}
+	RUM = { T0 T2 T3}
+	Lymph = { T1 T2}
+	FIGO = { T0 T1 T2 T3 T4}
+THEN Complication IS no   W 0.8848122866894197
+
+IF
+	Age = { Medium VeryHigh}
+	Height = { VeryLow Low Medium High}
+	Weight = { Low Medium VeryHigh}
+	BMI = { Low Medium High}
+	OM = { T1}
+	RUM = { T0 T1 T3}
+	Lymph = { T0 T1}
+	FIGO = { T0 T2 T3}
+THEN Complication IS no   W 1.0
+
+IF
+	Age = { VeryLow Low Medium VeryHigh}
+	Height = { VeryLow Low Medium}
+	BMI = { VeryLow High}
+	OM = { T0}
+	RUM = { T0}
+	Lymph = { T0 T2 T3}
+	FIGO = { T0 T4 T5}
+THEN Complication IS no   W 0.9647510966001015
+
+IF
+	Age = { VeryLow}
+	Height = { Low VeryHigh}
+	Weight = { VeryLow Low Medium}
+	BMI = { Low VeryHigh}
+	Lymph = { T1 T2 T3}
+	FIGO = { T0 T1 T2 T5}
+THEN Complication IS no   W 0.9231262011531071
+
+IF
+	Age = { Medium High}
+	Height = { High}
+	Weight = { Low}
+	BMI = { VeryLow Low}
+	OM = { T0}
+	RUM = { T0 T1}
+	Lymph = { T1 T3}
+	FIGO = { T2}
+THEN Complication IS no   W 0.7871966894476142
+
+IF
+	Age = { VeryLow Low Medium VeryHigh}
+	Height = { Medium}
+	Weight = { Low VeryHigh}
+	RUM = { T0 T3}
+	FIGO = { T5}
+THEN Complication IS no   W 1.0
+
+IF
+	Age = { Low}
+	Height = { Medium}
+	Weight = { Low}
+	BMI = { Low}
+	OM = { T0}
+	RUM = { T3}
+	Lymph = { T1}
+	FIGO = { T4}
+THEN Complication IS no   W 1.0
+
+IF
+	Age = { Low High}
+	Height = { VeryLow VeryHigh}
+	Weight = { VeryLow Low}
+	BMI = { Medium}
+	OM = { T0}
+	RUM = { T0 T3}
+	Lymph = { T2 T3}
+	FIGO = { T2 T5}
+THEN Complication IS no   W 0.8831021303647136
+
+IF
+	Age = { Low}
+	Height = { Medium}
+	Weight = { VeryLow}
+	BMI = { VeryLow}
+	OM = { T0}
+	RUM = { T0}
+	Lymph = { T3}
+	FIGO = { T1}
+THEN Complication IS no   W 0.701095461658842
+
+IF
+	Age = { Low VeryHigh}
+	Height = { High}
+	Weight = { VeryLow}
+	BMI = { VeryLow VeryHigh}
+	OM = { T0}
+	RUM = { T0 T1 T2}
+	Lymph = { T0 T3}
+	FIGO = { T2}
+THEN Complication IS no   W 0.9290989660265878
+
+IF
+	Age = { VeryLow Medium VeryHigh}
+	Height = { VeryLow Medium High}
+	BMI = { VeryLow Low Medium High}
+	OM = { T0}
+	RUM = { T0 T1 T3}
+	Lymph = { T1 T2 T3}
+	FIGO = { T0 T1 T2 T5}
+THEN Complication IS yes   W 0.6842782071097373
+
+IF
+	Age = { Low High VeryHigh}
+	Weight = { VeryLow Low Medium}
+	BMI = { Low VeryHigh}
+	Lymph = { T0 T2 T3}
+	FIGO = { T1 T3 T4}
+THEN Complication IS yes   W 0.8009560104431637
+
+IF
+	Age = { Low High}
+	Height = { VeryLow Medium High}
+	Weight = { VeryLow Medium}
+	BMI = { VeryLow Low Medium}
+	OM = { T0}
+	RUM = { T0 T1}
+	Lymph = { T1 T2 T3}
+	FIGO = { T0 T3 T5}
+THEN Complication IS yes   W 0.8161092683166764
+
+IF
+	Age = { VeryLow Low}
+	Height = { High}
+	Weight = { Medium High VeryHigh}
+	BMI = { VeryLow Medium High VeryHigh}
+	OM = { T0}
+	RUM = { T0 T3}
+	FIGO = { T1 T2 T3 T4}
+THEN Complication IS yes   W 0.8495536414668188
+
+IF
+	Age = { Medium High VeryHigh}
+	Height = { VeryLow VeryHigh}
+	Weight = { VeryLow Low Medium}
+	BMI = { VeryLow Low VeryHigh}
+	FIGO = { T2 T4 T5}
+THEN Complication IS yes   W 0.9494219653179191
+
+IF
+	Age = { Medium VeryHigh}
+	Height = { VeryLow VeryHigh}
+	Weight = { VeryLow Low}
+	BMI = { VeryLow Low Medium}
+	OM = { T0}
+	RUM = { T0 T1 T3}
+	FIGO = { T0 T1 T2 T4 T5}
+THEN Complication IS yes   W 0.9568167797655769
+
+	Accuracy on training set is: 0.8229166666666666
+	Accuracy on test set is: 0.45454545454545453
+	Number of rules is: 17.0
+	Variables per rule is: 6.882352941176471
+	Variables used is: 1.0
+	Time is: 2.2449999999999997
+	Iterations is: 98776
+	Conditions is: 117
+

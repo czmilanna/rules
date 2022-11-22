@@ -1,0 +1,16 @@
+
+Rule 1: IF  Age in [18.0 , 52.0) THEN Severity -> 0     [ 205 66]
+Rule 2: IF  Age in [52.0 , 96.0] THEN Severity -> 1     [ 108 103]
+
+####Average results for test data####
+Avg. Rule length: 4
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.25
+Avg. Support: 0.6867469879518072
+Avg. Significance: 4.474560879657048
+Avg. Unusualness: 3.7198795180722897
+
+Accuracy Training: 0.6720214190093708
+Accuracy Test: 0.6867469879518072
+
+  Time (seconds); 

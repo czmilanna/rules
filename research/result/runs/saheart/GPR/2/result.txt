@@ -1,0 +1,4 @@
+IF Ldl is High THEN 1 | Support: 0.3226
+IF Tobacco is High AND Alcohol is Low THEN 1 | Support: 0.1513
+IF Alcohol is very Low AND Obesity is very High AND Tobacco is High THEN 1 | Support: 0.0227
+ELSE 0

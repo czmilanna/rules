@@ -1,0 +1,10 @@
+
+
+Rule 1: IF  Sbp in [102.0 , 218.0] AND Tobacco in [0.0 , 31.2] AND Ldl in [1.55 , 14.16] AND Adiposity in [11.59 , 42.49] AND Typea in [20.0 , 78.0] AND Obesity in [14.7 , 45.72] AND Alcohol in [0.0 , 147.19] AND Age in [17.0 , 64.0] THEN Chd -> 1      [ Hyperrectangle weight = 2.3125 ]     [ Volumen = 0.6310881382913067 ] 
+
+Rule 2: IF  Sbp in [101.0 , 214.0] AND Tobacco in [0.0 , 20.0] AND Ldl in [1.07 , 15.33] AND Adiposity in [6.74 , 42.06] AND Typea in [13.0 , 73.0] AND Obesity in [17.75 , 46.58] AND Alcohol in [0.0 , 145.29] AND Age in [15.0 , 64.0] THEN Chd -> 0      [ Hyperrectangle weight = 1.1102941176470589 ]     [ Volumen = 0.504004337489618 ] 
+
+Attributes Weights: Sbp = 0.8   Tobacco = 1.2   Ldl = 0.8   Adiposity = 0.8   Famhist = 0.8   Typea = 0.8   Obesity = 0.8   Alcohol = 0.8   Age = 0.8   
+
+Accuracy Training: 0.6850961538461539
+Accuracy Test: 0.6304347826086957

@@ -1,0 +1,2 @@
+IF 'plas' = [0.0 , 138.0) THEN tested_negative
+IF 'plas' = [138.0 , 199.0] THEN tested_positive

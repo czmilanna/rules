@@ -1,0 +1,128 @@
+@relation    saheart
+@attribute Sbp integer[101,218]
+@attribute Tobacco real[0.0,31.2]
+@attribute Ldl real[0.98,15.33]
+@attribute Adiposity real[6.74,42.49]
+@attribute Famhist{1,0}
+@attribute Typea integer[13,78]
+@attribute Obesity real[14.7,46.58]
+@attribute Alcohol real[0.0,147.19]
+@attribute Age integer[15,64]
+@attribute Chd{0,1}
+@inputs Sbp,Tobacco,Ldl,Adiposity,Famhist,Typea,Obesity,Alcohol,Age
+@outputs Chd
+@data
+
+@decisiontree
+
+if ( Age <= 30.000000 ) then
+{
+	Chd = "0"
+}
+elseif ( Age > 30.000000 ) then
+{
+	if ( Typea <= 68.000000 ) then
+	{
+		if ( Famhist = 1 ) then
+		{
+			if ( Ldl <= 6.680000 ) then
+			{
+				if ( Age <= 51.000000 ) then
+				{
+					Chd = "0"
+				}
+				elseif ( Age > 51.000000 ) then
+				{
+					Chd = "1"
+				}
+			}
+			elseif ( Ldl > 6.680000 ) then
+			{
+				Chd = "1"
+			}
+		}
+		elseif ( Famhist = 0 ) then
+		{
+			if ( Tobacco <= 7.500000 ) then
+			{
+				if ( Typea <= 42.000000 ) then
+				{
+					Chd = "0"
+				}
+				elseif ( Typea > 42.000000 ) then
+				{
+					if ( Age <= 61.000000 ) then
+					{
+						Chd = "0"
+					}
+					elseif ( Age > 61.000000 ) then
+					{
+						Chd = "1"
+					}
+				}
+			}
+			elseif ( Tobacco > 7.500000 ) then
+			{
+				if ( Age <= 45.000000 ) then
+				{
+					Chd = "0"
+				}
+				elseif ( Age > 45.000000 ) then
+				{
+					if ( Obesity <= 24.640000 ) then
+					{
+						Chd = "1"
+					}
+					elseif ( Obesity > 24.640000 ) then
+					{
+						if ( Sbp <= 158.000000 ) then
+						{
+							if ( Tobacco <= 12.300000 ) then
+							{
+								if ( Obesity <= 25.870000 ) then
+								{
+									Chd = "0"
+								}
+								elseif ( Obesity > 25.870000 ) then
+								{
+									Chd = "1"
+								}
+							}
+							elseif ( Tobacco > 12.300000 ) then
+							{
+								Chd = "0"
+							}
+						}
+						elseif ( Sbp > 158.000000 ) then
+						{
+							Chd = "1"
+						}
+					}
+				}
+			}
+		}
+	}
+	elseif ( Typea > 68.000000 ) then
+	{
+		Chd = "1"
+	}
+}
+
+@TotalNumberOfNodes 13
+@NumberOfLeafs 14
+@TotalNumberOfNodes 13
+@NumberOfAntecedentsByRule 5.571428571428571
+
+@NumberOfItemsetsTraining 416
+@NumberOfCorrectlyClassifiedTraining 339
+@PercentageOfCorrectlyClassifiedTraining 81.49039%
+@NumberOfInCorrectlyClassifiedTraining 77
+@PercentageOfInCorrectlyClassifiedTraining 18.509615%
+
+@NumberOfItemsetsTest 46
+@NumberOfCorrectlyClassifiedTest 31
+@PercentageOfCorrectlyClassifiedTest 67.391304%
+@NumberOfInCorrectlyClassifiedTest 15
+@PercentageOfInCorrectlyClassifiedTest 32.608696%
+
+@ElapsedTime 0:0:0

@@ -1,0 +1,58 @@
+@relation   complications
+@attribute Age integer[29,73]
+@attribute Height integer[150,176]
+@attribute Weight integer[44,118]
+@attribute BMI real[17.47,44.96]
+@attribute OM integer[0,1]
+@attribute RUM{3,2,0,1}
+@attribute Lymph integer[0,3]
+@attribute FIGO{0,1,2,3,4,5}
+@attribute Complication{no,yes}
+@inputs Age,Height,Weight,BMI,OM,RUM,Lymph,FIGO
+@outputs Complication
+@data
+
+@decisiontree
+
+if ( RUM = 3 ) then
+{
+	Complication = "no"
+}
+elseif ( RUM = 2 ) then
+{
+	if ( Lymph <= 1.000000 ) then
+	{
+		Complication = "no"
+	}
+	elseif ( Lymph > 1.000000 ) then
+	{
+		Complication = "yes"
+	}
+}
+elseif ( RUM = 0 ) then
+{
+	Complication = "no"
+}
+elseif ( RUM = 1 ) then
+{
+	Complication = "yes"
+}
+
+@TotalNumberOfNodes 2
+@NumberOfLeafs 5
+@TotalNumberOfNodes 2
+@NumberOfAntecedentsByRule 1.4
+
+@NumberOfItemsetsTraining 96
+@NumberOfCorrectlyClassifiedTraining 61
+@PercentageOfCorrectlyClassifiedTraining 63.541668%
+@NumberOfInCorrectlyClassifiedTraining 35
+@PercentageOfInCorrectlyClassifiedTraining 36.458332%
+
+@NumberOfItemsetsTest 11
+@NumberOfCorrectlyClassifiedTest 6
+@PercentageOfCorrectlyClassifiedTest 54.545456%
+@NumberOfInCorrectlyClassifiedTest 5
+@PercentageOfInCorrectlyClassifiedTest 45.454544%
+
+@ElapsedTime 0:0:0

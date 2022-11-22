@@ -1,0 +1,115 @@
+IF Tumor-size = 2 AND Node-caps = 1 THEN 1
+IF Tumor-size = 2 AND Node-caps = 0 AND Breast = 0 THEN 1
+IF Tumor-size = 2 AND Breast-quad = 0 THEN 1
+IF Node-caps = 1 AND Deg-malig = 3 AND Irradiated = 1 THEN 1
+IF Deg-malig = 2 AND Breast = 0 AND Breast-quad = 0 THEN 0
+IF Deg-malig = 3 AND Breast-quad = 1 AND Irradiated = 1 THEN 1
+IF Tumor-size = 2 AND Deg-malig = 3 AND Breast = 1 AND Irradiated = 1 THEN 1
+IF Tumor-size = 0 AND Deg-malig = 0 AND Irradiated = 0 THEN 0
+IF Tumor-size = 1 AND Irradiated = 1 THEN 1
+IF Age = 2 AND Breast-quad = 0 THEN 1
+IF Menopause = 2 AND Tumor-size = 1 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 THEN 1
+IF Age = 4 AND Node-caps = 0 AND Deg-malig = 0 AND Breast-quad = 1 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 2 AND Irradiated = 0 THEN 1
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 5 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 1 THEN 0
+IF Age = 4 AND Breast = 1 AND Breast-quad = 4 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 0 AND Breast-quad = 0 AND Irradiated = 0 THEN 1
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 1 THEN 1
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 1 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 2 AND Irradiated = 0 THEN 1
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 2 AND Node-caps = 1 AND Deg-malig = 3 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 1
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 2 AND Node-caps = 1 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 1 AND Deg-malig = 3 AND Breast = 0 AND Breast-quad = 0 AND Irradiated = 0 THEN 1
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 1 AND Node-caps = 1 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 1 AND Deg-malig = 3 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 1
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 0 AND Irradiated = 0 THEN 1
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 4 AND Irradiated = 0 THEN 1
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 0 AND Breast-quad = 0 AND Irradiated = 0 THEN 1
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 2 AND Irradiated = 0 THEN 1
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 1 THEN 1
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 1 AND Deg-malig = 3 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 4 AND Irradiated = 0 THEN 1
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 0 AND Irradiated = 0 THEN 1
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 4 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 0 AND Breast-quad = 0 AND Irradiated = 0 THEN 1
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 4 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 1 THEN 1
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 1
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 4 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 1 THEN 1
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 0 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 0 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 3 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 0 AND Irradiated = 0 THEN 0
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 0 AND Breast-quad = 4 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 1 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 0 AND Breast-quad = 0 AND Irradiated = 0 THEN 0
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 0 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 4 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 3 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 4 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 0 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 4 AND Inv-nodes = 0 AND Node-caps = 1 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 4 AND Irradiated = 0 THEN 0
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 0
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast-quad = 3 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 3 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 4 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 3 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 2 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 1 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 0 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 4 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 0
+IF Age = 6 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 0
+IF Age = 6 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 0 AND Breast-quad = 0 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 0 AND Breast-quad = 0 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 1 THEN 0
+IF Age = 6 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 0 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 4 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 3 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 4 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 1 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 3 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 4 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 2 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 3 AND Irradiated = 0 THEN 0
+IF Age = 6 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 4 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 0
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 3 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 1 AND Node-caps = 1 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 1 THEN 0
+IF Age = 1 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 0
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 4 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 1 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 5 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 1 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 0 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 2 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 3 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 2 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 0 AND Breast = 1 AND Breast-quad = 2 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 1 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 1 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 4 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 4 AND Menopause = 2 AND Tumor-size = 0 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 3 AND Breast = 1 AND Breast-quad = 1 AND Irradiated = 0 THEN 0
+IF Age = 3 AND Menopause = 2 AND Tumor-size = 3 AND Inv-nodes = 0 AND Node-caps = 0 AND Deg-malig = 2 AND Breast = 0 AND Breast-quad = 2 AND Irradiated = 0 THEN 0

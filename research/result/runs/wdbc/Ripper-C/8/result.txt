@@ -1,0 +1,19 @@
+@Number of Rules: 9
+if(Perimeter3>109.8 && Area2>32.14) (150/155)
+	output=M
+else if(Concave_points1>0.051 && Concave_points3>0.15) (149/152)
+	output=M
+else if(Concave_points3>0.11 && Radius3>15.35 && Radius1<=13.96) (20/21)
+	output=M
+else if(Radius3>17.71) (144/147)
+	output=M
+else if(Concavity1>0.119 && Compactness2<=0.045) (94/94)
+	output=M
+else if(Radius2>0.562 && Compactness1<=0.059) (2/2)
+	output=M
+else if(Texture3>32.29 && Concave_points3>0.091) (50/52)
+	output=M
+else if(Fractal_dimension1<=0.054 && Concavity1>0.057) (16/16)
+	output=M
+else 
+	output=B

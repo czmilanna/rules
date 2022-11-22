@@ -1,0 +1,12 @@
+if(Age<=31.0 && Alcohol<=12.55) (75/76)
+	output=0
+else if(Famhist=1 && Age<=50.0 && Typea<=53.0 && Ldl<=5.35) (31/32)
+	output=0
+else if(Age<=31.0 && Tobacco<=0.5) (72/73)
+	output=0
+else if(Tobacco<=8.0 && Famhist=0 && Age<=61.0 && Typea<=65.0) (154/180)
+	output=0
+else if(Tobacco>0.5 && Adiposity>25.63) (86/169)
+	output=1
+else 
+	output=0

@@ -1,0 +1,8 @@
+if(Ascites<=1.0 && ProTime<=42.0) (6/6)
+	output=1
+else if(Histology<=1.0) (43/44)
+	output=2
+else if(Ascites>1.0 && Bilirubin>0.5) (56/59)
+	output=2
+else 
+	output=1

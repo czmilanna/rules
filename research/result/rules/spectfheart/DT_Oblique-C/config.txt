@@ -1,0 +1,6 @@
+algorithm = Evolutionary Oblique DT Induction
+inputData = "C:/Projekty/rules/data/spectfheart/spectfheart.dat" "C:/Projekty/rules/data/spectfheart/spectfheart.dat" "C:/Projekty/rules/data/spectfheart/spectfheart.dat"
+outputData = "rules/spectfheart/DT_Oblique-C/result.tra" "rules/spectfheart/DT_Oblique-C/result.tst" "rules/spectfheart/DT_Oblique-C/result.txt"
+
+seed = 1
+Number of Total Generations for the GA = 25

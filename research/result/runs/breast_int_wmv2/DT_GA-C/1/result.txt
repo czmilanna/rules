@@ -1,0 +1,14 @@
+Number of Rules: 6
+Rule[1]: IF  Inv-nodes <= 0.0  THEN Class = 0 (150/187)
+Rule[2]: IF  Inv-nodes > 0.0 AND  Deg-malig <= 2.0 AND  Breast = {0}  THEN Class = 0 (14/18)
+Rule[3]: IF  Inv-nodes > 0.0 AND  Deg-malig <= 2.0 AND  Breast = {1} AND  Breast-quad <= 1.0 AND  Tumor-size <= 4.0  THEN Class = 1 (3/4)
+Rule[4]: IF  Inv-nodes > 0.0 AND  Deg-malig <= 2.0 AND  Breast = {1} AND  Breast-quad <= 1.0 AND  Tumor-size > 4.0  THEN Class = 0 (5/5)
+Rule[5]: IF  Inv-nodes > 0.0 AND  Deg-malig <= 2.0 AND  Breast = {1} AND  Breast-quad > 1.0  THEN Class = 1 (3/3)
+Rule[6]: IF  Inv-nodes > 0.0 AND  Deg-malig > 2.0  THEN Class = 1 (25/31)
+
+Number of Rules: 2
+Rule[1]: IF  Breast = {1, 0} AND  Irradiated = {0, 1}  THEN Class = 0 (176/248)
+Rule[2]: IF  Age = {50, 60} AND  Menopause <= 2.0 AND  Tumor-size > 5.0 AND  Inv-nodes <= 3.0 AND  Node-caps <= 1.0 AND  Deg-malig > 1.0 AND  Breast = {0, 1} AND  Breast-quad > 2.0 AND  Irradiated = {0, 1}  THEN Class = 1 (5/6)
+
+Accuracy in training: 0.7862903225806451
+Accuracy in test: 0.6896551724137931

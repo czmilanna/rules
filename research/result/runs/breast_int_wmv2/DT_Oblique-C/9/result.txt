@@ -1,0 +1,426 @@
+if ( -1.0*Deg-malig + 2.0 >= 0  ) then{
+	if ( -1.0*Tumor-size + 3.0 >= 0  ) then{
+		if ( -73.79374640849275*Age + -11.0099833949958*Menopause + 74.6003699196969*Tumor-size + 113.32578908496674*Inv-nodes + 173.03818603349805*Node-caps + -34.98446192475606*Deg-malig + -192.6846879517391*Breast + -14.27539694455345*Breast-quad + -173.5999305671081*Irradiated + 49.61199337840361 >= 0  ) then{
+			Class = 1 (1) 
+		}
+		else{ 
+			if ( -1.0*Menopause + 1.0 >= 0  ) then{
+				Class = 0 (31) 
+			}
+			else{ 
+				if ( -1.0*Breast-quad + 3.0 >= 0  ) then{
+					if ( -1.0*Tumor-size + 2.0 >= 0  ) then{
+						Class = 0 (14) 
+					}
+					else{ 
+						if ( -1.0*Breast-quad + 0.0 >= 0  ) then{
+							Class = 1 (1) 
+						}
+						else{ 
+							if ( -1.0*Age + 3.0 >= 0  ) then{
+								Class = 0 (3) 
+							}
+							else{ 
+								if ( -1.0*Breast + 0.0 >= 0  ) then{
+									Class = 0 (2) 
+								}
+								else{ 
+									if ( -1.0*Deg-malig + 1.0 >= 0  ) then{
+										Class = 0 (1) 
+									}
+									else{ 
+										Class = 1 (1) 
+									}
+								}
+							}
+						}
+					}
+				}
+				else{ 
+					Class = 0 (2) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*Inv-nodes + 2.0 >= 0  ) then{
+			if ( -1.0*Irradiated + 0.0 >= 0  ) then{
+				if ( -1.0*Breast-quad + 2.0 >= 0  ) then{
+					if ( 196.65379654538208*Age + -144.82840587031757*Menopause + 66.69657469417353*Inv-nodes + 158.34601371510558*Node-caps + -47.58510735062535*Deg-malig + -79.50808943237833*Breast + -184.03281261772682*Breast-quad + 168.28517289093816*Irradiated + -63.62146657510229 >= 0  ) then{
+						if ( -1.0*Breast + 0.0 >= 0  ) then{
+							if ( -29.415159260252295*Age + 19.19302088655371*Menopause + 23.95139043777047*Tumor-size + -107.93854405822664*Inv-nodes + 36.58494461248276*Node-caps + 83.99722079839489*Deg-malig + -148.60206952984493*Breast + -130.43682843689731*Irradiated + -73.60800632126816 >= 0  ) then{
+								if ( -1.0*Node-caps + 0.0 >= 0  ) then{
+									if ( -1.0*Breast-quad + 1.0 >= 0  ) then{
+										if ( -1.0*Tumor-size + 5.0 >= 0  ) then{
+											if ( -1.0*Deg-malig + 1.0 >= 0  ) then{
+												if ( -1.0*Menopause + 1.0 >= 0  ) then{
+													Class = 0 (1) 
+												}
+												else{ 
+													Class = 0 (2) 
+												}
+											}
+											else{ 
+												if ( -1.0*Menopause + 1.0 >= 0  ) then{
+													if ( -1.0*Age + 3.0 >= 0  ) then{
+														Class = 1 (1) 
+													}
+													else{ 
+														Class = 0 (4) 
+													}
+												}
+												else{ 
+													Class = 0 (5) 
+												}
+											}
+										}
+										else{ 
+											if ( -1.0*Deg-malig + 1.0 >= 0  ) then{
+												Class = 0 (4) 
+											}
+											else{ 
+												if ( -1.0*Age + 4.0 >= 0  ) then{
+													if ( -1.0*Age + 3.0 >= 0  ) then{
+														Class = 1 (1) 
+													}
+													else{ 
+														Class = 0 (1) 
+													}
+												}
+												else{ 
+													Class = 1 (1) 
+												}
+											}
+										}
+									}
+									else{ 
+										Class = 0 (3) 
+									}
+								}
+								else{ 
+									Class = 0 (3) 
+								}
+							}
+							else{ 
+								if ( -1.0*Tumor-size + 5.0 >= 0  ) then{
+									Class = 1 (2) 
+								}
+								else{ 
+									Class = 0 (1) 
+								}
+							}
+						}
+						else{ 
+							if ( -1.0*Tumor-size + 4.0 >= 0  ) then{
+								if ( -1.0*Age + 4.0 >= 0  ) then{
+									if ( -1.0*Menopause + 1.0 >= 0  ) then{
+										Class = 1 (1) 
+									}
+									else{ 
+										Class = 0 (2) 
+									}
+								}
+								else{ 
+									Class = 0 (2) 
+								}
+							}
+							else{ 
+								if ( -1.0*Tumor-size + 6.0 >= 0  ) then{
+									Class = 0 (15) 
+								}
+								else{ 
+									if ( -1.0*Tumor-size + 7.0 >= 0  ) then{
+										if ( -1.0*Breast-quad + 0.0 >= 0  ) then{
+											Class = 0 (1) 
+										}
+										else{ 
+											Class = 1 (1) 
+										}
+									}
+									else{ 
+										Class = 0 (4) 
+									}
+								}
+							}
+						}
+					}
+					else{ 
+						if ( -31.78658807458976*Age + -45.735260156387284*Menopause + 18.175404010847046*Inv-nodes + 73.66444316545142*Node-caps + -197.71541515312052*Breast + 122.30657812261643*Breast-quad + 77.89531887459924*Irradiated + 39.31466346590656 >= 0  ) then{
+							Class = 0 (6) 
+						}
+						else{ 
+							if ( -111.75875475438282*Age + -160.82237361949458*Menopause + 185.942084990894*Tumor-size + -146.1592116267791*Inv-nodes + -119.54182459030808*Node-caps + 125.9745221412681*Deg-malig + -36.57868193382831*Breast + -145.7284472756387*Breast-quad + 160.14149560596366*Irradiated + -117.74614805303192 >= 0  ) then{
+								if ( -1.0*Breast-quad + 0.0 >= 0  ) then{
+									if ( -1.0*Deg-malig + 1.0 >= 0  ) then{
+										Class = 1 (2) 
+									}
+									else{ 
+										Class = 0 (2) 
+									}
+								}
+								else{ 
+									if ( -1.0*Tumor-size + 5.0 >= 0  ) then{
+										if ( -1.0*Age + 2.0 >= 0  ) then{
+											Class = 0 (1) 
+										}
+										else{ 
+											if ( -1.0*Tumor-size + 4.0 >= 0  ) then{
+												Class = 0 (2) 
+											}
+											else{ 
+												Class = 1 (3) 
+											}
+										}
+									}
+									else{ 
+										if ( -1.0*Tumor-size + 7.0 >= 0  ) then{
+											Class = 0 (3) 
+										}
+										else{ 
+											if ( -1.0*Deg-malig + 1.0 >= 0  ) then{
+												Class = 1 (1) 
+											}
+											else{ 
+												Class = 0 (2) 
+											}
+										}
+									}
+								}
+							}
+							else{ 
+								Class = 1 (4) 
+							}
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*Menopause + 1.0 >= 0  ) then{
+						if ( -1.0*Tumor-size + 4.0 >= 0  ) then{
+							Class = 1 (1) 
+						}
+						else{ 
+							Class = 0 (2) 
+						}
+					}
+					else{ 
+						Class = 0 (12) 
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*Breast-quad + 0.0 >= 0  ) then{
+					Class = 0 (7) 
+				}
+				else{ 
+					if ( -1.0*Age + 4.0 >= 0  ) then{
+						if ( -1.0*Tumor-size + 9.0 >= 0  ) then{
+							if ( -1.0*Breast + 0.0 >= 0  ) then{
+								Class = 0 (3) 
+							}
+							else{ 
+								if ( -1.0*Age + 3.0 >= 0  ) then{
+									if ( -1.0*Tumor-size + 6.0 >= 0  ) then{
+										Class = 1 (3) 
+									}
+									else{ 
+										Class = 0 (2) 
+									}
+								}
+								else{ 
+									Class = 0 (2) 
+								}
+							}
+						}
+						else{ 
+							Class = 1 (1) 
+						}
+					}
+					else{ 
+						if ( -1.0*Breast-quad + 1.0 >= 0  ) then{
+							if ( -1.0*Tumor-size + 5.0 >= 0  ) then{
+								Class = 1 (1) 
+							}
+							else{ 
+								Class = 0 (1) 
+							}
+						}
+						else{ 
+							Class = 1 (3) 
+						}
+					}
+				}
+			}
+		}
+		else{ 
+			if ( -1.0*Menopause + 1.0 >= 0  ) then{
+				Class = 0 (1) 
+			}
+			else{ 
+				Class = 1 (2) 
+			}
+		}
+	}
+}
+else{ 
+	if ( -1.0*Node-caps + 0.0 >= 0  ) then{
+		if ( -1.0*Tumor-size + 4.0 >= 0  ) then{
+			if ( -1.0*Tumor-size + 3.0 >= 0  ) then{
+				Class = 0 (5) 
+			}
+			else{ 
+				if ( -1.0*Irradiated + 0.0 >= 0  ) then{
+					if ( -1.0*Age + 4.0 >= 0  ) then{
+						Class = 0 (5) 
+					}
+					else{ 
+						if ( -1.0*Age + 5.0 >= 0  ) then{
+							Class = 1 (1) 
+						}
+						else{ 
+							Class = 0 (1) 
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*Age + 2.0 >= 0  ) then{
+						Class = 1 (1) 
+					}
+					else{ 
+						if ( -1.0*Menopause + 1.0 >= 0  ) then{
+							Class = 1 (1) 
+						}
+						else{ 
+							Class = 0 (1) 
+						}
+					}
+				}
+			}
+		}
+		else{ 
+			if ( -1.0*Irradiated + 0.0 >= 0  ) then{
+				if ( 107.03522057901955*Age + -132.78704749718008*Menopause + 3.25397984200481*Tumor-size + -145.62840292826957*Inv-nodes + 139.68977358650648*Node-caps + 151.84687114130867*Breast + -99.26906151214361*Breast-quad + 13.237739590284832*Irradiated + -193.44347044672898 >= 0  ) then{
+					if ( -1.0*Tumor-size + 8.0 >= 0  ) then{
+						if ( -1.0*Tumor-size + 5.0 >= 0  ) then{
+							if ( -1.0*Age + 3.0 >= 0  ) then{
+								Class = 1 (1) 
+							}
+							else{ 
+								if ( -1.0*Age + 4.0 >= 0  ) then{
+									Class = 0 (1) 
+								}
+								else{ 
+									if ( -1.0*Breast + 0.0 >= 0  ) then{
+										Class = 0 (1) 
+									}
+									else{ 
+										Class = 1 (1) 
+									}
+								}
+							}
+						}
+						else{ 
+							Class = 0 (9) 
+						}
+					}
+					else{ 
+						Class = 1 (1) 
+					}
+				}
+				else{ 
+					if ( -1.0*Inv-nodes + 1.0 >= 0  ) then{
+						if ( -1.0*Age + 3.0 >= 0  ) then{
+							if ( -1.0*Breast + 0.0 >= 0  ) then{
+								Class = 0 (1) 
+							}
+							else{ 
+								if ( -1.0*Age + 2.0 >= 0  ) then{
+									if ( -1.0*Tumor-size + 6.0 >= 0  ) then{
+										Class = 0 (1) 
+									}
+									else{ 
+										Class = 1 (2) 
+									}
+								}
+								else{ 
+									Class = 1 (2) 
+								}
+							}
+						}
+						else{ 
+							Class = 1 (3) 
+						}
+					}
+					else{ 
+						Class = 0 (1) 
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*Age + 3.0 >= 0  ) then{
+					if ( -1.0*Age + 2.0 >= 0  ) then{
+						if ( -1.0*Tumor-size + 6.0 >= 0  ) then{
+							Class = 1 (1) 
+						}
+						else{ 
+							Class = 0 (1) 
+						}
+					}
+					else{ 
+						Class = 0 (1) 
+					}
+				}
+				else{ 
+					Class = 1 (5) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*Breast-quad + 0.0 >= 0  ) then{
+			if ( -1.0*Tumor-size + 3.0 >= 0  ) then{
+				Class = 1 (2) 
+			}
+			else{ 
+				if ( -1.0*Age + 3.0 >= 0  ) then{
+					if ( -1.0*Tumor-size + 6.0 >= 0  ) then{
+						Class = 1 (1) 
+					}
+					else{ 
+						Class = 0 (1) 
+					}
+				}
+				else{ 
+					Class = 0 (2) 
+				}
+			}
+		}
+		else{ 
+			if ( -1.0*Tumor-size + 8.0 >= 0  ) then{
+				if ( -1.0*Age + 4.0 >= 0  ) then{
+					Class = 1 (14) 
+				}
+				else{ 
+					if ( -1.0*Tumor-size + 6.0 >= 0  ) then{
+						if ( -1.0*Tumor-size + 5.0 >= 0  ) then{
+							Class = 1 (1) 
+						}
+						else{ 
+							Class = 0 (1) 
+						}
+					}
+					else{ 
+						Class = 1 (2) 
+					}
+				}
+			}
+			else{ 
+				Class = 0 (1) 
+			}
+		}
+	}
+}
+}
+
+
+Accuracy in training: 0.98
+Accuracy in test: 0.7037037037037037

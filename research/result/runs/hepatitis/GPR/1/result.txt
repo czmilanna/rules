@@ -1,0 +1,3 @@
+IF AlbuMin is High THEN 1 | Support: 0.6443
+IF AlkPhosphate is very High THEN 1 | Support: 0.1195
+ELSE 0

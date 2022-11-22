@@ -1,0 +1,31 @@
+
+Rule 1: IF  Obesity in [14.7 , 23.09) THEN Chd -> 0     [ 8 5]
+Rule 2: IF  Obesity in [23.09 , 23.37) THEN Chd -> 1     [ 3 8]
+Rule 3: IF  Obesity in [23.37 , 23.95) THEN Chd -> 0     [ 10 2]
+Rule 4: IF  Obesity in [23.95 , 24.36) THEN Chd -> 1     [ 6 7]
+Rule 5: IF  Obesity in [24.36 , 25.01) THEN Chd -> 0     [ 10 4]
+Rule 6: IF  Obesity in [25.01 , 25.51) THEN Chd -> 1     [ 5 8]
+Rule 7: IF  Obesity in [25.51 , 26.8) THEN Chd -> 0     [ 9 3]
+Rule 8: IF  Obesity in [26.8 , 27.16) THEN Chd -> 1     [ 5 8]
+Rule 9: IF  Obesity in [27.16 , 27.87) THEN Chd -> 0     [ 9 6]
+Rule 10: IF  Obesity in [27.87 , 28.49) THEN Chd -> 1     [ 7 8]
+Rule 11: IF  Obesity in [28.49 , 29.37) THEN Chd -> 0     [ 10 6]
+Rule 12: IF  Obesity in [29.37 , 30.14) THEN Chd -> 1     [ 7 9]
+Rule 13: IF  Obesity in [30.14 , 31.27) THEN Chd -> 0     [ 10 4]
+Rule 14: IF  Obesity in [31.27 , 32.83) THEN Chd -> 1     [ 6 7]
+Rule 15: IF  Obesity in [32.83 , 35.07) THEN Chd -> 0     [ 7 5]
+Rule 16: IF  Obesity in [35.07 , 46.58) THEN Chd -> 1     [ 6 7]
+Rule 17: IF  Obesity = 46.58 THEN Chd -> 0     [ 1 0]
+
+####Average results for test data####
+Avg. Rule length: 31
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.029453015427769985
+Avg. Support: 0.5217391304347826
+Avg. Significance: 0.8069985588358028
+Avg. Unusualness: 0.0
+
+Accuracy Training: 0.6947115384615384
+Accuracy Test: 0.5652173913043478
+
+  Time (seconds); 

@@ -1,0 +1,16 @@
+if(height>1.61 && age>14.0 && weight<=52.0) (5/5)
+	output=1
+else if(vigorious>128.75 && vigorious<=319.5 && age>8.0 && moderate>214.916666666667) (60/61)
+	output=1
+else if(step_count>60837.0) (79/79)
+	output=1
+else if(step_count<=60837.0 && vigorious<=128.75) (80/91)
+	output=0
+else if(step_count<=60837.0 && age<=8.0) (18/19)
+	output=0
+else if(step_count<=60837.0 && moderate<=214.916666666667 && height<=1.61) (56/62)
+	output=0
+else if(step_count<=60837.0 && vigorious>319.5) (9/9)
+	output=0
+else 
+	output=1

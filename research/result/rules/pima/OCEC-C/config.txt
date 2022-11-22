@@ -1,0 +1,7 @@
+algorithm = Organizational Coevolutionary Algorithm (OCEC)
+inputData = "C:/Projekty/rules/data/pima/pima.dat" "C:/Projekty/rules/data/pima/pima.dat" "C:/Projekty/rules/data/pima/pima.dat"
+outputData = "rules/pima/OCEC-C/result.tra" "rules/pima/OCEC-C/result.tst" "rules/pima/OCEC-C/result.txt"
+
+seed = 1
+Number of Total Generations = 500
+Number of migrating/exchanging members = 1

@@ -1,0 +1,2 @@
+IF Height is very Low THEN 1 
+ELSE 0

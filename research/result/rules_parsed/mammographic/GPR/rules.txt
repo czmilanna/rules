@@ -1,0 +1,4 @@
+IF BI-RADS is very High THEN 1 
+IF Shape is Medium AND BI-RADS is Medium AND Density is High THEN 1 
+IF Margin is Medium AND Shape is Medium AND Age is Low THEN 1 
+ELSE 0

@@ -1,0 +1,10 @@
+IF Ldl = [0.98 , 4.41) THEN 0
+IF Ldl = [4.41 , 4.64) THEN 1
+IF Ldl = [4.64 , 5.05) THEN 0
+IF Ldl = [5.05 , 5.29) THEN 1
+IF Ldl = [5.29 , 6.23) THEN 0
+IF Ldl = [6.23 , 7.1) THEN 1
+IF Ldl = [7.1 , 7.39) THEN 0
+IF Ldl = [7.39 , 7.85) THEN 1
+IF Ldl = [7.85 , 8.28) THEN 0
+IF Ldl = [8.28 , 15.33] THEN 1

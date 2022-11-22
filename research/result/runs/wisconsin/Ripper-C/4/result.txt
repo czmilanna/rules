@@ -1,0 +1,21 @@
+@Number of Rules: 10
+if(CellSize>3.0 && BlandChromatin>4.0) (132/133)
+	output=4
+else if(EpithelialSize>2.0 && CellSize>4.0) (152/154)
+	output=4
+else if(BareNuclei>3.0 && CellShape>2.0 && MarginalAdhesion<=4.0 && NormalNucleoli<=6.0) (48/51)
+	output=4
+else if(BlandChromatin>3.0 && ClumpThickness>4.0) (153/158)
+	output=4
+else if(NormalNucleoli>2.0 && CellShape>3.0 && EpithelialSize<=5.0) (79/82)
+	output=4
+else if(NormalNucleoli>2.0 && BareNuclei>2.0 && BlandChromatin>4.0) (107/108)
+	output=4
+else if(BareNuclei>4.0 && ClumpThickness>6.0) (103/103)
+	output=4
+else if(Mitoses>2.0 && ClumpThickness>3.0) (68/69)
+	output=4
+else if(BareNuclei>4.0 && EpithelialSize<=1.0) (1/1)
+	output=4
+else 
+	output=2

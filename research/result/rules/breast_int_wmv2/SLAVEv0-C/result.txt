@@ -1,0 +1,339 @@
+Experiment: C:/Projekty/rules/data/breast_int_wmv2/breast_int_wmv2.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 277
+Class 0: 196
+Class 1: 81
+Accuracy on training: 0.6173285198555957
+Number of examples: 106
+Class 0: 28
+Class 1: 81
+Accuracy on training: 0.6787003610108303
+Number of examples: 89
+Class 0: 11
+Class 1: 81
+Accuracy on training: 0.6931407942238267
+Number of examples: 85
+Class 0: 7
+Class 1: 81
+Accuracy on training: 0.703971119133574
+Number of examples: 82
+Class 0: 2
+Class 1: 81
+Accuracy on training: 0.703971119133574
+Number of examples: 82
+Class 0: 1
+Class 1: 81
+Accuracy on training: 0.7075812274368231
+Number of examples: 81
+Class 0: 196
+Class 1: 81
+Accuracy on training: 0.7617328519855595
+Number of examples: 261
+Class 0: 196
+Class 1: 65
+Accuracy on training: 0.7942238267148014
+Number of examples: 249
+Class 0: 196
+Class 1: 53
+Accuracy on training: 0.8050541516245487
+Number of examples: 245
+Class 0: 196
+Class 1: 49
+Accuracy on training: 0.8267148014440433
+Number of examples: 238
+Class 0: 196
+Class 1: 42
+Accuracy on training: 0.8411552346570397
+Number of examples: 233
+Class 0: 196
+Class 1: 37
+Accuracy on training: 0.8592057761732852
+Number of examples: 225
+Class 0: 196
+Class 1: 29
+Accuracy on training: 0.8700361010830325
+Number of examples: 222
+Class 0: 196
+Class 1: 26
+Accuracy on training: 0.8736462093862816
+Number of examples: 221
+Class 0: 196
+Class 1: 25
+Accuracy on training: 0.8772563176895307
+Number of examples: 218
+Class 0: 196
+Class 1: 24
+Accuracy on training: 0.8808664259927798
+Number of examples: 217
+Class 0: 196
+Class 1: 23
+Accuracy on training: 0.8844765342960289
+Number of examples: 216
+Class 0: 196
+Class 1: 22
+Accuracy on training: 0.8880866425992779
+Number of examples: 215
+Class 0: 196
+Class 1: 21
+Accuracy on training: 0.8880866425992779
+Number of examples: 213
+Class 0: 196
+Class 1: 20
+Successes: 246.0
+Errors:  31.0
+Not classified: 0.0
+	Rule 0: 159 / 21
+	Rule 1: 16 / 1
+	Rule 2: 4 / 1
+	Rule 3: 8 / 0
+	Rule 4: 1 / 0
+	Rule 5: 0 / 0
+	Rule 6: 16 / 1
+	Rule 7: 10 / 3
+	Rule 8: 4 / 1
+	Rule 9: 9 / 1
+	Rule 10: 5 / 1
+	Rule 11: 6 / 1
+	Rule 12: 3 / 0
+	Rule 13: 1 / 0
+	Rule 14: 1 / 0
+	Rule 15: 1 / 0
+	Rule 16: 1 / 0
+	Rule 17: 1 / 0
+	Rule 18: 0 / 0
+Successes: 246.0
+Errors:  31.0
+Not classified: 0.0
+	Rule 0: 159 / 21
+	Rule 1: 16 / 1
+	Rule 2: 4 / 1
+	Rule 3: 8 / 0
+	Rule 4: 1 / 0
+	Rule 5: 0 / 0
+	Rule 6: 16 / 1
+	Rule 7: 10 / 3
+	Rule 8: 4 / 1
+	Rule 9: 9 / 1
+	Rule 10: 5 / 1
+	Rule 11: 6 / 1
+	Rule 12: 3 / 0
+	Rule 13: 1 / 0
+	Rule 14: 1 / 0
+	Rule 15: 1 / 0
+	Rule 16: 1 / 0
+	Rule 17: 1 / 0
+	Rule 18: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.8880866425992779
+Accuracy on test: 0.8880866425992779
+Number of rules: 19.0
+Variables per rule: 6.842105263157895
+Variables used: 1.0
+Time: 3.5329999999999995
+Iterations: 112029
+Conditions: 130
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	Age = { T0 T1 T2 T3 T4 T5 T6}
+	Inv-nodes = { VeryLow Medium High VeryHigh}
+	Node-caps = { T0}
+THEN Class IS 0   W 0.7785388127853882
+
+IF
+	Age = { T0 T2 T3 T4 T6 T7 T8}
+	Tumor-size = { Low Medium High VeryHigh}
+	Inv-nodes = { VeryLow Low Medium}
+	Node-caps = { T1}
+	Deg-malig = { T1}
+	Breast-quad = { T0 T1 T2 T4}
+THEN Class IS 0   W 0.782608695652174
+
+IF
+	Age = { T0 T2 T3 T4 T5 T7}
+	Menopause = { T1}
+	Tumor-size = { Medium High}
+	Node-caps = { T1}
+	Deg-malig = { T1 T2}
+	Breast-quad = { T0 T2 T4}
+	Irradiated = { T0}
+THEN Class IS 0   W 0.8571428571428572
+
+IF
+	Age = { T1 T3}
+	Menopause = { T2}
+	Tumor-size = { Low Medium High}
+	Inv-nodes = { VeryLow Low VeryHigh}
+	Deg-malig = { T1 T2}
+	Breast = { T0}
+	Breast-quad = { T0 T1 T3}
+	Irradiated = { T1}
+THEN Class IS 0   W 0.9130434782608696
+
+IF
+	Age = { T3}
+	Menopause = { T2}
+	Tumor-size = { Medium}
+	Inv-nodes = { Low}
+	Node-caps = { T0}
+	Deg-malig = { T1}
+	Breast = { T1}
+	Breast-quad = { T0}
+	Irradiated = { T0}
+THEN Class IS 0   W 1.0
+
+IF
+	Age = { T5}
+	Menopause = { T1}
+	Tumor-size = { Medium}
+	Inv-nodes = { VeryLow}
+	Node-caps = { T1}
+	Deg-malig = { T2}
+	Breast = { T1}
+	Breast-quad = { T1}
+	Irradiated = { T0}
+THEN Class IS 0   W 0.8
+
+IF
+	Age = { T0 T2 T4 T5 T7}
+	Deg-malig = { T2}
+	Breast-quad = { T0 T1 T3}
+	Irradiated = { T1}
+THEN Class IS 1   W 0.9444444444444444
+
+IF
+	Age = { T0 T2 T3 T7 T8}
+	Menopause = { T2}
+	Deg-malig = { T2}
+	Breast-quad = { T0 T1 T2}
+	Irradiated = { T0}
+THEN Class IS 1   W 0.8125
+
+IF
+	Age = { T2 T5 T6 T7}
+	Menopause = { T2}
+	Tumor-size = { Medium High}
+	Inv-nodes = { VeryLow Low Medium VeryHigh}
+	Node-caps = { T0}
+	Breast-quad = { T0}
+THEN Class IS 1   W 0.8333333333333334
+
+IF
+	Age = { T1 T2 T3 T5 T7 T8}
+	Menopause = { T1 T2}
+	Tumor-size = { Low Medium}
+	Node-caps = { T1}
+	Breast = { T1}
+THEN Class IS 1   W 0.8867924528301887
+
+IF
+	Age = { T0 T1 T2 T3 T4 T5 T7}
+	Menopause = { T1}
+	Tumor-size = { Low Medium High}
+	Inv-nodes = { VeryLow Low Medium VeryHigh}
+	Breast-quad = { T1 T2 T3}
+	Irradiated = { T1}
+THEN Class IS 1   W 0.8571428571428571
+
+IF
+	Age = { T4 T5 T8}
+	Menopause = { T1 T2}
+	Tumor-size = { Medium}
+	Inv-nodes = { VeryLow Medium High}
+	Deg-malig = { T1 T2}
+	Breast-quad = { T2 T4}
+	Irradiated = { T0}
+THEN Class IS 1   W 0.8333333333333334
+
+IF
+	Age = { T1 T5 T6 T8}
+	Menopause = { T0 T1}
+	Tumor-size = { High VeryHigh}
+	Inv-nodes = { VeryLow VeryHigh}
+	Deg-malig = { T1 T2}
+	Breast = { T0}
+	Breast-quad = { T0 T1 T4}
+	Irradiated = { T0}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { T4}
+	Menopause = { T2}
+	Tumor-size = { Low}
+	Inv-nodes = { VeryLow}
+	Node-caps = { T0}
+	Deg-malig = { T1}
+	Breast = { T1}
+	Breast-quad = { T1}
+	Irradiated = { T0}
+THEN Class IS 1   W 0.8181818181818181
+
+IF
+	Age = { T0 T2 T3 T4 T7 T8}
+	Menopause = { T1}
+	Tumor-size = { VeryLow Low Medium VeryHigh}
+	Inv-nodes = { Low High}
+	Deg-malig = { T0 T2}
+	Breast = { T1}
+THEN Class IS 1   W 0.8571428571428571
+
+IF
+	Age = { T1 T2 T3 T8}
+	Menopause = { T1 T2}
+	Tumor-size = { VeryHigh}
+	Inv-nodes = { VeryLow Low Medium}
+	Node-caps = { T0}
+	Deg-malig = { T1}
+	Breast = { T0}
+	Breast-quad = { T1}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { T4}
+	Menopause = { T1}
+	Tumor-size = { Low}
+	Inv-nodes = { VeryLow}
+	Node-caps = { T0}
+	Deg-malig = { T1}
+	Breast = { T1}
+	Breast-quad = { T0}
+	Irradiated = { T0}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { T0 T1 T2 T4 T7 T8}
+	Menopause = { T2}
+	Tumor-size = { VeryHigh}
+	Inv-nodes = { VeryLow Low}
+	Deg-malig = { T1 T2}
+	Breast-quad = { T0 T1 T3}
+	Irradiated = { T0}
+THEN Class IS 1   W 1.0
+
+IF
+	Age = { T1 T2 T4 T5 T6}
+	Menopause = { T2}
+	Tumor-size = { Medium VeryHigh}
+	Inv-nodes = { VeryLow Medium}
+	Deg-malig = { T0}
+	Breast = { T0}
+	Breast-quad = { T0 T1 T4}
+	Irradiated = { T0}
+THEN Class IS 1   W 0.6774193548387097
+
+	Accuracy on training set is: 0.8880866425992779
+	Accuracy on test set is: 0.8880866425992779
+	Number of rules is: 19.0
+	Variables per rule is: 6.842105263157895
+	Variables used is: 1.0
+	Time is: 3.5329999999999995
+	Iterations is: 112029
+	Conditions is: 130
+

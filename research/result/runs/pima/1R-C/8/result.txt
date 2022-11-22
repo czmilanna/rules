@@ -1,0 +1,16 @@
+
+Rule 1: IF  'plas' in [0.0 , 128.0) THEN 'class' -> tested_negative     [ 198 24]
+Rule 2: IF  'plas' in [128.0 , 199.0] THEN 'class' -> tested_positive     [ 37 33]
+
+####Average results for test data####
+Avg. Rule length: 8
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.12337662337662338
+Avg. Support: 0.6883116883116883
+Avg. Significance: 4.218358214772102
+Avg. Unusualness: 0.8928571428571428
+
+Accuracy Training: 0.7395079594790159
+Accuracy Test: 0.6883116883116883
+
+  Time (seconds); 

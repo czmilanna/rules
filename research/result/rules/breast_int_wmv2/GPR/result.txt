@@ -1,0 +1,3 @@
+IF Breast is High AND Irradiated is High AND Deg-malig is High THEN 1 | Support: 0.2037
+IF Age is High AND Inv-nodes is High THEN 1 | Support: 0.0648
+ELSE 0

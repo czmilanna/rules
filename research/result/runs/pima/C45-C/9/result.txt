@@ -1,0 +1,106 @@
+@relation   pima
+@attribute 'preg' real[0.0,17.0]
+@attribute 'plas' real[0.0,199.0]
+@attribute 'pres' real[0.0,122.0]
+@attribute 'skin' real[0.0,99.0]
+@attribute 'insu' real[0.0,846.0]
+@attribute 'mass' real[0.0,67.1]
+@attribute 'pedi' real[0.078,2.42]
+@attribute 'age' real[21.0,81.0]
+@attribute 'class'{tested_negative,tested_positive}
+@inputs 'preg','plas','pres','skin','insu','mass','pedi','age'
+@outputs 'class'
+@data
+
+@decisiontree
+
+if ( 'plas' <= 143.000000 ) then
+{
+	if ( 'mass' <= 26.300000 ) then
+	{
+		'class' = "tested_negative"
+	}
+	elseif ( 'mass' > 26.300000 ) then
+	{
+		if ( 'age' <= 28.000000 ) then
+		{
+			if ( 'plas' <= 127.000000 ) then
+			{
+				'class' = "tested_negative"
+			}
+			elseif ( 'plas' > 127.000000 ) then
+			{
+				if ( 'pres' <= 0.000000 ) then
+				{
+					'class' = "tested_positive"
+				}
+				elseif ( 'pres' > 0.000000 ) then
+				{
+					if ( 'mass' <= 42.400000 ) then
+					{
+						'class' = "tested_negative"
+					}
+					elseif ( 'mass' > 42.400000 ) then
+					{
+						'class' = "tested_positive"
+					}
+				}
+			}
+		}
+		elseif ( 'age' > 28.000000 ) then
+		{
+			if ( 'plas' <= 99.000000 ) then
+			{
+				'class' = "tested_negative"
+			}
+			elseif ( 'plas' > 99.000000 ) then
+			{
+				if ( 'pedi' <= 0.528000 ) then
+				{
+					'class' = "tested_negative"
+				}
+				elseif ( 'pedi' > 0.528000 ) then
+				{
+					'class' = "tested_positive"
+				}
+			}
+		}
+	}
+}
+elseif ( 'plas' > 143.000000 ) then
+{
+	if ( 'plas' <= 166.000000 ) then
+	{
+		if ( 'insu' <= 370.000000 ) then
+		{
+			'class' = "tested_positive"
+		}
+		elseif ( 'insu' > 370.000000 ) then
+		{
+			'class' = "tested_negative"
+		}
+	}
+	elseif ( 'plas' > 166.000000 ) then
+	{
+		'class' = "tested_positive"
+	}
+}
+
+@TotalNumberOfNodes 10
+@NumberOfLeafs 11
+@TotalNumberOfNodes 10
+@NumberOfAntecedentsByRule 4.090909090909091
+
+@NumberOfItemsetsTraining 692
+@NumberOfCorrectlyClassifiedTraining 556
+@PercentageOfCorrectlyClassifiedTraining 80.34682%
+@NumberOfInCorrectlyClassifiedTraining 136
+@PercentageOfInCorrectlyClassifiedTraining 19.65318%
+
+@NumberOfItemsetsTest 76
+@NumberOfCorrectlyClassifiedTest 54
+@PercentageOfCorrectlyClassifiedTest 71.052635%
+@NumberOfInCorrectlyClassifiedTest 22
+@PercentageOfInCorrectlyClassifiedTest 28.947369%
+
+@ElapsedTime 0:0:0

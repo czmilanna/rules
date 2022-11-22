@@ -1,0 +1,3 @@
+IF step_count is High THEN 1 
+IF vigorious is High AND sedentary is High THEN 1 
+ELSE 0

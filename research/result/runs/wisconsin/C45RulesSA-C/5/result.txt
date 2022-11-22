@@ -1,0 +1,14 @@
+if(BareNuclei<=2.0 && CellSize<=3.0) (366/368)
+	output=2
+else if(CellSize<=4.0 && ClumpThickness<=4.0 && BareNuclei<=6.0) (304/307)
+	output=2
+else if(CellSize>4.0) (157/160)
+	output=4
+else if(BareNuclei>2.0 && EpithelialSize>5.0) (76/79)
+	output=4
+else if(CellSize>3.0 && MarginalAdhesion>3.0) (132/136)
+	output=4
+else if(BareNuclei>2.0 && NormalNucleoli>2.0) (153/159)
+	output=4
+else 
+	output=2

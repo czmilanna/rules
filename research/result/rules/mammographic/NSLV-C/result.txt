@@ -1,0 +1,352 @@
+Experiment: C:/Projekty/rules/data/mammographic/mammographic.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 830
+Class 0: 427
+Class 1: 403
+Successes: 290.0
+Errors:  30.0
+Not classified: 510.0
+	Rule 0: 290 / 30
+Successes: 290.0
+Errors:  30.0
+Not classified: 510.0
+	Rule 0: 290 / 30
+Accuracy on training: 0.3493975903614458
+Number of examples: 540
+Class 0: 427
+Class 1: 113
+Successes: 611.0
+Errors:  73.0
+Not classified: 146.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+Successes: 611.0
+Errors:  73.0
+Not classified: 146.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+Accuracy on training: 0.736144578313253
+Number of examples: 219
+Class 0: 106
+Class 1: 113
+Successes: 671.0
+Errors:  115.0
+Not classified: 44.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 60 / 42
+Successes: 671.0
+Errors:  115.0
+Not classified: 44.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 60 / 42
+Accuracy on training: 0.808433734939759
+Number of examples: 159
+Class 0: 46
+Class 1: 113
+Successes: 695.0
+Errors:  115.0
+Not classified: 20.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 29
+	Rule 3: 30 / 13
+Successes: 695.0
+Errors:  115.0
+Not classified: 20.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 29
+	Rule 3: 30 / 13
+Accuracy on training: 0.8373493975903614
+Number of examples: 135
+Class 0: 52
+Class 1: 83
+Successes: 699.0
+Errors:  116.0
+Not classified: 15.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 29
+	Rule 3: 30 / 13
+	Rule 4: 4 / 1
+Successes: 699.0
+Errors:  116.0
+Not classified: 15.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 29
+	Rule 3: 30 / 13
+	Rule 4: 4 / 1
+Accuracy on training: 0.8421686746987952
+Number of examples: 131
+Class 0: 52
+Class 1: 79
+Successes: 701.0
+Errors:  116.0
+Not classified: 13.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 29
+	Rule 3: 30 / 13
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+Successes: 701.0
+Errors:  116.0
+Not classified: 13.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 29
+	Rule 3: 30 / 13
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+Accuracy on training: 0.844578313253012
+Number of examples: 129
+Class 0: 50
+Class 1: 79
+Successes: 702.0
+Errors:  115.0
+Not classified: 13.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 28
+	Rule 3: 30 / 13
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+Successes: 702.0
+Errors:  115.0
+Not classified: 13.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 28
+	Rule 3: 30 / 13
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+Accuracy on training: 0.8457831325301205
+Number of examples: 128
+Class 0: 50
+Class 1: 78
+Successes: 711.0
+Errors:  117.0
+Not classified: 2.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 28
+	Rule 3: 29 / 8
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+	Rule 7: 10 / 7
+Successes: 711.0
+Errors:  117.0
+Not classified: 2.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 28
+	Rule 3: 29 / 8
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+	Rule 7: 10 / 7
+Accuracy on training: 0.8566265060240964
+Number of examples: 119
+Class 0: 40
+Class 1: 79
+Successes: 712.0
+Errors:  117.0
+Not classified: 1.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 28
+	Rule 3: 29 / 8
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+	Rule 7: 10 / 7
+	Rule 8: 1 / 0
+Successes: 712.0
+Errors:  117.0
+Not classified: 1.0
+	Rule 0: 290 / 30
+	Rule 1: 321 / 43
+	Rule 2: 54 / 28
+	Rule 3: 29 / 8
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+	Rule 7: 10 / 7
+	Rule 8: 1 / 0
+Accuracy on training: 0.8578313253012049
+Number of examples: 118
+Class 0: 40
+Class 1: 78
+Successes: 713.0
+Errors:  117.0
+Not classified: 0.0
+	Rule 0: 290 / 30
+	Rule 1: 315 / 43
+	Rule 2: 54 / 28
+	Rule 3: 29 / 8
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+	Rule 7: 10 / 7
+	Rule 8: 1 / 0
+	Rule 9: 7 / 0
+Successes: 713.0
+Errors:  117.0
+Not classified: 0.0
+	Rule 0: 290 / 30
+	Rule 1: 315 / 43
+	Rule 2: 54 / 28
+	Rule 3: 29 / 8
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+	Rule 7: 10 / 7
+	Rule 8: 1 / 0
+	Rule 9: 7 / 0
+Accuracy on training: 0.8590361445783132
+Number of examples: 117
+Class 0: 39
+Class 1: 78
+Successes: 713.0
+Errors:  117.0
+Not classified: 0.0
+	Rule 0: 290 / 30
+	Rule 1: 315 / 43
+	Rule 2: 54 / 28
+	Rule 3: 28 / 8
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+	Rule 7: 10 / 7
+	Rule 8: 1 / 0
+	Rule 9: 7 / 0
+	Rule 10: 1 / 0
+Successes: 713.0
+Errors:  117.0
+Not classified: 0.0
+	Rule 0: 290 / 30
+	Rule 1: 315 / 43
+	Rule 2: 54 / 28
+	Rule 3: 28 / 8
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+	Rule 7: 10 / 7
+	Rule 8: 7 / 0
+	Rule 9: 2 / 0
+Successes: 713.0
+Errors:  117.0
+Not classified: 0.0
+	Rule 0: 290 / 30
+	Rule 1: 315 / 43
+	Rule 2: 54 / 28
+	Rule 3: 28 / 8
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+	Rule 7: 10 / 7
+	Rule 8: 7 / 0
+	Rule 9: 2 / 0
+Successes: 713.0
+Errors:  117.0
+Not classified: 0.0
+	Rule 0: 290 / 30
+	Rule 1: 315 / 43
+	Rule 2: 54 / 28
+	Rule 3: 28 / 8
+	Rule 4: 4 / 1
+	Rule 5: 2 / 0
+	Rule 6: 1 / 0
+	Rule 7: 10 / 7
+	Rule 8: 7 / 0
+	Rule 9: 2 / 0
+----------------------------------------------------
+Accuracy on training: 0.8590361445783132
+Accuracy on test: 0.8590361445783132
+Number of rules: 10.0
+Variables per rule: 2.7
+Variables used: 1.0
+Time: 2.669
+Iterations: 14419
+Conditions: 27
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	BI-RADS = { T5 T6}
+	Density = { T0 T1 T2}
+THEN Severity IS 1   W 0.9065420560747663
+
+IF
+	BI-RADS = { T2 T3 T4}
+	Margin = { T0 T1 T2}
+THEN Severity IS 0   W 0.8821917808219178
+
+IF
+	BI-RADS = { T0 T3 T4 T6}
+	Age = { Low Medium}
+	Margin = { T3}
+	Density = { T0 T1 T2}
+THEN Severity IS 0   W 0.6056088827952646
+
+IF
+	BI-RADS = { T0 T3 T4 T6}
+	Age = { VeryLow High VeryHigh}
+	Margin = { T3 T4}
+THEN Severity IS 1   W 0.7028321765204694
+
+IF
+	Shape = { T3}
+	Margin = { T3 T4}
+	Density = { T0 T3}
+THEN Severity IS 1   W 0.8571428571428571
+
+IF
+	BI-RADS = { T0 T1 T2 T3 T5 T6}
+	Margin = { T0 T1 T2 T3}
+	Density = { T3}
+THEN Severity IS 0   W 0.7142857142857143
+
+IF
+	BI-RADS = { T1 T3 T4 T6}
+	Age = { Medium}
+	Shape = { T3}
+	Margin = { T1 T3}
+	Density = { T0 T1}
+THEN Severity IS 1   W 0.763888888888889
+
+IF
+	BI-RADS = { T1 T4}
+	Age = { Medium}
+	Margin = { T4}
+THEN Severity IS 0   W 0.532329555528279
+
+IF
+	BI-RADS = { T2}
+THEN Severity IS 0   W 1.0
+
+IF
+	Age = { Medium}
+THEN Severity IS 1   W 0.5015485335240444
+
+	Accuracy on training set is: 0.8590361445783132
+	Accuracy on test set is: 0.8590361445783132
+	Number of rules is: 10.0
+	Variables per rule is: 2.7
+	Variables used is: 1.0
+	Time is: 2.669
+	Iterations is: 14419
+	Conditions is: 27
+

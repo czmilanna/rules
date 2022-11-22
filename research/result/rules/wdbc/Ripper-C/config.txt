@@ -1,0 +1,7 @@
+algorithm = Ripper
+inputData = "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat"
+outputData = "rules/wdbc/Ripper-C/result.tra" "rules/wdbc/Ripper-C/result.tst" "rules/wdbc/Ripper-C/result.txt"
+
+seed = 1
+grow_pct = 0.66
+K = 2

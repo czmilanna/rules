@@ -1,0 +1,126 @@
+if ( -1.0*F20S + 70.0 >= 0  ) then{
+	if ( -1.0*F7S + 69.0 >= 0  ) then{
+		OVERALL_DIAGNOSIS = 1 (90) 
+	}
+	else{ 
+		if ( -1.0*F13S + 57.0 >= 0  ) then{
+			OVERALL_DIAGNOSIS = 1 (25) 
+		}
+		else{ 
+			if ( -1.0*F20S + 63.0 >= 0  ) then{
+				if ( -1.0*F16S + 77.0 >= 0  ) then{
+					OVERALL_DIAGNOSIS = 1 (14) 
+				}
+				else{ 
+					OVERALL_DIAGNOSIS = 0 (1) 
+				}
+			}
+			else{ 
+				if ( -1.0*F12S + 68.0 >= 0  ) then{
+					OVERALL_DIAGNOSIS = 0 (6) 
+				}
+				else{ 
+					if ( -1.0*F9R + 71.0 >= 0  ) then{
+						if ( -1.0*F3S + 70.0 >= 0  ) then{
+							if ( -1.0*F1S + 76.0 >= 0  ) then{
+								OVERALL_DIAGNOSIS = 0 (5) 
+							}
+							else{ 
+								OVERALL_DIAGNOSIS = 1 (1) 
+							}
+						}
+						else{ 
+							OVERALL_DIAGNOSIS = 1 (3) 
+						}
+					}
+					else{ 
+						OVERALL_DIAGNOSIS = 1 (6) 
+					}
+				}
+			}
+		}
+	}
+}
+else{ 
+	if ( -1.0*F17S + 62.0 >= 0  ) then{
+		if ( -1.0*F17R + 64.0 >= 0  ) then{
+			if ( -1.0*F19S + 70.0 >= 0  ) then{
+				if ( -1.0*F14S + 78.0 >= 0  ) then{
+					OVERALL_DIAGNOSIS = 1 (27) 
+				}
+				else{ 
+					if ( -1.0*F1R + 68.0 >= 0  ) then{
+						OVERALL_DIAGNOSIS = 1 (1) 
+					}
+					else{ 
+						OVERALL_DIAGNOSIS = 0 (1) 
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*F8R + 59.0 >= 0  ) then{
+					OVERALL_DIAGNOSIS = 1 (5) 
+				}
+				else{ 
+					if ( -1.0*F4S + 72.0 >= 0  ) then{
+						OVERALL_DIAGNOSIS = 1 (2) 
+					}
+					else{ 
+						OVERALL_DIAGNOSIS = 0 (6) 
+					}
+				}
+			}
+		}
+		else{ 
+			OVERALL_DIAGNOSIS = 0 (3) 
+		}
+	}
+	else{ 
+		if ( -1.0*F7S + 71.0 >= 0  ) then{
+			if ( -1.0*F8R + 67.0 >= 0  ) then{
+				if ( -1.0*F2S + 75.0 >= 0  ) then{
+					if ( -1.0*F3R + 52.0 >= 0  ) then{
+						OVERALL_DIAGNOSIS = 0 (1) 
+					}
+					else{ 
+						OVERALL_DIAGNOSIS = 1 (11) 
+					}
+				}
+				else{ 
+					if ( -1.0*F3R + 61.0 >= 0  ) then{
+						OVERALL_DIAGNOSIS = 1 (1) 
+					}
+					else{ 
+						OVERALL_DIAGNOSIS = 0 (3) 
+					}
+				}
+			}
+			else{ 
+				OVERALL_DIAGNOSIS = 0 (5) 
+			}
+		}
+		else{ 
+			if ( -1.0*F2S + 67.0 >= 0  ) then{
+				OVERALL_DIAGNOSIS = 1 (2) 
+			}
+			else{ 
+				if ( -1.0*F3R + 61.0 >= 0  ) then{
+					OVERALL_DIAGNOSIS = 1 (1) 
+				}
+				else{ 
+					if ( -1.0*F5R + 71.0 >= 0  ) then{
+						OVERALL_DIAGNOSIS = 0 (18) 
+					}
+					else{ 
+						OVERALL_DIAGNOSIS = 1 (1) 
+					}
+				}
+			}
+		}
+	}
+}
+}
+
+
+Accuracy in training: 1.0
+Accuracy in test: 0.7142857142857143

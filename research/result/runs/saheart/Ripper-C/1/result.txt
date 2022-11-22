@@ -1,0 +1,53 @@
+@Number of Rules: 26
+if(Age>49.0 && Tobacco>7.44 && Typea>55.0) (13/15)
+	output=1
+else if(Age>50.0 && Famhist=1 && Ldl>4.9 && Typea>54.0) (19/21)
+	output=1
+else if(Age>38.0 && Famhist=1 && Adiposity>34.34 && Ldl>4.11) (21/22)
+	output=1
+else if(Age>38.0 && Adiposity<=27.43 && Tobacco>8.0 && Sbp<=138.0) (10/10)
+	output=1
+else if(Age>31.0 && Sbp>134.0 && Adiposity<=28.61 && Tobacco<=4.0 && Obesity>27.83) (7/7)
+	output=1
+else if(Tobacco>0.5 && Obesity<=23.35 && Alcohol>11.73 && Ldl>3.69) (11/12)
+	output=1
+else if(Tobacco>1.4 && Sbp>153.0 && Alcohol<=4.11 && Typea>42.0) (10/12)
+	output=1
+else if(Tobacco>1.68 && Age>50.0 && Sbp>166.0) (17/21)
+	output=1
+else if(Tobacco>0.73 && Adiposity>26.17 && Alcohol<=6.43 && Obesity>26.42 && Ldl>4.04 && Sbp<=152.0) (21/28)
+	output=1
+else if(Age>36.0 && Typea>49.0 && Alcohol<=39.91 && Adiposity>17.78 && Tobacco<=4.0 && Obesity<=27.36 && Famhist=1 && Sbp<=134.0 && Ldl>2.28) (11/16)
+	output=1
+else if(Tobacco>1.44 && Obesity<=25.87 && Age<=45.0 && Alcohol>11.11 && Adiposity>16.38 && Ldl<=2.96) (4/4)
+	output=1
+else if(Tobacco>7.36 && Typea<=46.0) (16/18)
+	output=1
+else if(Typea>53.0 && Age>34.0 && Sbp<=120.0 && Ldl<=5.8) (7/11)
+	output=1
+else if(Age>50.0 && Famhist=1 && Ldl>6.65) (17/18)
+	output=1
+else if(Tobacco>1.5 && Sbp>129.0 && Typea<=54.0 && Obesity<=25.87 && Age<=45.0 && Adiposity>22.67) (5/5)
+	output=1
+else if(Alcohol>10.46 && Tobacco>5.04 && Famhist=1 && Obesity<=25.99) (7/10)
+	output=1
+else if(Sbp>194.0 && Tobacco<=0.92) (3/4)
+	output=1
+else if(Age>51.0 && Typea<=53.0 && Ldl<=3.9 && Sbp<=140.0 && Obesity>20.09) (6/10)
+	output=1
+else if(Adiposity<=12.32 && Tobacco>1.2 && Sbp<=122.0) (2/3)
+	output=1
+else if(Sbp>140.0 && Adiposity<=27.41 && Alcohol>4.66 && Tobacco>2.4 && Typea>45.0 && Ldl>4.89) (8/8)
+	output=1
+else if(Ldl>11.61) (3/3)
+	output=1
+else if(Obesity<=18.46 && Ldl<=2.39) (1/2)
+	output=1
+else if(Tobacco>5.16 && Typea>56.0 && Sbp>134.0 && Age<=45.0) (3/4)
+	output=1
+else if(Adiposity<=18.04 && Sbp>138.0 && Alcohol>2.62) (4/8)
+	output=1
+else if(Sbp>140.0 && Obesity<=24.37 && Typea<=48.0) (8/12)
+	output=1
+else 
+	output=0

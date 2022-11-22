@@ -1,0 +1,18 @@
+
+Rule 1: IF  RUM = 3 THEN Complication -> no     [ 43 32]
+Rule 2: IF  RUM = 2 THEN Complication -> yes     [ 4 8]
+Rule 3: IF  RUM = 0 THEN Complication -> no     [ 5 1]
+Rule 4: IF  RUM = 1 THEN Complication -> yes     [ 1 2]
+
+####Average results for test data####
+Avg. Rule length: 4
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.25
+Avg. Support: 0.36363636363636365
+Avg. Significance: 0.6982237169336671
+Avg. Unusualness: 5.113636363636363
+
+Accuracy Training: 0.6041666666666666
+Accuracy Test: 0.36363636363636365
+
+  Time (seconds); 

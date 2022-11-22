@@ -1,0 +1,35 @@
+@Number of Rules: 17
+if(Height<=155.0 && Age>39.0) (7/8)
+	output=yes
+else if(Height>163.0 && Age<=48.0 && Weight>63.0 && BMI<=31.16 && RUM=3) (9/10)
+	output=yes
+else if(OM<=0.0 && Age>41.0 && Height<=154.0) (6/6)
+	output=yes
+else if(OM<=0.0 && Height>164.0 && Age>37.0) (12/15)
+	output=yes
+else if(Age<=36.0 && Height>158.0) (4/6)
+	output=yes
+else if(Height<=154.0) (6/7)
+	output=yes
+else if(FIGO=1) (6/8)
+	output=yes
+else if(FIGO=4 && Height<=158.0) (2/3)
+	output=yes
+else if(BMI<=29.0 && FIGO=3 && Height>161.0) (7/7)
+	output=yes
+else if(Height<=159.0 && Lymph<=2.0 && Age<=43.0) (2/2)
+	output=yes
+else if(BMI<=23.44 && Weight>59.0 && Age>37.0) (6/9)
+	output=yes
+else if(BMI<=30.09 && FIGO=1) (5/7)
+	output=yes
+else if(Age>72.0) (1/1)
+	output=yes
+else if(BMI>28.07 && Weight<=72.0) (1/1)
+	output=yes
+else if(BMI>29.41 && Weight<=78.0 && Age>46.0) (1/1)
+	output=yes
+else if(Height<=158.0 && Weight>64.0 && Age>46.0) (2/2)
+	output=yes
+else 
+	output=no

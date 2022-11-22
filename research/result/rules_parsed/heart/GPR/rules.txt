@@ -1,0 +1,4 @@
+IF MajorVessels is High THEN 1 
+IF ExerciseInduced is High AND MaxHeartRate is Low THEN 1 
+IF Thal is High AND Oldpeak is High THEN 1 
+ELSE 0

@@ -1,0 +1,8 @@
+IF Ascites <= 1.000000 AND Anorexia <= 1.000000 THEN 2
+IF Ascites <= 1.000000 AND Anorexia > 1.000000 AND ProTime <= 51.000000 THEN 1
+IF Ascites <= 1.000000 AND Anorexia > 1.000000 AND ProTime > 51.000000 THEN 2
+IF Ascites > 1.000000 AND Histology <= 1.000000 THEN 2
+IF Ascites > 1.000000 AND Histology > 1.000000 AND Bilirubin <= 0.500000 THEN 1
+IF Ascites > 1.000000 AND Histology > 1.000000 AND Bilirubin > 0.500000 AND Spiders <= 1.000000 AND ProTime <= 39.000000 THEN 1
+IF Ascites > 1.000000 AND Histology > 1.000000 AND Bilirubin > 0.500000 AND Spiders <= 1.000000 AND ProTime > 39.000000 THEN 2
+IF Ascites > 1.000000 AND Histology > 1.000000 AND Bilirubin > 0.500000 AND Spiders > 1.000000 THEN 2

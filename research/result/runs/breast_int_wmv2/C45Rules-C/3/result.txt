@@ -1,0 +1,22 @@
+if(Inv-nodes>0.0 && Breast-quad>1.0 && Inv-nodes<=1.0) (4/5)
+	output=1
+else if(Deg-malig>2.0 && Node-caps<=0.0 && Tumor-size>3.0 && Irradiated=1 && Menopause>1.0 && Age=10) (0/0)
+	output=1
+else if(Deg-malig>2.0 && Tumor-size>3.0 && Irradiated=0 && Menopause>1.0) (12/16)
+	output=1
+else if(Deg-malig>2.0 && Inv-nodes>0.0) (26/34)
+	output=1
+else if(Deg-malig<=2.0 && Tumor-size>2.0 && Inv-nodes<=0.0 && Irradiated=1 && Breast-quad>0.0 && Age=10) (0/0)
+	output=0
+else if(Irradiated=0 && Inv-nodes<=0.0 && Menopause<=1.0 && Breast-quad>0.0) (43/47)
+	output=0
+else if(Deg-malig<=2.0 && Tumor-size<=2.0) (33/34)
+	output=0
+else if(Deg-malig<=2.0 && Tumor-size>2.0 && Inv-nodes<=0.0 && Irradiated=0 && Menopause>1.0 && Breast-quad<=2.0 && Age=60) (0/0)
+	output=0
+else if(Deg-malig<=2.0 && Tumor-size>2.0 && Inv-nodes<=0.0 && Irradiated=0 && Menopause<=1.0 && Breast=0 && Age=80) (0/0)
+	output=0
+else if(Deg-malig<=2.0) (142/173)
+	output=0
+else 
+	output=1

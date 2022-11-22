@@ -1,0 +1,30 @@
+@relation    haberman
+@attribute Age integer[30,83]
+@attribute Year integer[58,69]
+@attribute Positive integer[0,52]
+@attribute Survival{positive,negative}
+@inputs Age,Year,Positive
+@outputs Survival
+@data
+
+@decisiontree
+
+
+@TotalNumberOfNodes 0
+@NumberOfLeafs 0
+@TotalNumberOfNodes 0
+@NumberOfAntecedentsByRule 0
+
+@NumberOfItemsetsTraining 275
+@NumberOfCorrectlyClassifiedTraining 202
+@PercentageOfCorrectlyClassifiedTraining 73.454544%
+@NumberOfInCorrectlyClassifiedTraining 73
+@PercentageOfInCorrectlyClassifiedTraining 26.545454%
+
+@NumberOfItemsetsTest 31
+@NumberOfCorrectlyClassifiedTest 23
+@PercentageOfCorrectlyClassifiedTest 74.19355%
+@NumberOfInCorrectlyClassifiedTest 8
+@PercentageOfInCorrectlyClassifiedTest 25.806452%
+
+@ElapsedTime 0:0:0

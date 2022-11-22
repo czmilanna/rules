@@ -1,0 +1,4 @@
+IF BareNuclei is High THEN 1 | Support: 0.7354
+IF CellSize is High THEN 1 | Support: 0.6202
+IF CellSize is Low AND ClumpThickness is Medium AND MarginalAdhesion is Low THEN 1 | Support: 0.0175
+ELSE 0

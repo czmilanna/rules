@@ -1,0 +1,7 @@
+algorithm = Organizational Coevolutionary Algorithm (OCEC)
+inputData = "C:/Projekty/rules/data/type1diabetes2/type1diabetes2-10dobscv-5tra.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2-10dobscv-5tra.dat" "C:/Projekty/rules/data/type1diabetes2/type1diabetes2-10dobscv-5tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/type1diabetes2/OCEC-C/5/result.tra" "C:/Projekty/rules/research/result/runs/type1diabetes2/OCEC-C/5/result.tst" "C:/Projekty/rules/research/result/runs/type1diabetes2/OCEC-C/5/result.txt"
+
+seed = 1
+Number of Total Generations = 500
+Number of migrating/exchanging members = 1

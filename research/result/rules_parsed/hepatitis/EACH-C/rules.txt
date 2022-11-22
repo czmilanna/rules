@@ -1,0 +1,2 @@
+IF Age in [20.0 , 72.0] AND Bilirubin in [0.3 , 4.6] AND AlkPhosphate in [26.0 , 230.0] AND Sgot in [14.0 , 420.0] AND AlbuMin in [2.7 , 5.0] AND ProTime in [0.0 , 100.0] THEN 2
+IF Age in [33.0 , 59.0] AND Sex = 1.0 AND Anorexia = 2.0 AND LiverBig = 2.0 AND Bilirubin in [0.4 , 4.8] AND AlkPhosphate in [62.0 , 280.0] AND Sgot in [19.0 , 157.0] AND AlbuMin in [2.1 , 4.2] AND ProTime in [29.0 , 90.0] THEN 1

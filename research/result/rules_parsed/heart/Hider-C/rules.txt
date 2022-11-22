@@ -1,0 +1,8 @@
+IF RestBloodPressure = [107.0, 173.0) AND SerumCholestoral = [170.0, 325.5) AND MaxHeartRate = [142.5, 194.5) AND ExerciseInduced = [_, 0.5) AND Oldpeak = [_, 20.0) THEN 1
+IF Age = [34.5, 70.5) AND RestBloodPressure = [113.5, 171.0) AND SerumCholestoral = [170.0, 413.0) AND MaxHeartRate = [_, 176.0) AND Oldpeak = [1.5, _) AND Thal = [4.5, _) THEN 2
+IF Age = [40.5, 76.5) AND RestBloodPressure = [100.5, 162.5) AND SerumCholestoral = [167.5, 323.5) AND MaxHeartRate = [115.5, 194.5) AND Oldpeak = [_, 23.5) AND Thal = [_, 4.5) THEN 1
+IF RestBloodPressure = [111.0, _) AND SerumCholestoral = [223.5, 340.5) AND MaxHeartRate = [115.5, 171.5) AND Oldpeak = [_, 34.5) THEN 2
+IF Age = [34.5, 63.5) AND RestBloodPressure = [_, 173.0) AND SerumCholestoral = [_, 400.5) AND MaxHeartRate = [115.5, _) AND Oldpeak = [_, 20.0) AND MajorVessels = [_, 0.5) THEN 1
+IF Age = [34.5, 67.5) AND ChestPainType = [3.5, _) AND RestBloodPressure = [_, 171.0) AND SerumCholestoral = [_, 400.5) AND MaxHeartRate = [_, 176.0) AND Oldpeak = [0.5, _) THEN 2
+IF Age = [34.5, 70.5) AND RestBloodPressure = [_, 173.0) AND SerumCholestoral = [206.5, 279.0) AND Oldpeak = [_, 35.5) THEN 1
+IF Age = [39.5, 76.5) AND RestBloodPressure = [100.5, 173.0) AND MaxHeartRate = [_, 176.0) AND Oldpeak = [0.5, 20.0) THEN 1

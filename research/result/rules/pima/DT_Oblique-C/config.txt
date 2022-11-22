@@ -1,0 +1,6 @@
+algorithm = Evolutionary Oblique DT Induction
+inputData = "C:/Projekty/rules/data/pima/pima.dat" "C:/Projekty/rules/data/pima/pima.dat" "C:/Projekty/rules/data/pima/pima.dat"
+outputData = "rules/pima/DT_Oblique-C/result.tra" "rules/pima/DT_Oblique-C/result.tst" "rules/pima/DT_Oblique-C/result.txt"
+
+seed = 1
+Number of Total Generations for the GA = 25

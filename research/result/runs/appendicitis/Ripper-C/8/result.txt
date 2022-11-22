@@ -1,0 +1,15 @@
+@Number of Rules: 7
+if(At3<=0.222) (14/21)
+	output=1
+else if(At4<=0.042 && At2>0.75) (2/3)
+	output=1
+else if(At3<=0.222 && At4<=0.153) (12/13)
+	output=1
+else if(At1<=0.236 && At3>0.28) (1/2)
+	output=1
+else if(At4<=0.111 && At5>0.089 && At2<=0.714) (1/1)
+	output=1
+else if(At4>0.306 && At5<=0.25 && At1>0.236) (1/1)
+	output=1
+else 
+	output=0

@@ -1,0 +1,4 @@
+IF Age is Medium THEN 1 | Support: 0.2097
+IF Positive is High THEN 1 | Support: 0.1475
+IF Year is Low AND Age is Medium AND Positive is Low THEN 1 | Support: 0.0519
+ELSE 0

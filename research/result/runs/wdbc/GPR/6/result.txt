@@ -1,0 +1,6 @@
+IF Concave_points3 is High THEN 1 | Support: 0.6337
+IF Area1 is Low AND Compactness2 is Low AND Radius1 is High AND Perimeter3 is High AND Smoothness3 is High THEN 1 | Support: 0.0502
+IF Area1 is High AND Symmetry1 is very Low AND Texture3 is High AND Compactness1 is Low AND Fractal_dimension1 is Low THEN 1 | Support: 0.0290
+IF Area1 is High AND Symmetry1 is very Low AND Texture3 is High AND Compactness1 is Low AND Fractal_dimension1 is Low THEN 1 | Support: 0.0290
+IF Area1 is High AND Symmetry1 is very Low AND Texture3 is High AND Compactness1 is Low AND Fractal_dimension1 is Low THEN 1 | Support: 0.0290
+ELSE 0

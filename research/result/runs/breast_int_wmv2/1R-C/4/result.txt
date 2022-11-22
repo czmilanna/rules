@@ -1,0 +1,16 @@
+
+Rule 1: IF  Breast = 0 THEN Class -> 0     [ 89 30]
+Rule 2: IF  Breast = 1 THEN Class -> 0     [ 87 43]
+
+####Average results for test data####
+Avg. Rule length: 2
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.5
+Avg. Support: 0.7142857142857143
+Avg. Significance: 1.8890176837294665
+Avg. Unusualness: 13.339285714285715
+
+Accuracy Training: 0.7068273092369478
+Accuracy Test: 0.7142857142857143
+
+  Time (seconds); 

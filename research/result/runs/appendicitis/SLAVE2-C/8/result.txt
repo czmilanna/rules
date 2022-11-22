@@ -1,0 +1,122 @@
+Experiment: C:/Projekty/rules/data/appendicitis/appendicitis-10dobscv-8tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 96
+Class 0: 77
+Class 1: 19
+Accuracy on training: 0.78125
+Number of examples: 21
+Class 0: 5
+Class 1: 19
+Accuracy on training: 0.78125
+Number of examples: 21
+Class 0: 3
+Class 1: 19
+Accuracy on training: 0.7916666666666666
+Number of examples: 20
+Class 0: 2
+Class 1: 19
+Accuracy on training: 0.7916666666666666
+Number of examples: 20
+Class 0: 77
+Class 1: 19
+Accuracy on training: 0.8958333333333334
+Number of examples: 86
+Class 0: 77
+Class 1: 9
+Accuracy on training: 0.90625
+Number of examples: 85
+Class 0: 77
+Class 1: 8
+Successes: 87.0
+Errors:  8.0
+Not classified: 1.0
+	Rule 0: 73 / 7
+	Rule 1: 2 / 1
+	Rule 2: 1 / 0
+	Rule 3: 4 / 0
+	Rule 4: 7 / 0
+Successes: 9.0
+Errors:  1.0
+Not classified: 0.0
+	Rule 0: 8 / 1
+	Rule 1: 0 / 0
+	Rule 2: 0 / 0
+	Rule 3: 1 / 0
+	Rule 4: 0 / 0
+----------------------------------------------------
+Accuracy on training: 0.90625
+Accuracy on test: 0.9
+Number of rules: 5.0
+Variables per rule: 2.8
+Variables used: 0.8571428571428571
+Time: 1.355
+Iterations: 66062
+Conditions: 14
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	At1 = { VeryLow}
+	At2 = { Medium High VeryHigh}
+	At3 = { Medium High}
+	At4 = { High VeryHigh}
+	At5 = { VeryLow Low High VeryHigh}
+	At6 = { High}
+	At7 = { Low Medium High}
+THEN Class IS 0   W 0.8864960830738503
+
+IF
+	At1 = { Medium}
+	At2 = { Low High VeryHigh}
+	At3 = { VeryLow Low}
+	At4 = { High}
+	At5 = { Low VeryHigh}
+	At6 = { High}
+	At7 = { VeryLow High}
+THEN Class IS 0   W 0.8729096989966556
+
+IF
+	At1 = { VeryLow Low}
+	At2 = { Low}
+	At3 = { Medium VeryHigh}
+	At4 = { Low}
+	At5 = { Low}
+	At6 = { Low}
+	At7 = { Low}
+THEN Class IS 0   W 0.6563019370400606
+
+IF
+	At1 = { VeryLow Low Medium}
+	At2 = { Low High}
+	At3 = { Low Medium VeryHigh}
+	At4 = { VeryLow}
+	At5 = { VeryLow Low}
+	At6 = { Low Medium High VeryHigh}
+	At7 = { VeryLow VeryHigh}
+THEN Class IS 1   W 0.9152088145668273
+
+IF
+	At1 = { VeryLow}
+	At2 = { Low Medium}
+	At3 = { VeryHigh}
+	At4 = { VeryLow Low VeryHigh}
+	At5 = { VeryLow Medium}
+	At6 = { High}
+	At7 = { VeryLow Low VeryHigh}
+THEN Class IS 1   W 0.9460505841655609
+
+	Accuracy on training set is: 0.90625
+	Accuracy on test set is: 0.9
+	Number of rules is: 5.0
+	Variables per rule is: 2.8
+	Variables used is: 0.8571428571428571
+	Time is: 1.355
+	Iterations is: 66062
+	Conditions is: 14
+

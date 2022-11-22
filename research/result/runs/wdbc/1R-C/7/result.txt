@@ -1,0 +1,16 @@
+
+Rule 1: IF  Radius3 in [7.93 , 16.82) THEN Class -> B     [ 4 230]
+Rule 2: IF  Radius3 in [16.82 , 36.04] THEN Class -> M     [ 8 2]
+
+####Average results for test data####
+Avg. Rule length: 12
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 0.08333333333333333
+Avg. Support: 0.9122807017543859
+Avg. Significance: 5.0546876575237265
+Avg. Unusualness: 1.5350877192982457
+
+Accuracy Training: 0.923828125
+Accuracy Test: 0.9122807017543859
+
+  Time (seconds); 

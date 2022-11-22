@@ -1,0 +1,26 @@
+\begin{table}
+\footnotesize
+\caption{Comparison of classifiers and C45-C using Wilcoxon signed-rank test}
+\label{tab:wilcoxon comparison}
+\begin{tabular}{lllllllll}
+\hline
+ & Algorithm & MCC p-value & Specificity p-value & AUC p-value & Accuracy p-value & Precision p-value & Recall p-value & Mixed p-value \\
+\hline
+1 & 1R-C & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 \\
+2 & C45Rules-C & \textbf{0.9735} & 0.0000 & \textbf{0.3163} & 0.0216 & \textbf{0.8277} & 0.0216 & \textbf{0.3822} \\
+3 & C45RulesSA-C & \textbf{0.7589} & 0.0004 & \textbf{0.1619} & 0.0220 & \textbf{0.7227} & 0.0220 & \textbf{0.4743} \\
+4 & DT GA-C & \textbf{0.9353} & 0.0414 & \textbf{0.9878} & \textbf{0.8052} & \textbf{0.8318} & \textbf{0.8052} & \textbf{0.8553} \\
+5 & DT Oblique-C & 0.0009 & 0.0000 & 0.0109 & 0.0000 & 0.0032 & 0.0000 & 0.0000 \\
+6 & EACH-C & 0.0000 & 0.0045 & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 \\
+7 & GPR & \textbf{0.8475} & \textbf{0.3191} & \textbf{0.6052} & \textbf{0.2622} & \textbf{0.9608} & \textbf{0.2622} & \textbf{0.6357} \\
+8 & Hider-C & \textbf{0.0698} & \textbf{0.3125} & 0.0106 & \textbf{0.1024} & \textbf{0.1224} & \textbf{0.1024} & \textbf{0.1028} \\
+9 & NSLV-C & \textbf{0.5801} & \textbf{0.9183} & \textbf{0.5947} & \textbf{0.1638} & \textbf{0.3782} & \textbf{0.1638} & \textbf{0.8615} \\
+10 & OCEC-C & \textbf{0.3189} & 0.0004 & \textbf{0.8747} & 0.0034 & \textbf{0.2499} & 0.0034 & \textbf{0.0674} \\
+11 & OIGA-C & \textbf{0.7716} & 0.0001 & \textbf{0.4183} & \textbf{0.1041} & \textbf{0.6057} & \textbf{0.1041} & \textbf{0.3644} \\
+12 & PGIRLA-C & 0.0002 & \textbf{0.0500} & 0.0003 & 0.0005 & 0.0000 & 0.0005 & 0.0001 \\
+13 & Ripper-C & \textbf{0.7047} & 0.0000 & \textbf{0.4737} & 0.0000 & \textbf{0.6742} & 0.0000 & 0.0016 \\
+14 & SLAVE2-C & \textbf{0.2500} & \textbf{0.7864} & \textbf{0.1345} & \textbf{0.9817} & \textbf{0.2035} & \textbf{0.9817} & \textbf{0.4695} \\
+15 & SLAVEv0-C & 0.0015 & \textbf{0.3871} & 0.0006 & \textbf{0.0567} & 0.0021 & \textbf{0.0567} & 0.0072 \\
+\hline
+\end{tabular}
+\end{table}

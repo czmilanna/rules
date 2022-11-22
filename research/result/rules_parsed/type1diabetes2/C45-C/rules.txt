@@ -1,0 +1,12 @@
+IF step_count <= 60837.000000 AND vigorious <= 128.750000 AND weight <= 80.500000 THEN 0
+IF step_count <= 60837.000000 AND vigorious <= 128.750000 AND weight > 80.500000 THEN 1
+IF step_count <= 60837.000000 AND vigorious > 128.750000 AND vigorious <= 319.500000 AND age <= 8.000000 THEN 0
+IF step_count <= 60837.000000 AND vigorious > 128.750000 AND vigorious <= 319.500000 AND age > 8.000000 AND moderate <= 214.916667 AND height <= 1.610000 THEN 0
+IF step_count <= 60837.000000 AND vigorious > 128.750000 AND vigorious <= 319.500000 AND age > 8.000000 AND moderate <= 214.916667 AND height > 1.610000 AND sex <= 1.000000 THEN 1
+IF step_count <= 60837.000000 AND vigorious > 128.750000 AND vigorious <= 319.500000 AND age > 8.000000 AND moderate <= 214.916667 AND height > 1.610000 AND sex > 1.000000 AND age <= 13.000000 THEN 1
+IF step_count <= 60837.000000 AND vigorious > 128.750000 AND vigorious <= 319.500000 AND age > 8.000000 AND moderate <= 214.916667 AND height > 1.610000 AND sex > 1.000000 AND age > 13.000000 AND step_count <= 38888.000000 THEN 1
+IF step_count <= 60837.000000 AND vigorious > 128.750000 AND vigorious <= 319.500000 AND age > 8.000000 AND moderate <= 214.916667 AND height > 1.610000 AND sex > 1.000000 AND age > 13.000000 AND step_count > 38888.000000 AND weight <= 52.000000 THEN 1
+IF step_count <= 60837.000000 AND vigorious > 128.750000 AND vigorious <= 319.500000 AND age > 8.000000 AND moderate <= 214.916667 AND height > 1.610000 AND sex > 1.000000 AND age > 13.000000 AND step_count > 38888.000000 AND weight > 52.000000 THEN 0
+IF step_count <= 60837.000000 AND vigorious > 128.750000 AND vigorious <= 319.500000 AND age > 8.000000 AND moderate > 214.916667 THEN 1
+IF step_count <= 60837.000000 AND vigorious > 128.750000 AND vigorious > 319.500000 THEN 0
+IF step_count > 60837.000000 THEN 1

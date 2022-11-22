@@ -1,0 +1,93 @@
+@relation   type1diabetes2
+@attribute sex integer[1,2]
+@attribute age integer[6,18]
+@attribute weight real[17.0,98.8]
+@attribute height real[1.15,1.88]
+@attribute step_count integer[13072,114655]
+@attribute sedentary real[1343.16666666667,7813.33333333333]
+@attribute light real[345.0,2557.0]
+@attribute moderate real[53.9166666666667,630.916666666667]
+@attribute vigorious real[18.5,710.5]
+@attribute healthy{0,1}
+@inputs sex,age,weight,height,step_count,sedentary,light,moderate,vigorious
+@outputs healthy
+@data
+
+@decisiontree
+
+if ( step_count <= 60590.000000 ) then
+{
+	if ( vigorious <= 128.750000 ) then
+	{
+		healthy = "0"
+	}
+	elseif ( vigorious > 128.750000 ) then
+	{
+		if ( vigorious <= 319.500000 ) then
+		{
+			if ( sex <= 1.000000 ) then
+			{
+				if ( height <= 1.650000 ) then
+				{
+					if ( moderate <= 235.250000 ) then
+					{
+						if ( step_count <= 55488.000000 ) then
+						{
+							healthy = "0"
+						}
+						elseif ( step_count > 55488.000000 ) then
+						{
+							if ( light <= 937.333333 ) then
+							{
+								healthy = "1"
+							}
+							elseif ( light > 937.333333 ) then
+							{
+								healthy = "0"
+							}
+						}
+					}
+					elseif ( moderate > 235.250000 ) then
+					{
+						healthy = "1"
+					}
+				}
+				elseif ( height > 1.650000 ) then
+				{
+					healthy = "1"
+				}
+			}
+			elseif ( sex > 1.000000 ) then
+			{
+				healthy = "0"
+			}
+		}
+		elseif ( vigorious > 319.500000 ) then
+		{
+			healthy = "0"
+		}
+	}
+}
+elseif ( step_count > 60590.000000 ) then
+{
+	healthy = "1"
+}
+
+@TotalNumberOfNodes 8
+@NumberOfLeafs 9
+@TotalNumberOfNodes 8
+@NumberOfAntecedentsByRule 4.888888888888889
+
+@NumberOfItemsetsTraining 206
+@NumberOfCorrectlyClassifiedTraining 184
+@PercentageOfCorrectlyClassifiedTraining 89.32039%
+@NumberOfInCorrectlyClassifiedTraining 22
+@PercentageOfInCorrectlyClassifiedTraining 10.679611%
+
+@NumberOfItemsetsTest 24
+@NumberOfCorrectlyClassifiedTest 19
+@PercentageOfCorrectlyClassifiedTest 79.166664%
+@NumberOfInCorrectlyClassifiedTest 5
+@PercentageOfInCorrectlyClassifiedTest 20.833334%
+
+@ElapsedTime 0:0:0

@@ -1,0 +1,2 @@
+IF OM is very Low AND RUM is High AND Weight is Low THEN 1 | Support: 0.5648
+ELSE 0

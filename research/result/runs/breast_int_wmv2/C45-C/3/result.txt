@@ -1,0 +1,107 @@
+@relation   breast
+@attribute Age{10,20,30,40,50,60,70,80,90}
+@attribute Menopause integer[0,2]
+@attribute Tumor-size integer[0,11]
+@attribute Inv-nodes integer[0,12]
+@attribute Node-caps integer[0,1]
+@attribute Deg-malig integer[1,3]
+@attribute Breast{0,1}
+@attribute Breast-quad integer[0,4]
+@attribute Irradiated{0,1}
+@attribute Class{0,1}
+@inputs Age,Menopause,Tumor-size,Inv-nodes,Node-caps,Deg-malig,Breast,Breast-quad,Irradiated
+@outputs Class
+@data
+
+@decisiontree
+
+if ( Deg-malig <= 2.000000 ) then
+{
+	Class = "0"
+}
+elseif ( Deg-malig > 2.000000 ) then
+{
+	if ( Node-caps <= 0.000000 ) then
+	{
+		if ( Tumor-size <= 3.000000 ) then
+		{
+			Class = "0"
+		}
+		elseif ( Tumor-size > 3.000000 ) then
+		{
+			if ( Irradiated = 0 ) then
+			{
+				if ( Inv-nodes <= 0.000000 ) then
+				{
+					if ( Menopause <= 1.000000 ) then
+					{
+						Class = "0"
+					}
+					elseif ( Menopause > 1.000000 ) then
+					{
+						Class = "1"
+					}
+				}
+				elseif ( Inv-nodes > 0.000000 ) then
+				{
+					Class = "1"
+				}
+			}
+			elseif ( Irradiated = 1 ) then
+			{
+				Class = "1"
+			}
+		}
+	}
+	elseif ( Node-caps > 0.000000 ) then
+	{
+		if ( Breast = 0 ) then
+		{
+			if ( Irradiated = 0 ) then
+			{
+				if ( Menopause <= 1.000000 ) then
+				{
+					if ( Breast-quad <= 0.000000 ) then
+					{
+						Class = "0"
+					}
+					elseif ( Breast-quad > 0.000000 ) then
+					{
+						Class = "1"
+					}
+				}
+				elseif ( Menopause > 1.000000 ) then
+				{
+					Class = "1"
+				}
+			}
+			elseif ( Irradiated = 1 ) then
+			{
+				Class = "0"
+			}
+		}
+		elseif ( Breast = 1 ) then
+		{
+			Class = "1"
+		}
+	}
+}
+
+@TotalNumberOfNodes 10
+@NumberOfLeafs 11
+@TotalNumberOfNodes 10
+@NumberOfAntecedentsByRule 4.454545454545454
+
+@NumberOfItemsetsTraining 249
+@NumberOfCorrectlyClassifiedTraining 205
+@PercentageOfCorrectlyClassifiedTraining 82.329315%
+@NumberOfInCorrectlyClassifiedTraining 44
+@PercentageOfInCorrectlyClassifiedTraining 17.670683%
+
+@NumberOfItemsetsTest 28
+@NumberOfCorrectlyClassifiedTest 20
+@PercentageOfCorrectlyClassifiedTest 71.42857%
+@NumberOfInCorrectlyClassifiedTest 8
+@PercentageOfInCorrectlyClassifiedTest 28.571428%
+
+@ElapsedTime 0:0:0

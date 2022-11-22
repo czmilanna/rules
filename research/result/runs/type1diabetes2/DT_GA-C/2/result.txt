@@ -1,0 +1,20 @@
+Number of Rules: 12
+Rule[1]: IF  step_count <= 60837.0 AND  vigorious <= 128.75  THEN Class = 0 (71/81)
+Rule[2]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  step_count <= 54860.0 AND  sex <= 1.0 AND  height <= 1.65  THEN Class = 0 (8/9)
+Rule[3]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  step_count <= 54860.0 AND  sex <= 1.0 AND  height > 1.65  THEN Class = 1 (2/2)
+Rule[4]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  step_count <= 54860.0 AND  sex > 1.0 AND  sedentary <= 2581.916667  THEN Class = 1 (3/3)
+Rule[5]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  step_count <= 54860.0 AND  sex > 1.0 AND  sedentary > 2581.916667 AND  vigorious <= 170.75  THEN Class = 0 (10/10)
+Rule[6]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  step_count <= 54860.0 AND  sex > 1.0 AND  sedentary > 2581.916667 AND  vigorious > 170.75 AND  sedentary <= 3453.25  THEN Class = 0 (3/4)
+Rule[7]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  step_count <= 54860.0 AND  sex > 1.0 AND  sedentary > 2581.916667 AND  vigorious > 170.75 AND  sedentary > 3453.25  THEN Class = 1 (4/5)
+Rule[8]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  step_count > 54860.0 AND  step_count <= 58563.0  THEN Class = 1 (8/8)
+Rule[9]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  step_count > 54860.0 AND  step_count > 58563.0 AND  light <= 807.333333  THEN Class = 1 (3/3)
+Rule[10]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious <= 319.5 AND  step_count > 54860.0 AND  step_count > 58563.0 AND  light > 807.333333  THEN Class = 0 (3/3)
+Rule[11]: IF  step_count <= 60837.0 AND  vigorious > 128.75 AND  vigorious > 319.5  THEN Class = 0 (7/7)
+Rule[12]: IF  step_count > 60837.0  THEN Class = 1 (71/71)
+
+Number of Rules: 2
+Rule[1]: IF  step_count <= 73950.0 AND  light <= 1710.25  THEN Class = 0 (103/173)
+Rule[2]: IF  height > 1.45 AND  vigorious > 127.25  THEN Class = 1 (52/76)
+
+Accuracy in training: 0.8446601941747572
+Accuracy in test: 0.7916666666666666

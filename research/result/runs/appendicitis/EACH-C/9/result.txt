@@ -1,0 +1,10 @@
+
+
+Rule 1: IF  At1 in [0.027 , 0.884] AND At2 in [0.0 , 1.0] AND At3 in [0.022 , 0.927] AND At4 in [0.0 , 1.0] AND At5 in [0.0 , 1.0] AND At6 in [0.0 , 1.0] AND At7 in [0.017 , 0.837] THEN Class -> 0      [ Hyperrectangle weight = 1.2337662337662338 ]     [ Volumen = 0.6359796999999999 ] 
+
+Rule 2: IF  At1 in [0.0 , 1.0] AND At2 in [0.161 , 0.804] AND At3 in [0.0 , 1.0] AND At4 in [0.0 , 0.583] AND At5 in [0.0 , 0.25] AND At6 in [0.129 , 0.878] AND At7 in [0.0 , 1.0] THEN Class -> 1      [ Hyperrectangle weight = 1.105263157894737 ]     [ Volumen = 0.07019422025 ] 
+
+Attributes Weights: At1 = 1.2   At2 = 1.2   At3 = 0.8   At4 = 1.2   At5 = 0.8   At6 = 0.8   At7 = 0.8   
+
+Accuracy Training: 0.65625
+Accuracy Test: 0.7

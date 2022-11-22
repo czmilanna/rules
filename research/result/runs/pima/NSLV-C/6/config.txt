@@ -1,0 +1,11 @@
+algorithm = Fuzzy Rule Learning, NSLV Algorithm
+inputData = "C:/Projekty/rules/data/pima/pima-10dobscv-6tra.dat" "C:/Projekty/rules/data/pima/pima-10dobscv-6tra.dat" "C:/Projekty/rules/data/pima/pima-10dobscv-6tst.dat"
+outputData = "C:/Projekty/rules/research/result/runs/pima/NSLV-C/6/result.tra" "C:/Projekty/rules/research/result/runs/pima/NSLV-C/6/result.tst" "C:/Projekty/rules/research/result/runs/pima/NSLV-C/6/result.txt"
+
+seed = 1
+Population Size = 100
+Number of Iterations Allowed without Change = 500
+Binary Mutation Probability = 0.01
+Integer Mutation Probability = 0.01
+Real Mutation Probability = 1
+Crossover Probability = 1

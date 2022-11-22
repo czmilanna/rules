@@ -1,0 +1,6 @@
+IF ProTime is High THEN 1 | Support: 0.6530
+IF LiverBig is High AND Fatigue is High THEN 1 | Support: 0.2951
+IF Anorexia is Low THEN 1 | Support: 0.1803
+IF LiverBig is Low AND AlbuMin is High THEN 1 | Support: 0.1425
+IF AlbuMin is Low AND ProTime is Low AND Anorexia is High AND Sex is High THEN 1 | Support: 0.0310
+ELSE 0

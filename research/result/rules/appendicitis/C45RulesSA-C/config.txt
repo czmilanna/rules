@@ -1,0 +1,13 @@
+algorithm = C45RulesSA
+inputData = "C:/Projekty/rules/data/appendicitis/appendicitis.dat" "C:/Projekty/rules/data/appendicitis/appendicitis.dat" "C:/Projekty/rules/data/appendicitis/appendicitis.dat"
+outputData = "rules/appendicitis/C45RulesSA-C/result.tra" "rules/appendicitis/C45RulesSA-C/result.tst" "rules/appendicitis/C45RulesSA-C/result.txt"
+
+seed = 1
+confidence = 0.25
+itemsetsPerLeaf = 2
+threshold = 10
+maxColdings = 10
+maxTrials = 10
+mu = 0.5
+phi = 0.5
+alpha = 0.5

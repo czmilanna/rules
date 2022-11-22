@@ -1,0 +1,6 @@
+IF Histology is Low THEN 1 | Support: 0.7000
+IF AlbuMin is High THEN 1 | Support: 0.6460
+IF Fatigue is High THEN 1 | Support: 0.3667
+IF Malaise is Low AND Anorexia is Low THEN 1 | Support: 0.2000
+IF Sgot is High AND Spiders is High THEN 1 | Support: 0.1076
+ELSE 0

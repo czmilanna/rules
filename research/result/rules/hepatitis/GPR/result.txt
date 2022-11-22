@@ -1,0 +1,5 @@
+IF Malaise is High THEN 1 | Support: 0.6716
+IF ProTime is High THEN 1 | Support: 0.6657
+IF SpleenPalpable is High AND Age is Low AND Anorexia is Low AND LiverBig is High AND AlbuMin is High THEN 1 | Support: 0.0362
+IF Sgot is very High AND Sex is very High AND Anorexia is High AND Age is Low THEN 1 | Support: 0.0135
+ELSE 0

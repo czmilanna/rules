@@ -1,0 +1,11 @@
+algorithm = Fuzzy Rule Learning, NSLV Algorithm
+inputData = "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat" "C:/Projekty/rules/data/wdbc/wdbc.dat"
+outputData = "rules/wdbc/NSLV-C/result.tra" "rules/wdbc/NSLV-C/result.tst" "rules/wdbc/NSLV-C/result.txt"
+
+seed = 1
+Population Size = 100
+Number of Iterations Allowed without Change = 500
+Binary Mutation Probability = 0.01
+Integer Mutation Probability = 0.01
+Real Mutation Probability = 1
+Crossover Probability = 1

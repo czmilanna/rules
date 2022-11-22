@@ -1,0 +1,15 @@
+
+Rule 1: IF  ClumpThickness in [1.0 , 10.0] THEN Class -> 2     [ 400 215]
+
+####Average results for test data####
+Avg. Rule length: 1
+Avg. Number of attributes by rule: 1.0
+Avg. Coverage: 1.0
+Avg. Support: 0.6470588235294118
+Avg. Significance: 0.0
+Avg. Unusualness: 45.22058823529412
+
+Accuracy Training: 0.6504065040650406
+Accuracy Test: 0.6470588235294118
+
+  Time (seconds); 

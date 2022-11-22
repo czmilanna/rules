@@ -1,0 +1,12 @@
+IF Area3 <= 880.800000 AND Concave_points3 <= 0.132000 AND Area2 <= 36.460000 THEN B
+IF Area3 <= 880.800000 AND Concave_points3 <= 0.132000 AND Area2 > 36.460000 AND Compactness2 <= 0.012000 THEN M
+IF Area3 <= 880.800000 AND Concave_points3 <= 0.132000 AND Area2 > 36.460000 AND Compactness2 > 0.012000 AND Concave_points3 <= 0.111000 THEN B
+IF Area3 <= 880.800000 AND Concave_points3 <= 0.132000 AND Area2 > 36.460000 AND Compactness2 > 0.012000 AND Concave_points3 > 0.111000 THEN M
+IF Area3 <= 880.800000 AND Concave_points3 > 0.132000 AND Texture3 <= 27.370000 AND Concave_points3 <= 0.179000 AND Area3 <= 734.600000 THEN B
+IF Area3 <= 880.800000 AND Concave_points3 > 0.132000 AND Texture3 <= 27.370000 AND Concave_points3 <= 0.179000 AND Area3 > 734.600000 AND Radius1 <= 14.060000 THEN M
+IF Area3 <= 880.800000 AND Concave_points3 > 0.132000 AND Texture3 <= 27.370000 AND Concave_points3 <= 0.179000 AND Area3 > 734.600000 AND Radius1 > 14.060000 THEN B
+IF Area3 <= 880.800000 AND Concave_points3 > 0.132000 AND Texture3 <= 27.370000 AND Concave_points3 > 0.179000 THEN M
+IF Area3 <= 880.800000 AND Concave_points3 > 0.132000 AND Texture3 > 27.370000 THEN M
+IF Area3 > 880.800000 AND Concavity1 <= 0.072000 AND Texture1 <= 19.540000 THEN B
+IF Area3 > 880.800000 AND Concavity1 <= 0.072000 AND Texture1 > 19.540000 THEN M
+IF Area3 > 880.800000 AND Concavity1 > 0.072000 THEN M

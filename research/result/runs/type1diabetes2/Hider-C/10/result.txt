@@ -1,0 +1,132 @@
+Error Training: 0.173
+Error Test: 0.318
+Rules (12):
+--------
+if age = [7.5, 14.5) and
+   weight = [25.5, 69.2) and
+   height = [1.265, 1.715) and
+   step_count = [47527.0, _) and
+   sedentary = [1913.166666666665, 4621.541666666664) and
+   light = [684.9166666666665, 2165.125) and
+   moderate = [175.5416666666665, 389.5416666666665) and
+   vigorious = [118.875, 554.5)
+then
+   healthy = 1 (48|4)
+
+if age = [6.5, 17.5) and
+   weight = [31.05, 90.7) and
+   height = [1.355, 1.725) and
+   step_count = [25681.5, 58574.5) and
+   light = [525.8333333333335, 1310.583333333335) and
+   moderate = [_, 347.416666666667) and
+   vigorious = [_, 497.6666666666665)
+then
+   healthy = 0 (49|17)
+
+if age = [7.5, 17.5) and
+   weight = [_, 68.55) and
+   height = [1.29, 1.77) and
+   step_count = [34056.5, _) and
+   sedentary = [2123.916666666665, _) and
+   light = [520.708333333333, 1429.958333333335) and
+   moderate = [189.1666666666665, 425.1666666666665) and
+   vigorious = [106.375, 472.1666666666665)
+then
+   healthy = 1 (12|2)
+
+if age = [6.5, 14.5) and
+   weight = [21.85, 58.8) and
+   height = [_, 1.615) and
+   step_count = [25681.5, 57432.0) and
+   sedentary = [2915.083333333331, 4621.541666666664) and
+   light = [520.708333333333, 1370.25) and
+   moderate = [121.541666666667, 425.1666666666665) and
+   vigorious = [_, 156.4583333333335)
+then
+   healthy = 0 (9|0)
+
+if age = [6.5, 17.5) and
+   weight = [21.35, 77.25) and
+   height = [_, 1.565) and
+   step_count = [49200.5, _) and
+   sedentary = [_, 4540.708333333336) and
+   light = [519.5, _) and
+   moderate = [206.708333333333, 389.5416666666665) and
+   vigorious = [122.0, 476.125)
+then
+   healthy = 1 (9|1)
+
+if age = [8.5, 17.5) and
+   weight = [29.05, 77.25) and
+   height = [1.575, _) and
+   step_count = [_, 61056.5) and
+   sedentary = [2123.916666666665, 5211.7916666666715) and
+   light = [_, 1258.291666666665) and
+   moderate = [_, 233.25) and
+   vigorious = [_, 207.125)
+then
+   healthy = 0 (10|1)
+
+if age = [_, 14.5) and
+   weight = [23.05, _) and
+   height = [1.385, 1.665) and
+   sedentary = [1482.16666666667, 3677.75) and
+   light = [_, 2165.125) and
+   moderate = [119.0416666666665, 469.0) and
+   vigorious = [48.33333333333335, 554.5)
+then
+   healthy = 1 (7|1)
+
+if weight = [23.975, _) and
+   height = [1.29, 1.715) and
+   step_count = [_, 60262.5) and
+   moderate = [_, 233.25) and
+   vigorious = [_, 184.2916666666665)
+then
+   healthy = 0 (9|0)
+
+if age = [6.5, 17.5) and
+   weight = [18.15, 58.05) and
+   step_count = [34204.5, 58425.5) and
+   sedentary = [2601.0, 5130.083333333336) and
+   light = [776.5416666666665, 1429.958333333335) and
+   moderate = [130.458333333333, 425.1666666666665) and
+   vigorious = [86.4583333333333, 593.0)
+then
+   healthy = 0 (5|0)
+
+if age = [8.5, _) and
+   weight = [30.95, 77.25) and
+   height = [1.455, _) and
+   step_count = [34281.5, _) and
+   sedentary = [1937.45833333333, _) and
+   light = [538.958333333333, 1154.833333333335) and
+   moderate = [159.0416666666665, 316.5833333333335) and
+   vigorious = [129.0833333333335, 593.0)
+then
+   healthy = 1 (5|0)
+
+if age = [8.5, _) and
+   weight = [37.25, _) and
+   height = [1.355, _) and
+   step_count = [_, 60262.5) and
+   sedentary = [2930.375, _) and
+   moderate = [_, 469.0) and
+   vigorious = [49.5416666666667, 472.1666666666665)
+then
+   healthy = 0 (7|1)
+
+if age = [_, 15.5) and
+   weight = [18.15, _) and
+   height = [_, 1.635) and
+   step_count = [25681.5, 60262.5) and
+   sedentary = [2221.291666666665, _) and
+   light = [1051.166666666665, _) and
+   moderate = [121.541666666667, 425.1666666666665) and
+   vigorious = [49.5416666666667, 554.5)
+then
+   healthy = 0 (2|0)
+
+if true
+then
+   healthy = 0 (5|4)

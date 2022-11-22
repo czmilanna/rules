@@ -1,0 +1,112 @@
+Experiment: C:/Projekty/rules/data/type1diabetes2/type1diabetes2.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 230
+Class 0: 115
+Class 1: 115
+Successes: 115.0
+Errors:  44.0
+Not classified: 71.0
+	Rule 0: 115 / 44
+Successes: 115.0
+Errors:  44.0
+Not classified: 71.0
+	Rule 0: 115 / 44
+Accuracy on training: 0.5
+Number of examples: 115
+Class 0: 0
+Class 1: 115
+Successes: 186.0
+Errors:  44.0
+Not classified: 0.0
+	Rule 0: 115 / 44
+	Rule 1: 71 / 0
+Successes: 186.0
+Errors:  44.0
+Not classified: 0.0
+	Rule 0: 115 / 44
+	Rule 1: 71 / 0
+Accuracy on training: 0.808695652173913
+Number of examples: 44
+Class 0: 0
+Class 1: 44
+Successes: 198.0
+Errors:  32.0
+Not classified: 0.0
+	Rule 0: 109 / 26
+	Rule 1: 59 / 0
+	Rule 2: 30 / 6
+Successes: 198.0
+Errors:  32.0
+Not classified: 0.0
+	Rule 0: 109 / 26
+	Rule 1: 59 / 0
+	Rule 2: 30 / 6
+Accuracy on training: 0.8608695652173913
+Number of examples: 32
+Class 0: 6
+Class 1: 26
+Successes: 198.0
+Errors:  32.0
+Not classified: 0.0
+	Rule 0: 106 / 23
+	Rule 1: 56 / 0
+	Rule 2: 25 / 4
+	Rule 3: 11 / 5
+Successes: 198.0
+Errors:  32.0
+Not classified: 0.0
+	Rule 0: 109 / 26
+	Rule 1: 59 / 0
+	Rule 2: 30 / 6
+Successes: 198.0
+Errors:  32.0
+Not classified: 0.0
+	Rule 0: 109 / 26
+	Rule 1: 59 / 0
+	Rule 2: 30 / 6
+Successes: 198.0
+Errors:  32.0
+Not classified: 0.0
+	Rule 0: 109 / 26
+	Rule 1: 59 / 0
+	Rule 2: 30 / 6
+----------------------------------------------------
+Accuracy on training: 0.8608695652173913
+Accuracy on test: 0.8608695652173913
+Number of rules: 3.0
+Variables per rule: 1.3333333333333333
+Variables used: 0.3333333333333333
+Time: 0.377
+Iterations: 3765
+Conditions: 4
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	step_count = { VeryLow Low}
+THEN healthy IS 0   W 0.7873345804162274
+
+IF
+	step_count = { High VeryHigh}
+THEN healthy IS 1   W 1.0
+
+IF
+	age = { Low High VeryHigh}
+	moderate = { Low VeryHigh}
+THEN healthy IS 1   W 0.43820328515940765
+
+	Accuracy on training set is: 0.8608695652173913
+	Accuracy on test set is: 0.8608695652173913
+	Number of rules is: 3.0
+	Variables per rule is: 1.3333333333333333
+	Variables used is: 0.3333333333333333
+	Time is: 0.377
+	Iterations is: 3765
+	Conditions is: 4
+

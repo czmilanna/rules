@@ -1,0 +1,936 @@
+if ( -1.0*BI-RADS + 4.0 >= 0  ) then{
+	if ( -1.0*Shape + 3.0 >= 0  ) then{
+		if ( -161.5048814475315*BI-RADS + 12.33832449939527*Age + 25.491562258799462*Margin + -194.88714253410862 >= 0  ) then{
+			if ( 195.11362714579178*BI-RADS + -1.0*Age + -193.80389647414069*Shape + -128.65030717306078*Margin + 122.95239761540489 >= 0  ) then{
+				if ( -1.0*Shape + 1.0 >= 0  ) then{
+					if ( 78.08611231811489*BI-RADS + -1.0*Age + -60.71007164677374*Margin + -62.98689559637262 >= 0  ) then{
+						if ( -1.0*Age + 77.0 >= 0  ) then{
+							if ( -1.0*Age + 67.0 >= 0  ) then{
+								Severity = 0 (1) 
+							}
+							else{ 
+								if ( -1.0*Age + 70.0 >= 0  ) then{
+									if ( -1.0*Density + 1.0 >= 0  ) then{
+										Severity = 0 (1) 
+									}
+									else{ 
+										if ( -1.0*BI-RADS + 3.0 >= 0  ) then{
+											Severity = 1 (1) 
+										}
+										else{ 
+											if ( -1.0*Age + 69.0 >= 0  ) then{
+												if ( -1.0*Age + 68.0 >= 0  ) then{
+													Severity = 1 (3) 
+												}
+												else{ 
+													Severity = 0 (1) 
+												}
+											}
+											else{ 
+												Severity = 1 (1) 
+											}
+										}
+									}
+								}
+								else{ 
+									Severity = 1 (2) 
+								}
+							}
+						}
+						else{ 
+							Severity = 0 (3) 
+						}
+					}
+					else{ 
+						Severity = 0 (6) 
+					}
+				}
+				else{ 
+					if ( -15.930830830692031*BI-RADS + 3.339964757519766*Age + 43.352547810262195*Shape + 125.60337966438459*Margin + -97.35434872502329*Density + -96.08533827031155 >= 0  ) then{
+						Severity = 0 (9) 
+					}
+					else{ 
+						if ( -1.0*Age + 68.0 >= 0  ) then{
+							Severity = 0 (2) 
+						}
+						else{ 
+							if ( -1.0*Age + 69.0 >= 0  ) then{
+								Severity = 0 (2) 
+							}
+							else{ 
+								Severity = 0 (1) 
+							}
+						}
+					}
+				}
+			}
+			else{ 
+				if ( -1.0*BI-RADS + 3.0 >= 0  ) then{
+					Severity = 0 (4) 
+				}
+				else{ 
+					if ( 140.4032283323824*BI-RADS + -156.22861570590842*Shape + -191.92049978112814*Margin + 125.18476739646513*Density + 170.74435501609565 >= 0  ) then{
+						if ( -1.0*Age + 73.0 >= 0  ) then{
+							if ( -1.0*Age + 66.0 >= 0  ) then{
+								if ( -1.0*Age + 65.0 >= 0  ) then{
+									if ( -1.0*Age + 63.0 >= 0  ) then{
+										if ( -1.0*Shape + 2.0 >= 0  ) then{
+											Severity = 1 (3) 
+										}
+										else{ 
+											Severity = 0 (3) 
+										}
+									}
+									else{ 
+										Severity = 1 (6) 
+									}
+								}
+								else{ 
+									Severity = 0 (1) 
+								}
+							}
+							else{ 
+								Severity = 1 (1) 
+							}
+						}
+						else{ 
+							Severity = 0 (1) 
+						}
+					}
+					else{ 
+						Severity = 1 (3) 
+					}
+				}
+			}
+		}
+		else{ 
+			if ( -193.1306774712006*BI-RADS + 34.683000630392456*Age + 17.63574299813149*Shape + -177.22299331268832*Margin + -163.89149491765804*Density + 40.0 >= 0  ) then{
+				if ( -1.0*Shape + 2.0 >= 0  ) then{
+					if ( -1.0*Age + 64.0 >= 0  ) then{
+						if ( -56.55306239066485*BI-RADS + 5.328182923916756*Age + 125.27842231217738*Shape + -37.594372741317926*Margin + 59.59951613554722*Density + -150.96616212999592 >= 0  ) then{
+							if ( -17.874946495954617*Age + 131.25836987310515*Margin + 193.44421792622757*Density + 59.0 >= 0  ) then{
+								if ( -1.0*Age + 56.0 >= 0  ) then{
+									if ( -147.65646782416303*BI-RADS + -1.0*Age + 123.50105492479656*Shape + 42.786441613637464*Margin + 157.65482838210994*Density + -183.69096899025396 >= 0  ) then{
+										if ( -1.0*Age + 42.0 >= 0  ) then{
+											Severity = 1 (1) 
+										}
+										else{ 
+											if ( -1.0*BI-RADS + 3.0 >= 0  ) then{
+												Severity = 0 (3) 
+											}
+											else{ 
+												Severity = 0 (3) 
+											}
+										}
+									}
+									else{ 
+										if ( -1.0*BI-RADS + 3.0 >= 0  ) then{
+											Severity = 0 (2) 
+										}
+										else{ 
+											if ( -1.0*Age + 41.0 >= 0  ) then{
+												if ( -1.0*Shape + 1.0 >= 0  ) then{
+													if ( -1.0*Age + 40.0 >= 0  ) then{
+														Severity = 0 (1) 
+													}
+													else{ 
+														Severity = 0 (4) 
+													}
+												}
+												else{ 
+													Severity = 0 (4) 
+												}
+											}
+											else{ 
+												if ( -115.42852723864571*BI-RADS + 20.64135098379137*Age + -176.32408970415688*Shape + 145.04914897145915*Margin + -142.6137234882018*Density + 193.12154007915444 >= 0  ) then{
+													if ( -1.0*Age + 42.0 >= 0  ) then{
+														Severity = 0 (3) 
+													}
+													else{ 
+														if ( -1.0*Age + 45.0 >= 0  ) then{
+															Severity = 0 (4) 
+														}
+														else{ 
+															Severity = 0 (1) 
+														}
+													}
+												}
+												else{ 
+													if ( -1.0*Age + 42.0 >= 0  ) then{
+														Severity = 0 (2) 
+													}
+													else{ 
+														Severity = 0 (1) 
+													}
+												}
+											}
+										}
+									}
+								}
+								else{ 
+									Severity = 0 (4) 
+								}
+							}
+							else{ 
+								if ( -1.0*Margin + 1.0 >= 0  ) then{
+									if ( -1.0*Age + 49.0 >= 0  ) then{
+										if ( 196.86070820243577*BI-RADS + 0.32500107780214194*Age + -156.77338111139215*Shape + -60.755879399542664*Margin + -158.39015728756556*Density + 47.392648609213694 >= 0  ) then{
+											Severity = 0 (36) 
+										}
+										else{ 
+											if ( -1.0*BI-RADS + 3.0 >= 0  ) then{
+												Severity = 0 (4) 
+											}
+											else{ 
+												if ( -1.0*Age + 44.0 >= 0  ) then{
+													Severity = 0 (3) 
+												}
+												else{ 
+													Severity = 0 (3) 
+												}
+											}
+										}
+									}
+									else{ 
+										if ( -1.0*Age + 59.0 >= 0  ) then{
+											if ( -1.0*Age + 57.0 >= 0  ) then{
+												if ( -1.0*Age + 54.0 >= 0  ) then{
+													if ( -0.6130662282493518*BI-RADS + -1.0*Age + 4.54194587761117*Shape + -52.03416167107275*Margin + 102.63815678251865 >= 0  ) then{
+														if ( -108.83754126467686*BI-RADS + 8.749382712121445*Age + -42.2270701830804*Shape + -188.32880537685213*Margin + 67.62361830743583*Density + 50.0 >= 0  ) then{
+															Severity = 0 (14) 
+														}
+														else{ 
+															if ( -1.0*Age + 50.0 >= 0  ) then{
+																Severity = 0 (3) 
+															}
+															else{ 
+																Severity = 0 (1) 
+															}
+														}
+													}
+													else{ 
+														if ( -1.0*Age + 53.0 >= 0  ) then{
+															if ( -1.0*Density + 2.0 >= 0  ) then{
+																Severity = 0 (1) 
+															}
+															else{ 
+																Severity = 0 (5) 
+															}
+														}
+														else{ 
+															Severity = 0 (7) 
+														}
+													}
+												}
+												else{ 
+													Severity = 0 (18) 
+												}
+											}
+											else{ 
+												if ( -1.0*Density + 2.0 >= 0  ) then{
+													Severity = 0 (1) 
+												}
+												else{ 
+													if ( -1.0*Shape + 1.0 >= 0  ) then{
+														if ( -1.0*Age + 58.0 >= 0  ) then{
+															Severity = 0 (3) 
+														}
+														else{ 
+															Severity = 0 (2) 
+														}
+													}
+													else{ 
+														if ( -1.0*Age + 58.0 >= 0  ) then{
+															Severity = 0 (1) 
+														}
+														else{ 
+															Severity = 0 (6) 
+														}
+													}
+												}
+											}
+										}
+										else{ 
+											Severity = 0 (18) 
+										}
+									}
+								}
+								else{ 
+									if ( -1.0*Age + 57.0 >= 0  ) then{
+										Severity = 1 (1) 
+									}
+									else{ 
+										Severity = 0 (2) 
+									}
+								}
+							}
+						}
+						else{ 
+							Severity = 1 (1) 
+						}
+					}
+					else{ 
+						if ( -1.0*Shape + 1.0 >= 0  ) then{
+							if ( -1.0*Age + 65.0 >= 0  ) then{
+								Severity = 1 (1) 
+							}
+							else{ 
+								Severity = 0 (4) 
+							}
+						}
+						else{ 
+							Severity = 0 (3) 
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*Age + 54.0 >= 0  ) then{
+						if ( -1.0*Age + 46.0 >= 0  ) then{
+							if ( -1.0*Age + 44.0 >= 0  ) then{
+								Severity = 0 (4) 
+							}
+							else{ 
+								Severity = 1 (2) 
+							}
+						}
+						else{ 
+							Severity = 0 (6) 
+						}
+					}
+					else{ 
+						if ( -1.0*Age + 57.0 >= 0  ) then{
+							if ( -1.0*Density + 2.0 >= 0  ) then{
+								Severity = 0 (1) 
+							}
+							else{ 
+								Severity = 1 (3) 
+							}
+						}
+						else{ 
+							Severity = 0 (2) 
+						}
+					}
+				}
+			}
+			else{ 
+				if ( -175.59704584432697*BI-RADS + 37.495184465659605*Age + 114.80153154460749*Shape + -185.57238625026596*Margin + -155.58938997694975*Density + -169.96271162525815 >= 0  ) then{
+					if ( -1.0*Age + 35.0 >= 0  ) then{
+						if ( -1.0*Shape + 1.0 >= 0  ) then{
+							Severity = 0 (2) 
+						}
+						else{ 
+							Severity = 1 (1) 
+						}
+					}
+					else{ 
+						Severity = 0 (20) 
+					}
+				}
+				else{ 
+					Severity = 0 (74) 
+				}
+			}
+		}
+	}
+	else{ 
+		if ( -124.35381569069666*BI-RADS + 16.058262208490248*Age + -40.9743312376026*Shape + -114.3469502018641*Density + -105.55404292083207 >= 0  ) then{
+			if ( -1.0*Age + 63.0 >= 0  ) then{
+				Severity = 0 (1) 
+			}
+			else{ 
+				if ( -57.86654266013451*BI-RADS + 194.79378713173645*Margin + -165.05805178663184*Density + 59.0358238339042 >= 0  ) then{
+					if ( -1.0*Age + 73.0 >= 0  ) then{
+						Severity = 1 (12) 
+					}
+					else{ 
+						if ( -1.0*Age + 76.0 >= 0  ) then{
+							Severity = 0 (1) 
+						}
+						else{ 
+							Severity = 1 (7) 
+						}
+					}
+				}
+				else{ 
+					if ( -1.0*Age + 71.0 >= 0  ) then{
+						Severity = 1 (2) 
+					}
+					else{ 
+						if ( -1.0*Age + 73.0 >= 0  ) then{
+							Severity = 0 (2) 
+						}
+						else{ 
+							Severity = 1 (1) 
+						}
+					}
+				}
+			}
+		}
+		else{ 
+			if ( -32.747015876869426*BI-RADS + 32.80076324772105*Age + 113.21961002266494*Shape + -199.56234190602842*Margin + -163.31530054177048*Density + -115.90085595750736 >= 0  ) then{
+				if ( -1.0*Age + 38.0 >= 0  ) then{
+					Severity = 0 (6) 
+				}
+				else{ 
+					if ( -1.0*Margin + 3.0 >= 0  ) then{
+						if ( -1.0*Age + 66.0 >= 0  ) then{
+							if ( -1.0*Age + 43.0 >= 0  ) then{
+								if ( -1.0*Age + 39.0 >= 0  ) then{
+									Severity = 0 (1) 
+								}
+								else{ 
+									Severity = 1 (2) 
+								}
+							}
+							else{ 
+								if ( -1.0*Margin + 2.0 >= 0  ) then{
+									Severity = 0 (3) 
+								}
+								else{ 
+									if ( 150.00568217365202*BI-RADS + -1.0*Age + -137.4256827722829*Shape + -125.01059526694253*Margin + 125.77112045273446*Density + 11.39869489972449 >= 0  ) then{
+										if ( -1.0*Age + 63.0 >= 0  ) then{
+											if ( -1.0*Age + 57.0 >= 0  ) then{
+												if ( -1.0*Age + 49.0 >= 0  ) then{
+													Severity = 0 (1) 
+												}
+												else{ 
+													if ( -1.0*Age + 50.0 >= 0  ) then{
+														Severity = 1 (1) 
+													}
+													else{ 
+														if ( -1.0*Age + 56.0 >= 0  ) then{
+															Severity = 0 (1) 
+														}
+														else{ 
+															Severity = 0 (2) 
+														}
+													}
+												}
+											}
+											else{ 
+												Severity = 0 (2) 
+											}
+										}
+										else{ 
+											Severity = 1 (1) 
+										}
+									}
+									else{ 
+										Severity = 0 (4) 
+									}
+								}
+							}
+						}
+						else{ 
+							Severity = 1 (1) 
+						}
+					}
+					else{ 
+						if ( 61.8346252156968*BI-RADS + -1.0*Age + -157.8251350572857*Shape + 127.80808841991427*Density + 41.0 >= 0  ) then{
+							Severity = 1 (2) 
+						}
+						else{ 
+							if ( -1.0*Age + 45.0 >= 0  ) then{
+								Severity = 0 (2) 
+							}
+							else{ 
+								if ( -1.0*BI-RADS + 2.0 >= 0  ) then{
+									Severity = 0 (1) 
+								}
+								else{ 
+									if ( -1.0*BI-RADS + 3.0 >= 0  ) then{
+										Severity = 1 (1) 
+									}
+									else{ 
+										if ( -1.0*Age + 68.0 >= 0  ) then{
+											if ( -1.0*Density + 2.0 >= 0  ) then{
+												Severity = 0 (1) 
+											}
+											else{ 
+												if ( -1.0*Age + 46.0 >= 0  ) then{
+													Severity = 1 (1) 
+												}
+												else{ 
+													if ( -1.0*Age + 47.0 >= 0  ) then{
+														Severity = 0 (1) 
+													}
+													else{ 
+														if ( -1.0*Age + 52.0 >= 0  ) then{
+															if ( -1.0*Age + 50.0 >= 0  ) then{
+																if ( -1.0*Age + 49.0 >= 0  ) then{
+																	if ( -1.0*Margin + 4.0 >= 0  ) then{
+																		if ( -1.0*Age + 48.0 >= 0  ) then{
+																			Severity = 1 (1) 
+																		}
+																		else{ 
+																			Severity = 0 (3) 
+																		}
+																	}
+																	else{ 
+																		Severity = 0 (1) 
+																	}
+																}
+																else{ 
+																	if ( -1.0*Margin + 4.0 >= 0  ) then{
+																		Severity = 0 (1) 
+																	}
+																	else{ 
+																		Severity = 1 (3) 
+																	}
+																}
+															}
+															else{ 
+																Severity = 1 (3) 
+															}
+														}
+														else{ 
+															if ( -1.0*Age + 53.0 >= 0  ) then{
+																Severity = 0 (2) 
+															}
+															else{ 
+																if ( -1.0*Age + 54.0 >= 0  ) then{
+																	Severity = 1 (2) 
+																}
+																else{ 
+																	if ( -1.0*Age + 55.0 >= 0  ) then{
+																		Severity = 0 (1) 
+																	}
+																	else{ 
+																		if ( 128.77379868383844*BI-RADS + -48.088943457251645*Age + 113.37800349886015*Shape + 199.89797882733353*Margin + 189.33227276181157*Density + 190.26449210715117 >= 0  ) then{
+																			Severity = 1 (1) 
+																		}
+																		else{ 
+																			if ( -1.0*Age + 56.0 >= 0  ) then{
+																				Severity = 0 (2) 
+																			}
+																			else{ 
+																				if ( -1.0*Margin + 4.0 >= 0  ) then{
+																					if ( -1.0*Age + 62.0 >= 0  ) then{
+																						if ( -1.0*Age + 57.0 >= 0  ) then{
+																							Severity = 1 (3) 
+																						}
+																						else{ 
+																							if ( -1.0*Age + 58.0 >= 0  ) then{
+																								Severity = 1 (1) 
+																							}
+																							else{ 
+																								Severity = 1 (3) 
+																							}
+																						}
+																					}
+																					else{ 
+																						if ( -1.0*Age + 66.0 >= 0  ) then{
+																							if ( -1.0*Age + 65.0 >= 0  ) then{
+																								if ( -1.0*Age + 63.0 >= 0  ) then{
+																									Severity = 0 (4) 
+																								}
+																								else{ 
+																									Severity = 1 (3) 
+																								}
+																							}
+																							else{ 
+																								Severity = 0 (1) 
+																							}
+																						}
+																						else{ 
+																							if ( -1.0*Age + 67.0 >= 0  ) then{
+																								Severity = 1 (3) 
+																							}
+																							else{ 
+																								Severity = 0 (4) 
+																							}
+																						}
+																					}
+																				}
+																				else{ 
+																					if ( -1.0*Age + 67.0 >= 0  ) then{
+																						if ( -1.0*Age + 60.0 >= 0  ) then{
+																							Severity = 0 (3) 
+																						}
+																						else{ 
+																							if ( -1.0*Age + 63.0 >= 0  ) then{
+																								Severity = 1 (1) 
+																							}
+																							else{ 
+																								if ( -1.0*Age + 66.0 >= 0  ) then{
+																									if ( -1.0*Age + 65.0 >= 0  ) then{
+																										Severity = 0 (2) 
+																									}
+																									else{ 
+																										Severity = 1 (1) 
+																									}
+																								}
+																								else{ 
+																									Severity = 0 (2) 
+																								}
+																							}
+																						}
+																					}
+																					else{ 
+																						Severity = 1 (1) 
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+										else{ 
+											Severity = 0 (1) 
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			else{ 
+				Severity = 1 (2) 
+			}
+		}
+	}
+}
+else{ 
+	if ( -1.0*Density + 3.0 >= 0  ) then{
+		if ( -1.0*Age + 57.0 >= 0  ) then{
+			if ( -1.0*Age + 56.0 >= 0  ) then{
+				if ( -172.48892317816822*BI-RADS + 20.041530164899655*Age + -8.223476588778055*Shape + 135.6835241279759*Margin + -34.808580073250596*Density + 180.26797240140564 >= 0  ) then{
+					if ( -1.0*Age + 33.0 >= 0  ) then{
+						if ( -1.0*Age + 31.0 >= 0  ) then{
+							Severity = 1 (1) 
+						}
+						else{ 
+							Severity = 0 (1) 
+						}
+					}
+					else{ 
+						if ( -1.0*Age + 56.035862829544556*Shape + -78.709597298575*Margin + 144.98066416591888 >= 0  ) then{
+							if ( -1.0*Age + 45.0 >= 0  ) then{
+								Severity = 1 (14) 
+							}
+							else{ 
+								if ( -1.0*Age + 49.0 >= 0  ) then{
+									if ( -1.0*Shape + 1.0 >= 0  ) then{
+										Severity = 1 (1) 
+									}
+									else{ 
+										if ( -1.0*Margin + 3.0 >= 0  ) then{
+											Severity = 1 (3) 
+										}
+										else{ 
+											if ( -1.0*Age + 48.0 >= 0  ) then{
+												Severity = 1 (2) 
+											}
+											else{ 
+												Severity = 1 (4) 
+											}
+										}
+									}
+								}
+								else{ 
+									if ( -1.0*Age + 67.60922387885142*Shape + 73.68544784227515*Margin + -170.5847376889048*Density + 72.52376495686445 >= 0  ) then{
+										Severity = 1 (14) 
+									}
+									else{ 
+										if ( -1.0*Age + 54.0 >= 0  ) then{
+											if ( -1.0*Shape + 3.0 >= 0  ) then{
+												Severity = 1 (2) 
+											}
+											else{ 
+												Severity = 0 (1) 
+											}
+										}
+										else{ 
+											Severity = 1 (3) 
+										}
+									}
+								}
+							}
+						}
+						else{ 
+							if ( -11.107872755058992*BI-RADS + 23.155011661153992*Age + -42.47543146891414*Shape + -38.366936016447596*Margin + -157.17963985101778*Density + -104.45580266054156 >= 0  ) then{
+								if ( 80.95446757063144*BI-RADS + -1.0*Age + 179.9411144060877*Shape + -197.89291918228682*Margin + -114.82026183857123*Density + 155.058286049184 >= 0  ) then{
+									if ( -1.0*Age + 55.0 >= 0  ) then{
+										Severity = 1 (3) 
+									}
+									else{ 
+										Severity = 0 (1) 
+									}
+								}
+								else{ 
+									if ( -1.0*Age + 44.0 >= 0  ) then{
+										Severity = 1 (7) 
+									}
+									else{ 
+										if ( -1.0*Age + 53.0 >= 0  ) then{
+											if ( -1.0*Age + 52.0 >= 0  ) then{
+												if ( -1.0*Shape + 2.0 >= 0  ) then{
+													Severity = 0 (1) 
+												}
+												else{ 
+													if ( -1.0*Age + 46.0 >= 0  ) then{
+														Severity = 1 (3) 
+													}
+													else{ 
+														if ( -1.0*Shape + 3.0 >= 0  ) then{
+															Severity = 1 (1) 
+														}
+														else{ 
+															if ( -1.0*Age + 49.0 >= 0  ) then{
+																if ( -1.0*Age + 47.0 >= 0  ) then{
+																	Severity = 1 (3) 
+																}
+																else{ 
+																	Severity = 1 (1) 
+																}
+															}
+															else{ 
+																Severity = 1 (3) 
+															}
+														}
+													}
+												}
+											}
+											else{ 
+												Severity = 0 (1) 
+											}
+										}
+										else{ 
+											if ( -1.0*Age + 54.0 >= 0  ) then{
+												Severity = 1 (4) 
+											}
+											else{ 
+												if ( -1.0*Age + 55.0 >= 0  ) then{
+													if ( -1.0*Shape + 3.0 >= 0  ) then{
+														Severity = 1 (1) 
+													}
+													else{ 
+														Severity = 1 (4) 
+													}
+												}
+												else{ 
+													Severity = 1 (2) 
+												}
+											}
+										}
+									}
+								}
+							}
+							else{ 
+								if ( -1.0*Age + 41.0 >= 0  ) then{
+									Severity = 1 (2) 
+								}
+								else{ 
+									Severity = 0 (2) 
+								}
+							}
+						}
+					}
+				}
+				else{ 
+					Severity = 0 (1) 
+				}
+			}
+			else{ 
+				if ( -1.0*Shape + 2.0 >= 0  ) then{
+					Severity = 0 (1) 
+				}
+				else{ 
+					if ( -1.0*Margin + 3.0 >= 0  ) then{
+						Severity = 1 (1) 
+					}
+					else{ 
+						if ( -1.0*Density + 2.0 >= 0  ) then{
+							Severity = 1 (1) 
+						}
+						else{ 
+							Severity = 0 (2) 
+						}
+					}
+				}
+			}
+		}
+		else{ 
+			if ( -96.60094908825143*Shape + 167.1668852602986*Margin + 67.17564944810601*Density + -106.54013322352901 >= 0  ) then{
+				if ( -1.0*BI-RADS + 144.8395311703997*Shape + -184.0051523372543*Margin + 5.0 >= 0  ) then{
+					Severity = 1 (39) 
+				}
+				else{ 
+					if ( -1.0*BI-RADS + 5.0 >= 0  ) then{
+						if ( -1.0*Age + 191.2051368484286*Shape + -82.67021996031288*Margin + -154.82006807690954*Density + -47.854363230954476 >= 0  ) then{
+							if ( -1.0*Age + 63.0 >= 0  ) then{
+								if ( -1.0*Age + 58.0 >= 0  ) then{
+									Severity = 1 (1) 
+								}
+								else{ 
+									Severity = 0 (2) 
+								}
+							}
+							else{ 
+								Severity = 1 (1) 
+							}
+						}
+						else{ 
+							if ( -1.0*Age + 83.0 >= 0  ) then{
+								if ( -1.0*Age + 72.0 >= 0  ) then{
+									if ( -1.0*Age + 68.0 >= 0  ) then{
+										if ( -1.0*Age + 61.0 >= 0  ) then{
+											Severity = 1 (23) 
+										}
+										else{ 
+											if ( -1.0*Age + 66.0 >= 0  ) then{
+												if ( -1.0*Shape + 3.0 >= 0  ) then{
+													Severity = 1 (8) 
+												}
+												else{ 
+													if ( 10.203711458063623*BI-RADS + -21.621880079997226*Age + 180.76155548467335*Margin + 192.6258661767062*Density + 62.0 >= 0  ) then{
+														if ( -1.0*Age + 65.0 >= 0  ) then{
+															if ( -1.0*Margin + 4.0 >= 0  ) then{
+																if ( -1.0*Age + 62.0 >= 0  ) then{
+																	Severity = 1 (3) 
+																}
+																else{ 
+																	if ( -1.0*Age + 64.0 >= 0  ) then{
+																		Severity = 1 (5) 
+																	}
+																	else{ 
+																		Severity = 1 (3) 
+																	}
+																}
+															}
+															else{ 
+																Severity = 1 (8) 
+															}
+														}
+														else{ 
+															Severity = 1 (4) 
+														}
+													}
+													else{ 
+														Severity = 1 (8) 
+													}
+												}
+											}
+											else{ 
+												Severity = 1 (16) 
+											}
+										}
+									}
+									else{ 
+										if ( 182.5634355616205*Shape + -165.72850112936658*Margin + 3.0 >= 0  ) then{
+											Severity = 1 (4) 
+										}
+										else{ 
+											if ( -1.0*Shape + 1.0 >= 0  ) then{
+												Severity = 1 (1) 
+											}
+											else{ 
+												if ( -1.0*Shape + 3.0 >= 0  ) then{
+													if ( -1.0*Age + 71.0 >= 0  ) then{
+														if ( -1.0*Shape + 2.0 >= 0  ) then{
+															Severity = 1 (2) 
+														}
+														else{ 
+															Severity = 0 (2) 
+														}
+													}
+													else{ 
+														Severity = 0 (1) 
+													}
+												}
+												else{ 
+													if ( -1.0*Age + 71.0 >= 0  ) then{
+														if ( -1.0*Age + 70.0 >= 0  ) then{
+															Severity = 1 (1) 
+														}
+														else{ 
+															Severity = 0 (2) 
+														}
+													}
+													else{ 
+														Severity = 1 (2) 
+													}
+												}
+											}
+										}
+									}
+								}
+								else{ 
+									Severity = 1 (39) 
+								}
+							}
+							else{ 
+								if ( -1.0*Age + 84.0 >= 0  ) then{
+									Severity = 0 (2) 
+								}
+								else{ 
+									if ( 47.43107441985771*BI-RADS + -1.0*Age + 82.50141839555033*Shape + -132.47994154982268*Margin + 86.0 >= 0  ) then{
+										if ( -1.0*Age + 86.0 >= 0  ) then{
+											if ( -1.0*Age + 85.0 >= 0  ) then{
+												Severity = 1 (2) 
+											}
+											else{ 
+												Severity = 0 (1) 
+											}
+										}
+										else{ 
+											Severity = 1 (2) 
+										}
+									}
+									else{ 
+										Severity = 1 (8) 
+									}
+								}
+							}
+						}
+					}
+					else{ 
+						if ( -1.0*Shape + 1.0 >= 0  ) then{
+							Severity = 0 (1) 
+						}
+						else{ 
+							Severity = 1 (3) 
+						}
+					}
+				}
+			}
+			else{ 
+				Severity = 0 (1) 
+			}
+		}
+	}
+	else{ 
+		if ( -1.0*Age + 73.0 >= 0  ) then{
+			if ( -1.0*Age + 54.0 >= 0  ) then{
+				Severity = 0 (1) 
+			}
+			else{ 
+				if ( -1.0*Age + 57.0 >= 0  ) then{
+					Severity = 1 (2) 
+				}
+				else{ 
+					if ( -1.0*Age + 66.0 >= 0  ) then{
+						Severity = 0 (1) 
+					}
+					else{ 
+						Severity = 1 (1) 
+					}
+				}
+			}
+		}
+		else{ 
+			Severity = 0 (1) 
+		}
+	}
+}
+}
+
+
+Accuracy in training: 0.9411764705882353
+Accuracy in test: 0.7560975609756098

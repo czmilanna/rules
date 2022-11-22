@@ -1,0 +1,16 @@
+Error Training: 0.237
+Error Test: 0.281
+Rules (2):
+--------
+if Age = [_, 77.5) and
+   Positive = [_, 8.5)
+then
+   Survival = negative (184|46)
+
+if Age = [40.5, _)
+then
+   Survival = positive (25|13)
+
+if true
+then
+   Survival = negative (5|1)
